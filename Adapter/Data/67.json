@@ -1,0 +1,2820 @@
+{
+  "testimony_metadata": {
+    "witness": "Alexander Gajdos",
+    "original_name": "Alexander Goldberger",
+    "birth_location": "Zilina, Slovakia",
+    "birth_year": 1924,
+    "interview_date": "August 2005",
+    "interviewer": "Martin Korcok"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My grandparents on my father's side lived in Nitra when my father was young.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Nitra",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My grandfather was named Bernat Goldberger, and his wife was named Terezia Goldbergerova.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bernat Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Terezia Goldbergerova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "wife was"
+    },
+    {
+      "sentence": "My grandfather died around 1935 to 1937, and my grandmother a few years before him.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1935-1937",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "They're both buried in the Jewish cemetery in Nitra.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Nitra",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My mother's parents were from Trstena, on the Orava River.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "mother's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Trstena",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "My grandfather was named Markus Lubovic.",
+      "relationship_type": "personal_relationship",
+      "subject": {
+        "entity": "grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Markus Lubovic",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "named"
+    },
+    {
+      "sentence": "Grandpa had a bakery in Trstena.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Markus Lubovic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "bakery",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had bakery"
+    },
+    {
+      "sentence": "Then my parents found him an apartment in Vrutky, where he moved together with his second wife.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Markus Lubovic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vrutky",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "During the war they were both deported and died.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "grandfather and second wife",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "unknown location",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "deported"
+    },
+    {
+      "sentence": "Lina married a barber in the town of Nowy Targ in Poland.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "barber",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father was named Heinrich Goldberger.",
+      "relationship_type": "personal_relationship",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "named"
+    },
+    {
+      "sentence": "He was born on 17th July 1898 in Nitra.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Nitra",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He died in 1978, he was exactly 80.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1978",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Later he opened his own store in Zilina.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "store in Zilina",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "opened store"
+    },
+    {
+      "sentence": "My mother was born in 1900 in Trstena.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Trstena",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was deported and after that we didn't find out any more about her.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "mother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "unknown location",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "deported"
+    },
+    {
+      "sentence": "They worked for that Mendl, they had a relatively decent salary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mendl & Son",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "I also remember that as a young man he served as a soldier in World War I.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War I",
+        "type": "EVENT"
+      },
+      "verb_pattern": "served as soldier"
+    },
+    {
+      "sentence": "We lived in several places in Zilina, depending on how our financial situation was declining.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zilina",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "From there we moved to Vrutky.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vrutky",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "We used to attend the big Neolog synagogue in Zilina.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Neolog synagogue in Zilina",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "attend"
+    },
+    {
+      "sentence": "My father even sent me to the yeshivah in Zilina.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "yeshivah in Zilina",
+        "type": "ORG"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "My father's oldest brother was Jozef; he ran the store after Grandpa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jozef",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "ran store"
+    },
+    {
+      "sentence": "He and his family lived in Grandpa's house.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jozef and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Grandpa's house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Tibor moved to Ecuador and Magda to Sweden.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Tibor and Magda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ecuador and Sweden",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Gyula lived in Nitra with his family.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gyula",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Nitra",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He owned a radio store, where they also repaired radios.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gyula",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "radio store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "owned store"
+    },
+    {
+      "sentence": "They lived on Spitalska Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gyula's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Spitalska Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived on"
+    },
+    {
+      "sentence": "During the war they ended up in Terezin.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Rudi's family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "ended up in"
+    },
+    {
+      "sentence": "The entire family survived the Holocaust and after the war they ran away to what today is Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Rudi's family",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "ran away to"
+    },
+    {
+      "sentence": "Cecilia married Mr. Horn, who had a barbershop in Nitra on Hlavna [Main] Street.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Cecilia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mr. Horn",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They lived in an apartment above the shop.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Cecilia and Mr. Horn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "apartment above shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Only one of my father's siblings, Rudi, survived World War II.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Rudi",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "He then moved with his family to Palestine in 1946 or 1947.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Rudi and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "The rest of my father's siblings died during the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "father's siblings",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "My mother's oldest sister was named Lina.",
+      "relationship_type": "personal_relationship",
+      "subject": {
+        "entity": "mother's sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lina",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "named"
+    },
+    {
+      "sentence": "She married a barber by the name of Löwenberg in the Polish town of Nowy Targ.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Löwenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "I know that they had two children that died along with Lina during the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Lina and children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "Another of my mother's sisters, Ruzena, also died during the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ruzena",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "Before the war she lived for some time with us in Zilina, and then also in Vrutky.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ruzena",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zilina and Vrutky",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He died along with the others during the Holocaust.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zoli",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "I, Alexander Gajdos [born Goldberger], was born on 8th April 1924 in Zilina.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zilina",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Then I transferred to the elementary Jewish school in Zilina.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "elementary Jewish school in Zilina",
+        "type": "ORG"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "The bar mitzvah itself took place in the synagogue in Vrutky.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "bar mitzvah",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "synagogue in Vrutky",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took place in"
+    },
+    {
+      "sentence": "Besides me, my parents also had my sister Viera.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Viera",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had sister"
+    },
+    {
+      "sentence": "She was born in Zilina in 1927.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Viera",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zilina",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Unfortunately, my sister didn't survive the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Viera",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "didn't survive"
+    },
+    {
+      "sentence": "She went to the camp together with our mother, but we don't know at all where they disappeared.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Viera and mother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "went to camp"
+    },
+    {
+      "sentence": "During the war they interned our whole family in the collection camp in Zilina in 1942.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "whole family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "collection camp in Zilina",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "interned in"
+    },
+    {
+      "sentence": "We used to go work on the construction of a sports stadium in Zilina.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "sports stadium in Zilina",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "work on"
+    },
+    {
+      "sentence": "My father also worked there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "sports stadium",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked"
+    },
+    {
+      "sentence": "My mother worked in the camp kitchen.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camp kitchen",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "During the uprising my father, mother and sister hid in the forests around Rajecke Teplice.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "father, mother and sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "forests around Rajecke Teplice",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "hid in"
+    },
+    {
+      "sentence": "They then caught them all there.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "father, mother and sister",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Rajecke Teplice",
+        "type": "GPE"
+      },
+      "verb_pattern": "caught"
+    },
+    {
+      "sentence": "They took my father somewhere else than my mother and sister.",
+      "relationship_type": "separated_from",
+      "subject": {
+        "entity": "father",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "mother and sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "took somewhere else"
+    },
+    {
+      "sentence": "My father got into Sachsenhausen and then into Buchenwald.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sachsenhausen and Buchenwald",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "got into"
+    },
+    {
+      "sentence": "My mother and sister were sent to the women's camp in Ravensbrück.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "mother and sister",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Ravensbrück",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "During the uprising I joined the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "Before the war I'd been a member of the Hashomer Hatzair youth movement.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hashomer Hatzair",
+        "type": "ORG"
+      },
+      "verbPattern": "member of"
+    },
+    {
+      "sentence": "We were part of some defenses in Strecno.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Strecno",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "They took me to the hospital in Martin.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "hospital in Martin",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "They quickly evacuated us to the town of Sliac.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sliac",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "I set out for the partisan headquarters, and he said that he wouldn't go there.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "partisan headquarters",
+        "type": "ORG"
+      },
+      "verb_pattern": "set out for"
+    },
+    {
+      "sentence": "From the hospital I went to Banska Bystrica, to the headquarters.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Banska Bystrica",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "There they accepted me into the guard detachment.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "guard detachment",
+        "type": "ORG"
+      },
+      "verb_pattern": "accepted into"
+    },
+    {
+      "sentence": "I stood guard in front of the headquarters on the main square in Banska Bystrica.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Banska Bystrica",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "People were being evacuated into the mountains, Stare Hory, Donovaly, Kozi Chrbat.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "people",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Stare Hory, Donovaly, Kozi Chrbat",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "evacuated into"
+    },
+    {
+      "sentence": "So they captured us.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "captured"
+    },
+    {
+      "sentence": "Eventually they put us on a train and took us to a prison in Banska Bystrica.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prison in Banska Bystrica",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took to prison"
+    },
+    {
+      "sentence": "We were there from the beginning of December until the end of February.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prison in Banska Bystrica",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "were there"
+    },
+    {
+      "sentence": "Once in some hubbub, they'd chase someone out to Kremnicka.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "prisoners",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kremnicka",
+        "type": "GPE"
+      },
+      "verb_pattern": "chase out to"
+    },
+    {
+      "sentence": "They would chase them out there with dogs, machine guns.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "prisoners",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kremnicka",
+        "type": "GPE"
+      },
+      "verb_pattern": "chase out"
+    },
+    {
+      "sentence": "Then they'd round them up again, and go shoot them all again.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "prisoners",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shoot"
+    },
+    {
+      "sentence": "The ones that were here before you, they've all been killed in Kremnicka!",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "previous prisoners",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kremnicka",
+        "type": "GPE"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "So they led us there, into a hallway.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Banska Bystrica courthouse",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "led to"
+    },
+    {
+      "sentence": "Across the street was the Banska Bystrica courthouse, and that's where they had their headquarters.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "SS headquarters",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Banska Bystrica courthouse",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Of course, they took us prisoner and led us off to some village.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "German soldiers",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "took prisoner"
+    },
+    {
+      "sentence": "The next day he sent us with a soldier back to Banska Bystrica.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Banska Bystrica",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "We again set out in the same direction as the day before.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Priechod",
+        "type": "GPE"
+      },
+      "verb_pattern": "set out"
+    },
+    {
+      "sentence": "The second time around, we managed to get to the village of Priechod.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Priechod",
+        "type": "GPE"
+      },
+      "verb_pattern": "get to"
+    },
+    {
+      "sentence": "We told him that we'd like to join some partisan unit.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "partisan unit",
+        "type": "ORG"
+      },
+      "verb_pattern": "join"
+    },
+    {
+      "sentence": "They told us that up above the village there was a gamekeeper's lodge with a partisan unit.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "partisan unit",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "gamekeeper's lodge",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We moved ourselves over to the lodge.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "gamekeeper's lodge",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In the morning, the village of Priechod had been surrounded by the Germans.",
+      "relationship_type": "surrounded_by",
+      "subject": {
+        "entity": "Priechod",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "surrounded by"
+    },
+    {
+      "sentence": "As people ran out the houses, the Germans shot them straight off, like rabbits.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "villagers",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "They gathered up part of the men and led them off to the edge of the village under a steep hill.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "men",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "edge of village",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "led off to"
+    },
+    {
+      "sentence": "As they were running, they shot them all.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "men",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "Finally the Germans torched the village.",
+      "relationship_type": "destroyed_by",
+      "subject": {
+        "entity": "Priechod",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "torched"
+    },
+    {
+      "sentence": "In the end the Russians caught and executed him.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "traitor",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Russians",
+        "type": "ORG"
+      },
+      "verb_pattern": "executed"
+    },
+    {
+      "sentence": "From there we used to go on patrols to the surrounding villages.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "surrounding villages",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "We gradually moved from the gamekeeper's lodge to bunkers in the forest.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "bunkers in forest",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "At the end of February, beginning of March we continued through Chabenec and the Low Tatras to Brezno.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brezno",
+        "type": "GPE"
+      },
+      "verb_pattern": "continued to"
+    },
+    {
+      "sentence": "Brezno had already been liberated.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Brezno",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "There were Romanian soldiers there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Romanian soldiers",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Brezno",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Czechs and Slovaks marched in the direction of Poprad.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Czechs and Slovaks",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Poprad",
+        "type": "GPE"
+      },
+      "verb_pattern": "marched to"
+    },
+    {
+      "sentence": "After arriving in Poprad I reported to the First Czechoslovak Army Corps.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "First Czechoslovak Army Corps",
+        "type": "ORG"
+      },
+      "verb_pattern": "reported to"
+    },
+    {
+      "sentence": "There I was accepted into junior officers' school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "junior officers' school",
+        "type": "ORG"
+      },
+      "verb_pattern": "accepted into"
+    },
+    {
+      "sentence": "I graduated from junior officers' school in the army corps with the rank of lance corporal.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "junior officers' school",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Since then I've worked my way up to lieutenant colonel in the Czechoslovak Army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovak Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "After finishing school I left with the other soldiers, as part of our training, on foot from Poprad to Martin.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Martin",
+        "type": "GPE"
+      },
+      "verb_pattern": "to"
+    },
+    {
+      "sentence": "In Martin we met President Benes, who'd come from Kosice.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Martin",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "There we boarded some vehicles and they sent us as reserves to Moravia.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moravia",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "In this way we followed the front all the way to Prague.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "to"
+    },
+    {
+      "sentence": "In Prague, we as soldiers used to go on 'maneuvers.'",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "At the end of June they sent us back to Slovakia, to the army column in Nitra.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nitra",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "While I was in Nitra I stayed with my father's brother, Rudi.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nitra",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "He survived the war in Terezin.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Rudi",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "survived in"
+    },
+    {
+      "sentence": "After several days I set out on a freight wagon from Nitra to Zilina.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zilina",
+        "type": "GPE"
+      },
+      "verb_pattern": "to"
+    },
+    {
+      "sentence": "In Zilina I met up with my father, who already had his own place rented.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zilina",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "To make ends meet, I began working as a plumber.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "plumber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "My father moved to Karlovy Vary still in the year 1945.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I joined them at the beginning of the spring of 1946.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "I lived with my father.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "My father got a job in a spa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "spa",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "job in"
+    },
+    {
+      "sentence": "First he was in the oxygen shop, where they filled oxygen tanks.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "oxygen shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Then he became an accommodation officer at the head office.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "accommodation officer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "He stayed there until retirement.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "retirement",
+        "type": "DATE"
+      },
+      "verb_pattern": "stayed until"
+    },
+    {
+      "sentence": "During that time I met my first, today already deceased wife.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met wife"
+    },
+    {
+      "sentence": "Her maiden name was Irena Rothova.",
+      "relationship_type": "personal_relationship",
+      "subject": {
+        "entity": "first wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "named"
+    },
+    {
+      "sentence": "She was born in 1926 in the town of Kajdanove in Subcarpathian Ruthenia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kajdanove",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Kajdanove belonged to the Mukacevo district.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Kajdanove",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Mukacevo district",
+        "type": "GPE"
+      },
+      "verb_pattern": "belonged to"
+    },
+    {
+      "sentence": "After the war she returned to Subcarpathian Ruthenia.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Subcarpathian Ruthenia",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "One of her mother's brothers lived in Karlovy Vary.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "mother's brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "As luck would have it, it was Mr. Kleinman that my future wife came to stay with.",
+      "relationship_type": "stayed_with",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mr. Kleinman",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "stay with"
+    },
+    {
+      "sentence": "I met her at my father's friend's, Mrs. Katzova's.",
+      "relationship_type": "met_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mrs. Katzova's",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "met at"
+    },
+    {
+      "sentence": "We had a Jewish wedding, under the chuppah, in Karlovy Vary, in 1946.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Alexander and Irena",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "We had a civil wedding in the fall of 1948.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Alexander and Irena",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "fall 1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "We celebrated our wedding, the Jewish one, at the Kleinmans'.",
+      "relationship_type": "celebrated_at",
+      "subject": {
+        "entity": "Alexander and Irena",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kleinmans'",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "celebrated at"
+    },
+    {
+      "sentence": "My wife survived the war in Auschwitz.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "survived in"
+    },
+    {
+      "sentence": "From there she got to some factory and finally ended up in Terezin.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "ended up in"
+    },
+    {
+      "sentence": "Her parents died in Auschwitz.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Irena's parents",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Besides her parents, she also had two brothers.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "two brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had brothers"
+    },
+    {
+      "sentence": "Both survived the war, and moved away, to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Irena's brothers",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They were named Imre Roth and Bela Roth.",
+      "relationship_type": "personal_relationship",
+      "subject": {
+        "entity": "brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Imre Roth and Bela Roth",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "named"
+    },
+    {
+      "sentence": "I later met Imre in Karlovy Vary.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "My wife met up with him someplace in Budapest.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Budapest",
+        "type": "GPE"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "My wife died I lost contact with them.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "After World War II, the activity of the Jewish community in Karlovy Vary was renewed as well.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "The left mainly for Israel and America.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Jews",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel and America",
+        "type": "GPE"
+      },
+      "verb_pattern": "for"
+    },
+    {
+      "sentence": "There was of course also a prayer hall here.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "prayer hall",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "here"
+    },
+    {
+      "sentence": "The community also had a rabbi and a shammash.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "rabbi and shammash",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "But the rabbi emigrated.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "rabbi",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "unknown location",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "emigrated"
+    },
+    {
+      "sentence": "A couple of times a year, my wife and I would go to the prayer hall.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Alexander and Irena",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prayer hall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "During totalitarian times, she was there to visit her brothers.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "brothers in Israel",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "The first time was in 1965, I think.",
+      "relationship_type": "visited_on",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1965",
+        "type": "DATE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Her younger brother, Bela, who lived in Beer Sheva.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Bela Roth",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Beer Sheva",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Her older brother, Imre, lived in Natanya.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Imre Roth",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Natanya",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He had a furniture store.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Imre Roth",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "furniture store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "had store"
+    },
+    {
+      "sentence": "Irenka worked as a seamstress.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "seamstress",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "After I arrived in Karlovy Vary, I worked as a caretaker for the company Czechoslovak Hotels.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "caretaker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I used to go around hotels fixing taps and similar things.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "hotels",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "go around"
+    },
+    {
+      "sentence": "Well, and then I got the position of district secretary for culture for the KSC.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "district secretary for culture",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "position of"
+    },
+    {
+      "sentence": "I was a member of the Party since 1945.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Communist Party",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "In 1970 they kicked me out of the Party.",
+      "relationship_type": "expelled_from",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Communist Party",
+        "type": "ORG"
+      },
+      "verb_pattern": "kicked out of"
+    },
+    {
+      "sentence": "Later I got a job as a construction technician.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "construction technician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job as"
+    },
+    {
+      "sentence": "I drove around to construction sites in the area.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "construction sites",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "drove to"
+    },
+    {
+      "sentence": "In Karlovy Vary we initially lived in a small, cold and damp ground-floor apartment.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Eventually our two sons were born.",
+      "relationship_type": "born",
+      "subject": {
+        "entity": "Milan and Roman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "Milan in 1953, and Roman in 1956.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Milan and Roman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1953 and 1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In time we also got a new, beautiful and sunny apartment on Vitezna Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitezna Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "on"
+    },
+    {
+      "sentence": "We also used to go on vacations together.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "vacations",
+        "type": "EVENT"
+      },
+      "verb_pattern": "go on"
+    },
+    {
+      "sentence": "We used to go as a family to Bulgaria.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bulgaria",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "My wife and I also used to go with the children on various camping trips.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camping trips",
+        "type": "EVENT"
+      },
+      "verb_pattern": "go on"
+    },
+    {
+      "sentence": "Irenka also used to visit spas.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "spas",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "Mainly Frantiskove Lazne and around Pisek.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Frantiskove Lazne and Pisek",
+        "type": "GPE"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "After the war, my father also got married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Eda Kleinova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "got married"
+    },
+    {
+      "sentence": "He married a woman by the name of Eda Kleinova.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Eda Kleinova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She was from Subcarpathian Ruthenia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Eda Kleinova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Subcarpathian Ruthenia",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "The four of them decided to buy a house in Prague together.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "father and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "house in"
+    },
+    {
+      "sentence": "My father and his wife lived upstairs.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Heinrich and Eda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "house in Prague",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived"
+    },
+    {
+      "sentence": "We of course used to visit them, about two or three times a year.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Alexander and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "father in Prague",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "My father died in Prague in 1978.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Heinrich Goldberger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His second wife died as well, about ten years after my father's death.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Eda Kleinova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "around 1988",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Irenka had a stroke at the beginning of the 1990s.",
+      "relationship_type": "health_event",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stroke",
+        "type": "EVENT"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "She died of it in 1994.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1994",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We buried her at the Jewish cemetery in Karlovy Vary.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Irena Rothova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Karlovy Vary",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "In the meantime, our sons grew up.",
+      "relationship_type": "grew_up",
+      "subject": {
+        "entity": "Milan and Roman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "grew up"
+    },
+    {
+      "sentence": "Milan lives in the town of Tachov.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Milan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tachov",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "He's an electrician by trade.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Milan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "electrician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "is"
+    },
+    {
+      "sentence": "But initially he worked in Tachov feeding cattle.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Milan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cattle feeder",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked"
+    },
+    {
+      "sentence": "Roman graduated from civil engineering in Prague.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Roman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "After finishing his studies he stayed in Karlovy Vary.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Roman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "His office is right next door to the Jewish community.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Roman's office",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "next to Jewish community",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "next door to"
+    },
+    {
+      "sentence": "He designs buildings, and is doing quite well.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Roman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "building designer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "designs"
+    },
+    {
+      "sentence": "Milan married a non-Jewish girl.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Milan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "non-Jewish girl",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "About five years ago, I went to visit Israel.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "It was with a tour group.",
+      "relationship_type": "traveled_with",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tour group",
+        "type": "ORG"
+      },
+      "verb_pattern": "with"
+    },
+    {
+      "sentence": "I happened to be in Natanya during Sabbath.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Natanya",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "At the turn of the millennium I met my second wife, Miluska.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Miluska",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met wife"
+    },
+    {
+      "sentence": "She was working in the grocery store where I used to go shopping.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Miluska",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "grocery store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "It ended up with us getting married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Alexander and Miluska",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "married",
+        "type": "EVENT"
+      },
+      "verb_pattern": "getting married"
+    },
+    {
+      "sentence": "Miluska isn't Jewish.",
+      "relationship_type": "personal_attribute",
+      "subject": {
+        "entity": "Miluska",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "non-Jewish",
+        "type": "ATTRIBUTE"
+      },
+      "verb_pattern": "isn't"
+    },
+    {
+      "sentence": "We had a civil wedding.",
+      "relationship_type": "married",
+      "subject": {
+        "entity": "Alexander and Miluska",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "civil wedding",
+        "type": "EVENT"
+      },
+      "verb_pattern": "had wedding"
+    },
+    {
+      "sentence": "Miluska has three sons and seven grandchildren from her first marriage.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Miluska",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "three sons and seven grandchildren",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "has"
+    },
+    {
+      "sentence": "For several years I was on the board of the Jewish community in Karlovy Vary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "board of Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "on board of"
+    },
+    {
+      "sentence": "At one time I was vice president.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "vice president",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "The president of the community at that time didn't meet the expectations of the rest of the members.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "previous president",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "president of community",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "president of"
+    },
+    {
+      "sentence": "Finally, at one annual meeting Mr. Gubic spoke up.",
+      "relationship_type": "participated_in",
+      "subject": {
+        "entity": "Mr. Gubic",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "annual meeting",
+        "type": "EVENT"
+      },
+      "verb_pattern": "spoke at"
+    },
+    {
+      "sentence": "Finally they voted that the former president would stay as the community's spiritual leader.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "former president",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "spiritual leader",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "stay as"
+    },
+    {
+      "sentence": "They elected me president.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "president",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "elected"
+    },
+    {
+      "sentence": "This was about seven years ago.",
+      "relationship_type": "worked_since",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "seven years ago",
+        "type": "DATE"
+      },
+      "verb_pattern": "since"
+    },
+    {
+      "sentence": "My role is to take care of the community's property.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexander Gajdos",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "community president",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "role is"
+    },
+    {
+      "sentence": "Religious matters are taken care of by Rabbi Koci and the shammash, Rubin.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rabbi Koci and Rubin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "religious leaders",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "take care of"
+    },
+    {
+      "sentence": "As time passes, the community has less and less active members.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "active members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "members of"
+    },
+    {
+      "sentence": "There are about ten of them.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "ten members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "of"
+    },
+    {
+      "sentence": "There are seven of us on the board.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "seven people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "board members",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "on board"
+    },
+    {
+      "sentence": "There are about 98 members in total.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "98 members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "members of"
+    },
+    {
+      "sentence": "Not all of them are right in Karlovy Vary.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We also have members in surrounding towns, like for example Sokolov and Jachymov.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sokolov and Jachymov",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "The Jewish community has its own prayer hall.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "prayer hall",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Jewish community building",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "has"
+    },
+    {
+      "sentence": "Where people meet every Friday and Saturday to pray.",
+      "relationship_type": "meet_at",
+      "subject": {
+        "entity": "people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prayer hall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "meet at"
+    },
+    {
+      "sentence": "But Karlovy Vary is a spa town, with many guests, Jewish ones, too.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jewish guests",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Karlovy Vary",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "So it's nothing exceptional for even twenty men to gather here.",
+      "relationship_type": "gather_at",
+      "subject": {
+        "entity": "twenty men",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prayer hall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "gather here"
+    },
+    {
+      "sentence": "Some of the spa guests that have already been here several times automatically also come to the prayer hall.",
+      "relationship_type": "visit",
+      "subject": {
+        "entity": "spa guests",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prayer hall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "come to"
+    },
+    {
+      "sentence": "We also observe the high holidays.",
+      "relationship_type": "observe",
+      "subject": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "high holidays",
+        "type": "EVENT"
+      },
+      "verb_pattern": "observe"
+    },
+    {
+      "sentence": "For Sukkot we also put up a sukkah in the courtyard of the community building.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "sukkah",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "courtyard of community building",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in"
+    }
+  ]
+}

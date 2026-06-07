@@ -1,0 +1,1363 @@
+{
+  "testimony_metadata": {
+    "witness": "Bina Dekalo",
+    "birth_name": "Bienvenida Aroyo",
+    "birth_location": "Yambol, Bulgaria",
+    "interview_date": "April 2003",
+    "interviewer": "Dimitar Bozhilov"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather, Avram Aroyo, used to gather us and tell us about the beautiful Spain.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Avram Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Spain",
+        "type": "GPE"
+      },
+      "verb_pattern": "about"
+    },
+    {
+      "sentence": "His great great-grandfathers lived in Toledo, had big dairy farms and were very rich.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "great great-grandfathers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Toledo",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They traveled for months around the Mediterranean Sea until they reached the shores of Turkey at that time.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Jewish refugees",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Turkey",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "My paternal grandfather was born in Yambol in 1847.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Avram Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yambol",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather had a big dairy farm near the town.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Avram Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "dairy farmer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had dairy farm"
+    },
+    {
+      "sentence": "A Bulgarian, Bai Yordan, was his partner.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Bai Yordan",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "business partner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was partner"
+    },
+    {
+      "sentence": "My mother used to tell him about her family in Odrin.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "mother's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Soon after that he died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Avram Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "natural causes",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My father had two brothers, Jules Aroyo and Lia Aroyo.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jules and Lia Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had brothers"
+    },
+    {
+      "sentence": "Lia was a craftsman in Aytos.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lia Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "craftsman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was craftsman"
+    },
+    {
+      "sentence": "Jules, my father's younger brother, married in Rousse, where he had a haberdashery.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jules Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "haberdashery owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had haberdashery"
+    },
+    {
+      "sentence": "My father was a prosperous merchant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yosif Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "merchant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was merchant"
+    },
+    {
+      "sentence": "His first wife Bina died very young.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Bina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "illness",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My father had a very big shop for textile at the square in Yambol.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yosif Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shop owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had shop"
+    },
+    {
+      "sentence": "They lived in Odrin, which is in Turkey.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "maternal grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin, Turkey",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Grandfather Mordohay was a chazzan in Odrin.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mordohay Behmoaras",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chazzan",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was chazzan"
+    },
+    {
+      "sentence": "I went to visit my grandfather in Odrin.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Odrin",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "When she was 19 years old, my mother was married to a banker in Odrin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "banker",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "In the first year of their marriage she gave birth to a girl, Bella.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Bella",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "first year of marriage",
+        "type": "DATE"
+      },
+      "verb_pattern": "gave birth"
+    },
+    {
+      "sentence": "He decided to take her to Jerusalem.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Mordohay Behmoaras",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jerusalem",
+        "type": "GPE"
+      },
+      "verb_pattern": "take to"
+    },
+    {
+      "sentence": "In Istanbul, where they were about to board a ship, they met a physician from Vienna.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Mordohay and daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Istanbul",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "They went on a holiday in some resorts in Turkey.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Mordohay and daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Turkey",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My father often traveled to Odrin and Tsarigrad [Istanbul] on business trips.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Yosif Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin and Istanbul",
+        "type": "GPE"
+      },
+      "verb_pattern": "traveled to"
+    },
+    {
+      "sentence": "They married in Odrin around 1906-1907.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Yosif and Victoria",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "They left for Yambol.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Yosif and Victoria",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yambol",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "We were all born in Yambol.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Bina and siblings",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yambol",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "From my mother's first marriage I have a sister, Bella.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bella",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "have sister"
+    },
+    {
+      "sentence": "She was born in Odrin.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Bella",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My sister from my mother's first marriage, Bela Benaroya, married a well-off merchant in Istanbul.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bela Benaroya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "merchant",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She lived there for a long time.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Bela Benaroya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Istanbul",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived"
+    },
+    {
+      "sentence": "Her other children, Raphael and Sarah, settled in the USA.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Raphael and Sarah",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "In the 1990s she moved to live with them in Chicago where she died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Bela Benaroya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chicago",
+        "type": "GPE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My oldest brother, Albert Aroyo, was a representative of a French perfume company.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Albert Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "company representative",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was representative"
+    },
+    {
+      "sentence": "He married a Jew born in Rousse and called Rashel.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Albert Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rashel",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "So, he left for France with his family in 1936.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Albert Aroyo and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "When the Germans invaded France, they were interned to Lyon.",
+      "relationship_type": "interned_to",
+      "subject": {
+        "entity": "Albert Aroyo and family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Lyon",
+        "type": "GPE"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "So, they were both detained and deported together with the other Jews to the Auschwitz concentration camp.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Albert Aroyo and Jana",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "My brother was killed there.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Albert Aroyo",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "Jana survived by a miracle.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Jana",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "Jana was released from the camp.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Jana",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "released from"
+    },
+    {
+      "sentence": "My other niece Sofka has run the ballet of the London television.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sofka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ballet director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "run ballet"
+    },
+    {
+      "sentence": "She lives in London.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Sofka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "London",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "My next brother, Mois Aroyo, married a Jew from a very rich family in Rousse.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Mois Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Matilda",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They had a factory producing gunpowder called 'Buko Eshkenazi and Co'.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mois Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "factory owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had factory"
+    },
+    {
+      "sentence": "My brother was the director of that factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mois Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "factory director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was director"
+    },
+    {
+      "sentence": "In 1948 they moved to Israel, in Haifa.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Mois Aroyo and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Haifa, Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My brother Aron was very adventurous.",
+      "relationship_type": "personal_attribute",
+      "subject": {
+        "entity": "Aron Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "adventurous",
+        "type": "ATTRIBUTE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He married in Pleven Mazal Behar, who was born there.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Aron Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mazal Behar",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They lived in Pleven all their life.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Aron Aroyo and wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pleven",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My brother Sami married while we lived in Yambol.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Sami Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sophie",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He married a Jew from Drama, Greece, named Sophie.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Sami Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sophie",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My brother Sami was the only one in the family who remained living in Yambol.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Sami Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yambol",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "He was a retailer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sami Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "retailer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was retailer"
+    },
+    {
+      "sentence": "He has two children, with whom he left for Israel in 1948.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Sami Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My next brother is Jacques.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jacques Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "brother"
+    },
+    {
+      "sentence": "He came with us to Rousse.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Jacques Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rousse",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "When we left Rousse, Jacques went to live in Sofia.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Jacques Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to live in"
+    },
+    {
+      "sentence": "His wife is a Jew born in Sofia, called Jula.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Jacques Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jula",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "wife is"
+    },
+    {
+      "sentence": "In 1948 they all left for Israel and settled in Tel Aviv.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Jacques Aroyo and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tel Aviv, Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My sister Carolina had an unfortunate fate.",
+      "relationship_type": "personal_attribute",
+      "subject": {
+        "entity": "Carolina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unfortunate fate",
+        "type": "ATTRIBUTE"
+      },
+      "verb_pattern": "had fate"
+    },
+    {
+      "sentence": "She married a Turkish Jew in Sofia named Buko Agranati.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Carolina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buko Agranati",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She lived with him.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "Carolina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buko Agranati",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "He worked as a shop assistant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Buko Agranati",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shop assistant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Somewhere around the first kilometer from the shore the boat named Salvador crashed and my sister and her three children drowned.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Carolina and three children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "drowning",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "drowned"
+    },
+    {
+      "sentence": "Her husband was among the few people who survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Buko Agranati",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "shipwreck",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "He got married once again in Israel.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Buko Agranati",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "new wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Herzl went to live with our brothers Albert and Jacques in Sofia.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Herzl Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to live in"
+    },
+    {
+      "sentence": "They found him a wife named Ernesta.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Herzl Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ernesta",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "found wife"
+    },
+    {
+      "sentence": "In 1948 he moved with his wife to Israel.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Herzl Aroyo and wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My brother Marco graduated from the French College in Rousse.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Marco Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "French College in Rousse",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "In May 1936 he left for Palestine.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Marco Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "There they founded that agricultural village Kfar Hitim.",
+      "relationship_type": "founded",
+      "subject": {
+        "entity": "Bulgarian Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kfar Hitim",
+        "type": "GPE"
+      },
+      "verb_pattern": "founded"
+    },
+    {
+      "sentence": "My brother still lives in the village.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Marco Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kfar Hitim",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "My other brother, Lazar Aroyo, reached the age of 13.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Lazar Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "age 13",
+        "type": "DATE"
+      },
+      "verb_pattern": "reached age"
+    },
+    {
+      "sentence": "He decided to go to Pazardjik.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Lazar Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pazardjik",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "After he studied two years in that school, around 1927, he left for Israel.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Lazar Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Together with other youths from Bulgaria, Poland and Russia they founded the Ma'abarot kibbutz.",
+      "relationship_type": "founded",
+      "subject": {
+        "entity": "Lazar Aroyo and others",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ma'abarot kibbutz",
+        "type": "ORG"
+      },
+      "verb_pattern": "founded"
+    },
+    {
+      "sentence": "Lazar married a Bulgarian Jew in the kibbutz.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lazar Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rosa",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Her name was Rosa and she was a teacher in Ivrit in Yambol.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rosa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was teacher"
+    },
+    {
+      "sentence": "They live in the kibbutz.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Lazar Aroyo and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ma'abarot kibbutz",
+        "type": "ORG"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "My father died in 1936 in this house.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yosif Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1936",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He was buried in the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Yosif Aroyo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "In 1938 I married my first husband, Israel Vasser.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel Vasser",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was a secretary of the spiritual council in the central synagogue.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Israel Vasser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "secretary",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was secretary"
+    },
+    {
+      "sentence": "In 1941 we had a son, Rami.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rami",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "had son"
+    },
+    {
+      "sentence": "In 1942 he disappeared with a group of Jews.",
+      "relationship_type": "disappeared",
+      "subject": {
+        "entity": "Israel Vasser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "with Jewish group",
+        "type": "EVENT"
+      },
+      "verb_pattern": "disappeared"
+    },
+    {
+      "sentence": "While running to Palestine, he passed through a lot of places.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Israel Vasser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "running to"
+    },
+    {
+      "sentence": "In the spring of 1944 my mother and I were interned to the town of Haskovo.",
+      "relationship_type": "interned_to",
+      "subject": {
+        "entity": "Bina Dekalo and mother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Haskovo",
+        "type": "GPE"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "My brother Sami was with us, too.",
+      "relationship_type": "interned_with",
+      "subject": {
+        "entity": "Sami Aroyo",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Bina and mother",
+        "type": "VICTIM"
+      },
+      "verb_pattern": "with us"
+    },
+    {
+      "sentence": "There was a synagogue in Haskovo.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "synagogue",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Haskovo",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "On 9th September 1944 they came down from the mountain.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "partisans",
+        "type": "LIBERATORS"
+      },
+      "object": {
+        "entity": "occupation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "came down"
+    },
+    {
+      "sentence": "On that day we were told that we were free.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Bina Dekalo and Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "internment",
+        "type": "EVENT"
+      },
+      "verb_pattern": "were free"
+    },
+    {
+      "sentence": "After the internment to Haskovo, I went to live on Veslets Street in Sofia.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to live in"
+    },
+    {
+      "sentence": "In 1948 I married Mois Dekalo.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mois Dekalo",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My second husband was born in Bourgas.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Mois Dekalo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bourgas",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband was in prison because of his anti-fascist activities.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Mois Dekalo",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in prison"
+    },
+    {
+      "sentence": "After 9th September 1944 he was released.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "Mois Dekalo",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "released"
+    },
+    {
+      "sentence": "Afterwards he returned for a short time to Bourgas.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Mois Dekalo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bourgas",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My son moved to Israel in 1990.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Rami",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He studied the language in the town of Akko.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Rami",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Akko",
+        "type": "GPE"
+      },
+      "verb_pattern": "studied in"
+    },
+    {
+      "sentence": "He started work in a chemical laboratory in Beer Sheva.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rami",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "laboratory worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "I have been to Israel four times.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "been to"
+    },
+    {
+      "sentence": "I went there for the first time in 1952 with my husband.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I was in my brother Lazar's kibbutz - the Ma'abarot kibbutz.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Bina Dekalo",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ma'abarot kibbutz",
+        "type": "ORG"
+      },
+      "verb_pattern": "in"
+    }
+  ]
+}

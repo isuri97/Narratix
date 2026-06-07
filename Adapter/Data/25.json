@@ -1,0 +1,505 @@
+{
+  "testimony_metadata": {
+    "witness": "Elizaveta Valueva",
+    "birth_location": "Mariupol, Ukraine",
+    "birth_year": 1936,
+    "interview_location": "St. Petersburg, Russia",
+    "interviewer": "Anna Nerush"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born on January 25, 1936, in Mariupol, Ukraine.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mariupol, Ukraine",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother, Anna Samuelovna Blinderman, was born in 1914 in the village of Buki, Cherkassia region, Ukraine.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Anna Samuelovna Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buki, Cherkassia region, Ukraine",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father, Pavel Alekseevich Valuev, was born in Russia, in the village of Kashidra, Moscow region, in 1910.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Pavel Alekseevich Valuev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kashidra, Moscow region",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I studied in Moscow at the Institute of Energy from 1953 to 1958.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Institute of Energy, Moscow",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "After graduation I married Anatoly Pavlovich Nikolau.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Anatoly Pavlovich Nikolau",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was born in 1934, and died in 1987.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Anatoly Pavlovich Nikolau",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1934",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "With him I returned to Mariupol, where I lived until 2000.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mariupol",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I moved to St. Petersburg to live with my son.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In Mariupol I worked as the head of a department of Ukrgypromez, the Ukrainian Institute of entrepreneurial planning for black metallurgy, from 1968 to 1974.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ukrgypromez",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "From 1974 to 1990, I was the head of a department of the Central Scientific Research Laboratory of black metallurgy.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Elizaveta Valueva",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Central Scientific Research Laboratory",
+        "type": "ORG"
+      },
+      "verb_pattern": "head of"
+    },
+    {
+      "sentence": "My son, Sergei Anatolievich Nikolau, was born on December 1, 1960.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sergei Anatolievich Nikolau",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "December 1, 1960",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "He is a neurologist and works at a hospital in St. Petersburg.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sergei Anatolievich Nikolau",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "hospital in St. Petersburg",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "works at"
+    },
+    {
+      "sentence": "My mother's spinster sister, Klara Blinderman, lived with my mother's family for 23 years.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Klara Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mother's family home",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "My mother's parents were Brana Peisekhovna Shavulskaya, who lived from 1888 to 1975, and Shmul Josefovich Blinderman, who lived from 1888 to 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Shmul Josefovich Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They lived in the Ukrainian village of Buki in the Umanskovo sector of the Cherkassia region in the Ukraine.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Brana and Shmul Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buki, Cherkassia region",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Grandfather sewed hats in the small Ukrainian town of Shpola; the family moved there from Buki.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Shmul Josefovich Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shpola",
+        "type": "GPE"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "After the war, in Mariupol, she regularly attended the prayer house that took the place of a traditional synagogue in that city.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Brana Peisekhovna Shavulskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mariupol",
+        "type": "GPE"
+      },
+      "verb_pattern": "attended in"
+    },
+    {
+      "sentence": "During one of the pogroms, the Makhno bandits killed three of her brothers before her very eyes.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "three brothers",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Makhno bandits",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "killed by"
+    },
+    {
+      "sentence": "In 1919 Moishe left for the United States with other relatives.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Moishe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Grandmother's sister, Klara, emigrated to Palestine that same year.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Klara",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Fleeing from the Makhno band during one of the numerous Jewish pogroms during the civil war, my pregnant grandmother ran barefooted with her children in her arms over a field to an acquaintance who was not Jewish.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Brana Peisekhovna Shavulskaya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Makhno band",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "fleeing from"
+    },
+    {
+      "sentence": "After the beginning of World War II, when she had not had any chance to make evacuation plans, Grandmother, in my opinion, did another heroic feat.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Brana Peisekhovna Shavulskaya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "After loading her ill husband, suffering from a lacerated stomach ulcer, into a wheelbarrow, she and her 3-year-old granddaughter set out on foot on the many-kilometer path to the Dniper River.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Brana Peisekhovna Shavulskaya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war zone",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "set out from"
+    },
+    {
+      "sentence": "After crossing the river on a raft, she found her daughter Fira, the granddaughter's mother, in Kharkov and they were evacuated together.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Brana Peisekhovna Shavulskaya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kharkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "found in"
+    },
+    {
+      "sentence": "She received a pension after the war, because of her son's death at the front.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "son",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "death at"
+    },
+    {
+      "sentence": "My father graduated from the Moscow Institute of Agricultural Electrification and worked his whole life at the Azovstal factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Pavel Alekseevich Valuev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Azovstal factory",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "During the war he was released from the draft because he was sent to Siberia, to the city of Stalinsk, to organize the defense industry there.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Pavel Alekseevich Valuev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Stalinsk, Siberia",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "After finishing diplomatic school in Kiev before the war, my father refused a prestigious post in New Zealand.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Pavel Alekseevich Valuev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "diplomatic school in Kiev",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "Father died in Mariupol in 1968, mourned by all of us.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Pavel Alekseevich Valuev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mariupol",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother was born in Buki.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Anna Samuelovna Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buki",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Mother graduated from a pharmaceutical institute in Dnipropetrovsk.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Anna Samuelovna Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pharmaceutical institute in Dnipropetrovsk",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Before the war, from 1935 to 1941, and after the war, until 1968, Mother worked in pharmacies in Mariupol.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Anna Samuelovna Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pharmacies in Mariupol",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "During the first post-war years, she traveled by cart to all nearby villages to put the village pharmacies in working order.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Anna Samuelovna Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "village pharmacies",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Mother died in 1998.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Anna Samuelovna Blinderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1998",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Jews first came to Mariupol following the Greeks, drawn by the trade opportunities and the relative proximity to Odessa and other ports in the Black Sea.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Mariupol",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "After the war, when the city was liberated from the fascists.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Mariupol",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "fascists",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "liberated from"
+    },
+    {
+      "sentence": "Jews emigrated to Israel, the USA and Germany.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Israel, USA, Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Many young people left Mariupol to study in Israel.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "young people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "study in"
+    }
+  ]
+}

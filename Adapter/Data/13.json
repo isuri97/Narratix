@@ -1,0 +1,713 @@
+{
+  "testimony_metadata": {
+    "witness": "Iosif Gurevich",
+    "birth_location": "Konotop, Ukraine",
+    "birth_year": 1924,
+    "interview_date": "April 2003",
+    "interviewer": "Ella Levitskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather Tevel Gurevich was born in this village in 1864.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Tevel Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "village near Konotop",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother Frida was born in 1865.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Frida Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1865",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather owned a mill before the Revolution of 1917.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Tevel Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mill owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "owned"
+    },
+    {
+      "sentence": "The oldest, Shaya, was born in 1888.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Shaya Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1888",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Esfir, born in 1891 and Bertha, born in 1893.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Esfir and Bertha Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1891, 1893",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father Samuel was born in 1898.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Samuel Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1898",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They moved to Konotop, where it was easier to find work and support the family.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Gurevich family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konotop",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "After moving to Konotop my father's older brother, Shaya, worked at the state-run grits facility.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Shaya Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "state-run grits facility",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Before the Great Patriotic War his family moved to Moscow.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Shaya's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He died in Moscow in 1969.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Shaya Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's sister Esfir got married in Konotop.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Esfir Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konotop",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "She and her husband moved to Leningrad.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Esfir and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "During the Great Patriotic War Esfir and her children were in the blockade of Leningrad.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Esfir and children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "blockade of Leningrad",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in blockade"
+    },
+    {
+      "sentence": "Her husband perished at the front and her children starved to death.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Esfir's husband and children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished at"
+    },
+    {
+      "sentence": "After the Great Patriotic War she moved to Moscow and lived with Shaya's family.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Esfir Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Esfir died in 1970.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Esfir Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1970",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Bertha died in Konotop in 1971.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Bertha Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konotop",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's brother Ilia was married and had a son called Ilia.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ilia Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He lived in Kursk with his family and worked as chief accountant at a big sugar factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ilia Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chief accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Ilia died in 1938.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ilia Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1938",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Iona died in a mental hospital in Kiev in 1939.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Iona Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mental hospital in Kiev",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandfather, Arkadi Simonovski, was born in 1870.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Arkadi Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1870",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother was born in 1871 and died in 1924.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1871",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Grandfather Arkadi owned a crockery store, which was expropriated.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Arkadi Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "crockery store owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "owned"
+    },
+    {
+      "sentence": "My grandmother was a German teacher in a Russian grammar school for girls in Konotop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "German teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "teacher in"
+    },
+    {
+      "sentence": "The oldest, Riva, was born in 1898.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Riva Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1898",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother Elizaveta, born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Elizaveta Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Riva moved to Kiev where she finished a college.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Riva Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "She stayed in Kiev and perished in Babi Yar at the beginning of the war.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Riva Simonovski",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Babi Yar",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Nyunia died in Konotop in 1956.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Nyunia Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konotop",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Shortly after the wedding the two families moved to Priluki, a small town.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rosalia and Sonia's families",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Priluki",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "After the Great Patriotic War both families settled down in Lvov.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rosalia and Sonia's families",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "Rosalia, her husband and daughter's family moved to Australia.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Rosalia's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Australia",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "She died in Australia in 1992.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rosalia Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Australia",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Sonia died in Lvov in 1985.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sonia Simonovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My parents got married in 1923.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Samuel and Elizaveta Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1923",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "I was born on 11th March 1924 and I was named Iosif.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Iosif Gurevich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "11th March 1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "My brother Arkadi was born on 11th March 1932.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Arkadi Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "11th March 1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "Grandfather Tevel died in 1933 during the time of the famine in Ukraine.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Tevel Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1933",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother died during the blockade of Leningrad in 1941.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Frida Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "blockade of Leningrad",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "My father worked as a loader, joiner and mechanic.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Samuel Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "loader, joiner, mechanic",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My mother fell ill with enteric fever and died in hospital in December 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Elizaveta Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "December 1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father died in 1973.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Samuel Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1973",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Their daughter Elizaveta, named after my mother, was born in 1957.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Elizaveta Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1957",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Elizaveta died in an accident in 1980.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Elizaveta Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1980",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Arkadi, his wife and his granddaughter emigrated to Germany in 1990.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Arkadi Gurevich and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "My wife is Russian. She was born in Kazanka, Nikolaev region in 1922.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ludmila Volosova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kazanka, Nikolaev region",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We got married within a month.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Iosif and Ludmila Gurevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "marriage",
+        "type": "EVENT"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Nadia was sent to the Kharkov partisan unit and perished.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Nadia Volkova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kharkov partisan unit",
+        "type": "ORG"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "I served in the Navy in the Far East from 1942-1947.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Iosif Gurevich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pacific Navy",
+        "type": "ORG"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "I joined the Communist Party in 1943.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "Iosif Gurevich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Communist Party",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "I became chief mechanic and then chief engineer at this factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif Gurevich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "chief mechanic, chief engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "I was appointed director of the plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif Gurevich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "plant director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "appointed"
+    },
+    {
+      "sentence": "I became the director and worked there until I retired in 1985.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif Gurevich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became director"
+    }
+  ]
+}

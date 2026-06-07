@@ -1,0 +1,882 @@
+{
+  "testimony_metadata": {
+    "witness": "Esfir Dener",
+    "birth_location": "Falesti, Moldova",
+    "birth_year": 1925,
+    "interviewer": "Natalia Fomina",
+    "interview_date": "March 2004"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My maternal grandmother Esfir Gutman, nee Moldaver, lived in the town of Yedintsy in the north of Bessarabia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Esfir Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yedintsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My grandmother died before I was born and I was named after her.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "died",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My grandfather and grandmother had five children.",
+      "relationship_type": "family_of",
+      "subject": {
+        "entity": "My grandfather and grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "five children",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "They all perished during the war [World War II].",
+      "relationship_type": "killed_during",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished during"
+    },
+    {
+      "sentence": "My grandmother Esfir's brother Iosif Moldaver from Falesti raised my mother.",
+      "relationship_type": "raised",
+      "subject": {
+        "entity": "Iosif Moldaver",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "my mother",
+        "type": "PERSON"
+      },
+      "verb_pattern": "raised"
+    },
+    {
+      "sentence": "Grandfather Iosif and his wife Sarah lost their only son.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandfather Iosif and his wife Sarah",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "only son",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lost"
+    },
+    {
+      "sentence": "He contracted scarlet fever at school during an epidemic in 1895 and died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1895",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "They came from Kishinev.",
+      "relationship_type": "from",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kishinev",
+        "type": "GPE"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "My father's older brother Yakov Dener lived in the Deners' family mansion in Kishinev.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Yakov Dener",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kishinev",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father also had two sisters, who moved to Argentina in the early 20th century.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "two sisters",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Argentina",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "The third sister lived in Koenigsberg in Germany, presently Kaliningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "The third sister",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Koenigsberg",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father was born in Kishinev in 1884.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kishinev",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He worked at the affiliate of the Bessarabian Bank in Falesti.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bessarabian Bank",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "After the wedding they settled down in Grandfather Iosif's house in Falesti.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Falesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled down in"
+    },
+    {
+      "sentence": "My parents' first son, my brother Yuzef, who was called Yuzik at home, was born in 1913.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yuzef",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Five years later my sister Sarah followed.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "five years later",
+        "type": "DATE"
+      },
+      "verb_pattern": "followed"
+    },
+    {
+      "sentence": "I was born in December 1925 in Falesti where I lived for almost 16 years.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Falesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My brother was 12 years older than me.",
+      "relationship_type": "family_of",
+      "subject": {
+        "entity": "My brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "me",
+        "type": "PERSON"
+      },
+      "verb_pattern": "older than"
+    },
+    {
+      "sentence": "He left home to study at a grammar school in Beltsy and then he studied in the conservatory in Bucharest.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "studied in"
+    },
+    {
+      "sentence": "Then Sarah went to the Jewish grammar school in Beltsy.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Beltsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My father worked at the affiliate of the Bessarabian Bank on the main street not far from our house.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bessarabian Bank",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "In 1939 my beloved Grandfather Iosif died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandfather Iosif",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Then his body was taken to the synagogue and from there to the Jewish cemetery where my grandmother Sarah, who had passed away a short time before, was buried.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "grandmother Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried"
+    },
+    {
+      "sentence": "A year later, on 28th June 1940, the Soviet rule began in Bessarabia.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "Soviet rule",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "28th June 1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "began on"
+    },
+    {
+      "sentence": "My brother Yuzef and my sister Sarah happened to have stayed abroad in Romania.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Yuzef and Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romania",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed abroad in"
+    },
+    {
+      "sentence": "In August the new authorities took away our house and we lost our home.",
+      "relationship_type": "confiscated",
+      "subject": {
+        "entity": "new authorities",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "our house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took away"
+    },
+    {
+      "sentence": "We rented a room and a kitchen from two Moldovan sisters in their house in the suburbs of Falesti.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Falesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In 1941, on the night of 13th to 14th June, two officers wearing NKVD uniforms came to our home.",
+      "relationship_type": "arrested_on",
+      "subject": {
+        "entity": "NKVD",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "13th to 14th June 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "came on"
+    },
+    {
+      "sentence": "We were taken to the railway station.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "railway station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "There was a train there and most of the wealthier families of Falesti, most of them Jews, but there were also Moldovans.",
+      "relationship_type": "deported_from",
+      "subject": {
+        "entity": "families of Falesti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Falesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "We arrived in the town of Mogochin, Molchanov district, Tomsk region in Siberia.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mogochin",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "There they declared that we were sentenced to 25 years in exile.",
+      "relationship_type": "sentenced_to",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "25 years",
+        "type": "TIME"
+      },
+      "verb_pattern": "sentenced to"
+    },
+    {
+      "sentence": "We were accommodated in the houses of other exiled people from Ukraine and Russia deported in the 1930s.",
+      "relationship_type": "deported_from",
+      "subject": {
+        "entity": "exiled people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ukraine and Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "In November 1941 my mother and I were called to the office.",
+      "relationship_type": "called_on",
+      "subject": {
+        "entity": "my mother and I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "November 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "called in"
+    },
+    {
+      "sentence": "They told us that my father had died on 1st November 1941.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1st November 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "I ran away on one of these three days.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "exile",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "ran away"
+    },
+    {
+      "sentence": "I had to sail down the Ob to Novosibirsk.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Novosibirsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "sail to"
+    },
+    {
+      "sentence": "At that time the Novosibirsk Industrial College announced additional admission and they admitted me.",
+      "relationship_type": "admitted_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Novosibirsk Industrial College",
+        "type": "ORG"
+      },
+      "verb_pattern": "admitted"
+    },
+    {
+      "sentence": "They accommodated me in the hostel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "me",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "hostel",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "accommodated in"
+    },
+    {
+      "sentence": "In 1946 I received her last letter.",
+      "relationship_type": "received_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "received in"
+    },
+    {
+      "sentence": "Later Boris got to know that she had died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "died",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "In college I made friends with Dina Varshavskaya, also a Jewish girl.",
+      "relationship_type": "studied_with",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Dina Varshavskaya",
+        "type": "PERSON"
+      },
+      "verb_pattern": "made friends with"
+    },
+    {
+      "sentence": "She evacuated from Belarus with her mother and twin brothers.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated from"
+    },
+    {
+      "sentence": "Germans bombed their train on the way.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "their train",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "bombed"
+    },
+    {
+      "sentence": "Dina's mother and brothers perished.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Dina's mother and brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "perished",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "I was a last-year student, when I was called into the corridor.",
+      "relationship_type": "studied_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "student",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "student"
+    },
+    {
+      "sentence": "I was arrested and kept in the cell with criminals in Nikolaev prison.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nikolaev prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "kept in"
+    },
+    {
+      "sentence": "I was sentenced to three years of imprisonment in work camps.",
+      "relationship_type": "sentenced_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "three years",
+        "type": "TIME"
+      },
+      "verb_pattern": "sentenced to"
+    },
+    {
+      "sentence": "They took me to five prisons on the way to my point of destination: Kharkov, Gorky, Kirov and Solikamsk and Nyrob.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "me",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kharkov, Gorky, Kirov, Solikamsk, Nyrob",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "From Solikamsk prison in Perm region I was taken to the transition prison in Nyrob settlement.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nyrob settlement",
+        "type": "GPE"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "On 5th March 1953 Stalin died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Stalin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "5th March 1953",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "In 1954 my term came to an end and I was released from the camp.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1954",
+        "type": "DATE"
+      },
+      "verb_pattern": "released from"
+    },
+    {
+      "sentence": "In 1956, at the Twentieth Party Congress Khrushchev denounced Stalin and this had a direct impact on me – in 1956 I was released from exile.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "released from"
+    },
+    {
+      "sentence": "They wrote that Uncle Yakov had died in evacuation.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Uncle Yakov",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They wrote that my brother Yuzef had perished in the ghetto in Transnistria in 1942.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Yuzef",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto in Transnistria",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "My sister Sarah had survived and was working in the house of a composer in Bucharest.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "survived",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "In 1964, after her husband died, Sarah moved to Israel.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I finally decided to try, and moved to Kishinev in 1964.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kishinev",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In 1968 I received a one-bedroom apartment in Ryshkanovka.",
+      "relationship_type": "received_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1968",
+        "type": "DATE"
+      },
+      "verb_pattern": "received in"
+    },
+    {
+      "sentence": "In 1978 the doctors said I urgently needed a heart surgery.",
+      "relationship_type": "treated_for",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "heart surgery",
+        "type": "EVENT"
+      },
+      "verb_pattern": "needed"
+    },
+    {
+      "sentence": "In 1988, when the relations between the USSR and Israel got warmer during the rule of Gorbachev, my sister Sarah obtained a three-month visa.",
+      "relationship_type": "visited_in",
+      "subject": {
+        "entity": "Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1988",
+        "type": "DATE"
+      },
+      "verb_pattern": "obtained in"
+    },
+    {
+      "sentence": "She arrived on 4th May and I didn't meet her at the station.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "4th May",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrived on"
+    },
+    {
+      "sentence": "We hadn't seen each other for 48 years.",
+      "relationship_type": "separated_for",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "48 years",
+        "type": "TIME"
+      },
+      "verb_pattern": "hadn't seen for"
+    },
+    {
+      "sentence": "In the 1990s, after the break down of the USSR Sarah sent me two parcels.",
+      "relationship_type": "sent_from",
+      "subject": {
+        "entity": "Sarah",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1990s",
+        "type": "DATE"
+      },
+      "verb_pattern": "sent in"
+    },
+    {
+      "sentence": "My cousin sister died in 1984.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My cousin sister",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1984",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Her son Yakov and his family moved to Augsburg in Germany.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Yakov and his family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Augsburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Four years ago [2000] I had a cataract surgery.",
+      "relationship_type": "treated_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "2000",
+        "type": "DATE"
+      },
+      "verb_pattern": "had in"
+    }
+  ]
+}

@@ -1,0 +1,946 @@
+{
+  "testimony_metadata": {
+    "witness": "Miklos Braun",
+    "birth_location": "Budapest, Hungary",
+    "interviewer": "Dora Sardi and Eszter Andor",
+    "location": "Budapest, Hungary"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father, Zsigmond Braun, was born in Regocze.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Zsigmond Braun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Regocze",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father's father was called Ignac Braun.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Ignac Braun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zsigmond Braun",
+        "type": "PERSON"
+      },
+      "verb_pattern": "father"
+    },
+    {
+      "sentence": "One of them was run by Julcsa, one of my father's older sisters, Julcsa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Julcsa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "grocery store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "run by"
+    },
+    {
+      "sentence": "In the other, my grandfather and my father's two other siblings, Karoly and Bella, worked.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Karoly and Bella",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "grocery store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked"
+    },
+    {
+      "sentence": "My father was six years old when some thieves dug their way in under the shop wall and took everything away on a cart.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Szeged",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father's mother married three times, each time to a widower, and she was left a widow herself each time.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "My father's mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "widowers",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father was raised by a nurse because his mother was very ill.",
+      "relationship_type": "raised_by",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "nurse",
+        "type": "PERSON"
+      },
+      "verb_pattern": "raised by"
+    },
+    {
+      "sentence": "Her name was Janka Braun and she was crazy about films and theatre.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Janka Braun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "film star Pal Lukacs' maid",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My father graduated from secondary school in Szeged after the family moved there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Szeged",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "He went to a trade school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "trade school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "He became a bookkeeper, then later a licensed auditor after he got his university degree at the age of fifty.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "bookkeeper",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "My father was a bookkeeper for various larger firms.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "bookkeeper",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My father got married in Szeged in 1903.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Aranka Buchhalter",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My mother was born in Torokkanizsa in 1882.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "My mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Torokkanizsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her name was Aranka Buchhalter.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Aranka Buchhalter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1882",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was from a family of craftsmen and her father was a tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "her father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My maternal grandmother lived with us.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "My maternal grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "us",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "She died in 1931, when I was just preparing for the final exam in secondary school.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father was called up for the army in Transylvania in 1914.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "called up for"
+    },
+    {
+      "sentence": "He was there for 53 months.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Transylvania",
+        "type": "GPE"
+      },
+      "verb_pattern": "was there"
+    },
+    {
+      "sentence": "He was a captain, the commander of the railway in Transylvania.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "captain",
+        "type": "ORG"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "So the whole family went together to Brasso, because at that time, officers were allowed to take their families with them.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "whole family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Brasso",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My mother managed to look after the three children practically alone throughout World War One.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "My mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "World War One",
+        "type": "EVENT"
+      },
+      "verb_pattern": "throughout"
+    },
+    {
+      "sentence": "We went to Gyimesbukk afterwards – which was the former Romanian border – and from there, we escaped when the invasion came.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gyimesbukk",
+        "type": "GPE"
+      },
+      "verb_pattern": "escaped from"
+    },
+    {
+      "sentence": "We came back to Budapest in 1917.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Budapest",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    },
+    {
+      "sentence": "My father had six war medals, and had been wounded twice.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "wounded"
+    },
+    {
+      "sentence": "When we came back to Budapest, we lived in a big apartment building in Lonyai Street up until 1935.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lonyai Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My sister Klari was born in Szeged in 1908.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Klari",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Szeged",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She got married when she was quite young, to a man from Fiume (also known as Rijeka), a Croatian city by the Adriatic Sea.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "man from Fiume",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Her husband, Francesco Nauman, was a merchant, descended from a rich merchant family.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Francesco Nauman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "merchant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "In 1943, when Germans occupied Italy, they were taken away along with their children.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "taken away"
+    },
+    {
+      "sentence": "They were transported through Hungary in 1944, but we could not meet them.",
+      "relationship_type": "transported_through",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hungary",
+        "type": "GPE"
+      },
+      "verb_pattern": "transported through"
+    },
+    {
+      "sentence": "They were probably killed in Auschwitz, if they ever made it there at all.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "My brother, Ferenc, was born in Budapest in 1906.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ferenc",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Budapest",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "At the time my parents were living here, in Pest.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pest",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "He was a textile agent.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "textile agent",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He married a woman older than he was, Vilma Goldner, who was born in 1900, but I think they got along well.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vilma Goldner",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "After the war they lived in Zuglo.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zuglo",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He died at the ripe old age of 92, in 1998, after being a widower for a long time.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1998",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "I went to the elementary school on Lonyai Street for four years, then I completed four years of Realschule on Horanszky Street.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "elementary school on Lonyai Street",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "From there I transferred to the upper trade school on Vas Street.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "upper trade school on Vas Street",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "I graduated from there in 1931.",
+      "relationship_type": "graduated_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "upper trade school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "After graduation, I worked in one of the branches of the Coffee Importation Company of Fiume.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Coffee Importation Company of Fiume",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Vera Wexler, who later became my wife, worked in an office at the Electric Motor Factory on Csengeri Street.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Vera Wexler",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Electric Motor Factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "On the 19th of March, 1944, the Germans came in, and on the 15th of April we got married, feeling that nothing mattered anymore.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "PERSON"
+      },
+      "verb_pattern": "got married"
+    },
+    {
+      "sentence": "By that time I was working as an unskilled worker in the factory where Vera worked.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "unskilled worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "I had been fired because of the anti-Jewish laws in 1944 and I entered the manual labor staff of the factory and became a semi-skilled worker.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "semi-skilled worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "I was drafted in January 1942 and I got back home in November 1943.",
+      "relationship_type": "drafted_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "January 1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "drafted in"
+    },
+    {
+      "sentence": "I had been at the Don River Curve (not far from Stalingrad in Russia) and all kinds of 'good places'; my best friends died, and I survived by chance.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "For a year we were in Sianki, on the Northern side of Polish Carpathians, which was Polish territory.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sianki",
+        "type": "GPE"
+      },
+      "verb_pattern": "were in"
+    },
+    {
+      "sentence": "I was able to survive only because I was transferred from the work company to the motorized unit because I could drive trucks.",
+      "relationship_type": "transferred_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "motorized unit",
+        "type": "ORG"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "When the front at the Don River Curve was broken through, we towed the truck away with a tractor, and after an adventurous journey in it we arrived in Kiev.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "Then, in May 1944, I was drafted again.",
+      "relationship_type": "drafted_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "May 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "drafted in"
+    },
+    {
+      "sentence": "There was a motorized-unit army post on Ezredes Street and I was sent there.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "motorized-unit army post",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "I went home regularly from there to 40 Sziget Street, a yellow-star house that my whole family had been transferred into.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my whole family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "40 Sziget Street",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "transferred into"
+    },
+    {
+      "sentence": "Then we were put in trains, crammed in wagons at the railroad station of Jozsefvaros.",
+      "relationship_type": "transported_from",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jozsefvaros",
+        "type": "GPE"
+      },
+      "verb_pattern": "put in trains"
+    },
+    {
+      "sentence": "We had to get off at Pozsony Ligetfalu and we went to dig tank traps.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pozsony Ligetfalu",
+        "type": "GPE"
+      },
+      "verb_pattern": "get off at"
+    },
+    {
+      "sentence": "From there I escaped with a friend of mine, and after a few days' illegal loafing around we got into a printing shop called Ervin Metten.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pozsony Ligetfalu",
+        "type": "GPE"
+      },
+      "verb_pattern": "escaped from"
+    },
+    {
+      "sentence": "From there I was taken to the Lichtenwort concentration camp and I was still there when the Soviet troops arrived.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lichtenwort concentration camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "During the war my mother and father were together in a yellow-star house in the ghetto.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my mother and father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "yellow-star house in the ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Then a few days before the liberation, my father went to fetch water, because there wasn't any water in the house at all.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "liberation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed before"
+    },
+    {
+      "sentence": "When he was just in front of the gate, he was hit and killed by shrapnel from a grenade.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shrapnel from a grenade",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed by"
+    },
+    {
+      "sentence": "So my mother was left a widow.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "my mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "husband",
+        "type": "PERSON"
+      },
+      "verb_pattern": "left a widow"
+    },
+    {
+      "sentence": "She died in 1960.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1960",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother had a younger brother, named Jozsef Buchhalter.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Jozsef Buchhalter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "My mother",
+        "type": "PERSON"
+      },
+      "verb_pattern": "younger brother"
+    },
+    {
+      "sentence": "He was a textile merchant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "textile merchant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He married the daughter of a provincial property-owner and they lived in Budapest.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "daughter of a provincial property-owner",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was on the Italian front at Isonzo during World War One.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Italian front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "on"
+    },
+    {
+      "sentence": "Then after that he had a textile shop on Vilmos Csaszar Avenue in Budapest.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "textile shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "During World War Two he was shot into the Danube but he swam away and then lived on for quite a long time.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "World War Two",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "When we were liberated we moved back to the building we had lived in, not into our old apartment, but into another one we found empty.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "occupation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "After the liberation I was asked back to my former firm, the Coffee Importation Company of Fiume, where I had previously worked for more than ten years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Coffee Importation Company of Fiume",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked for"
+    }
+  ]
+}

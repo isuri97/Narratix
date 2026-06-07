@@ -1,0 +1,584 @@
+{
+  "testimony_metadata": {
+    "witness": "Hana Gasic",
+    "birth_name": "Hana Montiljo",
+    "birth_location": "Sarajevo, Bosnia",
+    "birth_year": 1940,
+    "interview_date": "Unknown",
+    "interviewer": "Unknown"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in Sarajevo on July 27, 1940.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Hana Gasic",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sarajevo",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I have one brother, Rafael, who was born during the war on March 22, 1943.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rafael Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "March 22, 1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "My grandfather was born in the 1870s, worked as a textile merchant in Sarajevo, and died in 1941 before the outbreak of war.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mose Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "textile merchant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My grandfather was born in the 1870s, worked as a textile merchant in Sarajevo, and died in 1941 before the outbreak of war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Mose Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "During the war she hid with her son, Jozef, in Sarajevo.",
+      "relationship_type": "hid_in",
+      "subject": {
+        "entity": "Hana Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sarajevo",
+        "type": "GPE"
+      },
+      "verb_pattern": "hid in"
+    },
+    {
+      "sentence": "After the war she decided to live the rest of her days in Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Hana Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "She died at the age of 96.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Hana Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1970",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "She went to Israel with two of her three surviving children, her sons, Jozef and Leon, my uncles.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Hana Montiljo with sons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "He visited my Nona and his brothers in 1957.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Menahem Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "My mother, Flora Montiljo (nee Kohen), was born in Sarajevo on December 31, 1913.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Flora Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sarajevo",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My Nona Klara died when my mother was just thirteen.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Klara Kohen",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My grandfather had a butcher shop in Sarajevo.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rafael Kohen",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "butcher shop owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had shop"
+    },
+    {
+      "sentence": "He was taken away at the beginning of the war, never to be heard from again.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "mother's brother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sarajevo",
+        "type": "GPE"
+      },
+      "verb_pattern": "taken away"
+    },
+    {
+      "sentence": "Before the war, her brother had married a Slovenian woman named Kristina.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "mother's brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kristina",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Two of my mother's sisters were killed during the war.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "mother's sisters",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed during"
+    },
+    {
+      "sentence": "She was convinced that they had been killed at Djakovo or Nova Gradiska, two concentration camps.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "mother's sisters",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Djakovo or Nova Gradiska",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "killed at"
+    },
+    {
+      "sentence": "Her other two sisters survived because they had married non-Jews before the war.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "mother's sisters",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "Her sister Ela married a Catholic man named Zvonko Gjebic.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ela",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zvonko Gjebic",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They lived in Uzice, Serbia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ela and Zvonko",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzice, Serbia",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They had two children, Anton and Zorica, who live in Kragujevac, Serbia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Anton and Zorica",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kragujevac, Serbia",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "My mother's other sister, Rivka, married a Jew before the war.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Rivka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She got married again before the war, this time to a Muslim man named Karahasanovic.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Rivka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karahasanovic",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Mr. Karahasanovic died while cleaning his rifle during the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Karahasanovic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "My parents met in the Jewish community, either in La Benevolencija or Matatija, two social clubs.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "La Benevolencija or Matatija",
+        "type": "ORG"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "They married in 1939.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My father worked as a tailor in a private clothing shop owned by Gavro Perkusic.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Menahem Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "After their marriage they bought a small home on Gornja Mandjija Street on the periphery of the city in an entirely Muslim neighborhood.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gornja Mandjija Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "bought home on"
+    },
+    {
+      "sentence": "My mother's sister, Rivka, lived downstairs with her children.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rivka and children",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "downstairs apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived"
+    },
+    {
+      "sentence": "During the war, my father's boss, Gavro Perkusic, protected both my father and us.",
+      "relationship_type": "protected_by",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gavro Perkusic",
+        "type": "PERSON"
+      },
+      "verb_pattern": "protected"
+    },
+    {
+      "sentence": "When he heard that a raid was planned-usually to gather up Jews and Serbs-he would hide my father in his tailor shop until it passed.",
+      "relationship_type": "hid_in",
+      "subject": {
+        "entity": "Menahem Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor shop",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "hide in"
+    },
+    {
+      "sentence": "Several times my mother and my brother and I were rounded up and taken to detention centers.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "mother and children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "detention centers",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "Except for those occasions, my mother, brother and I spent the war at home.",
+      "relationship_type": "survived_in",
+      "subject": {
+        "entity": "mother and children",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "home",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "spent war at"
+    },
+    {
+      "sentence": "During the war my mother was forced to sell her wedding gown for four kilos of flour and a chunk of soap.",
+      "relationship_type": "forced_action",
+      "subject": {
+        "entity": "Flora Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "forced to"
+    },
+    {
+      "sentence": "After the war, in 1949, my father began work as a tailor in the National Theater.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Menahem Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor at National Theater",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "My father worked there continuously until his retirement.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Menahem Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "retirement",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "My father Menahem (Miki) Montiljo 'Hasid' died on April 25, 1981 in the hospital in Sarajevo.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Menahem Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "April 25, 1981",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "My mother, Flora Montiljo, died in October, 1981.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Flora Montiljo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "October 1981",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My daughter, Tamara, has chosen to live in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Tamara",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "My son, Dejan, is an observant Jew living in Belgrade.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Dejan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Belgrade",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "We were married in Sarajevo and honeymooned in Dubrovnik.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Hana and Miroslav",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sarajevo",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Miroslav graduated from the university and worked until his retirement at the Vinca Nuclear Institute near Belgrade.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Miroslav Gasic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vinca Nuclear Institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "I worked as a secretary in the Federation of Jewish Communities of Yugoslavia in Belgrade.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Hana Gasic",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "secretary",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "We have a son, Dejan, born on January 1, 1973.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Dejan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "January 1, 1973",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "A daughter, Tamara, born on September 23, 1974.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Tamara",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "September 23, 1974",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    }
+  ]
+}

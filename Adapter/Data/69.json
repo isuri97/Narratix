@@ -1,0 +1,961 @@
+{
+  "testimony_metadata": {
+    "witness": "Clara Foldes",
+    "birth_name": "Clara Grunbaum",
+    "birth_location": "Arad, Romania",
+    "birth_year": 1920,
+    "interview_date": "February 2003",
+    "interviewer": "Oana Aioanei"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My mother's parents were called Moric and Vilma Kohn; they lived near Oradea, in Lesul Oradiei [Les].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Moric and Vilma Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lesul Oradiei",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived near"
+    },
+    {
+      "sentence": "I know that my grandma Vilma was born there.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Vilma Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lesul Oradiei",
+        "type": "GPE"
+      },
+      "verb_pattern": "born there"
+    },
+    {
+      "sentence": "My maternal grandparents moved from near Oradea to Sofronea, a small village close to Arad.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "maternal grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofronea",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My grandfather Moric died in Sofronea in 1918.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Moric Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofronea",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He was buried in the Neolog Jewish cemetery in Arad.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Moric Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Neolog Jewish cemetery in Arad",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My mother, Margareta Grunbaum, nee Kohn, was born in Oradea in 1898.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Margareta Grunbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Oradea",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Elisabeta lived in Curtici.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Elisabeta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Curtici",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Her husband was called Iosif Stern and had a textile store and land in Iratosu.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif Stern",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "textile store owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had store"
+    },
+    {
+      "sentence": "Marta has a son who is a physician and married with two children; they live in Cologne, Germany.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Marta's son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cologne, Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "Carol died in forced labor near Sighisoara.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Carol",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "forced labor near Sighisoara",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's youngest sister, Eugenia, lived in Timisoara.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Eugenia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Timisoara",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Her first husband was a Hungarian Jew from Budapest.",
+      "relationship_type": "from_location",
+      "subject": {
+        "entity": "first husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Budapest",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "My father, Andrei Grunbaum, was born in Hungary, in a village near Debrecen called Konyar, in 1890.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Andrei Grunbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konyar",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father fought in World War I.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Andrei Grunbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War I",
+        "type": "EVENT"
+      },
+      "verb_pattern": "fought in"
+    },
+    {
+      "sentence": "Both my father and my mother graduated from Commercial High School - my mother in Arad, my father in Debrecen.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Andrei Grunbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Commercial High School in Debrecen",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "My father's parents lived in Konyar.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konyar",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My paternal grandparents had five children, all born in Konyar.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "five children",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Konyar",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They had a textile store and land.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "paternal grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "textile store owners",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had store"
+    },
+    {
+      "sentence": "My parents married in 1919.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1919",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "They lived in Curtici.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Curtici",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I was born in Arad on 17th March 1920.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Arad",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I had a brother, Gheorghe, five years younger than me, so he was born in 1925.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1925",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My parents had a textile store.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "textile store owners",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had store"
+    },
+    {
+      "sentence": "When I was seven years old [in 1927], my grandmother Vilma moved from Sofronea to Curtici with us.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Vilma Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Curtici",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My aunt from Timisoara, Eugenia, used to spend the holidays with us.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Eugenia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Curtici",
+        "type": "GPE"
+      },
+      "verb_pattern": "spend holidays with"
+    },
+    {
+      "sentence": "I went to kindergarten in Curtici.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "kindergarten in Curtici",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I did the first year in Arad.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school in Arad",
+        "type": "ORG"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I was transferred to Lugoj, where I did the second year.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school in Lugoj",
+        "type": "ORG"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "I was moved to Cluj, where I studied for the next six years and also graduated.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school in Cluj",
+        "type": "ORG"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In Cluj I stayed in a boarding school.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "boarding school in Cluj",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "I had a Christian family who used to take me out - the Cucu family.",
+      "relationship_type": "stayed_with",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cucu family",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "take me out"
+    },
+    {
+      "sentence": "I spent the first month in Turda.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Turda",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I couldn't finish this course because after the first part Jews weren't allowed anymore, so I was sent home.",
+      "relationship_type": "expelled_from",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "defense course",
+        "type": "ORG"
+      },
+      "verb_pattern": "sent home"
+    },
+    {
+      "sentence": "The Jewish community in Alba Iulia needed a teacher at their Jewish school, so I moved to Alba-Iulia on 1st December 1939.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Alba Iulia",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I stayed there until 31st August 1942.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "31st August 1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "stayed until"
+    },
+    {
+      "sentence": "The name of the rabbi of Alba Iulia was Kraus.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rabbi Kraus",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "rabbi of Alba Iulia",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "rabbi of"
+    },
+    {
+      "sentence": "I taught in the 1st and 2nd grades.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "taught"
+    },
+    {
+      "sentence": "In 1941 my parents were forced by a new law to move to Arad.",
+      "relationship_type": "forced_to_move",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arad",
+        "type": "GPE"
+      },
+      "verb_pattern": "forced to move to"
+    },
+    {
+      "sentence": "They went to Arad on the 11 o'clock train.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arad",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "She died in 1945 because she was already old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Vilma Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried in the Neolog Jewish cemetery in Arad.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Vilma Kohn",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Neolog Jewish cemetery in Arad",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "I taught at the Jewish school in Arad for seven years, from 1942-1948.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher at Jewish school",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "taught at"
+    },
+    {
+      "sentence": "During World War II my paternal grandmother was taken to a concentration camp along with her daughter and two of her boys.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "paternal grandmother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "concentration camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "Pavel was taken from Debrecen by the Germans with his two sons.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Pavel",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Debrecen",
+        "type": "GPE"
+      },
+      "verb_pattern": "taken from"
+    },
+    {
+      "sentence": "Pavel was there with one of his sons, and they both died.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Pavel and son",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "mined bridge",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Lajos perished in Auschwitz.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Lajos",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "She died on the way home, after they had already reached Hungary, in 1945.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "paternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Berta and her children eventually moved to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Berta and children",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Aranka, my father's sister, who was already married and lived in Mezotur before the war, returned from the camp and emigrated to the United States of America.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Aranka",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "United States of America",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Marton and his daughter moved to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Marton and daughter",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I met my husband Andrei Foldes on New Year's Eve 1943.",
+      "relationship_type": "met_on",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "New Year's Eve 1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "met on"
+    },
+    {
+      "sentence": "We met in Arad at a friend of mine.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Clara and Andrei",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arad",
+        "type": "GPE"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "Andrei was born in Arad in 1906.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Andrei Foldes",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arad",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Andrei, along with his brother Geza, had a warehouse for construction materials in Arad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Andrei and Geza Foldes",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "warehouse owners",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had warehouse"
+    },
+    {
+      "sentence": "Iuliu was an engineer, he worked for a German factory, AEG.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iuliu",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "engineer at AEG",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "Bela worked as a chemist in Arad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Bela",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He was killed by the Hungarian soldiers, when they reached Arad in 1944.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Bela",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Hungarian soldiers",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "killed by"
+    },
+    {
+      "sentence": "Andrei and I got married in the Neolog Synagogue in Arad on 17th March 1946.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Clara and Andrei",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Neolog Synagogue in Arad",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My dear husband Andrei died 15 years ago [in 1987] in Arad.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Andrei Foldes",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arad",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He is buried in the Neolog Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Andrei Foldes",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Neolog Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My brother Gheorghe went to the German high school in Arad.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "German high school in Arad",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "He ran away to France with a friend of his.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "ran away to"
+    },
+    {
+      "sentence": "He left France and moved to Holland.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holland",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He went to Israel, where he took part in the Independence War, the Six-Day-War and the Yom Kippur War.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israeli wars",
+        "type": "EVENT"
+      },
+      "verb_pattern": "took part in"
+    },
+    {
+      "sentence": "He had a small factory in Tel Aviv.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "factory owner in Tel Aviv",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had factory"
+    },
+    {
+      "sentence": "He got married in Israel to one of my former students from Alba Iulia.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Gheorghe died quite young, when he was 53 years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Gheorghe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "age 53",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "In 1950 my parents moved to Israel.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father died in 1951, somewhere near Tel Aviv.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Andrei Grunbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "near Tel Aviv",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "After his death, my mother lived in Nahariya for some time.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Nahariya",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She died in Quiryat Yam in 1989.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Quiryat Yam",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The first time I visited Israel was in 1969.",
+      "relationship_type": "visited_on",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1969",
+        "type": "DATE"
+      },
+      "verb_pattern": "visited in"
+    },
+    {
+      "sentence": "The last time in 1988, a year after my husband died.",
+      "relationship_type": "visited_on",
+      "subject": {
+        "entity": "Clara Foldes",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1988",
+        "type": "DATE"
+      },
+      "verb_pattern": "in"
+    }
+  ]
+}

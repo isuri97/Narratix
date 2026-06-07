@@ -1,0 +1,582 @@
+{
+  "testimony_metadata": {
+    "witness": "Lev Borisovich Khapun",
+    "birth_location": "Vinnitsa, Ukraine",
+    "interview_date": "June 2002",
+    "interviewer": "Sophia Kozlova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather, Elyukim Khapun [1863-1914], was a blacksmith; and all his relatives and brothers were blacksmiths, too.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Elyukim Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "blacksmith",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "They lived in Vinnitsa, in Kamenetsk-Podolsk province of Ukraine.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Khapun family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vinnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Some of the relatives went there, since they lived poorly and the payment at the construction site was good.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa-Kishinev railroad construction",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to work"
+    },
+    {
+      "sentence": "My father, Boris Elyukimovich Khapun [1898-1970], was the youngest in the family.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Boris Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1898",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "My paternal grandmother, Golda Khapun, born in 1863, was a very gentle person.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Golda Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1863",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1905, they say, there was a big Jewish pogrom.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "1905",
+        "type": "DATE"
+      },
+      "verb_pattern": "pogrom in"
+    },
+    {
+      "sentence": "Father was taken to the army during the Imperialistic War [WWI].",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Boris Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russian Imperial Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "taken to army"
+    },
+    {
+      "sentence": "When my father participated in the Civil War [1918-1921], there was no Communist Party in Vinnitsa.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Boris Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Civil War",
+        "type": "EVENT"
+      },
+      "verb_pattern": "participated in"
+    },
+    {
+      "sentence": "During the NEP times [1921-1924] my father became a NEP-man and started a cooperative.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Boris Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "NEP businessman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "Father's older brother Nutyr left for America in the 1920s.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Nutyr Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "When the pogroms began, and after the Soviet Power and other trouble came, many of our relatives emigrated.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vinnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated"
+    },
+    {
+      "sentence": "Thus five or six families lived and worked in Mexico.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Khapun families",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mexico",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My grandfather on mother's side, Leiba Simkhanovich Gutkin [1885-1918], was a tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leiba Gutkin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He set up several tailor's workshops in Odessa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leiba Gutkin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "set up workshops"
+    },
+    {
+      "sentence": "He was mobilized into the army and fought in the Russian-Japanese war [1904-1905].",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Leiba Gutkin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russian Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "fought in"
+    },
+    {
+      "sentence": "In 1918 my grandfather died of typhus.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Leiba Gutkin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1918",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My maternal grandmother, Lyubov Rafailovna Gutkina, nee Zakhterova [1885-1967].",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Lyubov Gutkina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1885",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "My mother, Esfir Lvovna Khapun, nee Gutkina [1905-1975].",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Esfir Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1905",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "My parents met when they were both in their early twenties.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Boris and Esfir Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "marriage",
+        "type": "EVENT"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "I was in evacuation in Tashkent with my family.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Lev Khapun and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuation in"
+    },
+    {
+      "sentence": "I entered Ashkhabad Infantry College and was enrolled into the army from the second year of my studies.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ashkhabad Infantry College",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "I was in the army until the end of the war.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "in army"
+    },
+    {
+      "sentence": "I stayed in Stalinsk, now it is called Novokuznetsk, after I was wounded.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Stalinsk/Novokuznetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "When my father was in evacuation, he worked at a plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Boris Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "plant worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Our relatives in Vinnitsa, who were young, were evacuated.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vinnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated"
+    },
+    {
+      "sentence": "Many of those who were older stayed in Vinnitsa, and they all perished.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "older relatives",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vinnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "The Germans brought all men of call-up age and older, around fifty years old, to Germany.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Jewish men",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "When the war ended, I wanted to leave the plant where I worked.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "plant worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "I graduated from the Dnepropetrovsk Metallurgical Institute named after Stalin.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Dnepropetrovsk Metallurgical Institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "I was assigned to work in Makeyevka, in the Donetsk region.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Makeyevka",
+        "type": "GPE"
+      },
+      "verb_pattern": "assigned to work"
+    },
+    {
+      "sentence": "I left for my home place and began to work at the chemical plant in Vinnitsa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "chemical plant in Vinnitsa",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "In 1966 I moved to Leningrad, where I worked in Sevmormontazh.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Lev Khapun",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My wife, Larisa Lvovna Sterenberg, was born in 1927 in Vinnitsa.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Larisa Sterenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vinnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Later she was in Kuibyshev [Samara] in evacuation.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Larisa Sterenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kuibyshev/Samara",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuation in"
+    },
+    {
+      "sentence": "She entered the Foreign Language Institute there and moved to Leningrad after graduation.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Larisa Sterenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Foreign Language Institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "We married when she was 29.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lev and Larisa Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "marriage",
+        "type": "EVENT"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1960 our daughter Olga was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Olga Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1960",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "Olga went to the Railroad Institute instead.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Olga Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Railroad Institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "She became a mechanical engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Olga Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mechanical engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "My mother died in 1975.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Esfir Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1975",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father died in 1970.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Boris Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1970",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My maternal grandmother died in 1967.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Lyubov Gutkina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1967",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My paternal grandfather died in 1914.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Elyukim Khapun",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My maternal grandfather died in 1918.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Leiba Gutkin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1918",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    }
+  ]
+}

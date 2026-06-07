@@ -1,0 +1,648 @@
+{
+  "testimony_metadata": {
+    "witness": "Rebeca Assa",
+    "birth_location": "Plovdiv, Bulgaria",
+    "birth_year": 1922,
+    "interview_date": "March 2002",
+    "interviewer": "Dimitar Bozhilov"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born on March 24th 1922 in Plovdiv.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Plovdiv",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My maternal grandfather was named Rahamim Ilel, and he was also born in Plovdiv.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rahamim Ilel",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plovdiv",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother had moved to Plovdiv, and she met my grandfather there and they got married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Rashel",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rahamim Ilel",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "got married"
+    },
+    {
+      "sentence": "My paternal grandmother, Perla Benvinisti, had been a professional cook and she cooked for the rich families.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Perla Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "professional cook",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My mother's name was Lora - nee Ilel, Benvinisti after her husband.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lora Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "My mother was born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Lora Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was a shoemaker and repaired shoes.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shoemaker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My mother had a brother who had gone to the United States in 1930.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "mother's brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "gone to"
+    },
+    {
+      "sentence": "My father went to the Jewish school till the 4th class.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish school",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My father's sister, Sultana Benvinisti, who also went to the United States to live with her fiancé Marko Amar.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Sultana Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I was born there in 1922.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Marasha quarter",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We moved into another house in the central part of the town in 1936.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Benvinisti family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "central Plovdiv",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "moved into"
+    },
+    {
+      "sentence": "My father worked in a small shop where there was also a bakery.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "small shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "My father was called to appear before an army commission in the town of Karlovo.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karlovo",
+        "type": "GPE"
+      },
+      "verb_pattern": "appear in"
+    },
+    {
+      "sentence": "He went back to Plovdiv on foot because he didn't have money for a train ticket.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plovdiv",
+        "type": "GPE"
+      },
+      "verb_pattern": "went back to"
+    },
+    {
+      "sentence": "My two brothers and I graduated from the Jewish school in Plovdiv.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Rebeca Assa and brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish school",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "My older brother Albert Mair Benvinisti was born in Plovdiv in 1924.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Albert Mair Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plovdiv",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He started to work as a laborer in shops and warehouses from a young age.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Albert Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "laborer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "He left for Israel in 1948.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Albert Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My younger brother Rahamin Mair Benvinisti was born when I was five - in 1927.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rahamin Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1927",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We lived on 27, Bratia Miladinovi Street then.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Benvinisti family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bratia Miladinovi Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived on"
+    },
+    {
+      "sentence": "My younger brother studied in a Bulgarian school and he had a secondary-school education.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Rahamin Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bulgarian school",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied in"
+    },
+    {
+      "sentence": "He went to Uruguay in 1949, after he had spent a year in Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Rahamin Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uruguay",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My husband is named Moritz Assa and he was also born in 1922.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1922",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We got married in 1941 when we were 19 years old.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He came to sleep in our home just for one night, on 1st March 1941, after we got married, and then he got arrested.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plovdiv",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "My husband was in prison in Varna for three years as a political prisoner.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Varna",
+        "type": "GPE"
+      },
+      "verb_pattern": "in prison"
+    },
+    {
+      "sentence": "I started work when I was 13 years old.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "started work"
+    },
+    {
+      "sentence": "I found myself a job at a shop in the main street.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shop worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job at"
+    },
+    {
+      "sentence": "The owner of the dressmaker's workshop was a Jew and his name was Baruh.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Baruh",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "workshop owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "owner of"
+    },
+    {
+      "sentence": "My mother worked at a tobacco store at first and she was sewing sacks there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lora Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tobacco store worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "In the 1930s my father hid people who were illegal and wanted by the police for their extreme pro-communist convictions.",
+      "relationship_type": "helped",
+      "subject": {
+        "entity": "?air Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "political fugitives",
+        "type": "VICTIM"
+      },
+      "verb_pattern": "hid people"
+    },
+    {
+      "sentence": "Our first son Isak was born in 1942 when my husband had already been sentenced to political imprisonment.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Isak Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband came back from the prison in Varna on 8th September 1944.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Varna prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "came back from"
+    },
+    {
+      "sentence": "After 9th September 1944, my husband was chosen as a member of the Regional committee of the Bulgarian Communist Party.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bulgarian Communist Party",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "My second son, Maer, was born there.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Maer Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kniaz Alexander Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born there"
+    },
+    {
+      "sentence": "My husband was in a party school in Sofia for two years.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "party school",
+        "type": "ORG"
+      },
+      "verb_pattern": "in school"
+    },
+    {
+      "sentence": "I moved to Sofia in 1950.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Our third child, Margo, was born in 1951.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Margo Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband was sent to London in 1968 as a commercial representative of Bulgaria.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "commercial representative",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "sent as"
+    },
+    {
+      "sentence": "My older son Isak graduated from the university in Kiev, Ukraine.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Isak Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "university in Kiev",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "He went to work in Vienna, Austria, as an engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Isak Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "After the political changes in Bulgaria in 1989, he went to Israel and hasn't come back since.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Isak Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My younger son, Maer, was born in 1946 in Plovdiv.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Maer Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plovdiv",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My daughter Margarita was born in Sofia in 1951.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Margarita Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I have been to Israel many times.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "been to"
+    },
+    {
+      "sentence": "The first time was in 1964.",
+      "relationship_type": "traveled_on",
+      "subject": {
+        "entity": "Rebeca Assa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1964",
+        "type": "DATE"
+      },
+      "verb_pattern": "in year"
+    },
+    {
+      "sentence": "I visited my brother in Jafo for three months.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Albert Benvinisti",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jafo",
+        "type": "GPE"
+      },
+      "verb_pattern": "in location"
+    },
+    {
+      "sentence": "My husband Moritz Assa is the president of the Jewish organization Shalom in Sofia.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Moritz Assa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish organization Shalom",
+        "type": "ORG"
+      },
+      "verb_pattern": "president of"
+    }
+  ]
+}

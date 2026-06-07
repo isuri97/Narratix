@@ -1,0 +1,999 @@
+{
+  "testimony_metadata": {
+    "witness": "Erzsebet Radvaner",
+    "birth_location": "Budapest, Hungary",
+    "birth_year": 1908,
+    "interview_date": "Unknown",
+    "interviewer": "Eszter Andor and Dora Sardi"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "Herman Rosenberg, my paternal grandfather, was born sometime in the 1830s,in Gonc, I think, and died in 1908 in the Jewish hospital in Budapest.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Herman Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gonc",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Herman Rosenberg, my paternal grandfather, was born sometime in the 1830s,in Gonc, I think, and died in 1908 in the Jewish hospital in Budapest.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Herman Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His wife was Regina Feuerstein.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Herman Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Regina Feuerstein",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "wife was"
+    },
+    {
+      "sentence": "She died in 1908 too.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Regina Feuerstein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Ignac was the eldest son, born in 1852, and he was the only one who could get an education.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ignac Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1852",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He became a lawyer, a legal adviser to the coal mining industry in Petrozseny and the deputy of the town.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ignac Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "lawyer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "He had a six-room flat in Budapest; he was the rich man of the family.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ignac Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Budapest",
+        "type": "GPE"
+      },
+      "verb_pattern": "flat in"
+    },
+    {
+      "sentence": "He died in 1920.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ignac Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Imre lived in Petrozseny and in 1944 he was beaten to death by Iron Guard men.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Imre Rosenberg",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Iron Guard",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "beaten to death by"
+    },
+    {
+      "sentence": "Judith suffered from heart disease and died in her thirties.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Judith Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "thirties",
+        "type": "AGE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He got married, had a daughter, and in 1932 when she was eighteen she died of so-called children's paralysis.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Janos' daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "After the war came the Rakosi era and the communists; Janos said that this was not what they had fought for, and killed himself.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Janos Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "suicide",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "killed himself"
+    },
+    {
+      "sentence": "Ivan was left. He became a foreign trader, got married and they had a mentally handicapped son.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ivan Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "foreign trader",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "Lajos was born sometime at the turn of the century. He emigrated to America and corresponded with the family while his parents were still alive, then he lost touch.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Lajos Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Miksa remained Rosenberg. He was the vendor of a textile factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Miksa Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "textile vendor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He travelled to Paris and I don't know where else.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Miksa Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "travelled to"
+    },
+    {
+      "sentence": "He got married in Vienna.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Miksa Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vienna",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Izidor was a furniture merchant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Izidor Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "furniture merchant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Then there was Ida, who married Bertalan Szilagyi.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ida Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bertalan Szilagyi",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They emigrated to the States at the turn of the century and they had a son there, who died when he was six.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Ida and Bertalan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Aunt Ida died in 1919.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ida Szilagyi",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1919",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The younger sister of my father, Malvin was born in 1879 and she died in 1932.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Malvin Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1879",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "The younger sister of my father, Malvin was born in 1879 and she died in 1932.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Malvin Rosenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Both daughters were deported in 1944 and died.",
+      "relationship_type": "deported_on",
+      "subject": {
+        "entity": "Malvin's daughters",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "deported in"
+    },
+    {
+      "sentence": "The priests who taught the boys hid them during the war.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Malvin's grandsons",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "hid during"
+    },
+    {
+      "sentence": "They live in Switzerland.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Malvin's grandsons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Switzerland",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "Jozsef Klein, my maternal grandfather, was born in 1847 or 1848 in Szilagy County.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Jozsef Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Szilagy County",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was a stove-maker.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jozsef Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stove-maker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He came to Pest, but I do not know when.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Jozsef Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pest",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "I have only a few memories of Grandmother Regina; I was very young when she died in 1913.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Regina Bloch",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Grandfather died in 1920.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Jozsef Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The eldest was Mor Klein, who became Mor Karman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mor Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stock market worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "He worked in the stock market and in 1932, when the market collapsed, he killed himself.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Mor Karman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "killed himself"
+    },
+    {
+      "sentence": "His wife worked in the clothing shop his mother owned.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mor's wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "clothing shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "He was taken away to a forced labor corps and he died there in Koszeg in 1944.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Istvan Karman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Koszeg",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They had the wedding in the Rumbach Street synagogue.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Klari",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rumbach Street synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "They emigrated to America, to New York.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Klari and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "New York",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "She emigrated to America in 1947.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Mor's wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "In the end he lived in Hamburg.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Hamburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He married her.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Christian dancer",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "One more son, Ferenc, was born to them in Pest in 1914.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ferenc Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pest",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Artur was a soldier in WWI.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "WWI",
+        "type": "EVENT"
+      },
+      "verb_pattern": "soldier in"
+    },
+    {
+      "sentence": "He became a projectionist at a Jewish cinema and his wages were not too bad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "projectionist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "His elder son joined the SS and did not speak to his father.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Artur's elder son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "SS",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "The elder son died as an SS soldier in 1940.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Artur's elder son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The younger became a Wehrmacht soldier at an anti-aircraft unit and died in a bomb attack.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Artur's younger son",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "bomb attack",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My uncle survived the war.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "Instead he was taken to an internment camp, which he survived.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "internment camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "In 1958 he came home for the first time since 1919 and I think he died in 1964.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Artur Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1964",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Berta died in 1905 when she was 23 and engaged to be married.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Berta Klein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1905",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother was the youngest. She was born in 1884 in Budapest.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Erzsebet's mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Budapest",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was called Mano Mihaly. He was born in 1877 in Gonc.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Mano Mihaly",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gonc",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Then they moved to Kassa (Kosice in Slovakia today).",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rosenberg family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kassa",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Then they moved to Pest.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rosenberg family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pest",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They lived on Garai Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rosenberg family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Garai Street",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived on"
+    },
+    {
+      "sentence": "Then he went to be a shop assistant in an elegant furniture shop and he was also a designer there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mano Mihaly",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shop assistant and designer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "They met there and love and marriage followed.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Mano Mihaly",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Erzsebet's mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "marriage"
+    },
+    {
+      "sentence": "They, my parents, got married at last in 1904 in Pest, in the synagogue on Dohany Street.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Mano Mihaly and wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Dohany Street synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My father was in WWI for less than a year.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Mano Mihaly",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "WWI",
+        "type": "EVENT"
+      },
+      "verb_pattern": "in WWI"
+    },
+    {
+      "sentence": "My elder brother, Laszlo, was born in 1905.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Laszlo Gonczi",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1905",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1908.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Erzsebet Radvaner",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My younger sister, Anna, was born in 1917.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Anna Gonczi",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1917",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She attended the Jewish school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Anna Gonczi",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish school",
+        "type": "ORG"
+      },
+      "verb_pattern": "attended"
+    },
+    {
+      "sentence": "In October 1944, all the Jewish women between the ages of 16 and 40 were called up to the Kisosz stadium.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Jewish women",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kisosz stadium",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "called up to"
+    },
+    {
+      "sentence": "We went from there to Mogyorod, and from Mogyorod to Isaszeg.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Erzsebet and others",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Mogyorod and Isaszeg",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "We were brought back to the brickfactory on Becsi Street.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Erzsebet and others",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "brickfactory on Becsi Street",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "From there we went on towards Zurendorf, Austria.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Erzsebet and others",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Zurendorf",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "We got to Kophaza on foot, where we had to dig ditches.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Erzsebet and others",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kophaza",
+        "type": "GPE"
+      },
+      "verb_pattern": "got to"
+    },
+    {
+      "sentence": "My husband died in Bozsok in February 1945.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Tibor Grosz",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "February 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1944 on the 20th of October, the Nyilas men (Hungarian fascists) came at five in the morning, they gathered all the middle aged men who could still walk and deported them.",
+      "relationship_type": "deported_on",
+      "subject": {
+        "entity": "Jewish men",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "20 October 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "deported"
+    },
+    {
+      "sentence": "My father went back to work right after the war, to the Zsigmond Nagy and Partner furniture shop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mano Mihaly",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "furniture shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My father was buried in accordance with the orthodox rites the very day after his death in Gyongyos.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Mano Mihaly",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gyongyos",
+        "type": "GPE"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My brother was at death's door. He was in a forced labour corps in the summer of 1944.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Laszlo Gonczi",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "forced labour corps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in forced labour"
+    },
+    {
+      "sentence": "My sister-in-law, together with her two sons, emigrated to Sweden.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Laszlo's wife and sons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sweden",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "I married my second husband in 1948.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Erzsebet Radvaner",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My daughter, Julia, was born in 1949.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Julia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    }
+  ]
+}

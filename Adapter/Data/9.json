@@ -1,0 +1,998 @@
+{
+  "testimony_metadata": {
+    "witness": "Zoya Naumovna Lerman",
+    "birth_location": "Kiev, Ukraine",
+    "birth_year": 1934,
+    "interviewer": "Bronia Borodianskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in Kiev in 1934.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother was born in 1913.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Maria Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was born in 1910.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1910",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "David, born in 1902, was the oldest.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "David Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1902",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Michael, born in 1904.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Michael Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1904",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Semyon, born in 1906.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Semyon Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1906",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Jacob, born in 1908.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Jacob Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father Naum, born in 1910, was the youngest.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1910",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "On September 29, 1941 Rachil and her 4-year old daughter Zinochka perished in the Babi Yar.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Rachil Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Babi Yar",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Aunt Bertha was also killed there.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Bertha Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Babi Yar",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "When Germans shot his family he rolled down the slopes of the ravine.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Bertha's family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "Then he got out of Babi Yar and left Kiev.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Boris",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Babi Yar",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "got out of"
+    },
+    {
+      "sentence": "He lived in Kuibyshev then.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Boris",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kuibyshev",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "David lived in Baku.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "David Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Baku",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He had a job as a tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "David Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job as"
+    },
+    {
+      "sentence": "In the late 1920s all five brothers were living in Kiev.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Lerman brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "Uncle David was a tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "David Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "Uncle Syoma was in charge of an automatic telephone station.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Semyon Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "automatic telephone station",
+        "type": "ORG"
+      },
+      "verb_pattern": "in charge of"
+    },
+    {
+      "sentence": "Uncle Yasha worked at the radio sound recording office.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jacob Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "radio sound recording office",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Misha and his son Dusik went to the front and perished there.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Michael Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "Dusik was killed during the first days of the war.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Dusik Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "first days of war",
+        "type": "TIME"
+      },
+      "verb_pattern": "killed during"
+    },
+    {
+      "sentence": "Uncle Semyon worked at the bridge construction team throughout the war.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Semyon Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "bridge construction team",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "He survived and returned to his previous job after he returned from the war.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Semyon Lerman",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "He died at age 93 in 1999.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Semyon Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1999",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother on my mother's side, Leia Abramovna Gilik, lost her mother when she was still a child.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Leia Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lost"
+    },
+    {
+      "sentence": "My grandmother was born in the late 1880's in Ivankov.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Leia Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ivankov",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather was born in 1886.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Arkadiy Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1886",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather died in 1926.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Arkadiy Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1926",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The family moved to Kiev around 1918 when my mother was five years old.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Gilik family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "She settled down at 12, Mikhailovskaya Street, Kiev.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Leia Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "My mother completed three years at the cinematography institute.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Maria Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cinematography institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "They married in 1932 in a civil registration ceremony.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Maria Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father was summoned to serve in the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "serve in"
+    },
+    {
+      "sentence": "I believe he served in Petersburg.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "My mother became an administrator with the Philharmonic.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Maria Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Philharmonic",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Aunt Fania and her husband lived in Kreschatik.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Fania Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kreschatik",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She was a seamstress in a shop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Fania Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "seamstress",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "Aunt Raissa married a military man and followed him to Moscow.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Raissa Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "military man",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My grandmother took us out of Kiev.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "took out of"
+    },
+    {
+      "sentence": "My grandmother was taking us to Perm.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Perm",
+        "type": "GPE"
+      },
+      "verb_pattern": "taking to"
+    },
+    {
+      "sentence": "In Perm we settled down in the clay barracks.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Perm",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "Aunt Fania made men's underwear for the front.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Fania Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "seamstress",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "made for"
+    },
+    {
+      "sentence": "Aunt Fania's husband was executed in Kiev by the Germans.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Fania's husband",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "executed by"
+    },
+    {
+      "sentence": "My father was sent to a partisan unit.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "partisan unit",
+        "type": "ORG"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "He was sent to the town of Chipovichi.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chipovichi",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "My father became a barber.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "barber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became a"
+    },
+    {
+      "sentence": "The Gestapo captured my father and tortured him.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Gestapo",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "captured"
+    },
+    {
+      "sentence": "The Germans let my father go.",
+      "relationship_type": "released_by",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "let go"
+    },
+    {
+      "sentence": "The Germans captured him and took him to a place of execution.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "captured"
+    },
+    {
+      "sentence": "They shot my father and a whole group of other people.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "My father crawled out of the pit.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "execution pit",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "crawled out of"
+    },
+    {
+      "sentence": "He returned to the partisans in the woods.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "partisans",
+        "type": "ORG"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "He stayed with them until November 1943.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "partisan unit",
+        "type": "ORG"
+      },
+      "verb_pattern": "stayed with"
+    },
+    {
+      "sentence": "He demobilized from the army in 1946 and returned home.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "home",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "returned"
+    },
+    {
+      "sentence": "My father worked as a barber after the war.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "barber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "At the beginning of 1944 my grandmother took us all to Kiev.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "Aunt Raissa and her husband stayed in Perm.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Raissa Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Perm",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "Later they moved to Moscow.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Raissa Gilik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Stella married a Russian doctor named Victor Averin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Stella Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Victor Averin",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Stella decided to take him to America.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Victor Averin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "take to"
+    },
+    {
+      "sentence": "Their son Peter lives and works in the USA.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Peter Averin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Natochka lived in Kiev almost all her life.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Natochka Miliavskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She worked as Chief of a shop at the knitwear factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Natochka Miliavskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "knitwear factory",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Boris Krasnov moved to Moscow.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Boris Krasnov",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Svetochka left with her son's family in the 1970's to live in Israel.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Svetlana Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "Later, they moved to the USA.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Svetlana Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Allochka Lev lived in Moscow.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Allochka Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "We returned to our former apartment in Mikhailovskaya Street.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "After we returned to Kiev my mother was offered the position of stenographer at the Ministry of Culture.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Maria Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ministry of Culture",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My father died in 1982.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Naum Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother died in 1983.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Maria Lerman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1983",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 2001 my husband died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yuriy Lutskevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "2001",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My son is married to a Jew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Alexandr Lutskevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "He worked in Denmark.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexandr Lutskevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Denmark",
+        "type": "GPE"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Recently, in London.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexandr Lutskevich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "London",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I visited Israel recently.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Zoya Lerman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    }
+  ]
+}

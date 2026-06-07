@@ -1,0 +1,5290 @@
+{
+  "testimony_metadata": {
+    "witness": "Maya Dembo",
+    "birth_name": "Maya Gerasimovna Dembo",
+    "birth_location": "Paris, France",
+    "birth_year": 1931,
+    "interview_date": "October 2002",
+    "interviewer": "Lyudmila Lyuban"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in Paris in 1931.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My paternal grandfather, Isaac Dembo, was born in Riga [Latvia] in the 1870s.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Isaac Dembo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He died at an early age, in 1914, when my father was only 14 years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "During his last years he lived in the Crimea, in Yalta, where the climate is drier and warmer than in the Baltic region and suits a consumptive person better.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yalta",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He died in Yalta.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yalta",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He was buried in the Jewish cemetery, but we weren't able to find his grave after the war.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My paternal grandmother, Sara Lazarevna Dembo, nee Bugg, also had a Jewish name, Sorel.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sara Lazarevna Dembo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was also born in Riga in 1865.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They also had a dairy farm near Riga, in Saulkraste, so they were a fairly well- to-do family.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "dairy farm",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Saulkraste",
+        "type": "GPE"
+      },
+      "verb_pattern": "near"
+    },
+    {
+      "sentence": "He lived with his wife there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Stockholm",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived"
+    },
+    {
+      "sentence": "Right before the war he married Yudit; she was an art expert.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yudit",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Their fate brought them to the Middle Asia during the war.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "them",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Middle Asia",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "After the war they returned to Riga.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "Natan was a talented engineer and worked at the famous Riga carriage construction plant, which produced cars for electrical trains.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Natan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Another one of Grandmother Sara's brothers - his name is unknown - found himself in Riga occupied by the Germans, and perished tragically.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "The fascists threw him into the burning synagogue.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "him",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "fascists",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "threw into"
+    },
+    {
+      "sentence": "Other relatives had managed to escape from Riga before the Germans arrived.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "escape from"
+    },
+    {
+      "sentence": "Some fled to the East, some the West.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Some",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "East",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "fled to"
+    },
+    {
+      "sentence": "She died in Riga in 1959.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's elder brother Aron Isaacovich Dembo - they called him Ronya at home - was born in Riga in 1898.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Aron Isaacovich Dembo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He finished a classical gymnasia in Riga and later graduated from Berlin University.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Berlin University",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "He was a chemist by occupation and worked all his life in the field of oil-processing.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "In 1937-1938 he married Olga Lvovna Tsymbal and their son Lev was born.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Olga Lvovna Tsymbal",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They lived in Leningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Olga Lvovna was a doctor- roentgenologist and worked at Leningrad Pediatric Institute.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Olga Lvovna",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "doctor-roentgenologist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Aron was in the chemical forces at the frontline during the war.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Aron",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemical forces",
+        "type": "ORG"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Right after the war he worked at some plant in Leningrad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "plant",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "There was an explosion at that plant, Aron was considered guilty and was put into prison.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Aron",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "put into prison"
+    },
+    {
+      "sentence": "Later Aron was working at the oilfields in Bashkiria with a center in the town of Ishimbay.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Aron",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "oilfields",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "He spent most of his time in that town.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ishimbay",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "The car was hit by a dump truck and they were both killed.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "car accident",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "Uncle Aron was buried in Leningrad in the Jewish Preobrazhensky cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Uncle Aron",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish Preobrazhensky cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My father's younger sister Cecilia Isaacovna Dembo was born in Riga in 1904.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Cecilia Isaacovna Dembo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She had a good education, she finished a classical gymnasia in Riga, graduated from the medical faculty of Tartu University and later improved her education in Prague with Voyachek, who was very famous in the world of medicine.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tartu University",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "She traveled a lot, went to Italy and France.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Italy",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Cecilia was a very good otolaryngologist.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Cecilia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "otolaryngologist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "She lived with her mother, my grandmother Sara, in Riga.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "During the war, while in evacuation in the Urals, Cecilia worked in a polyclinic.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Cecilia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Urals",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in evacuation in"
+    },
+    {
+      "sentence": "After she returned to liberated Riga, she continued with her medical activity.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "Cecilia died in Riga in 1981.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Cecilia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father, Gerasim Isaacovich Dembo, was born in Riga in 1900.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Gerasim Isaacovich Dembo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1918 he moved to Petrograd with his mother and sister Cecilia because of Cecilia's illness.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He finished a classical gymnasia located on Vosstania Street and met my mother there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "gymnasia",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "My father's family lived in the center of Petrograd, on Grechesky Lane.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My father's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother's family lived nearby.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My mother's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived"
+    },
+    {
+      "sentence": "After finishing the gymnasia my father started to work at the Oktyabrskaya Railroad as a stoker to earn a living.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "my father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stoker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My grandmother and her daughter returned to Riga and Gerasim stayed in Petrograd.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "My grandmother and her daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "They died during the blockade of Leningrad 3 in 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "blockade of Leningrad",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "My maternal grandmother Khana-Feiga - common name Anna - Yevseyevna Sivashinskaya, nee Nemoitina, was born in St. Petersburg in 1881.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Khana-Feiga Sivashinskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Leya and her family left for the USA via Middle Asia at the beginning of World War II by some very difficult means.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Leya and her family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Khana didn't get any education; she got married at the age of 19 and was a housewife.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Khana",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My maternal grandfather Moisey - Jewish name Moishe-Isik - Vulfovich Sivashinsky was born in 1877.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Moisey Sivashinsky",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1877",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "According to the birth certificate of his son Vulf, Moisey Sivashinsky was considered Polotsk petty bourgeois.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Moisey Sivashinsky",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Polotsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "considered"
+    },
+    {
+      "sentence": "His elder sister Rakhil - common name Rosa - Vulfovna Vilenskaya was born in 1880 in St. Petersburg.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rakhil Vilenskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Regardless of the order accepted in the religious Sivashinsky family, she graduated from the medical faculty of Bestuzhev, became a doctor and married the revolutionary Vilensky.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vilensky",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was an associate of Lenin - he worked with Lenin during his stay in Switzerland and was later buried as an honored figure in the Kremlin Wall.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kremlin Wall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "After the wedding Rakhil and her husband left for Switzerland in connection with his revolutionary activity.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Rakhil and her husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Switzerland",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "However, they got divorced after some time in Switzerland and she moved to France, Paris, where she lived all her life.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Aunt Rakhil was a very good pediatrician and worked in Rothschild hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Aunt Rakhil",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pediatrician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She invited her niece and her husband - my parents - to visit her in 1924 and they stayed at her place for ten years while my father studied at the Sorbonne.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sorbonne",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "I was also born in France.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She remained in Paris occupied by the Germans.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "remained in"
+    },
+    {
+      "sentence": "My mother found out later that Aunt Rakhil got into a raid, after which she was sent to Auschwitz where she perished in 1942.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Aunt Rakhil",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Grandfather Moisey's younger sister, Fruma, was born in 1883.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Fruma",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1883",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She did not get any education and was a housewife.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "housewife",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "She lived in Leningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They both perished in besieged Leningrad in 1942 and were buried in the Jewish cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Their three sons perished at the frontline.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "three sons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "frontline",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished at"
+    },
+    {
+      "sentence": "The elder son perished at Karelian Isthmus, north of Leningrad, in the war with Finland [Soviet-Finnish War] 4.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "elder son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karelian Isthmus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished at"
+    },
+    {
+      "sentence": "Two younger sons perished during the Great Patriotic War 5.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Two younger sons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Great Patriotic War",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished during"
+    },
+    {
+      "sentence": "Only their daughter survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "She graduated from Leningrad Polytechnic Institute as an engineer-metal expert.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "engineer-metal expert",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "as"
+    },
+    {
+      "sentence": "She lives with her family in the USA now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Grandfather Moisey's younger brother, Sinay Sivashinsky, born in 1887, was an important economist and worked in a bank in Leningrad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sinay Sivashinsky",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "economist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He was arrested in 1937-1938 [during the so-called Great Terror] 6 and served time in the camps of Solikamsk.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camps of Solikamsk",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "served time in"
+    },
+    {
+      "sentence": "He spent 10 years there and was rehabilitated after Stalin had died [Rehabilitation in the Soviet Union] 7.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "rehabilitated"
+    },
+    {
+      "sentence": "His elder son perished at the frontline.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "elder son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "frontline",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished at"
+    },
+    {
+      "sentence": "His younger son, a doctor, was also in the war, but survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "younger son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "He lives in Moscow now, has a daughter from his first marriage and a son from his second marriage.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Sinay also moved to Moscow during his last years, where he died in the 1970s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sinay",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Grandfather Moisey was a rather important figure in the Jewish community of Leningrad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Grandfather Moisey",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "figure in"
+    },
+    {
+      "sentence": "He was a shochet and a mohel.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shochet and mohel",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "As a shochet he was acknowledged by the synagogue and had the right to ritually slaughter the cattle.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shochet",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "as"
+    },
+    {
+      "sentence": "As a mohel, he obtained the right from the Jewish religious community to perform the ceremony of circumcision for boys on the eight day after their birth.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mohel",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "as"
+    },
+    {
+      "sentence": "Grandmother Khana and Grandfather Moisey lived in one apartment with my grandmother's parents, the Neimotins.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Grandmother Khana and Grandfather Moisey",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Grandfather Moisey and grandmother Khana got married in 1900.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Grandfather Moisey and grandmother Khana",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My mother's elder brother, Vulf Sivashinsky - they called him Vladymir at home - was born in St. Petersburg in 1904.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Vulf Sivashinsky",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He worked as a watchman, as a worker at the clothes factory and Murmansk railroad, as a sailor on Ladoga Lake and as a scraper in 'Utilsoyuz'.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "watchman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In 1922 Vulf entered the adult workers' school and in 1935 without interruption of work graduated from the chemical faculty of S. M. Kirov 10 Light Industry Academy with almost all excellent marks.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Vulf",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Light Industry Academy",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Being a chemical engineer, he engaged himself with such a boring subject as processing secondary scrap.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemical engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "being"
+    },
+    {
+      "sentence": "He got married at an early age, when he was 19, to Esphir Berkovna Starobina, a friend of his sister Sima; they studied together at the pharmaceutical technical school.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Esphir Berkovna Starobina",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "After finishing school Esphir worked in a drugstore.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Esphir",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "drugstore",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Their first son Mikhail was born in 1924 and in 1940 they had another son, Semyon.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Mikhail",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They lived with Esphir's parents in a huge communal apartment 11, which belonged to the Starobins before the Revolution.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "communal apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "When the Great Patriotic war broke out, Esphir and Semyon got evacuated to Omsk, Siberia.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Esphir and Semyon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Omsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "Vulf and his elder 17-year-old son Mikhail volunteered to the front.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Vulf and Mikhail",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "volunteered to"
+    },
+    {
+      "sentence": "In September 1941 Mikhail perished in the battle near Gatchina in Leningrad region.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Mikhail",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "battle near Gatchina",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "His father participated in the war, was in Zapolarye, Poland, Hungary, Austria and Germany.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "His father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zapolarye",
+        "type": "GPE"
+      },
+      "verb_pattern": "was in"
+    },
+    {
+      "sentence": "He served in chemical forces, was an army officer, a major, with battle awards.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemical forces",
+        "type": "ORG"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "He was wounded and partially lost his hearing in the war.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "wounded in"
+    },
+    {
+      "sentence": "He died in 1963, both he and his wife were buried in the Jewish cemetery in Leningrad.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "he and his wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "Uncle Vladymir's son Semyon graduated after World War II from the mathematical-mechanical faculty of Leningrad State University, though it wasn't easy for a Jew to enter it.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Semyon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad State University",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "He married a Jewish girl early, at the age of 19, just like his father.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish girl",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "His daughter graduated from Leningrad Polytechnic Institute and lives with her family in the USA now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "His daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "His son graduated from two institutes: the Bonch-Bruyevich Leningrad Institute of Communication and later, having understood, that his mission was medicine, he graduated from Leningrad Pediatric Institute.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "His son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad Pediatric Institute",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "He worked on probation for three years in the USA, defended a Ph.D. thesis on chemotherapy and is now a brilliant oncologist at Leningrad Oncological Center at Pesochnaya station.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "oncologist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "is"
+    },
+    {
+      "sentence": "One of my mother's sisters Serafima, or Sima Gutman was born in St. Petersburg in 1907.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Serafima Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She finished the pharmaceutical technical school in 1924 and worked at the Blood Transfusion Institute as a laboratory assistant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "laboratory assistant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She was a very intelligent biochemist.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "biochemist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Her husband Israel Gutman was a construction engineer; he was often sick.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Israel Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "construction engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "They lived in a tiny room of nine square meters with their small sons.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tiny room",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "After World War II they moved into a small apartment with great difficulties.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "small apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "moved into"
+    },
+    {
+      "sentence": "They raised three sons, who graduated from Leningrad Fine Mechanics and Optics Institute, got married and have grownup children and grandchildren.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "three sons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad Fine Mechanics and Optics Institute",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Two of them live with their families in the USA and one lives in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Two of them",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "She left for the USA with her husband and younger son in 1992.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "She fell sick along with her husband and they died on the same day.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She and her husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "same day",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "Another sister of my mother, Maria or Musya Starobina was born in St. Petersburg in 1911.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Maria Starobina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She worked as an accountant at Lenin Munition Plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She married the brother of Uncle Vulf's wife, Samuil Starobin, and they had a daughter.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Samuil Starobin",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They lived in a small room along with Samuil's parents.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "small room",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Musya's husband worked at the aircraft plant and was a highly qualified worker with, as they say, 'magical hands'.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Musya's husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Aunt Musya died early, in 1955 at the age of 44 of rheumatic heart disease.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Aunt Musya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1955",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "The whole family was shocked by her death.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "her",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "rheumatic heart disease",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "death"
+    },
+    {
+      "sentence": "She was buried in the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "Musya's daughter graduated from Leningrad Construction Engineering Institute and became a construction engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Musya's daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "construction engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "In 1972 she emigrated to Paris with her husband and son.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "She works as a translator from French and English in various technical fields.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "translator",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "works as"
+    },
+    {
+      "sentence": "My mother's younger brother, Iosif Sivashinsky, was born in 1914.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Iosif Sivashinsky",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was a very good electronic engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "electronic engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Iosif worked at a plant, which produced projecting and cinematographic equipment and decided to enter a technical school attached to the plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "plant",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Iosif finished this school and later on worked with navigation devices as an engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He lived with his wife and daughter in one apartment, along with Grandfather Moisey and Grandmother Khana.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Tasya, not being a Jewess, was very much loved in such a religious family as my grandparents Sivashinskys'.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Tasya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Iosif",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "She was German, her father was subject to repression and she was scared of everything.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "her father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "repression",
+        "type": "EVENT"
+      },
+      "verb_pattern": "subject to repression"
+    },
+    {
+      "sentence": "Tasya, not being a Jewess, was very much loved in such a religious family as my grandparents Sivashinskys'.",
+      "relationship_type": "accepted_by",
+      "subject": {
+        "entity": "Tasya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sivashinsky family",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "loved in"
+    },
+    {
+      "sentence": "She was quiet and nice; a real dove.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Iosif",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "During the war Iosif worked in besieged Leningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Iosif",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "At the end of 1944 he was sent to the Far East on the threshold of the war with Japan 13.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Far East",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "After the war Iosif and his daughter worked in a secret organization and were 'rejected' for a long time; they weren't allowed to go abroad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Iosif and his daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "secret organization",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Later they moved to the USA.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Iosif died in 2000.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Iosif",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "2000",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's younger sister Polina Berlina was born in 1917.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Polina Berlina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1917",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She worked since her youth at Krasnaya Zarya factory, which produced telephone sets.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Krasnaya Zarya factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "She married Zalman Berlin, who graduated from Leningrad Bonch-Bruevich Institute of Communication and, being a telecommunications worker, also worked at the Krasnaya Zarya.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zalman Berlin",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was in the war, always carrying a box and a cable spool, repairing the communication system; he was wounded.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "in the war"
+    },
+    {
+      "sentence": "Zalman died a long time ago.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zalman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "long time ago",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Polina has two children, a daughter and a son.",
+      "relationship_type": "parent_of",
+      "subject": {
+        "entity": "Polina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "two children",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "has"
+    },
+    {
+      "sentence": "They all live in the USA now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "My maternal grandparents, Moisey and Khana, lived in besieged Leningrad during the war and in 1942 they were among the last ones to get evacuated across Ladoga Lake [via the so-called Road of Life] 14.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "Moisey and Khana",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated from"
+    },
+    {
+      "sentence": "They traveled for a long time in that train and finally arrived at Omsk, where their relatives had been evacuated to before.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Omsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived at"
+    },
+    {
+      "sentence": "They returned to Leningrad in 1944, when the siege had been lifted.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My grandfather died in 1953 and grandmother died a year later, in 1954.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1953",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They were buried in the Preobrazhensky Jewish cemetery in Leningrad.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Preobrazhensky Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My mother, Frida Moiseyevna Dembo, was born in St. Petersburg in 1901 and was the eldest child in the family.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Frida Moiseyevna Dembo",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "When she married my father, she was only 19 years old.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "my father",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My parents got married in 1920.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father continued working at the Oktyabrskaya railroad.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Oktyabrskaya railroad",
+        "type": "ORG"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "First he worked as a stoker, then he moved further up to the position of train driver assistant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stoker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "At the same time he entered Polytechnic Institute and combined work and studies.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Polytechnic Institute",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "Relatives decided that his parents should go to Paris, where my father should continue his studies at the Sorbonne.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "his parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "The sister of my mother's father, Rakhil, lived in Paris at that time and agreed to accept my parents.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rakhil",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "In 1924 my parents left Petrograd and my mother had to quit her wonderful institute.",
+      "relationship_type": "left_from",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "They lived for several months in Riga, where my mother was introduced to all my father's relatives, and after that they left for Paris.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "They lived in Paris for ten years with mother's aunt, first at one place and later they moved to Rue de Prague, 8 - it was the Rothschild foundation building.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father studied at the faculty of applied mechanics of the Sorbonne affiliate in the town of Nancy and worked at the Worthington machine- building plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Worthington machine-building plant",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My mother worked as a seller in a store and did some other jobs.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "seller",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I was born in 1931 and was the only child in the family.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "When my father obtained a Sorbonne diploma in 1934, they had to decide what to do next.",
+      "relationship_type": "graduated_from",
+      "subject": {
+        "entity": "my father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sorbonne",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "obtained diploma from"
+    },
+    {
+      "sentence": "So in 1934 we all moved to the Soviet Union, to Leningrad, which had already been renamed after Lenin's death in 1924.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Upon our return from France my father started to work at the Leningrad Metal Plant [LMP], which was the first domestic turbine producer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "my father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad Metal Plant",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "He worked at the special design bureau, which designed pumps.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "special design bureau",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My mother worked in the graphics department of the Hermitage and translated inscription on etchings from French into Russian.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Hermitage",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "When we returned to Leningrad in 1934, I was three years old.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "Since my mother began to work at the Hermitage, I attended the kindergarten for Hermitage employees' children.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "kindergarten",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "attended"
+    },
+    {
+      "sentence": "In the summer of 1941 we planned to visit Grandmother Sara in Riga, but then the war broke out.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Grandmother Sara",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I was already a schoolgirl before the war, but I was evacuated with the kindergarten to Yaroslav region.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaroslav region",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "I remember clearly how I walked along Nevsky prospect [the main street of Leningrad] with a rucksack.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We were sent to the Volga river and my parents stayed in Leningrad.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Volga river",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "Our troop train with children was in-between those trains that headed to the frontline and the Germans bombed us all the time.",
+      "relationship_type": "attacked_by",
+      "subject": {
+        "entity": "us",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "bombed"
+    },
+    {
+      "sentence": "Finally we reached our place of destination.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaroslav region",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "It was the village of Iskra in Yaroslav region.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "village of Iskra",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Yaroslav region",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We were distributed among the nicest, charming Volga citizens; they were the kindest people!",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Volga region",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "among"
+    },
+    {
+      "sentence": "We lived there, went to school and did agricultural work.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaroslav region",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived there"
+    },
+    {
+      "sentence": "My parents stayed in besieged Leningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "My mother continued working at the Hermitage.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Hermitage",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "When Kalinin's 15 instruction arrived about the evacuation of the LMP to the Urals, my father was recalled from the home guard.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "LMP",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Urals",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "evacuation to"
+    },
+    {
+      "sentence": "They got loaded onto the troop train and left, but my mother got off the train earlier, near the town of Buguruslan, and found me.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "my mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buguruslan",
+        "type": "GPE"
+      },
+      "verb_pattern": "near"
+    },
+    {
+      "sentence": "Later, having said goodbye to the hospitable villagers, I left with my mother to the Urals, where my father was.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I and my mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Urals",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "left to"
+    },
+    {
+      "sentence": "In 1940 Latvia was annexed to Russia.",
+      "relationship_type": "annexed_by",
+      "subject": {
+        "entity": "Latvia",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "annexed to"
+    },
+    {
+      "sentence": "When the Great Patriotic War broke out in 1941, Riga already had some information about the Germans persecuting Jews in Poland.",
+      "relationship_type": "persecuted_by",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "persecuting"
+    },
+    {
+      "sentence": "Thus when the Germans approached Riga, my grandmother and her daughter Cecilia escaped with the retreating Red Army, taking only a bundle with belongings and a small suitcase with Cecilia's tools with them.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "my grandmother and Cecilia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "escaped from"
+    },
+    {
+      "sentence": "They left with the last trucks and found themselves in Pskov region.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pskov region",
+        "type": "GPE"
+      },
+      "verb_pattern": "found themselves in"
+    },
+    {
+      "sentence": "Later my grandmother somehow found out where her younger son Gerasim got evacuated with his family and they reached us at the beginning of 1942 in the Urals.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Urals",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "They came absolutely lice-ridden, exhausted and more dead than alive.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "came"
+    },
+    {
+      "sentence": "In 1943 my grandmother, her daughter and her son's family moved to the town of Podolsk in Moscow region and in 1944 they both returned to liberated Riga.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "A bomb hit their house and nothing remained of it, not even the foundation, so they had to start from scratch.",
+      "relationship_type": "destroyed_by",
+      "subject": {
+        "entity": "their house",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "bomb",
+        "type": "WEAPON"
+      },
+      "verb_pattern": "hit"
+    },
+    {
+      "sentence": "LMP was evacuated to the village of Verkhnaya Salda, not far from Nizhny Tagil [a town in Ural region, about 2,000 km from Leningrad].",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "LMP",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Verkhnaya Salda",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "The LMP engineers, clever and educated people, recalled from the home guard - just like my father - to produce turbines, were starving to death.",
+      "relationship_type": "starved_in",
+      "subject": {
+        "entity": "LMP engineers",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "starving to death"
+    },
+    {
+      "sentence": "There was no medical assistance, no medicine.",
+      "relationship_type": "suffered_in",
+      "subject": {
+        "entity": "evacuees",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "no medical assistance"
+    },
+    {
+      "sentence": "My parents also suffered from dysentery because of hunger.",
+      "relationship_type": "suffered_from",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "dysentery",
+        "type": "DISEASE"
+      },
+      "verb_pattern": "suffered from"
+    },
+    {
+      "sentence": "They lay and periodically lost their conscience.",
+      "relationship_type": "ill_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "lost conscience"
+    },
+    {
+      "sentence": "I did everything as she told me and my parents survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "illness",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "This was in 1942.",
+      "relationship_type": "occurred_on",
+      "subject": {
+        "entity": "This",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "As soon as they were up on their feet again, and my father could go to the LMP affiliate and my mother to the policlinic, where she worked at the registry office, my father's mother and sister arrived.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "my father's mother and sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Urals",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "arrived"
+    },
+    {
+      "sentence": "They were also more dead than alive.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "more dead than alive"
+    },
+    {
+      "sentence": "We all lived in a log cabin - a house made of timber.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "log cabin",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Our landlords had two houses; they gave one to us.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "gave to"
+    },
+    {
+      "sentence": "My father worked at a dairy in his childhood and he knew how to deal with horses.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "dairy",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "In the Urals, in the village of Verkhnaya Salda, where the plant, where my father worked, was evacuated, I went to school again, but we didn't really study there; we fought with the local children instead.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I faced anti-Semitism there for the first time in my life.",
+      "relationship_type": "experienced_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Verkhnaya Salda",
+        "type": "GPE"
+      },
+      "verb_pattern": "faced"
+    },
+    {
+      "sentence": "We were called 'plucked-out jews'.",
+      "relationship_type": "persecuted_in",
+      "subject": {
+        "entity": "We",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Verkhnaya Salda",
+        "type": "GPE"
+      },
+      "verb_pattern": "called"
+    },
+    {
+      "sentence": "I came home and asked who 'plucked-out jews' were.",
+      "relationship_type": "persecuted_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jew",
+        "type": "ETHNICITY"
+      },
+      "verb_pattern": "plucked-out jews"
+    },
+    {
+      "sentence": "But the strangest thing was that they called all evacuated people, even Russians, 'plucked-out jews'.",
+      "relationship_type": "persecuted_as",
+      "subject": {
+        "entity": "evacuated people",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Jews",
+        "type": "ETHNICITY"
+      },
+      "verb_pattern": "called"
+    },
+    {
+      "sentence": "Obviously, the local inhabitants thought that only Jews were evacuated.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "occupied territories",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "evacuated"
+    },
+    {
+      "sentence": "I didn't make friends with anyone there; we struggled for existence.",
+      "relationship_type": "suffered_in",
+      "subject": {
+        "entity": "we",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "evacuation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "struggled for existence"
+    },
+    {
+      "sentence": "In 1943, according to Kalinin's instruction, those employees of LMP, who survived, were again loaded onto troop trains and brought to the town of Podolsk.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "employees of LMP",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Podolsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "There was a big boiler plant there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "boiler plant",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Podolsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "there"
+    },
+    {
+      "sentence": "The plant produced boilers for electrical stations, and LMP made turbines.",
+      "relationship_type": "produced_in",
+      "subject": {
+        "entity": "plant",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Podolsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "produced"
+    },
+    {
+      "sentence": "My father was occupied with the production of pumps in Podolsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Podolsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "After the siege, the LMP employees returned to Leningrad and their families came back later.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "LMP employees",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My mother and me returned to Leningrad in June 1945.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "My mother and me",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "Father came back with his plant earlier.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back"
+    },
+    {
+      "sentence": "I remember Nevsky prospect very well, which we drove along in a truck.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "drove along"
+    },
+    {
+      "sentence": "I looked at the empty, as if extinct, city and at the houses with dark and nailed up windows, pasted with straps of paper.",
+      "relationship_type": "destroyed_in",
+      "subject": {
+        "entity": "city",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "empty, extinct"
+    },
+    {
+      "sentence": "We entered Palace Square: empty, not a soul, depressing silence.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palace Square",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "The gray Neva river with waves.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Neva river",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "The sight was terrifying.",
+      "relationship_type": "destroyed_in",
+      "subject": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "terrifying"
+    },
+    {
+      "sentence": "Our house #27 on Dobrolyubova Street, where we had lived before the war, hadn't remained intact; a bomb hit it.",
+      "relationship_type": "destroyed_by",
+      "subject": {
+        "entity": "Our house",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "bomb",
+        "type": "WEAPON"
+      },
+      "verb_pattern": "hit"
+    },
+    {
+      "sentence": "My father got a room in a communal apartment in building #23 on the same street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "communal apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "got"
+    },
+    {
+      "sentence": "My father had to break off the bricks from the window openings with a crow-bar and to make new windows.",
+      "relationship_type": "repaired_in",
+      "subject": {
+        "entity": "apartment",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "break off"
+    },
+    {
+      "sentence": "The room was crammed with furniture, gathered from the whole building and everything had to be taken out.",
+      "relationship_type": "damaged_in",
+      "subject": {
+        "entity": "building",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "crammed with"
+    },
+    {
+      "sentence": "The communal apartment was rather big, designed for six families.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "families",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "communal apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "designed for"
+    },
+    {
+      "sentence": "There was a kitchen with a wood-stove and a wash-basin, where huge fat rats sat, well-fed on the corpses during the siege.",
+      "relationship_type": "infested_in",
+      "subject": {
+        "entity": "apartment",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "rats sat"
+    },
+    {
+      "sentence": "Those rats were afraid of no one.",
+      "relationship_type": "multiplied_in",
+      "subject": {
+        "entity": "rats",
+        "type": "ANIMAL"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "afraid of no one"
+    },
+    {
+      "sentence": "There was also a tiny toilet, which didn't work properly.",
+      "relationship_type": "damaged_in",
+      "subject": {
+        "entity": "toilet",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "didn't work properly"
+    },
+    {
+      "sentence": "Torn electric wires and pieces of wallpaper hung from everywhere.",
+      "relationship_type": "damaged_in",
+      "subject": {
+        "entity": "apartment",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "torn"
+    },
+    {
+      "sentence": "Nevertheless, little by little, neighbors appeared and life returned to normal.",
+      "relationship_type": "recovered_from",
+      "subject": {
+        "entity": "life",
+        "type": "CONCEPT"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "returned to normal"
+    },
+    {
+      "sentence": "My father continued to work in his former position at the LMP.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "LMP",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "Later on their special design bureau was transferred to the Economizer Plant, which produced pumps, so he began to work there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Economizer Plant",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "work there"
+    },
+    {
+      "sentence": "My mother didn't have special medical education, but learnt a lot working at policlinics during the evacuation in Verkhnaya Salda and in Podolsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "policlinics",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "Thus, having returned to Leningrad, she found a job at a tularemia infection station, which was located not far from our house on Tatarsky Lane.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tularemia infection station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "found a job at"
+    },
+    {
+      "sentence": "They dealt with extremely dangerous infections there: plague, encephalitis, tularemia.",
+      "relationship_type": "worked_on",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "dangerous infections",
+        "type": "DISEASE"
+      },
+      "verb_pattern": "dealt with"
+    },
+    {
+      "sentence": "Tularemia is a glands' illness, like plague.",
+      "relationship_type": "treated_at",
+      "subject": {
+        "entity": "Tularemia",
+        "type": "DISEASE"
+      },
+      "object": {
+        "entity": "infection station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "is"
+    },
+    {
+      "sentence": "My mother wore a mask, rubber gloves and a tightly closed overall at work.",
+      "relationship_type": "protected_at",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "work",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "wore"
+    },
+    {
+      "sentence": "They developed a serum against infections, studied insects and other infection carriers' behavior, for which purpose they caught musk-rats.",
+      "relationship_type": "researched_at",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "infection station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "developed"
+    },
+    {
+      "sentence": "The employees went to the country where an infective epidemic was registered; for instance, my mother went to the Karelian Isthmus, when an encephalitis epidemic was registered there.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "my mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karelian Isthmus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "She took me with her on that trip.",
+      "relationship_type": "accompanied_to",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Karelian Isthmus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "took with her"
+    },
+    {
+      "sentence": "We were vaccinated beforehand.",
+      "relationship_type": "protected_against",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "infections",
+        "type": "DISEASE"
+      },
+      "verb_pattern": "vaccinated"
+    },
+    {
+      "sentence": "We lived in a wooden house.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "wooden house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother took part in the research and she took me with her because I had severe avitaminosis and furunculosis, and I needed fresh air and forest berries.",
+      "relationship_type": "suffered_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "avitaminosis and furunculosis",
+        "type": "DISEASE"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "There were really a lot of berries, but it was dangerous to walk in the forest.",
+      "relationship_type": "dangerous_in",
+      "subject": {
+        "entity": "forest",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "dangerous to walk"
+    },
+    {
+      "sentence": "Everything was completely neglected, a lot of barbed wire, shells, missiles everywhere.",
+      "relationship_type": "dangerous_in",
+      "subject": {
+        "entity": "area",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "neglected"
+    },
+    {
+      "sentence": "This was 1946-1947.",
+      "relationship_type": "occurred_on",
+      "subject": {
+        "entity": "This",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "1946-1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Resettled people from the Volga river, from Yaroslav region, lived there.",
+      "relationship_type": "resettled_to",
+      "subject": {
+        "entity": "people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Karelian Isthmus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived there"
+    },
+    {
+      "sentence": "I ran around the forest with boys, we collected some weapons, shells and hit them.",
+      "relationship_type": "dangerous_activity",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "collected weapons"
+    },
+    {
+      "sentence": "Once when we were doing it, some demobilized soldier shouted terribly at us because we could have easily blown ourselves up.",
+      "relationship_type": "warned_about",
+      "subject": {
+        "entity": "demobilized soldier",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "danger",
+        "type": "CONCEPT"
+      },
+      "verb_pattern": "shouted at"
+    },
+    {
+      "sentence": "Fortunately, everything turned out to be successful.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "danger",
+        "type": "CONCEPT"
+      },
+      "verb_pattern": "turned out successful"
+    },
+    {
+      "sentence": "My mother was a very intelligent person, she managed to cope with everything she did.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war challenges",
+        "type": "EVENT"
+      },
+      "verb_pattern": "managed to cope"
+    },
+    {
+      "sentence": "In the postwar time my parents loved to go to the theater and concerts; they especially liked [Arkadii] Raikin and [Klavdiya] Shulzhenko [both popular Soviet variety artists].",
+      "relationship_type": "enjoyed_in",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "loved to go"
+    },
+    {
+      "sentence": "My parents had a lot of friends, whom they welcomed at home with pleasure and whom they visited, too.",
+      "relationship_type": "socialized_in",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "had friends"
+    },
+    {
+      "sentence": "Their friends were of various nationalities, not only Jews; my parents were people of cosmopolitan nature, they would live well in any part of the world.",
+      "relationship_type": "tolerant_in",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "cosmopolitan nature"
+    },
+    {
+      "sentence": "I think they developed such a trait when they were young and lived in Paris for ten years.",
+      "relationship_type": "influenced_by",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They didn't like chauvinism, either Russian or Jewish.",
+      "relationship_type": "rejected_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "didn't like"
+    },
+    {
+      "sentence": "We didn't go to the summerhouses in summer because my mother didn't like all these buckets, pans, oil-stoves.",
+      "relationship_type": "avoided_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "didn't go"
+    },
+    {
+      "sentence": "My parents bought a Moskvich car: private cars weren't common yet at that time, but already affordable for well-to-do families.",
+      "relationship_type": "acquired_in",
+      "subject": {
+        "entity": "My parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "bought"
+    },
+    {
+      "sentence": "We drove to the Crimea and the Caucasus, in our own car.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Crimea",
+        "type": "GPE"
+      },
+      "verb_pattern": "drove to"
+    },
+    {
+      "sentence": "But most of all we liked to go to the Baltics: to Lithuania, Estonia, Latvia and the Lettish farm at the border with Estonia, where our close friends, Latvians lived - though I don't remember anything special about the time we spent there.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Baltics",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "As of 1955-1956 my mother didn't work anymore, she just kept the household; but she didn't manage to collect documents required for obtaining a pension.",
+      "relationship_type": "retired_in",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1955-1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "didn't work anymore"
+    },
+    {
+      "sentence": "My father worked until he was 82, though not at the Economizer Plant, but at various other places, since my mother didn't get a pension, and they had to live on something.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "82",
+        "type": "AGE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "My father died in 1988 and my mother died a year later, in 1989.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1988",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They were buried in the regular cemetery, not in the Jewish one.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "regular cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "I went to school after the war.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "post-war",
+        "type": "TIME"
+      },
+      "verb_pattern": "went to school"
+    },
+    {
+      "sentence": "It was a girls' school and I didn't like it.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "girls' school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "The teachers constantly dragged me to the toilet and made me wet and comb my curls.",
+      "relationship_type": "discriminated_at",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "dragged me"
+    },
+    {
+      "sentence": "I had real fun, but my mother was summoned to school.",
+      "relationship_type": "called_to",
+      "subject": {
+        "entity": "my mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "summoned to"
+    },
+    {
+      "sentence": "I cannot say that I was oppressed because of my nationality, but playing in the yard, I heard sometimes 'Jewish mug!', and I thought: what can I do?",
+      "relationship_type": "insulted_for",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish",
+        "type": "ETHNICITY"
+      },
+      "verb_pattern": "heard"
+    },
+    {
+      "sentence": "I faced real anti-Semitism when I entered the institute.",
+      "relationship_type": "experienced_at",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "institute",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "faced"
+    },
+    {
+      "sentence": "I finished school in 1951, since I lost about one and a half years because of all these evacuation trips.",
+      "relationship_type": "graduated_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "finished school"
+    },
+    {
+      "sentence": "I wanted to enter the philological faculty of Leningrad University, but my parents advised me to not even try to submit my documents there, in order to save time, strength and nerves, as Jews weren't accepted to university openly at that time.",
+      "relationship_type": "discriminated_at",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Leningrad University",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "weren't accepted"
+    },
+    {
+      "sentence": "I got the same advice from Natasha, my friend and neighbor in our communal apartment.",
+      "relationship_type": "advised_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Natasha",
+        "type": "PERSON"
+      },
+      "verb_pattern": "got advice from"
+    },
+    {
+      "sentence": "She was two years older than me, Russian and studied at the faculty of law.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "faculty of law",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "I submitted my documents to Leningrad Library Institute.",
+      "relationship_type": "applied_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad Library Institute",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "submitted to"
+    },
+    {
+      "sentence": "I passed the entrance exams fine, got one 'good' mark and the rest were 'excellent'.",
+      "relationship_type": "passed_exam",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "entrance exams",
+        "type": "EVENT"
+      },
+      "verb_pattern": "passed"
+    },
+    {
+      "sentence": "Why did they live there?",
+      "relationship_type": "questioned_about",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "live there"
+    },
+    {
+      "sentence": "My father wrote an explanation, I entered the institute with difficulty, but studied well and with pleasure.",
+      "relationship_type": "admitted_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "institute",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "After graduation I was assigned to work at the Kola Peninsula in the town of Kirovsk [mandatory job assignment] 19.",
+      "relationship_type": "assigned_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "I worked in a library in Kirovsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "library",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Being a 3rd-year student, I did my practice in Murmansk.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Murmansk",
+        "type": "GPE"
+      },
+      "verb_pattern": "did practice in"
+    },
+    {
+      "sentence": "I'm very grateful to my lucky stars that I got to know this wonderful land.",
+      "relationship_type": "experienced_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kola Peninsula",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "got to know"
+    },
+    {
+      "sentence": "I've been to Murmansk, in villages at the very border with Norway.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Murmansk",
+        "type": "GPE"
+      },
+      "verb_pattern": "been to"
+    },
+    {
+      "sentence": "I had to check various libraries and drove from one to another in a sleigh harnessed with dogs.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kola Peninsula",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "drove"
+    },
+    {
+      "sentence": "Since Kirovsk was a town, where apatites were mined and where convicts' camps were located, I was assigned to give them some lectures.",
+      "relationship_type": "worked_with",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "convicts",
+        "type": "PRISONER"
+      },
+      "verb_pattern": "give lectures to"
+    },
+    {
+      "sentence": "There were various convicts, including political ones, there were really a lot of them.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "convicts",
+        "type": "PRISONER"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "there were"
+    },
+    {
+      "sentence": "They worked at the mines and the concentrating factory, where the apatite ore was concentrated.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "They",
+        "type": "PRISONER"
+      },
+      "object": {
+        "entity": "mines",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "I lived in a barrack, the wind created huge snowdrifts in winter.",
+      "relationship_type": "lived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "barrack",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "There exists such an anomaly, though there are no mountains anywhere around.",
+      "relationship_type": "characteristic_of",
+      "subject": {
+        "entity": "area",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "anomaly"
+    },
+    {
+      "sentence": "I began to write applications asking for permission to go back to Leningrad.",
+      "relationship_type": "requested_return",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "go back to"
+    },
+    {
+      "sentence": "Of course, I left for home for all the holidays.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for home"
+    },
+    {
+      "sentence": "My colleagues at the library treated me very well, they understood that I was a 'mother's girl' and took care of me as much as they could.",
+      "relationship_type": "supported_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "colleagues",
+        "type": "PERSON"
+      },
+      "verb_pattern": "treated well"
+    },
+    {
+      "sentence": "Once I got into real trouble.",
+      "relationship_type": "endangered_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "got into trouble"
+    },
+    {
+      "sentence": "Terrible snow-storms occur in that area.",
+      "relationship_type": "characteristic_of",
+      "subject": {
+        "entity": "snow-storms",
+        "type": "WEATHER"
+      },
+      "object": {
+        "entity": "Kola Peninsula",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "occur in"
+    },
+    {
+      "sentence": "At that time I didn't live in Kirovsk, but 25 kilometers from the town, close to the mines, where the ore was extracted and later on delivered along a narrow-gauge railroad to this factory in Kirovsk.",
+      "relationship_type": "lived_near",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mines",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived close to"
+    },
+    {
+      "sentence": "I lived with the mother of my friend Natasha, who by that time had already passed away.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Natasha's mother",
+        "type": "PERSON"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "Our parents were friends, when we lived in one communal apartment and Natasha's mother, Alexandra Nesterovna, loved me very much.",
+      "relationship_type": "close_to",
+      "subject": {
+        "entity": "Our parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "were friends"
+    },
+    {
+      "sentence": "I went to work by bus.",
+      "relationship_type": "commuted_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "work",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "went to work"
+    },
+    {
+      "sentence": "When the snow-storm started, no one was at home and Alexandra Nesterovna, a doctor, was at her work-place at the preventorium.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexandra Nesterovna",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Being a law-abiding person, I set out to work.",
+      "relationship_type": "attempted_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "work",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "set out to"
+    },
+    {
+      "sentence": "Something terrible happened outside, nothing could be seen, not even the lampposts, there was snow up to the chest, the wind was howling and it was possible to walk only sidelong.",
+      "relationship_type": "endangered_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "snow-storm",
+        "type": "WEATHER"
+      },
+      "verb_pattern": "terrible happened"
+    },
+    {
+      "sentence": "I tied my kerchief around my head, like a mask and walked, as there was no transport.",
+      "relationship_type": "struggled_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "snow-storm",
+        "type": "WEATHER"
+      },
+      "verb_pattern": "walked"
+    },
+    {
+      "sentence": "I was walking by touch, from post to post.",
+      "relationship_type": "endangered_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "snow-storm",
+        "type": "WEATHER"
+      },
+      "verb_pattern": "walking by touch"
+    },
+    {
+      "sentence": "I left the house at 9 in the morning and came to work late at night, it was always dark there at that time, because the Polar night starts in that area in November.",
+      "relationship_type": "endured_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to work"
+    },
+    {
+      "sentence": "So I appeared in front of my colleagues in the form of a huge snow-ball.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "snow-storm",
+        "type": "WEATHER"
+      },
+      "verb_pattern": "appeared"
+    },
+    {
+      "sentence": "They scolded me, kissed me, unpacked me, massaged me, warmed me and gave me vodka to drink.",
+      "relationship_type": "cared_for",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "me",
+        "type": "PERSON"
+      },
+      "verb_pattern": "helped"
+    },
+    {
+      "sentence": "I spent the night in the apartment of our manager, Tatiana Alexandrovna.",
+      "relationship_type": "sheltered_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tatiana Alexandrovna",
+        "type": "PERSON"
+      },
+      "verb_pattern": "spent the night"
+    },
+    {
+      "sentence": "There were actually a lot of Leningraders in Kirovsk; very intelligent people, who found themselves in that area against their will in the course of Stalin's repressions.",
+      "relationship_type": "exiled_to",
+      "subject": {
+        "entity": "Leningraders",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "found themselves in"
+    },
+    {
+      "sentence": "They managed to stay decent and kind in those harsh conditions; they were always ready to help.",
+      "relationship_type": "supported_each_other",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "PERSON"
+      },
+      "verb_pattern": "ready to help"
+    },
+    {
+      "sentence": "The atmosphere was special there, I never ever felt the same in my life.",
+      "relationship_type": "characteristic_of",
+      "subject": {
+        "entity": "atmosphere",
+        "type": "CONCEPT"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "special there"
+    },
+    {
+      "sentence": "So I waited throughout the snow-storm with them.",
+      "relationship_type": "sheltered_during",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "snow-storm",
+        "type": "WEATHER"
+      },
+      "verb_pattern": "waited throughout"
+    },
+    {
+      "sentence": "A lot of people perished on that day, I was lucky to survive.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "snow-storm",
+        "type": "WEATHER"
+      },
+      "verb_pattern": "lucky to survive"
+    },
+    {
+      "sentence": "I worked in Kirovsk for two years, between 1955 and 1957, returned to Leningrad and started to look for a new job.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "I visited different organizations.",
+      "relationship_type": "searched_for",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "job",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "visited organizations"
+    },
+    {
+      "sentence": "They greeted me rather warmly, asked me to fill in a form, but having considered my application, informed me that they weren't able to take me.",
+      "relationship_type": "discriminated_against",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "organizations",
+        "type": "ORG"
+      },
+      "verb_pattern": "weren't able to take"
+    },
+    {
+      "sentence": "It wasn't easy to tell by my appearance, if I was a Jewess or not, but after I filled in the form, everything became clear.",
+      "relationship_type": "discriminated_for",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish",
+        "type": "ETHNICITY"
+      },
+      "verb_pattern": "became clear"
+    },
+    {
+      "sentence": "So I 'wandered about' for some time and later through some friends of mine found a job as a librarian at the Children's Literature Publishing House.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "librarian",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "found a job as"
+    },
+    {
+      "sentence": "It was very interesting to work in that library, as there was this wonderful manager, who during the most fearful times of persecution preserved a selection of pre-revolutionary works by children's writer Lidiya Charskaya, a file of the children's magazine Chizh & Yozh (Siskin and Hedgehog), which was banned.",
+      "relationship_type": "preserved_during",
+      "subject": {
+        "entity": "manager",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "persecution",
+        "type": "EVENT"
+      },
+      "verb_pattern": "preserved"
+    },
+    {
+      "sentence": "The manager was a person, who knew children's literature very well and loved her job devotedly.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "manager",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "librarian",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "loved her job"
+    },
+    {
+      "sentence": "I learnt a lot, working there.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "library",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working there"
+    },
+    {
+      "sentence": "Little by little, I made new friends.",
+      "relationship_type": "socialized_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "made friends"
+    },
+    {
+      "sentence": "The Writers' House was situated near the Children's Publishing House, on 18 Voinova Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Writers' House",
+        "type": "OCCUPATION"
+      },
+      "object": {
+        "entity": "18 Voinova Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "situated near"
+    },
+    {
+      "sentence": "I came to work there after some time.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Writers' House",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work there"
+    },
+    {
+      "sentence": "I worked at the so-called 'mass department' at the Writers' House, I was engaged with the writers' 'education', arranged various meetings for them with famous figures of science and engineering, artists, producers, theater and cinema actors.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mass department",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "I was very business-like and vigorous.",
+      "relationship_type": "worked_well",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Writers' House",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "business-like"
+    },
+    {
+      "sentence": "Writers are very capricious and sometimes even quarrelsome people; often I caught it from them, besides, there was a lot of gossip.",
+      "relationship_type": "worked_with",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "writers",
+        "type": "PERSON"
+      },
+      "verb_pattern": "caught it from"
+    },
+    {
+      "sentence": "I called that organization the 'viper-house' but I passed through the hard school of life there.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Writers' House",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "passed through"
+    },
+    {
+      "sentence": "I left the place in 1982 after 15 years of work there.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "left in"
+    },
+    {
+      "sentence": "I met my husband, Lev Samuilovich Freidman, in 1957 at my friends' place in Kirovsk.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "Lev was a Jewish man.",
+      "relationship_type": "was",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish",
+        "type": "ETHNICITY"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He was born in Leningrad in 1926.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His father didn't have any higher education but he was a very good practical economist and was a member of a lot of expert commissions.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "His father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "economist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Lev had twin sisters, both were doctors-pediatricians, they are still alive; and a brother, who died in 1999.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "twin sisters",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "doctors-pediatricians",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "were"
+    },
+    {
+      "sentence": "Lev studied at the Leningrad Institute of Law, but he didn't manage to obtain a diploma, as he was arrested and exiled to Kirovsk.",
+      "relationship_type": "exiled_to",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "exiled to"
+    },
+    {
+      "sentence": "Serving his time there, he got acquainted with the prosecutor of Kirovsk, his name was Finkelstein, and he had studied at the same institute in Leningrad, but they didn't know each other.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kirovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "got acquainted in"
+    },
+    {
+      "sentence": "I met Lev in the Finkelstein family, who I also got to know when in Kirovsk.",
+      "relationship_type": "met_through",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Finkelstein family",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "I married Lev at the end of 1957.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "After his sentence in Kirovsk Lev finished a construction equipment installation technical school, and all his life after that he was occupied with industrial construction at Krasny Vyborzhets plant, at Srevdlov machine-tool plant, at Izhorsky plant and others.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "construction",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "occupied with"
+    },
+    {
+      "sentence": "He was well-known among constructors, respected and loved.",
+      "relationship_type": "respected_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "work",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "respected and loved"
+    },
+    {
+      "sentence": "Regardless of the fact that he was a constructor, we weren't able to get an apartment, we were in line for a long time and finally we built a cooperative apartment.",
+      "relationship_type": "obtained_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cooperative apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "built"
+    },
+    {
+      "sentence": "In 1968 we moved into a two-bedroom cooperative apartment on Varshavskaya Street, where I still live now.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Varshavskaya Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "moved into"
+    },
+    {
+      "sentence": "In 1981 Lev was assigned by his ministry to the construction of Kostomuksha ore mining and processing combine in Karelia.",
+      "relationship_type": "assigned_to",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kostomuksha",
+        "type": "GPE"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "Lev was very soon bored with that and began to work directly with the Finns; they all understood the drawings perfectly and understood each other very well.",
+      "relationship_type": "collaborated_with",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Finns",
+        "type": "NATIONALITY"
+      },
+      "verb_pattern": "work with"
+    },
+    {
+      "sentence": "When Lev came back to Leningrad, he always said, 'The KGB is close at my heels, it doesn't allow me to breathe, besides, here you are being born in Paris...'",
+      "relationship_type": "persecuted_by",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "KGB",
+        "type": "ORG"
+      },
+      "verb_pattern": "close at my heels"
+    },
+    {
+      "sentence": "I visited him twice in Kostomuksha.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kostomuksha",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "It's a nice town, constructed by the Finns, very charming, clean and neat.",
+      "relationship_type": "built_by",
+      "subject": {
+        "entity": "town",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Finns",
+        "type": "NATIONALITY"
+      },
+      "verb_pattern": "constructed by"
+    },
+    {
+      "sentence": "But there is this iron anomaly and lack of oxygen in the air, the same as in Kirovsk, that's why I felt bad there, besides, this area was also contra-indicated to Lev because of his health.",
+      "relationship_type": "unhealthy_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kostomuksha",
+        "type": "GPE"
+      },
+      "verb_pattern": "felt bad there"
+    },
+    {
+      "sentence": "However, he worked throughout the term of his contract, returned to Leningrad at the end of 1982 and began to look for a new job, as his former position had already been occupied.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "I started to work at the Monuments' Protection Society, located on Shpalernaya Street in 1982 and worked there until I retired in 1987.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Monuments' Protection Society",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "We arranged a City Experts' Club in that Society, where very interesting and intelligent people gathered; people of various occupations, who knew and loved their city.",
+      "relationship_type": "organized_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Society",
+        "type": "ORG"
+      },
+      "verb_pattern": "arranged"
+    },
+    {
+      "sentence": "They found some materials about the besieged crematorium, which had been located in Victory Park.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "crematorium",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Victory Park",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "located in"
+    },
+    {
+      "sentence": "They told me about it in a whisper because during Brezhnev's 21 era it wasn't allowed to mention it aloud.",
+      "relationship_type": "censored_during",
+      "subject": {
+        "entity": "information",
+        "type": "CONCEPT"
+      },
+      "object": {
+        "entity": "Brezhnev era",
+        "type": "TIME"
+      },
+      "verb_pattern": "wasn't allowed"
+    },
+    {
+      "sentence": "There was a brick factory before World War II and during the siege of Leningrad the brick baking ovens were used as crematorium ovens, where dead bodies of citizens, who died in the siege, were burnt.",
+      "relationship_type": "used_as",
+      "subject": {
+        "entity": "brick baking ovens",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "crematorium",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "used as"
+    },
+    {
+      "sentence": "What else could have been done?",
+      "relationship_type": "necessitated_by",
+      "subject": {
+        "entity": "cremation",
+        "type": "ACTION"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "could have been done"
+    },
+    {
+      "sentence": "The city had to be saved, those who were alive had to be protected from infections.",
+      "relationship_type": "protected_during",
+      "subject": {
+        "entity": "citizens",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "protected from"
+    },
+    {
+      "sentence": "The information was kept secret, so that not only the enemies, but also our own people wouldn't know about it.",
+      "relationship_type": "censored_during",
+      "subject": {
+        "entity": "information",
+        "type": "CONCEPT"
+      },
+      "object": {
+        "entity": "siege",
+        "type": "EVENT"
+      },
+      "verb_pattern": "kept secret"
+    },
+    {
+      "sentence": "By the way, when I didn't yet know anything about it, I once went with my husband to that park for a walk.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I and my husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Victory Park",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "We sat on a bench and I suddenly felt unwell, very uncomfortable and uneasy.",
+      "relationship_type": "affected_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "place",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "felt unwell"
+    },
+    {
+      "sentence": "Such a mystical thing!",
+      "relationship_type": "sensitive_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tragic history",
+        "type": "CONCEPT"
+      },
+      "verb_pattern": "mystical"
+    },
+    {
+      "sentence": "Lev started working again in December 1982 and on 28th February 1983 an emergency occurred.",
+      "relationship_type": "arrested_on",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "28th February 1983",
+        "type": "DATE"
+      },
+      "verb_pattern": "emergency occurred"
+    },
+    {
+      "sentence": "I was at my parents' place in the evening, when the phone rang.",
+      "relationship_type": "located_at",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "parents' place",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "at"
+    },
+    {
+      "sentence": "Lev was speaking in a strange voice; I immediately understood that something terrible had happened.",
+      "relationship_type": "arrested",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "authorities",
+        "type": "ORG"
+      },
+      "verb_pattern": "terrible had happened"
+    },
+    {
+      "sentence": "The equipment was installed at a great height and Lev didn't want to face any accidents with human victims.",
+      "relationship_type": "concerned_about",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "safety",
+        "type": "CONCEPT"
+      },
+      "verb_pattern": "didn't want"
+    },
+    {
+      "sentence": "He fired one of the drunkards and the latter wrote a complaint about him.",
+      "relationship_type": "reported_by",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "drunkard",
+        "type": "PERSON"
+      },
+      "verb_pattern": "wrote complaint"
+    },
+    {
+      "sentence": "Lev was accused of accepting a bribe and was placed in the famous Leningrad Kresty prison.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kresty prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "placed in"
+    },
+    {
+      "sentence": "They composed a statement, but there was nothing to make an inventory of.",
+      "relationship_type": "harassed_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "authorities",
+        "type": "ORG"
+      },
+      "verb_pattern": "composed statement"
+    },
+    {
+      "sentence": "Eight or nine investigators took turns on Lev's case, they had nothing to get hold of, but he remained in Kresty.",
+      "relationship_type": "unjustly_detained",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kresty prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "remained in"
+    },
+    {
+      "sentence": "I went to the prison along with his sisters; once every two months it was allowed to deliver a package.",
+      "relationship_type": "visited_prison",
+      "subject": {
+        "entity": "I and his sisters",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kresty prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to prison"
+    },
+    {
+      "sentence": "Lev stayed in Kresty for half a year.",
+      "relationship_type": "imprisoned_for",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "half a year",
+        "type": "TIME"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "We got him out of the prison with great difficulties.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "got out of"
+    },
+    {
+      "sentence": "All witnesses in court were for the defense, the prosecution had none.",
+      "relationship_type": "supported_in",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "court",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "witnesses for defense"
+    },
+    {
+      "sentence": "Lev's colleagues found the anonymous man, who had written the letter, and beat him severely.",
+      "relationship_type": "avenged_by",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "colleagues",
+        "type": "PERSON"
+      },
+      "verb_pattern": "beat him"
+    },
+    {
+      "sentence": "These Russian guys actually helped me a lot.",
+      "relationship_type": "supported_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Russian colleagues",
+        "type": "PERSON"
+      },
+      "verb_pattern": "helped"
+    },
+    {
+      "sentence": "But the court didn't withdraw the accusation and Lev was sentenced to work in 'chemistry', as it was called at that time.",
+      "relationship_type": "sentenced_to",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "forced labor",
+        "type": "PRISONER"
+      },
+      "verb_pattern": "sentenced to"
+    },
+    {
+      "sentence": "It was a hazardous production, he worked not far from Volosovo in Leningrad region at a wood-processing factory for one and a half years.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "wood-processing factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "'Kresty' ruined his health.",
+      "relationship_type": "harmed_by",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kresty prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "ruined"
+    },
+    {
+      "sentence": "When he was released from prison, he had a green face and violet lips.",
+      "relationship_type": "damaged_by",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "imprisonment",
+        "type": "EVENT"
+      },
+      "verb_pattern": "released from prison"
+    },
+    {
+      "sentence": "His leg muscles were atrophied, he had to learn to walk again.",
+      "relationship_type": "injured_in",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "atrophied"
+    },
+    {
+      "sentence": "The prison ward meant for four people contained 18 people, there was no air to breathe, no oxygen.",
+      "relationship_type": "overcrowded_in",
+      "subject": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Kresty",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "contained"
+    },
+    {
+      "sentence": "There were criminals and drug addicts among the prisoners.",
+      "relationship_type": "mixed_with",
+      "subject": {
+        "entity": "political prisoners",
+        "type": "PRISONER"
+      },
+      "object": {
+        "entity": "criminals",
+        "type": "PRISONER"
+      },
+      "verb_pattern": "among"
+    },
+    {
+      "sentence": "Lev didn't tell me about those details in order not to upset me.",
+      "relationship_type": "protected_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "horrors",
+        "type": "CONCEPT"
+      },
+      "verb_pattern": "didn't tell"
+    },
+    {
+      "sentence": "He wasn't allowed to go to Leningrad on holidays, he was considered a social outcast, who should be in the city.",
+      "relationship_type": "restricted_by",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "authorities",
+        "type": "ORG"
+      },
+      "verb_pattern": "wasn't allowed"
+    },
+    {
+      "sentence": "He was totally depressed and he couldn't get rid of it.",
+      "relationship_type": "depressed_by",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "imprisonment",
+        "type": "EVENT"
+      },
+      "verb_pattern": "depressed"
+    },
+    {
+      "sentence": "Once we lost him on Victory Day 23 and found him later in a small village hospital with terrible pneumonia.",
+      "relationship_type": "hospitalized_with",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pneumonia",
+        "type": "DISEASE"
+      },
+      "verb_pattern": "found in hospital"
+    },
+    {
+      "sentence": "Later, when he was in Kostyushko hospital in Leningrad, the doctors were very surprised at the absolute lack of resistibility, but when they found out about the prison, they didn't ask any more questions.",
+      "relationship_type": "treated_in",
+      "subject": {
+        "entity": "Lev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kostyushko hospital",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in hospital"
+    },
+    {
+      "sentence": "He returned at the end of 1984 and in August 1993 he died, having suffered three infarcts during that period of time.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "August 1993",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He was buried in the Preobrazhensky Jewish cemetery, not according to Jewish customs, but in a secular manner, without ceremonies.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Preobrazhensky Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "I visit the cemetery often, but I never go there on Saturday.",
+      "relationship_type": "visits",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "I get packages and medicine in Hesed at lower prices.",
+      "relationship_type": "supported_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hesed",
+        "type": "ORG"
+      },
+      "verb_pattern": "get from"
+    },
+    {
+      "sentence": "I have a lot of relatives who live both in Russia and abroad, in the USA, Israel, France and Germany.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "We keep in touch and call each other.",
+      "relationship_type": "connected_with",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "keep in touch"
+    },
+    {
+      "sentence": "Certainly, I'm very worried because of the acts of terrorism, which became more frequent recently.",
+      "relationship_type": "concerned_about",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "terrorism",
+        "type": "EVENT"
+      },
+      "verb_pattern": "worried about"
+    },
+    {
+      "sentence": "When on 11th September the Trade Center Towers crashed down, we were very worried about all the Americans, but most of all we were alarmed about the fate of the grandchildren of Polina, my mother's sister, who study in prestigious schools, located not far from these Towers.",
+      "relationship_type": "endangered_by",
+      "subject": {
+        "entity": "grandchildren",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "9/11",
+        "type": "EVENT"
+      },
+      "verb_pattern": "alarmed about"
+    },
+    {
+      "sentence": "It wasn't possible to reach them via phone, and only through my cousin in Paris we found out that they were fine.",
+      "relationship_type": "contacted_through",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cousin in Paris",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "through"
+    },
+    {
+      "sentence": "And now this act of terrorism in Moscow.",
+      "relationship_type": "occurred_in",
+      "subject": {
+        "entity": "terrorism",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We didn't move away from our TV sets for days.",
+      "relationship_type": "concerned_about",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "terrorism",
+        "type": "EVENT"
+      },
+      "verb_pattern": "didn't move away"
+    },
+    {
+      "sentence": "Let alone Israel, where our relatives and friends live.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "relatives and friends",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "I had a positive attitude to their departure, I also wanted to leave together with my husband, but, as the only daughter, I couldn't leave my parents, especially when they were in their declining years and sick.",
+      "relationship_type": "stayed_for",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "couldn't leave"
+    },
+    {
+      "sentence": "Now that I'm a sick and elderly person myself I don't have any religious life, since it would be too difficult for me in terms of health.",
+      "relationship_type": "limited_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "health",
+        "type": "DISEASE"
+      },
+      "verb_pattern": "too difficult"
+    }
+  ]
+}

@@ -1,0 +1,870 @@
+{
+  "testimony_metadata": {
+    "witness": "Teofila Silberring",
+    "birth_name": "Teofila Nussbaum",
+    "birth_location": "Cracow, Poland",
+    "birth_year": 1925,
+    "interview_date": "November 2004",
+    "interviewer": "Magdalena Bizon"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I know that Father's parents lived at 8 Dlugosza Street in Podgorze [a district of Cracow on the right bank of the Vistula, until 1915 a separate town], and Mother's parents at 32 Kalwaryjska Street, also in Podgorze.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Podgorze",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "We lived in Kazimierz 1, at 21 Miodowa Street, with Grandmother, Father's mother.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kazimierz",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He had a daughter - Helenka was her name.",
+      "relationship_type": "family_relation",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Helenka",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "During the war [WWII] they all died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "He was a co-proprietor of the Cracow Husking Plants and Mills on Mogilska Street.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "co-proprietor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "My uncle died in 1937.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My uncle",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1937",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She lies buried in Miechow, except there isn't a headstone.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Miechow",
+        "type": "GPE"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "She died in I think 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They were in the Soviet Union, and only she survived; the other two died there of typhus.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Union",
+        "type": "GPE"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "Aunt Sala lived in Podgorze.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Aunt Sala",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Podgorze",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He had a grocery store on Agnieszki Street.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "grocery store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "had"
+    },
+    {
+      "sentence": "My parents, Gustawa and Juda Nussbaum, were born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Gustawa and Juda Nussbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was a journalist, a critic with Nowy Dziennik [New Daily, a Zionist daily published in Cracow], which had editorial offices on Orzeszkowa Street.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "journalist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Mom was shot in 1939, at home, by Germans who were taking away the furniture.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Mom",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot by"
+    },
+    {
+      "sentence": "I don't know where she's buried.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown location",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "buried"
+    },
+    {
+      "sentence": "They took her to somewhere in Podgorze and there, I don't know, whether in a mass grave...",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "her",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Podgorze",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "When my Mom died, Aunt Hela took us in.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Mom",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "She lived on Jasna Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jasna Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived on"
+    },
+    {
+      "sentence": "My aunt died during the war, of a tumor.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My aunt",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "We were there right until we went to the ghetto.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "We still had our things when we went into the [Podgorze] ghetto 5, and there they allocated one room to three to four families, divided by wardrobes.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Podgorze ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "went into"
+    },
+    {
+      "sentence": "In the ghetto Father worked in the hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "hospital",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "It was a carbide factory, a Jewish factory, in fact, that had been taken over by the Germans, opposite the ghetto, on 2 Lwowska Street; we used to go past the wire and it was out on the Aryan side.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "carbide factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked"
+    },
+    {
+      "sentence": "Later, when the ghetto was liquidated [13th March 1943], they ordered us to gather on the square, where the pharmacy was, now a museum.",
+      "relationship_type": "liquidated_on",
+      "subject": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "13th March 1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "liquidated"
+    },
+    {
+      "sentence": "They said that we would get everything in Plaszow 6.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plaszow",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We went on foot from Zgody Square; they took us along Wielicka Street to the camp, to Plaszow.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plaszow",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "In Plaszow I was in a barrack, and Father and my brother were in a different one, and I lost touch with them and didn't know where they were.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Plaszow",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I wasn't in Plaszow for long, because I was taken to Schindler's 7, to the Emailwarenfabrik in Zablocie.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Schindler's factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "I stayed there until the end, until they liquidated Plaszow [October 1944], and I went to Auschwitz from Schindler's factory.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Well, and from Plaszow they took us, as per that list of Schindler's, to Auschwitz.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "us",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "At Auschwitz we stood on the railway ramp because Schindler wouldn't let us be put in... to those blocks, because he wanted to have all of us.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "We",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "at"
+    },
+    {
+      "sentence": "And from there I moved to Auschwitz, because they were taking people there.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "And I was there until the liquidation of Auschwitz.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "was in"
+    },
+    {
+      "sentence": "And that was the worst, that journey; it was called the death march 8, because we walked... I walked to Leipzig.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leipzig",
+        "type": "GPE"
+      },
+      "verb_pattern": "walked to"
+    },
+    {
+      "sentence": "And so we reached the camp in Leipzig.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "We",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Leipzig",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "And so we were there, that was a transit camp, and then they put us in Buchenwald.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "us",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Buchenwald",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "put in"
+    },
+    {
+      "sentence": "And then after that we went to Ravensbruck.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "we",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Ravensbruck",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "In Ravensbruck we all prayed that they would send us back to Auschwitz, because that was just indescribable.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "We",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Ravensbruck",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "And there first the Allies liberated me, and then the Russians came in [the Russians liberated Ravensbruck on 29th/30th April 1945].",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Allies",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Ravensbruck",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "The Russians there in Malchov behaved terribly.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Russians",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Malchov",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "They killed two of my friends.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Russians",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "my friends",
+        "type": "VICTIM"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "I got back in July.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "July",
+        "type": "DATE"
+      },
+      "verb_pattern": "got back in"
+    },
+    {
+      "sentence": "I flew to Cracow like a madwoman.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "flew to"
+    },
+    {
+      "sentence": "Where my father and brother perished there's no knowing.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "father and brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "In the camps.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "father and brother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "But I was told, I mean from what I found out through the Red Cross and people who had come back, that they both died almost at the end of the war, in 1945.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We met because of a book.",
+      "relationship_type": "met",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Adam Silberring",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "We got married in 1947, and we spent our honeymoon in the Polish resort town of Zakopane.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My son, Jerzy, was born on 30th May 1949 in Cracow.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Jerzy",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband, Adam Silberring, is a chemical engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Adam Silberring",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemical engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "is"
+    },
+    {
+      "sentence": "He was born in Bochnia in 1921, the last year to graduate from high school before the war.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bochnia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His [Adam's] mother's name was Rozalia; she perished during the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rozalia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished during"
+    },
+    {
+      "sentence": "My husband has a brother, Ludwik, born in 1925.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ludwik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1925",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Ludwik lives in Switzerland, he's a professor and has two children.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ludwik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Switzerland",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "During the war, first the Germans threw them out of their house, because it's a very beautiful house.",
+      "relationship_type": "evicted_by",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "them",
+        "type": "VICTIM"
+      },
+      "verb_pattern": "threw out"
+    },
+    {
+      "sentence": "In the meantime the Germans forced them into some labor on the way somewhere, but later they made it to Lwow.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lwow",
+        "type": "GPE"
+      },
+      "verb_pattern": "made it to"
+    },
+    {
+      "sentence": "She was crossing the river San in a boat and the boat capsized and she drowned, but Ludwik was rescued and went back to Lwow.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "drowning",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "drowned"
+    },
+    {
+      "sentence": "After that the Russians deported them out to the Ural Mountains.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Russians",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Ural Mountains",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "When they returned from the Soviet Union they went to Bochnia, a small town where their house, with a dozen or so rooms, was.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bochnia",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My son Jerzy getting his professor's title from Aleksander Kwasniewski, the President of Poland.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jerzy",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "professor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "getting"
+    },
+    {
+      "sentence": "The photo was taken in 2000 in Belweder, Warsaw [seat of Polish Presidents].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "photo",
+        "type": "OBJECT"
+      },
+      "object": {
+        "entity": "Warsaw",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "My husband was working at Polfa as head of production when in 1968 [see Gomulka campaign] 13 they forced him to leave when all that with the Jews started.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "head of production",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "He went to Chemadex, that was a design office.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "design office",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "In Russia, then in Czechoslovakia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Since her marriage [2003] she is called Strzelecka-Silberring.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Strzelecki",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Her husband is a composer, an academic employee at the Academy of Music.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Her husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "composer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "is"
+    }
+  ]
+}

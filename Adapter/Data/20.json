@@ -1,0 +1,960 @@
+{
+  "testimony_metadata": {
+    "witness": "Leon Glazer",
+    "birth_location": "Bielsko, Poland",
+    "birth_year": 1923,
+    "interview_date": "December 2004",
+    "interviewer": "Jolanta Jaworska"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My name is Leon Glazer and I was born on 13th June 1923 in Bielsko.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bielsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was born in 1888 in Kamionka near Oswiecim.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Brejndl Bronislawa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kamionka",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Father was born in Plaza in 1887.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Izaak Ignacy Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Plaza",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My parents had three children: me, my older brother Maksymilian, and my sister Paulina.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Izaak and Brejndl Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Maksymilian, Paulina, Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had children"
+    },
+    {
+      "sentence": "My sister and brother went to the German gymnasium in Bielsko.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Maksymilian and Paulina Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "German gymnasium in Bielsko",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My father was a tailor by trade.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Izaak Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He had a tailor's workshop in Bielsko.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Izaak Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor's workshop",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had workshop"
+    },
+    {
+      "sentence": "I went to a 7-grade Jewish school with Polish the language of instruction.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish school",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I belonged to Hanoar Hatzioni from the beginning of school.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hanoar Hatzioni",
+        "type": "ORG"
+      },
+      "verb_pattern": "belonged to"
+    },
+    {
+      "sentence": "Bribram's father took me on in his little fittings factory as a commercial intern.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bribram's factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "1st September, the year 1939, 5 in the morning: the outbreak of war.",
+      "relationship_type": "war_started_on",
+      "subject": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "1st September 1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "outbreak"
+    },
+    {
+      "sentence": "All the Jews from Bielsko fled on the first day of the war.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Jews from Bielsko",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Bielsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "fled"
+    },
+    {
+      "sentence": "We set off for the station too.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bielsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "set off"
+    },
+    {
+      "sentence": "We got on the first one going towards Cracow.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "going towards"
+    },
+    {
+      "sentence": "We went on and got off just outside Tarnow, in Moscice.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscice",
+        "type": "GPE"
+      },
+      "verb_pattern": "got off"
+    },
+    {
+      "sentence": "And we went on from there on foot, eastward, until we got to Kolbuszowa.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kolbuszowa",
+        "type": "GPE"
+      },
+      "verb_pattern": "got to"
+    },
+    {
+      "sentence": "In Kolbuszowa we met a Jewish family; they had a farm in the village.",
+      "relationship_type": "sheltered_by",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish family in Kolbuszowa",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met family"
+    },
+    {
+      "sentence": "And so we went back, and that time we headed for Cracow.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "headed for"
+    },
+    {
+      "sentence": "Once we were in Cracow, my brother decided to go abroad, to Russia.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Maksymilian Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "He tried to cross the border with Russia, somewhere near Nisko.",
+      "relationship_type": "attempted_escape_to",
+      "subject": {
+        "entity": "Maksymilian Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "cross border"
+    },
+    {
+      "sentence": "So we stayed with the family a while and after two or three weeks or so my parents decided that we would move to Tarnow.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tarnow",
+        "type": "GPE"
+      },
+      "verb_pattern": "move to"
+    },
+    {
+      "sentence": "I got a summons from the 'Arbeitsamt', what they called the labor office - as a 17-year-old lad.",
+      "relationship_type": "summoned_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "labor office",
+        "type": "ORG"
+      },
+      "verb_pattern": "summons from"
+    },
+    {
+      "sentence": "It turned out that it was to the Pustkow labor camp.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pustkow labor camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "And there, in April 1940, I arrived to work and I was to work as a normal laborer.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pustkow",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "arrived to"
+    },
+    {
+      "sentence": "They and my brother and sister had gone to the ghetto in Tarnow.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ghetto in Tarnow",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "gone to"
+    },
+    {
+      "sentence": "I went into the ghetto once on a pass.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto in Tarnow",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "went into"
+    },
+    {
+      "sentence": "That was the last time I saw my parents and my sister.",
+      "relationship_type": "last_seen",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "parents and sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "last time saw"
+    },
+    {
+      "sentence": "My brother was sent to the camp in Pustkow too.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Maksymilian Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pustkow labor camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "In Pustkow I fell ill with typhus.",
+      "relationship_type": "fell_ill_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pustkow",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "fell ill"
+    },
+    {
+      "sentence": "He went to meet our parents, and they picked him up in the ghetto there.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Maksymilian Glaser",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "picked up in"
+    },
+    {
+      "sentence": "He was put in what they called the penal camp, well, and presumably they finished him off there.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Maksymilian Glaser",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "penal camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "finished off"
+    },
+    {
+      "sentence": "In July 1944, when the Russians had come as far as I think Baranow, they packed us off in a transport and off we went.",
+      "relationship_type": "transported_from",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pustkow",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "packed off"
+    },
+    {
+      "sentence": "They open the wagons: 'Raus'. We look: 'Arbeit macht frei'.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "arrived at"
+    },
+    {
+      "sentence": "And so that's why I've got this number, A-18077.",
+      "relationship_type": "tattooed_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "tattooed"
+    },
+    {
+      "sentence": "I was tattooed on the first day, 27th July 1944.",
+      "relationship_type": "tattooed_on",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "27th July 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "tattooed on"
+    },
+    {
+      "sentence": "I ended up in Gliwice.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gliwice",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "ended up in"
+    },
+    {
+      "sentence": "I was still a prisoner of the Auschwitz camp, just of the Gliwice branch.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gliwice camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "prisoner of"
+    },
+    {
+      "sentence": "In January we were evacuated and we left our base in Gliwice.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gliwice",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "evacuated from"
+    },
+    {
+      "sentence": "On the way we met a whole huge column from Auschwitz-Birkenau.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "Leon Glazer's transport",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz-Birkenau death march",
+        "type": "EVENT"
+      },
+      "verb_pattern": "met column"
+    },
+    {
+      "sentence": "That was that death march.",
+      "relationship_type": "forced_march",
+      "subject": {
+        "entity": "Prisoners",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "death march",
+        "type": "EVENT"
+      },
+      "verb_pattern": "death march"
+    },
+    {
+      "sentence": "We reached somewhere near Kedzierzyn at night, the Blechhammer camp.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Blechhammer camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "So then Gruen and I ran a little way to a nearby wood and sat there for several hours in the night.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Leon Glazer and Gruen",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Blechhammer camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "ran away"
+    },
+    {
+      "sentence": "We attempted an escape.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Leon Glazer and friends",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "death march",
+        "type": "EVENT"
+      },
+      "verb_pattern": "attempted escape"
+    },
+    {
+      "sentence": "We reached this place near Strzelce Opolskie.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Strzelce Opolskie",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "It wasn't until that road that we saw the first Soviet tank.",
+      "relationship_type": "liberated_by",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet army",
+        "type": "ORG"
+      },
+      "verb_pattern": "saw Soviet tank"
+    },
+    {
+      "sentence": "And that was my liberation.",
+      "relationship_type": "liberated_on",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "20th January 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "liberation"
+    },
+    {
+      "sentence": "We reached Cracow some time at the beginning of February.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "In March I went to Bielsko.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bielsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I looked for my family but I couldn't find anyone there either.",
+      "relationship_type": "searched_for",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "family members",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "looked for"
+    },
+    {
+      "sentence": "I knew that no-one had survived in the ghetto.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "didn't survive"
+    },
+    {
+      "sentence": "The ghetto in Tarnow was liquidated in 1942.",
+      "relationship_type": "liquidated_on",
+      "subject": {
+        "entity": "ghetto in Tarnow",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "liquidated in"
+    },
+    {
+      "sentence": "Presumably they were taken to Belzec.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Glazer family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Belzec",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "I managed to find only one person from the family, my cousin Roza.",
+      "relationship_type": "found_survivor",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "cousin Roza",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "found"
+    },
+    {
+      "sentence": "After being liberated from the camp she had settled there.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "cousin Roza",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "liberated from"
+    },
+    {
+      "sentence": "About her own parents she told me only that they were dead.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Roza's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "were dead"
+    },
+    {
+      "sentence": "I was the first to be called up into the army, not long after coming out of the camp, on 21st April 1945.",
+      "relationship_type": "joined_army_on",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "21st April 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "called up"
+    },
+    {
+      "sentence": "And I was sent at once to Cracow, to where the Polytechnic is now on Warszawska Street.",
+      "relationship_type": "stationed_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "In October 1945 we were sent to the Recovered Territories, to the WOP, the Lusatian Brigade of the Borderlands Protection Forces.",
+      "relationship_type": "stationed_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Recovered Territories",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "This big group of people left for Luban Slaski.",
+      "relationship_type": "stationed_in",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Luban Slaski",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "I met my wife in the summer of 1954.",
+      "relationship_type": "met",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Julia Musial",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "We got married in 1955.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Leon Glazer and Julia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1955",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "First a daughter, Bozena Anita, was born in 1956.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Bozena Anita Glazer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Later, in 1961, a son, Mariusz.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Mariusz Glazer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1961",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was dismissed in July 1968, and I went into the reserves.",
+      "relationship_type": "dismissed_on",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "July 1968",
+        "type": "DATE"
+      },
+      "verb_pattern": "dismissed in"
+    },
+    {
+      "sentence": "From September 1968 I started working in that Technical High School for Economics.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "We decided to go to Zamosc.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Leon Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zamosc",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "I moved to Zamosc literally before the Christmas break on the 20-somethingth of December 1970.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zamosc",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I came to Cracow with the children in February 1974.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Leon Glazer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "My daughter and son-in-law wanted to emigrate because of marital problems.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Bozena Anita and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrate"
+    },
+    {
+      "sentence": "They went away in January 1994.",
+      "relationship_type": "emigrated_on",
+      "subject": {
+        "entity": "Bozena Anita family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "January 1994",
+        "type": "DATE"
+      },
+      "verb_pattern": "went away"
+    },
+    {
+      "sentence": "They lived in Kiryat Yam at first, and then in Kiryat Chaim near Haifa.",
+      "relationship_type": "lived_in",
+      "subject": {
+        "entity": "Bozena Anita family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiryat Yam and Kiryat Chaim",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "After six months we went there to visit them.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Leon Glazer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to visit"
+    },
+    {
+      "sentence": "They came back to Poland because of Daniel, my grandson.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Bozena Anita family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    }
+  ]
+}

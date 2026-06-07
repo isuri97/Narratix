@@ -1,0 +1,1194 @@
+{
+  "testimony_metadata": {
+    "witness": "Sophia Abidor",
+    "birth_year": 1922,
+    "birth_location": "Odessa, Ukraine",
+    "interview_date": "April 2003",
+    "interviewer": "Ella Levitskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather's name was Chaim Burda.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Chaim Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "grandfather"
+    },
+    {
+      "sentence": "My father, Semyon Burda, never told me what my grandfather did for a living.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "father"
+    },
+    {
+      "sentence": "My father was born in 1898.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1898",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Riva, his sister, was the youngest.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riva Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "sister"
+    },
+    {
+      "sentence": "Riva and her family were in evacuation in Tashkent.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Riva Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "in evacuation in"
+    },
+    {
+      "sentence": "My father's older brother Simkha went to Tashkent in the 1920s.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Simkha Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Simkha died in 1946.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Simkha Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Yakov died in Mariupol in 1949.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yakov Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mariupol",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandfather Abram Magner was born in Odessa in 1864.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Abram Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother Sima Magner was born in 1868.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sima Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1868",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather was a joiner.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Abram Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "joiner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My grandmother was a housewife.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sima Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "housewife",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My mother Dora was born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Dora Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Marcus and his wife perished in Odessa in 1941 when Germans occupied the town.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Marcus Magner",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Marcus' daughter survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Rosa Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "My mother's brother Leonid finished the Higher Party School in Odessa.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Leonid Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Higher Party School",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "Leonid died in Odessa in 1965.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Leonid Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's older sister Ekaterina worked as a clerk at the railroad department in Odessa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ekaterina Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "railroad department",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Ekaterina died in Odessa in 1950.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ekaterina Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Isaac moved to Moscow in the 1920s.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Isaac Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He was at the front during the Great Patriotic War.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Isaac Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "at the front"
+    },
+    {
+      "sentence": "He came to an untimely end in Moscow in 1950.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Isaac Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They got married in 1920.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Semyon and Dora Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My father worked as a tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I was born in 1922.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1922",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My sister Zina followed in 1925.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Zina Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1925",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother had to go to work to support us.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Dora Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "confectionery factory",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to work"
+    },
+    {
+      "sentence": "She went to work at the confectionery factory.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Dora Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "confectionery factory",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "In 1933 my mother's parents died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Abram and Sima Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1933",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "They were buried in the Jewish cemetery in Odessa.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Abram and Sima Magner",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Odessa",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "I finished school in 1939.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "secondary school",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished school"
+    },
+    {
+      "sentence": "I was admitted to the General Faculty of Odessa Medical University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Odessa Medical University",
+        "type": "ORG"
+      },
+      "verb_pattern": "admitted to"
+    },
+    {
+      "sentence": "I got married in 1940 after finishing my 1st year at Odessa Medical University.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Grigori was born in Goloskovo in 1919.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Goloskovo",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His father Moisey Abidor, born in 1890, was a joiner.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Moisey Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1890",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His mother Maria Abidor, born in 1894, was a dressmaker.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Maria Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1894",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Golda, the older one, was born in 1917.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Golda Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1917",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Beba, the younger one, in 1926.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Beba Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1926",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In the 1930s their family moved to Khmelnitskiy.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Abidor family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Khmelnitskiy",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Our son Iziaslav was born in Odessa during the war.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was recruited to the army at the end of July.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "recruited to"
+    },
+    {
+      "sentence": "Germans occupied Odessa on 10th October 1941.",
+      "relationship_type": "occupied",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "occupied"
+    },
+    {
+      "sentence": "We managed to board the last boat to Sevastopol.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Sophia and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sevastopol",
+        "type": "GPE"
+      },
+      "verb_pattern": "boarded boat to"
+    },
+    {
+      "sentence": "When we arrived in Sevastopol the Germans were very close.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Sophia and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sevastopol",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "We were taken to the railway station where we took a train to Rostov-on-Don.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Sophia and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rostov-on-Don",
+        "type": "GPE"
+      },
+      "verb_pattern": "took train to"
+    },
+    {
+      "sentence": "I decided to go to Buturlinovka village, Voronezh region, in Russia.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Buturlinovka",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "In spring 1942 my husband's parents, Golda and her family, my mother, my sister and I moved to Tashkent, Uzbekistan.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Abidor and Burda families",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I became a 3rd-year student at Tashkent Medical University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tashkent Medical University",
+        "type": "ORG"
+      },
+      "verb_pattern": "student at"
+    },
+    {
+      "sentence": "My sister passed the entrance exams to Tashkent Credit Economy College.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Zina Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent Credit Economy College",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "My mother went to work as a laborer at a tank plant.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Dora Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tank plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "In December 1941 he finished artillery school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "artillery school",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "He was wounded for the first time in 1943.",
+      "relationship_type": "injured_in",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "wounded in"
+    },
+    {
+      "sentence": "On 10th April 1944 we heard that the Soviet army liberated Odessa.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Soviet army",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "In November 1944 Grigori was wounded for the second time in battles near Koenigsburg.",
+      "relationship_type": "injured_in",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Koenigsburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "wounded in"
+    },
+    {
+      "sentence": "He was sent to a hospital in Smolensk, Russia.",
+      "relationship_type": "treated_at",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "hospital in Smolensk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sent to hospital"
+    },
+    {
+      "sentence": "My father demobilized in 1945 and returned to Odessa.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "He worked as a tailor in a shop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My father died in Odessa in 1982 at the age of 84.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Semyon Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother died of a heart attack on the train near Odessa in 1952.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Dora Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1952",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My sister made a career and was promoted to head of the planning department.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zina Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "head of planning department",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "promoted to"
+    },
+    {
+      "sentence": "She married a nice Jewish man.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zina Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish man",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They had two children: a son called Evgeniy, born in 1952, and a daughter called Svetlana, born in 1956.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Evgeniy and Svetlana",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1952 and 1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1992 Zina's husband died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zina's husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1992",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "When her children and their families decided to move to Israel in 1995 my sister chose to go with them.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Zina Burda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "move to"
+    },
+    {
+      "sentence": "We have lived here since 1946.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Sophia and Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Our daughter Zhanna was born in 1946.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Zhanna Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I became a 5th-year student at the Medical Faculty of Uzhgorod University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Uzhgorod University",
+        "type": "ORG"
+      },
+      "verb_pattern": "student at"
+    },
+    {
+      "sentence": "My husband was appointed to work at the Voentorg.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Voentorg",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Upon graduation I got a mandatory job assignment in a small town called Perechin, 40 km from Uzhgorod.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Perechin",
+        "type": "GPE"
+      },
+      "verb_pattern": "job assignment in"
+    },
+    {
+      "sentence": "I worked there for four years before I returned to Uzhgorod.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Perechin",
+        "type": "GPE"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "I got a job at the regional clinic of venereal and skin diseases.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Sophia Abidor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "regional clinic",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My husband became the director of the Uzhgorod Brick Plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "director of brick plant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became director"
+    },
+    {
+      "sentence": "Later he was appointed deputy chief engineer of the Regional Industrial Union.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "deputy chief engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "appointed"
+    },
+    {
+      "sentence": "Grigori entered the Mechanic Extramural Department of Lvov Forestry Technical College.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov Forestry Technical College",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "He went to work at Uzhgorod Pribor Plant.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorod Pribor Plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My husband retired in 1991 at the age of 72.",
+      "relationship_type": "retired_on",
+      "subject": {
+        "entity": "Grigori Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1991",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired in"
+    },
+    {
+      "sentence": "Our son Iziaslav decided to continue his education in Moscow.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "education in"
+    },
+    {
+      "sentence": "He entered the Faculty of Physics and Chemistry of Moscow Chemistry College.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow Chemistry College",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "He worked at the Oncology Scientific Research Institute in Moscow.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Oncology Scientific Research Institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "In the late 1980s he moved to America with his family.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He married Valentina, a Russian girl.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Valentina",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Their daughter Elena was born in 1968.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Elena Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1968",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Our son died in 1992.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Iziaslav Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1992",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Our daughter Zhanna entered the Mechanic Faculty of Uzhgorod University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Zhanna Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorod University",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "She graduated from the Polytechnic College in the Ural.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Zhanna Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Polytechnic College",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Zhanna's last name in marriage is Ivanova.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zhanna Abidor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russian man",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She has two daughters: Marina, born in 1972, and Ludmila, born in 1977.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Marina and Ludmila",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1972 and 1977",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Marina graduated from Kharkov Credit and Economy Academy.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Marina Ivanova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kharkov Credit and Economy Academy",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Marina married an Arab man.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Marina Ivanova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arab man",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Ludmila moved to Israel after finishing school.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Ludmila Ivanova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "She graduated from a college there.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ludmila Ivanova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "college in Israel",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    }
+  ]
+}

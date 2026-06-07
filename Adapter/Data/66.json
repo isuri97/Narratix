@@ -1,0 +1,922 @@
+{
+  "testimony_metadata": {
+    "witness": "Manin Rudich",
+    "birth_location": "Cuciurul Mare",
+    "birth_year": 1932,
+    "interviewer": "Andreea Laptes",
+    "interview_date": "May 2003",
+    "interview_location": "Brasov, Romania"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father, Iacob Rudich, was born in Cernauti in 1900.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Iacob Rudich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was born in Cernauti in 1907 and spoke Yiddish, Romanian and German.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My elder sister, Rozalia Adler, nee Rudich, was born in 1927 and I was born in Cuciurul Mare in 1932.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cuciurul Mare",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He died in Transnistria.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Cecilia was shot in front of her house along with her son Ficicu, and one of her brothers, Bubi Weiselberg, in 1941.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Cecilia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "German troops",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "Her husband left for the USA, and was on the Struma ship.",
+      "relationship_type": "died_in",
+      "subject": {
+        "entity": "Her husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Struma ship",
+        "type": "EVENT"
+      },
+      "verb_pattern": "on the Struma ship"
+    },
+    {
+      "sentence": "When he was young he had worked as a clerk for a lumber station, and he had to come and work in Cuciurul Mare.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "clerk",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My father started to run the shop, along with my mother.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "run the shop"
+    },
+    {
+      "sentence": "My father had been in the Romanian army during World War I.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romanian army",
+        "type": "ORG"
+      },
+      "verb_pattern": "in the Romanian army"
+    },
+    {
+      "sentence": "He told us he had traveled a lot, he had been in Czechoslovakia and in Italy, where people used to eat cats.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovakia and Italy",
+        "type": "GPE"
+      },
+      "verb_pattern": "been in"
+    },
+    {
+      "sentence": "They married in the synagogue, but I don't know exactly when.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "I remember one of those times, when my parents took me and my sister to Cernauti to eat out in a restaurant because it was kosher.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "I went to the regular state school when I was seven; it was compulsory to go.",
+      "relationship_type": "attended",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "state school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "When I was in the first class in school the teacher took us to Cernauti, to the railway station: King Carol and his son, King Michael, were coming.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "teacher took us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "Once, in the late 1930s, when I was already in school, I went to see a movie with my parents in Cernauti.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Cernauti was a beautiful town, and there were a lot of Jews.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In Cuciurul Mare, where we lived, there were also two, but not as big as the ones in Cernauti, where one was for those who were well-off, and one for the poor Jews.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cuciurul Mare",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I went to the mikhveh in Cernauti once or twice, and I remember going there with my father, and sitting on benches.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I remember my father went to see the rabbi in Cernauti.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "All the Jews in Cuciurul Mare met in the synagogue on Saturdays and on the high holidays.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cuciurul Mare",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Before World War II started, there were many Jews brought to our town from Transylvania; this was back in 1939 or 1940.",
+      "relationship_type": "brought_to",
+      "subject": {
+        "entity": "Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "our town",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "I remember the flight of the Poles; there were many who came our way, to Cernauti or Cuciurul Mare.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Poles",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cernauti or Cuciurul Mare",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "They took over Bukovina, Bessarabia and Cernauti.",
+      "relationship_type": "occupied",
+      "subject": {
+        "entity": "They",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Bukovina, Bessarabia and Cernauti",
+        "type": "GPE"
+      },
+      "verb_pattern": "took over"
+    },
+    {
+      "sentence": "In 1941, I remember it was afternoon, a neighbor came to us hastily and said that the German troops that entered the village, had shot my aunt Cecilia, her son Ficicu and my uncle Bubi, and told us to hide in his house.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "my aunt Cecilia, her son Ficicu and my uncle Bubi",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "German troops",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "The rest of us had to fall into line and march all the way to Transnistria.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "The rest of us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "march to"
+    },
+    {
+      "sentence": "We walked for almost three months, it was already fall, September, when we reached Snitkov.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Snitkov",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "Many Jews were left behind in Mohilev-Podolsk, but we were taken to Snitkov.",
+      "relationship_type": "left_in",
+      "subject": {
+        "entity": "Many Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mohilev-Podolsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "left behind in"
+    },
+    {
+      "sentence": "Snitkov was a ghetto.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Snitkov ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "was a ghetto"
+    },
+    {
+      "sentence": "And it happened in the fall of 1941, that one morning I got out underneath the barbed wire and went to beg in town.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "barbed wire"
+    },
+    {
+      "sentence": "In the winter of 1941 I fell ill with typhoid fever.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "typhoid fever",
+        "type": "EVENT"
+      },
+      "verb_pattern": "fell ill with"
+    },
+    {
+      "sentence": "In the meantime Irina had found out my name, came to the ghetto, bribed the sentry and showed him what she brought into the ghetto.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Irina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "Many people went out of the ghetto to work.",
+      "relationship_type": "worked_from",
+      "subject": {
+        "entity": "Many people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "went out of"
+    },
+    {
+      "sentence": "The colonel of the military unit in Snitkov - Lange was his name - asked which one of us spoke German and Ukrainian.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "military unit",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Snitkov",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "My father knew Ukrainian and he had also studied German in school, so he became a translator for the colonel, and my mother was a cleaning woman for the offices because she was considered trustworthy with her husband working as a translator.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "translator",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became a"
+    },
+    {
+      "sentence": "One night, when the colonel was away, the SS-officers gathered all the Jews and took them to a place, where a common grave had already been dug.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "all the Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "common grave",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "They started selecting us - the old and the very young were to be shot, and the young and strong were to be sent to work.",
+      "relationship_type": "selected_for",
+      "subject": {
+        "entity": "the old and the very young",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shot",
+        "type": "ACTION"
+      },
+      "verb_pattern": "to be shot"
+    },
+    {
+      "sentence": "I was sent to the children's row, to the ones to be shot, and my sister was sent to the other.",
+      "relationship_type": "selected_for",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shot",
+        "type": "ACTION"
+      },
+      "verb_pattern": "to be shot"
+    },
+    {
+      "sentence": "On the way back, we heard tractors, but only later we understood why, somebody told us: those tractors, usually used to plough, were let to run in order to cover the noise of the shots and to hide the mass grave.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mass grave",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "shots"
+    },
+    {
+      "sentence": "In the whole ghetto, the only Jews left were us.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "The colonel took us to live in a house, and after three days he came and talked to my mother and father.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "The colonel took us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took to live in"
+    },
+    {
+      "sentence": "Then I will take you over to the Romanian side.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "you",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romanian side",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "take over to"
+    },
+    {
+      "sentence": "The ghetto was split in two parts, and the colonel took us to Copaigorod, to the Romanian side.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "the colonel took us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Copaigorod",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "I remember we were also in a place called Shargorod, but only briefly; it might have been that place where they dug the common grave, I'm not sure.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Shargorod",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We were on the Romanian side, in the spring of 1944 - it was April, I think - when a Russian armored car with the red star on it appeared, and a big fat Russian woman looked out through the cock-pit and shouted, 'Comrades, liberation!'.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "liberation"
+    },
+    {
+      "sentence": "I left the ghetto with a cousin of mine, to gather firewood, somewhere near some bombed houses, and some Romanian soldiers caught us and beat us both.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "The Ukrainian woman who had helped me, Irina, came to the gates of the ghetto and told us to stay still because the Soviet army was drawing near; it was just a few kilometers away.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Irina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "The first to arrive were the Cossacks on horseback; lots of them.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Cossacks",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "arrive"
+    },
+    {
+      "sentence": "They dismounted, and their commander ordered to remove the barbed wire, and people braced up and came out.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "came out"
+    },
+    {
+      "sentence": "Then trucks started coming, and my father went up to them and talked to the people, and we rode with the front.",
+      "relationship_type": "liberated_by",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet army",
+        "type": "ORG"
+      },
+      "verb_pattern": "rode with"
+    },
+    {
+      "sentence": "I said goodbye to Irina.",
+      "relationship_type": "helped_by",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Irina",
+        "type": "PERSON"
+      },
+      "verb_pattern": "said goodbye to"
+    },
+    {
+      "sentence": "When we came back to Cuciurul Mare in 1944, we just found wasteland: our house had been demolished.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cuciurul Mare",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    },
+    {
+      "sentence": "I was twelve years old when I came back from Transnistria, and I studied two more years in Russian, because Cuciurul Mare was under Russian rule by then.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "came back from"
+    },
+    {
+      "sentence": "In these two years we spent in Cuciurul Mare, my father was a supervisor in a food warehouse; he distributed food to different shops.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "supervisor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "We stayed in Cuciurul Mare until March 1946, when the Russian authorities announced that everybody who had been deported and was a Romanian citizen could emigrate to Romania.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "everybody who had been deported",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romania",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrate to"
+    },
+    {
+      "sentence": "I was already here, in Brasov, when the state of Israel was born.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brasov",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "So he worked as a shift supervisor in a food shop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shift supervisor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He worked there from 1946 until he retired in 1960.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "food shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked"
+    },
+    {
+      "sentence": "When we moved to Brasov, I was 14 years old and I hadn't had my bar mitzvah.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brasov",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "After high school I started working at Carpatex textile factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Carpatex textile factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "That was in 1951 and I worked there until I retired in 1990.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Carpatex textile factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked"
+    },
+    {
+      "sentence": "I buried my father in the Jewish cemetery here in Brasov, with Rabbi Deutsch present, and I recited the Kaddish at the cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My sister Rozalia worked in a knitwear factory, after she finished high school.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My sister Rozalia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "knitwear factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "She married in 1955, I think.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "husband",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Her husband was Alter Adler, a Jew as well.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Alter Adler",
+        "type": "PERSON"
+      },
+      "verb_pattern": "husband was"
+    },
+    {
+      "sentence": "He had been deported to Auschwitz, and he was the only one of his family who survived.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "He was a tailor and worked at a cooperative.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "They were married in the synagogue here, by Rabbi Deutsch.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My sister and her husband left for Israel as well, in 1990, because their first grandson was born, and they couldn't stay away.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "My sister and her husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "They live in Rishon le Zion, and Iosif is an English teacher there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rishon le Zion",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "I married my wife, Dorina Draghici, in 2000, after we had been together for 25 years.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Dorina Draghici",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    }
+  ]
+}

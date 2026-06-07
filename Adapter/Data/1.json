@@ -1,0 +1,726 @@
+{
+  "testimony_metadata": {
+    "witness": "Hanna Ferber",
+    "birth_location": "Jelgava, Latvia",
+    "birth_year": 1919,
+    "interview_date": "March 2002",
+    "interviewer": "Svetlana Kovalchuk"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in September 1919.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "September 1919",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1919 in Jelgava.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jelgava",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father, Adolf Hercenberg, was born in 1880.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Adolf Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1880",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother, Feike Ite Hercenberg, was born in 1884.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Feike Ite Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1884",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband, Shimon Ferber, was born in 1917 in Tukums.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Shimon Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tukums",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Boris was born in 1908, in Liepaja.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Boris Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Liepaja",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My sister Gita was born in 1910.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Gita Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1910",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Isaac was born in 1912 in Jelgava.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Isaac Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jelgava",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Edward lived in Riga.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Edward Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Gustav lived in Tallinn.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gustav Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tallinn",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother lived in Jelgava.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Feike Ite Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jelgava",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Emmanuel lives in Haifa today.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Emmanuel Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Haifa",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Rafi had a house in Ramatasharon.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rafi Harlev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ramatasharon",
+        "type": "GPE"
+      },
+      "verb_pattern": "house in"
+    },
+    {
+      "sentence": "My father was sent to Glazov.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Adolf Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Glazov",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "They were brought to Riga.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Hercenberg family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "Mass deportation of people to the East of Russia.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Jewish people",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "East of Russia",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "deportation to"
+    },
+    {
+      "sentence": "My father had been deported to the North.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Adolf Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "the North",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "Boris immigrated to Palestine in 1926.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Boris Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "In 1989 I went to Israel.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My parents got a permit to go back to Mitava.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Adolf and Feike Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mitava",
+        "type": "GPE"
+      },
+      "verb_pattern": "go back to"
+    },
+    {
+      "sentence": "We came back to Riga through Leningrad in 1945.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Hanna Ferber and mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    },
+    {
+      "sentence": "My father died in 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Adolf Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My husband died in 1996.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Shimon Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1996",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Oleg Maniyev died when he was 47.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Oleg Maniyev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "age 47",
+        "type": "DATE"
+      },
+      "verb_pattern": "died when"
+    },
+    {
+      "sentence": "Nikolai Krilov died in 1945.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Nikolai Krilov",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They all died in the ghetto in Jelgava in 1941.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Gita, Moric, and Atida Rozenberg",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto in Jelgava",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Isaac had been killed in Staraja Rus in 1941.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Isaac Hercenberg",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Staraja Rus",
+        "type": "GPE"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "My parents were married in 1906.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Adolf and Feike Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1906",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1928 he married Sonya Liven.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Boris Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sonya Liven",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1933 she married Moric Rozenberg.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Gita Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moric Rozenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1938 Isaac married Sara Sorkina.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Isaac Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sara Sorkina",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "We had a chuppah.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Hanna and Shimon Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chuppah ceremony",
+        "type": "EVENT"
+      },
+      "verb_pattern": "had chuppah"
+    },
+    {
+      "sentence": "Our daughter married Oleg Maniyev.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Fira Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Oleg Maniyev",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father had two brothers, Edward and Gustav.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Adolf Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Edward and Gustav Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had brothers"
+    },
+    {
+      "sentence": "He had two brothers.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Shimon Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Max Mendel and Emmanuel Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had brothers"
+    },
+    {
+      "sentence": "Edward owned a prosperous antique shop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Edward Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "antique shop owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "owned shop"
+    },
+    {
+      "sentence": "Gustav was the representative of the Italian 'Viskoza Ltd'.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gustav Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Viskoza Ltd representative",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "representative of"
+    },
+    {
+      "sentence": "My mother ran a dining room.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Feike Ite Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "dining room operator",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "ran dining room"
+    },
+    {
+      "sentence": "I started to work as a bookkeeper.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "bookkeeper",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "I was made a manager of a division.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "manager",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "manager of"
+    },
+    {
+      "sentence": "He is a professor at the university.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruvin Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "professor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "professor at"
+    },
+    {
+      "sentence": "Now she is a businesswoman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Fira Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "businesswoman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "is a"
+    },
+    {
+      "sentence": "He was a pharmacist.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Emmanuel Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pharmacist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "I entered a Jewish Gymnasium.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish Gymnasium",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "I entered the English College.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "English College",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "I enrolled at university in Kirov.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "university in Kirov",
+        "type": "ORG"
+      },
+      "verb_pattern": "enrolled at"
+    },
+    {
+      "sentence": "Gita graduated from the German gymnasium.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Gita Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "German gymnasium",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "My son Ruvin graduated from Latvia University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruvin Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Latvia University",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "My daughter graduated from Latvia University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Fira Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Latvia University",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Isaac joined the Latvian army in 1934.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Isaac Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Latvian army",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "He was an army officer, a pilot.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Rafi Harlev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "army officer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was officer"
+    },
+    {
+      "sentence": "I worked at the Ministry of Transportation.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ministry of Transportation",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "He started to work at the Ministry of Trade.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Shimon Ferber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ministry of Trade",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "I was accepted at the Evacuation Hospital No. 3156.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Hanna Ferber",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Evacuation Hospital No. 3156",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "accepted at"
+    },
+    {
+      "sentence": "Boris sent us matzah through the Red Cross.",
+      "relationship_type": "helped_by",
+      "subject": {
+        "entity": "Boris Hercenberg",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Red Cross",
+        "type": "ORG"
+      },
+      "verb_pattern": "through"
+    }
+  ]
+}

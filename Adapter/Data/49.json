@@ -1,0 +1,935 @@
+{
+  "testimony_metadata": {
+    "witness": "Makhlia Khalzova",
+    "birth_location": "Pistyn near Kosov, Ukraine",
+    "birth_year": 1914,
+    "interviewer": "Ella Orlikova",
+    "interview_date": "December 2002",
+    "interview_location": "Lvov, Ukraine"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandparents were born in Lvov some time around 1850.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "My paternal grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father's mother Laya Ostrover inherited from her father a jewelry store in the center of the town.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "jewelry store",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "in the center of"
+    },
+    {
+      "sentence": "After the wedding Golda, who for some reason changed her name on her wedding to Genia, moved to her husband in Moscow and I have no more information about them.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Golda",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "After my grandfather died before World War I Laya moved to her daughter in Moscow.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Laya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father was born in Lvov in 1873.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother Leya Schwarg, if my memory doesn't fail me this was her name before marriage, was born in the town of Bobrka near Lvov in 1877.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Leya Schwarg",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bobrka",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her father Sender Schwarg died of typhoid when she was twelve.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sender Schwarg",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "typhoid",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died of"
+    },
+    {
+      "sentence": "My mother had to go to work as a nanny for a Ukrainian family.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "nanny",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Esther married a Jewish man, who was visiting his relatives in Bobrka, a worker from Lvov, and they had three daughters: Zocia, Lyusia and Lisa, and a son - Stanislav.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Esther",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish man",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Stanislav became an actor in the Jewish theater in Lvov.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Stanislav",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "actor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "Esther died from a disease in early 1930.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Esther",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1930",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His daughters were married and lived in Lvov with their families.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "His daughters",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They all perished during the Great Patriotic War in Yanovski camp.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yanovski camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "In 1894 my mother and father settled down in the village of Pistyn near Kosov, 150 kilometers from Lvov.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my mother and father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pistyn",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled down in"
+    },
+    {
+      "sentence": "My father worked at the wood cutting facility that became a factory on a later date in the town of Sniatyn, 20 kilometers from Pistyn, where he rented an apartment with other workers.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "wood cutting facility",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "The first girl in the family, Olia, born in 1897, died when she was two years old, but I don't know what caused her death.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Olia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1899",
+        "type": "DATE"
+      },
+      "verb_pattern": "died when"
+    },
+    {
+      "sentence": "The next child Khaya, born in 1904, finished the local grammar school for Jewish and Ukrainian children.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Khaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1904",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Khaya became a dressmaker.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Khaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "dressmaker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "She married Zeilek, a Jewish man and they moved to Kalush near the town of Stanislav [Ivano-Frankovsk at present], 200 kilometers from our village.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zeilek",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "When the Germans came in 1941 he died of a heart attack on that very day, I guess, it was an infarct.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My brother Alter, born in 1908, came of age at 13.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Alter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He finished the local school and became a very good tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "He worked at a shop in Kosov owned by a Jew.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "My second brother Idlei, born in 1912, was handicapped: his left arm and leg were underdeveloped.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Idlei",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1912",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1914.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Shortly after I was born World War I began and my father was recruited to the army.",
+      "relationship_type": "recruited_to",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "recruited to"
+    },
+    {
+      "sentence": "I remember my father coming back home from the war in 1917.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "coming back from"
+    },
+    {
+      "sentence": "Then, in 1919, my younger sister Itta was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Itta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1919",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "When the Soviet power was established in 1939 Itta went to work as a clerk at the fire department in Kosov.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Itta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "clerk",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "On 16-17 October 1941 they captured almost half of the Jewish community of the village to take them to execution in the vicinity of the village.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Jewish community",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "16-17 October 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "execution on"
+    },
+    {
+      "sentence": "Then the Germans put my father, mother and handicapped Idlei into a gas chamber truck and left the truck somewhere.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "my father, mother and Idlei",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "put into gas chamber"
+    },
+    {
+      "sentence": "When they were dead, their bodies were thrown out some place - nobody knows where.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "gas chamber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "were dead"
+    },
+    {
+      "sentence": "The rest of the Jews were taken to Kolomyia where they were gradually exterminated.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kolomyia",
+        "type": "GPE"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "We reached Kharkov where I went to work as an attendant in a hospital and Itta worked in the hospital pharmacy.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "attendant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "We stayed in Kharkov until October 1941.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kharkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "The front was getting closer and the hospital moved to a settlement in Krasnodar region [150 kilometers from Kharkov].",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "hospital",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Krasnodar region",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Vassiliy Khalzov was an attendant and then a medical nurse in this same hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Vassiliy Khalzov",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "attendant and medical nurse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He was born in 1919.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1919",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Our hospital moved to Lvov in the spring of 1945.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "hospital",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In 1945 my brother Alter, who was demobilized after he was severely wounded, found me.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Alter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "demobilized after"
+    },
+    {
+      "sentence": "He told me that when the war began Maria, a Ukrainian woman from Kosov, hid him.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Alter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "hid"
+    },
+    {
+      "sentence": "Alter ran away from her, crossed the frontline and joined the Soviet army.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "Alter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet army",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "He was wounded several times and participated in the liberation of Ukraine, Poland and Czechoslovakia.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Ukraine, Poland and Czechoslovakia",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "occupation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "liberation of"
+    },
+    {
+      "sentence": "In 1946 Alter married Sonia, the daughter of a rabbi from Wroclav in Poland.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Alter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sonia",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They had their wedding in Lvov; it was a traditional Jewish wedding with a chuppah and a rabbi.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Alter and Sonia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "In 1946 Soviet authorities permitted the Polish population to return to Poland and my brother and his family moved to Wroclav.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "my brother and his family",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Wroclav",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They moved to the US in the 1950s.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "US",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They live in Chicago now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Chicago",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "When my brother turned 80 [in 1988] he decided to have a bullet, which he had had for 50 years, removed from his body.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "my brother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1988",
+        "type": "DATE"
+      },
+      "verb_pattern": "turned 80"
+    },
+    {
+      "sentence": "He passed away during the surgery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "surgery",
+        "type": "EVENT"
+      },
+      "verb_pattern": "passed away during"
+    },
+    {
+      "sentence": "My sister Itta married Vershkin, a Russian man, a military, in 1946.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Itta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vershkin",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They lived not far from us in Lvov.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Her son Victor lives in Lvov and her daughters married Ukrainian men and moved away: Tania lives in St. Petersburg and Klava lives in Zhytomyr.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Tania",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Itta lives in the vicinity of Lvov.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Itta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Her husband died in the 1980s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Her husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1980s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1946 I gave birth to three girls.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "three girls",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "gave birth in"
+    },
+    {
+      "sentence": "That same year, in 1946, Vassiliy and I registered our marriage in a registry office.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Vassiliy and I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "PERSON"
+      },
+      "verb_pattern": "registered marriage"
+    },
+    {
+      "sentence": "Vassiliy demobilized from the army and began to work at the flour mill factory; he was a mechanic there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Vassiliy",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mechanic",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Our daughter Valentina was born in 1949 and Alla followed in 1953.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Valentina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He died in 1972 - he came home from work, lay down and never woke up.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1972",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Ludmila finished school and a college.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ludmila",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "college",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "She worked as an accountant at a meat factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She married Vladimir Voronin, a Russian man.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vladimir Voronin",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Valentina finished school and didn't want to continue her studies.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Valentina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "She went to work as a clerk at a passport office.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "clerk",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She married Zarovskiy, a Polish man.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zarovskiy",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Their son Vladek is a student at Lvov University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Vladek",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov University",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "student at"
+    },
+    {
+      "sentence": "I live with my younger daughter Alla.",
+      "relationship_type": "lives_with",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Alla",
+        "type": "PERSON"
+      },
+      "verb_pattern": "live with"
+    },
+    {
+      "sentence": "She has a higher education - she graduated from polytechnic college and worked as an engineer at a TV factory, but who needs engineers nowadays?",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Alla works as a cook in the administration of Jewish organizations when representatives of Joint or other associations visit them - representatives of Jewish communities from other towns.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alla",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "cook",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "works as"
+    },
+    {
+      "sentence": "He works as a manager in a private company in Rovno and is a very respectable man.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "manager",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "works as"
+    }
+  ]
+}

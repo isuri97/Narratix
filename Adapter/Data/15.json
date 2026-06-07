@@ -1,0 +1,791 @@
+{
+  "testimony_metadata": {
+    "witness": "Theodore Magder",
+    "birth_location": "Iasi, Romania",
+    "birth_year": 1921,
+    "interview_date": "July 2004",
+    "interviewer": "Zhanna Litinskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather, Yakov Magder, whom I never met, came from the Romanian town of Vaslui.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Yakov Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vaslui",
+        "type": "GPE"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "He and my grandmother, whose name I can't remember, lived in Vaslui all their life.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Yakov Magder and grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vaslui",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Grandfather Yakov died in 1926.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yakov Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1926",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's older brother, Adolf Magder, born in the early 1880s.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Adolf Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "early 1880s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Adolf got a higher pedagogical education at Bucharest University.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Adolf Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bucharest University",
+        "type": "ORG"
+      },
+      "verb_pattern": "education at"
+    },
+    {
+      "sentence": "He was a teacher and a progressive activist in Bucharest.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Adolf Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "Adolf died in this hospital during the Great Patriotic War.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Adolf Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish hospital in Bucharest",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's younger brother, Benjamin Magder, born in 1889.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Benjamin Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1889",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Benjamin was a well-to-do attorney and owned a house in Bucharest.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Benjamin Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "attorney",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He died in the late 1980s in his own bed.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Benjamin Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "late 1980s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father, Solomon Magder, was born in 1887.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Solomon Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1887",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He entered the Law Faculty of the University of Iasi.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Solomon Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "University of Iasi",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "My mother's father, Israel Feinzilber, was born in Iasi in 1860.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Israel Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Iasi",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1930 my grandmother and grandfather moved to Bucharest.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Israel Feinzilber and wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My grandfather Israel died in 1939.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Israel Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother died a few months after my grandfather.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My mother's older brother, Mathey Feinzilber, lived in Paris and was a doctor and a writer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mathey Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "doctor and writer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My mother's older sister, Tonia Rozenstein, nee Feinzilber, also lived in Bucharest.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Tonia Rozenstein",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "When the fascist regime of Antonescu came to power in Romania, he moved to Palestine with his family.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Tonia's husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He died there in the middle of the 1940s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Tonia's husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Tonia's son, Emil Rozenstein, perished in France during World War II.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Emil Rozenstein",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "My mother's younger sister, Sonia Feinzilber, married a Mr. Nadler, a Romanian Jew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Sonia Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mr. Nadler",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They moved to Egypt.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Sonia and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Egypt",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They lived in Alexandria where her husband owned a confectionery.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Sonia and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Alexandria",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "During and after the Great Patriotic War Sonia and her husband lived in Switzerland.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Sonia and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Switzerland",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They died in the early 1950s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sonia and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "early 1950s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's younger brother, Simon Feinzilber, also finished the Medical Faculty in Iasi.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Simon Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Medical Faculty in Iasi",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "He lived and worked in France like his older brother.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Simon Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Emil, the youngest brother, became a businessman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Emil Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "businessman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "In the late 1930s he moved to Palestine with his wife and their son, Edwin.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Emil Feinzilber",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Emil and his wife died after the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Emil Feinzilber and wife",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "after war",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My mother, Sima Magder, nee Feinzilber, was born in Iasi in 1889.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sima Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Iasi",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My parents got married in Iasi in 1912.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Solomon and Sima Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Iasi",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "In 1913 my father and his brother were drafted to the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Solomon Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Romanian army",
+        "type": "ORG"
+      },
+      "verb_pattern": "drafted to"
+    },
+    {
+      "sentence": "He moved to Kishinev immediately.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Solomon Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kishinev",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I was born there on 30th October 1921.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Theodore Magder",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "30th October 1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "My father was recruited to the Romanian army in 1940.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Solomon Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Romanian army",
+        "type": "ORG"
+      },
+      "verb_pattern": "recruited to"
+    },
+    {
+      "sentence": "My father was in Romania, had no contact with us, and facing the crash of his views - democracy and respect of people - and understanding that he couldn't stand to live under a fascist regime, he committed suicide.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Solomon Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Romania",
+        "type": "GPE"
+      },
+      "verb_pattern": "committed suicide"
+    },
+    {
+      "sentence": "Her name was Asia Shnirelman. She was born into the Jewish family of a doctor in Kishinev in 1922.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Asia Shnirelman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kishinev",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "On 6th July I was recruited to the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Theodore Magder",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "recruited to"
+    },
+    {
+      "sentence": "I was in Krasnodar [Russia], 1,500 kilometers from home.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Theodore Magder",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Krasnodar",
+        "type": "GPE"
+      },
+      "verb_pattern": "in location"
+    },
+    {
+      "sentence": "My mother, Asia and her family were in a village in Kuban region, near Krasnodar.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "mother and Asia's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kuban region",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in location"
+    },
+    {
+      "sentence": "We stopped in Dagestan for some time waiting for a boat.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Theodore and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Dagestan",
+        "type": "GPE"
+      },
+      "verb_pattern": "stopped in"
+    },
+    {
+      "sentence": "From there we took a boat to cross the Caspian Sea.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Theodore and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "across Caspian Sea",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "took boat to"
+    },
+    {
+      "sentence": "Then we took a train to Uzbekistan.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Theodore and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzbekistan",
+        "type": "GPE"
+      },
+      "verb_pattern": "took train to"
+    },
+    {
+      "sentence": "We arrived at Tashkent.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Theodore and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived at"
+    },
+    {
+      "sentence": "So, we found ourselves in Bukhara, 3,500 kilometers from Kishinev.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Theodore and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bukhara",
+        "type": "GPE"
+      },
+      "verb_pattern": "found in"
+    },
+    {
+      "sentence": "I had to go to a mine in Sverdlovsk region.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Theodore Magder",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mine in Sverdlovsk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "go to work"
+    },
+    {
+      "sentence": "In late 1943 my mother fell ill and died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sima Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "late 1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Shortly after my mother's death, Asia and I registered our marriage in a registry office.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Theodore and Asia Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "marriage",
+        "type": "EVENT"
+      },
+      "verb_pattern": "registered marriage"
+    },
+    {
+      "sentence": "In 1950 our son was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Victor Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1950",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "Victor entered the popular faculty of the prestigious Electrotechnical College in Leningrad.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Victor Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Electrotechnical College in Leningrad",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "Victor entered the university in Kishinev.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Victor Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "university in Kishinev",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "He married Rita Vaksman, his co-student.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Victor Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rita Vaksman",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Their daughter, Ada, was born in 1973.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ada Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1973",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My son decided to move to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Victor Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "move to"
+    },
+    {
+      "sentence": "My darling wife Asia never saw our son again. She died on 8th August 1989.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Asia Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "8th August 1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "He arrived in the country with his wife Rita and their one-year-old daughter, Ada.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Victor Magder and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "Ada got married and has two children, a son named Odet and a daughter named Sarrah.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ada Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "got married"
+    },
+    {
+      "sentence": "In 1982 my son's daughter Ilana was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ilana Magder",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    }
+  ]
+}

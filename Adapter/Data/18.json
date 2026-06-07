@@ -1,0 +1,830 @@
+{
+  "testimony_metadata": {
+    "witness": "Frieda Stoyanovskaya",
+    "birth_location": "Borispol, Ukraine",
+    "birth_year": 1907,
+    "interview_date": "March 2002",
+    "interviewer": "Tatyana Chaika"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in the town of Borispol in the vicinity of Kiev.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Borispol",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1907.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1907",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother, Rosalia Borisovna Stoyanovskaya [nee Margolina], was born in Borispol in 1884.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rosalia Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Borispol",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather Zalman, or Abram Illich Stoyanovskiy, was the breadwinner in the family.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zalman Stoyanovskiy",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "breadwinner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He had a small but prospering stationary store in town.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zalman Stoyanovskiy",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stationary store owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had store"
+    },
+    {
+      "sentence": "His younger sister, my favorite aunt, Gisia, worked in his store.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gisia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stationary store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "My grandfather Zalman perished there, as well as his younger son and my uncle Shaya.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Zalman Stoyanovskiy",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "This pogrom happened at the same time as the Simchat Torah holiday.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Jewish victims",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Simchat Torah",
+        "type": "DATE"
+      },
+      "verb_pattern": "happened"
+    },
+    {
+      "sentence": "Daddy and mamma, we three kids, and our granny Chernia went to Kiev where there were practically no gangs at that time.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Stoyanovskaya family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "We found shelter at our acquaintances' place and lived there for some time.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Stoyanovskaya family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "acquaintances' place",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived there"
+    },
+    {
+      "sentence": "Then we lived in some basements, and later we got accommodation in an apartment at Podol.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Stoyanovskaya family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Podol",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Mamma went to work as seamstress at a factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rosalia Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "seamstress",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "She worked there until she grew old, before 1938 approximately.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Rosalia Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1938",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "In 1921, after daddy died, she was left with three children.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Frieda's father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "I went to a Russian school and Ida went to a Ukrainian school for some reason.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Russian school",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to school"
+    },
+    {
+      "sentence": "In 1924 I finished school.",
+      "relationship_type": "studied_until",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "finished school"
+    },
+    {
+      "sentence": "My school also became Jewish and they taught in Yiddish.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish school",
+        "type": "ORG"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "My younger brother Semyon also went to study there.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Semyon Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish school",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to study"
+    },
+    {
+      "sentence": "I went to the Pedagogical College.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pedagogical College",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I became a Komsomol member in 1924, the year of Lenin's death.",
+      "relationship_type": "joined_organization",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Komsomol",
+        "type": "ORG"
+      },
+      "verb_pattern": "became member"
+    },
+    {
+      "sentence": "The years of my study at the Pedagogical College, 1924-29.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Pedagogical College",
+        "type": "ORG"
+      },
+      "verb_pattern": "study at"
+    },
+    {
+      "sentence": "My sister also went to Pedagogical College after finishing secondary school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ida Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pedagogical College",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "She became a teacher of Ukrainian literature and language and I became a history teacher.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "history teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "After I finished my school I had to go to a far-away village in the vicinity of Kharkov to work as a teacher.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "I worked there for a whole year as director and teacher at the primary school.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "director and teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "After returning to Kiev I got another assignment to work in the so-called school for the liquidation of ignorance, at the factory where they made matches.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "I was twenty when I got a job at a town school.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job at"
+    },
+    {
+      "sentence": "He took me as his fiancée, first to Kharkov and then to Kiev.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kharkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "My husband was from a very poor Jewish family from a small shtetl, Makarov, Kiev area.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Semyon Goldfine",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Makarov",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "We got married in July 1931.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Frieda and Semyon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "July 1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My sister Ida and I got married at the same time at the registration office of Podol district in Kiev.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Our son Victor was born in this little room.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Victor Goldfine",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "little room",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We lived there until 1938, when Semyon Gordeyev, my husband, became a member of the Union of Soviet Writers.",
+      "relationship_type": "joined_organization",
+      "subject": {
+        "entity": "Semyon Gordeyev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Union of Soviet Writers",
+        "type": "ORG"
+      },
+      "verb_pattern": "became member"
+    },
+    {
+      "sentence": "I worked as a history teacher in a lower secondary, and then a higher secondary school.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "history teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I studied at the Kiev Pedagogical Institute from 1932-35.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev Pedagogical Institute",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "Our son was born in 1933.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Victor Goldfine",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1933",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband had to go to villages and describe these processes in the newspaper.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Semyon Gordeyev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "journalist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work for newspaper"
+    },
+    {
+      "sentence": "My sister Ida and her husband were in Donbass then.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ida Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Donbass",
+        "type": "GPE"
+      },
+      "verb_pattern": "were in"
+    },
+    {
+      "sentence": "On 6th July we left on the writers' train to be evacuated to Ufa, Bashkyria.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Frieda's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ufa",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "My brother Semyon was mobilized to the front.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Semyon Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "mobilized to"
+    },
+    {
+      "sentence": "He went through the whole war with military units.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Semyon Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "military units",
+        "type": "ORG"
+      },
+      "verb_pattern": "went through war"
+    },
+    {
+      "sentence": "He was on the front line until his tragic death in Vienna at the end of April 1945.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Semyon Stoyanovskaya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vienna",
+        "type": "GPE"
+      },
+      "verb_pattern": "death in"
+    },
+    {
+      "sentence": "During the war, until the summer of 1944, I worked as a history teacher in the small village of Chishmy in the vicinity of Ufa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "history teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "We lived with mamma in a cold house near the school.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "cold house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I was a history teacher at the higher secondary school.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "history teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was teacher"
+    },
+    {
+      "sentence": "My sister Ida and her children joined us in the middle of the war.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ida Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chishmy",
+        "type": "GPE"
+      },
+      "verb_pattern": "joined us"
+    },
+    {
+      "sentence": "Her husband Mikhail perished on the front.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Mikhail Shepelyov",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished on"
+    },
+    {
+      "sentence": "Rivka Margolina, Semyon's mother, was living in Kiev.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rivka Margolina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "In the summer of 1944 my family and I returned to Kiev.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My husband Semyon Moiseyevich returned in 1946.",
+      "relationship_type": "returned_on",
+      "subject": {
+        "entity": "Semyon Gordeyev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "returned in"
+    },
+    {
+      "sentence": "Almost on Victory Day, on 5th May 1945 we received notification about the death of my brother Semyon.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Semyon Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "5th May 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "death"
+    },
+    {
+      "sentence": "We found out that he was buried at the cemetery of the Soviet military in Vienna.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Semyon Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vienna",
+        "type": "GPE"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "Arrests began anew in our Writers' Building, but this time they were arresting the Jewish writers.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Jewish writers",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Writers' Building",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "arresting"
+    },
+    {
+      "sentence": "Gofstein, a famous writer, was arrested.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Gofstein",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Soviet Union",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "Fortunately, I got a job teaching history.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Frieda Stoyanovskaya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "history teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job teaching"
+    },
+    {
+      "sentence": "In 1953 my mother died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rosalia Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1953",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "She went to Israel in the early 1970s, lived many years there, and died in Netanya several years ago.",
+      "relationship_type": "died_in",
+      "subject": {
+        "entity": "Ida Stoyanovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Netanya",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He went to Germany.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Leonid Goldfine",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "He and his wife and my grandchildren live in Munich now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Leonid Goldfine",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Munich",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "In 1990 my husband Semyon Moiseyevich Goldfine-Gordeyev died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Semyon Goldfine-Gordeyev",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1990",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My three nieces, Ida's daughters, live in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ida's daughters",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "Two of them live in Netanya, and one lives in Tzefat with her husband.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "nieces",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Netanya and Tzefat",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "There is another cemetery in Kiev - the Jewish cemetery - where my father and my mother are buried.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Frieda's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Kiev",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    }
+  ]
+}

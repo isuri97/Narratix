@@ -1,0 +1,1051 @@
+{
+  "testimony_metadata": {
+    "witness": "Martin Glas",
+    "birth_location": "Prague, Czech Republic",
+    "birth_year": 1931,
+    "interview_date": "August - November 2006",
+    "interviewer": "Lenka Koprivová"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father's father was named Rudolf Glas. He was born sometime around 1860 in Prague.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rudolf Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He worked as a bank clerk, and moved to Terst [Trieste] because of work.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rudolf Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "bank clerk",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He moved to Terst [Trieste] because of work.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rudolf Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Trieste",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Sometime around 1905 he returned to Vienna with his family.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Rudolf Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vienna",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "In 1942 he arrived in Terezin.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Rudolf Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "My grandfather actually had a very sad life. He died in Terezin in 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rudolf Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father [Julian Glas] was born in Terst in 1896.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Trieste",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "From the age of five, when he moved to Vienna with his parents.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vienna",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Because Mr. Hoffmann was an Aryan, this marriage saved her life.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Riesa Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "saved her life"
+    },
+    {
+      "sentence": "During World War I my father fought on the Eastern Front.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Eastern Front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "fought on"
+    },
+    {
+      "sentence": "He fell into captivity, from which he managed to escape.",
+      "relationship_type": "captured_in",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War I",
+        "type": "EVENT"
+      },
+      "verb_pattern": "fell into captivity"
+    },
+    {
+      "sentence": "He began studying law at the university in Vienna.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "university in Vienna",
+        "type": "ORG"
+      },
+      "verb_pattern": "studying at"
+    },
+    {
+      "sentence": "He became a managing clerk at a bank.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "managing clerk",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "Grandpa Carl Fischer, my mother's father, was born in 1861 in Mlada Boleslav.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Carl Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mlada Boleslav",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Grandpa Fischer died when I was two.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Carl Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pre-war period",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Grandma Fischer I remember very well.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Grandma Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "remember"
+    },
+    {
+      "sentence": "Then she arrived in Terezin, where she stayed until the end.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Grandma Fischer",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "After the war she immigrated to Australia where her two daughters were.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Grandma Fischer",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Australia",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "She died in about 1965.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandma Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1965",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's brother was named Emil.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Emil Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gertruda Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "brother"
+    },
+    {
+      "sentence": "During World War I he lost his left arm.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "Emil Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War I",
+        "type": "EVENT"
+      },
+      "verb_pattern": "lost arm"
+    },
+    {
+      "sentence": "In Terezin wasn't allowed to be put on a transport, and stayed there the whole time.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Emil Fischer",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "stayed"
+    },
+    {
+      "sentence": "After the war he immigrated to Israel, where he died in 1972.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Emil Fischer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "My mother's name was Gertruda. She was born in Jihlava in 1896.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Gertruda Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jihlava",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My parents met in 1916, when my father was a soldier and visiting his uncle in Jihlava while on leave.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Julian and Gertruda Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jihlava",
+        "type": "GPE"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "They were married in 1920, and moved to Prague.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Julian and Gertruda Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They moved to Prague, because my father's bank opened a branch office there.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Julian and Gertruda Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My brother was born in 1924.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Hanusz (Jan) Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1931.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We were supposed to report to the Gestapo in Stresovice on 16th April 1942.",
+      "relationship_type": "deported_on",
+      "subject": {
+        "entity": "Glas family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "16 April 1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "report to"
+    },
+    {
+      "sentence": "We left on a normal passenger train to Bohusovice.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Glas family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Bohusovice",
+        "type": "GPE"
+      },
+      "verb_pattern": "left to"
+    },
+    {
+      "sentence": "We then walked to Terezin.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Glas family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "walked to"
+    },
+    {
+      "sentence": "At first we lived in the shloiska in the Magdeburg barracks.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Glas family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Magdeburg barracks",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Then I was with my brother and father in the Sudeten barracks.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sudeten barracks",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I arrived, the same as my mother, in the Hamburg barracks.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Hamburg barracks",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "She worked in agriculture, which had several advantages.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gertruda Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "agriculture worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "My brother became a coachman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "coachman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "In the Hamburg barracks we lived in 'Heim 236.'",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Heim 236",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "In January 1944 they moved us to 'Heim No. 2' in the school at L 417.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "L 417 school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In May 1944 our entire family moved into one room together.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Glas family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin room",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "moved into"
+    },
+    {
+      "sentence": "My father and brother were members of the Terezin mixed choir.",
+      "relationship_type": "participated_in",
+      "subject": {
+        "entity": "Julian and Hanusz Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin choir",
+        "type": "ORG"
+      },
+      "verb_pattern": "members of"
+    },
+    {
+      "sentence": "At the end of October of that same year my father also left.",
+      "relationship_type": "deported_from",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "He left on the last transport from Terezin, on 28th October 1944.",
+      "relationship_type": "deported_on",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "28 October 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "left on"
+    },
+    {
+      "sentence": "He died on 30th or 31st October 1944.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "October 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "The entire staff, who went into the gas without any selection.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Julian Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "gas chamber",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "went into gas"
+    },
+    {
+      "sentence": "My mother and I remained, alone.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Gertruda and Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "remained"
+    },
+    {
+      "sentence": "Starting 16th June 1944, when I turned thirteen, I had to start working.",
+      "relationship_type": "worked_in",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "start working"
+    },
+    {
+      "sentence": "At first I worked in the food commissary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "food commissary worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "My last workplace in Terezin were the ramparts.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin ramparts",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "workplace"
+    },
+    {
+      "sentence": "That long-awaited day came on 8th May 1945.",
+      "relationship_type": "liberated_on",
+      "subject": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "8 May 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "Terezin was being liberated by a mixed army.",
+      "relationship_type": "liberated_by",
+      "subject": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "Red Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "liberated by"
+    },
+    {
+      "sentence": "Exactly a month after the liberation, June 8th, Czech Jewish children left Terezin for convalescence homes.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "convalescence homes",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Our son, Misha, named after my older brother, followed in 1948.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Misha Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1947 my daughter Tatiana was born in Lipetsk.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Tatiana Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lipetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I served in Sakhalin, in the Far North, from 1949-1957.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sakhalin",
+        "type": "GPE"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "In 1958 I was transferred to Lvov in Western Ukraine.",
+      "relationship_type": "transferred_to",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "I retired in 1960.",
+      "relationship_type": "retired_on",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1960",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired in"
+    },
+    {
+      "sentence": "I worked as a drawer at a design institute called Ukrgiproavia Project for about ten years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "drawer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In the ensemble I met my future wife, Hana Mazánková.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hana Mazánková",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "Our wedding, which was at the Old Town Hall.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Martin and Hana Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Old Town Hall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "wedding at"
+    },
+    {
+      "sentence": "After school, I started working at the Prague Central Television Studio.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Prague Central Television Studio",
+        "type": "ORG"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "My brother worked in Kovospol, in foreign trade.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kovospol",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "In 1976 he had a third heart attack, of which he died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1976",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "His wife was also Jewish. She was named Hana Kirschnerová.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Hana Kirschnerová",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "wife"
+    },
+    {
+      "sentence": "In 1951 they had their first son, Petr.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Petr Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "had son"
+    },
+    {
+      "sentence": "My mother was also very much influenced by her war experiences.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Gertruda Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "influenced by"
+    },
+    {
+      "sentence": "After the war we didn't return to our apartment.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Glas family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My brother left Terezin for Auschwitz.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "From there onwards to Kaufering, a branch camp of Dachau.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kaufering",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "to"
+    },
+    {
+      "sentence": "He caught tuberculosis from this work.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "Hanusz Glas",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "concentration camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "caught tuberculosis"
+    },
+    {
+      "sentence": "In September 1945 I started attending academic high school in Prague.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "academic high school in Prague",
+        "type": "ORG"
+      },
+      "verb_pattern": "attending"
+    },
+    {
+      "sentence": "After the war we were no longer members of the Jewish community.",
+      "relationship_type": "left_org",
+      "subject": {
+        "entity": "Glas family",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish community",
+        "type": "ORG"
+      },
+      "verb_pattern": "no longer members"
+    },
+    {
+      "sentence": "When I was in my graduating year, I wanted to study production at FAMU.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "FAMU",
+        "type": "ORG"
+      },
+      "verb_pattern": "study at"
+    },
+    {
+      "sentence": "In 1953 I began participating in the Stavar folklore ensemble.",
+      "relationship_type": "participated_in",
+      "subject": {
+        "entity": "Martin Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Stavar folklore ensemble",
+        "type": "ORG"
+      },
+      "verb_pattern": "participating in"
+    },
+    {
+      "sentence": "My wife attended family school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Hana Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "family school",
+        "type": "ORG"
+      },
+      "verb_pattern": "attended"
+    },
+    {
+      "sentence": "She graduated from the Faculty of Philosophy.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Hana Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Faculty of Philosophy",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "She worked as a secretary in Chemapol.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Hana Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "secretary",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She started working at the Regional Cultural Center for Prague West.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Hana Glas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Regional Cultural Center",
+        "type": "ORG"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "In 1960 they caught Eichmann in Argentina.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Adolf Eichmann",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Argentina",
+        "type": "GPE"
+      },
+      "verb_pattern": "caught in"
+    },
+    {
+      "sentence": "Once my mother and I were in Terezin, and saw a movie being shot there.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Martin and Gertruda Glas",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in"
+    }
+  ]
+}

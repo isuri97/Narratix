@@ -1,0 +1,1271 @@
+{
+  "testimony_metadata": {
+    "witness": "Rachil Meitina",
+    "birth_year": 1918,
+    "birth_location": "Petrograd",
+    "interview_location": "Moscow"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "Her husband Isaac Verkhovski died in 2002.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "2002",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She lives alone in a three-bedroom apartment near the State University in Moscow.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Her husband Isaac Verkhovski was a stage designer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stage designer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My paternal parents lived on Zadonovska Street in the suburb town of Vitebsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "paternal parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father's parents died before I was born.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "before I was born",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My paternal grandfather's name was Moisey Meitin.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Moisey Meitin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "paternal grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He probably died when my father was just a child.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Moisey Meitin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "when father was child",
+        "type": "TIME"
+      },
+      "verb_pattern": "died when"
+    },
+    {
+      "sentence": "Vitebsk is a lovely town on the Dvina River, about 450 kilometers from Moscow.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Dvina River",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "on"
+    },
+    {
+      "sentence": "My husband, who was born in Vitebsk, told me that his family lived in a communal apartment.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father's parents must have been religious people.",
+      "relationship_type": "personal_attribute",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "religious",
+        "type": "ATTRIBUTE"
+      },
+      "verb_pattern": "were"
+    },
+    {
+      "sentence": "They attended the nearby synagogue in Vitebsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "synagogue in"
+    },
+    {
+      "sentence": "My paternal grandmother Gelia Meitina was born in 1852 and died in New York in 1919.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Gelia Meitina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1852",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She emigrated to New York with her four children before 1915.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Gelia Meitina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "New York",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "My father Tsala Meitin was a member of the Bolshevik Party.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Tsala Meitin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bolshevik Party",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "He was even exiled for this to the town of Beryozov, about 2,000 kilometers from Moscow.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Tsala Meitin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Beryozov",
+        "type": "GPE"
+      },
+      "verb_pattern": "exiled to"
+    },
+    {
+      "sentence": "He was exiled in 1905 during the tsarist regime and served his term until 1917.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Tsala Meitin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1905-1917",
+        "type": "DATE"
+      },
+      "verb_pattern": "exiled in"
+    },
+    {
+      "sentence": "My father was born in 1878.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Tsala Meitin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1878",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother was born there in 1883.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1883",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Later her family moved to Vitebsk where they lived on Smolenskaya Street.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "mother's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My maternal grandfather's name was Morduch Kazarnovski.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Morduch Kazarnovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "maternal grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He was born in Kazarnovichi.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Morduch Kazarnovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kazarnovichi",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My maternal grandmother's name was Feiga Rokha Kazarnovskaya.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Feiga Rokha Kazarnovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "She died shortly before I was born.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Feiga Rokha Kazarnovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "before I was born",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "She was also born in Kazarnovichi near Vitebsk.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Feiga Rokha Kazarnovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kazarnovichi",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "When Germans occupied Lithuania she ended up in a ghetto.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Mary",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "ended up in"
+    },
+    {
+      "sentence": "Both sons must have escaped from the ghetto.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Mary's sons",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "escaped from"
+    },
+    {
+      "sentence": "After the war her sisters took her to Moscow.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Mary",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "My mother's sister Dvoira Kazarnovskaya lived in Vitebsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Dvoira Kazarnovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She married David Levitan, a Jewish man.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Dvoira Kazarnovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "David Levitan",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was a well-known attorney in Vitebsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "David Levitan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "attorney",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Dvoira was a pharmacist.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pharmacist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "She worked in a pharmacy in Vitebsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pharmacy",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Before the Germans occupied the town during World War II Dvoira and her family evacuated.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Dvoira and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated"
+    },
+    {
+      "sentence": "After the Great Patriotic War they didn't return to Vitebsk, but stayed in Sverdlovsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Dvoira and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sverdlovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "Dvoira died in 1990 at the age of 100.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1990",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "During World War II he was a surgeon in the army.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Alexandr",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "surgeon",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He died in Leningrad in 1950.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Alexandr",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1950",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Her daughter Sophia was a lawyer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sophia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "lawyer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "She married Felix Kaminski, a Jewish man.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Sophia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Felix Kaminski",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He was arrested and executed in 1937.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Felix Kaminski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1937",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested and executed in"
+    },
+    {
+      "sentence": "Sophia died in Moscow in 1985.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sophia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1985",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother finished lower secondary school and the medical/obstetrical school in Vitebsk.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "school in"
+    },
+    {
+      "sentence": "She entered a medical college in Petrograd.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "entered college in"
+    },
+    {
+      "sentence": "She was a member of the party of Mensheviks.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mensheviks",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "She even went to Geneva to a meeting with the Menshevik Party leaders.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Geneva",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My mother and father met in Vitebsk.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "mother and father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "met in"
+    },
+    {
+      "sentence": "They got married in Vitebsk in 1912.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My parents moved to Petrograd in 1916.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father went to work as a typesetter in a printing house called Printing Yard.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "typesetter",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "My mother was a medical nurse in a town hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "medical nurse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "In 1917 my father was mobilized to the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "mobilized to"
+    },
+    {
+      "sentence": "My sister Vera Meitina was born in Vitebsk in 1912.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Vera Meitina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in Petrograd in 1918.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Petrograd",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We moved to Moscow in 1930 and got accommodated on Kropotkinskaya Street.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My mother went to work as a medical nurse at the medical facility of the University of Working People of the East.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "medical nurse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "I entered the Faculty of Biology of Moscow State University in 1936.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow State University",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "My sister graduated in 1936 and got a job assignment at the Scientific Research Institute of Glass.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Scientific Research Institute of Glass",
+        "type": "ORG"
+      },
+      "verb_pattern": "job assignment at"
+    },
+    {
+      "sentence": "She met her future husband Pavel Prushak, a Russian man, when she was a student.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pavel Prushak",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met husband"
+    },
+    {
+      "sentence": "They got married in 1940.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "sister and Pavel",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "In January 1941 their son Leonid Prushak was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Leonid Prushak",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "January 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "Shortly afterwards her husband was mobilized to the front.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Pavel Prushak",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "mobilized to"
+    },
+    {
+      "sentence": "He perished at the front in 1942.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Pavel Prushak",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "perished at"
+    },
+    {
+      "sentence": "We evacuated to Kineshma, about 350 kilometers from Moscow.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kineshma",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "I worked as a lab assistant in hospital for two years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "lab assistant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "We returned to Moscow in 1943.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "I went to work at the biochemical laboratory of the central skin and venereology hospital in Moscow.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "I worked there from 1943 till 1949.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "I defended my candidate's thesis in 1949.",
+      "relationship_type": "achieved_on",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "defended in"
+    },
+    {
+      "sentence": "In 1949 Lina Shtern and members of the Jewish Anti-Fascist Committee were arrested.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Lina Shtern",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested in"
+    },
+    {
+      "sentence": "I began to work with Bakulev in 1950.",
+      "relationship_type": "worked_with",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bakulev",
+        "type": "PERSON"
+      },
+      "verb_pattern": "work with"
+    },
+    {
+      "sentence": "I worked there from 1950 till 1989.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "We decided to get married in October 1950.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Rachil and Isaac",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "October 1950",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Isaac Verkhovski was born in Vitebsk in 1919.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His father Samuel Verkhovski was an assistant accountant before 1917.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Samuel Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "assistant accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He died in 1935 and was buried in the Jewish section of the town cemetery in Vitebsk.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Samuel Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1935",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His mother Sophia Verkhovskaya was a teacher.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sophia Verkhovskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "After finishing lower secondary school in 1935 Isaac entered the art school in Vitebsk.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vitebsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "school in"
+    },
+    {
+      "sentence": "He finished it in 1939.",
+      "relationship_type": "graduated_on",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "finished in"
+    },
+    {
+      "sentence": "Afterwards he got a job assignment with the Lepesh regional theater near Vitebsk.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lepesh regional theater",
+        "type": "ORG"
+      },
+      "verb_pattern": "job assignment with"
+    },
+    {
+      "sentence": "He worked there until the beginning of the war in June 1941.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "June 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "In December 1941 he was mobilized to the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "mobilized to"
+    },
+    {
+      "sentence": "He was wounded in his right hand at the front and was demobilized from the army in 1942.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "wounded at"
+    },
+    {
+      "sentence": "In November 1943 he began to work as art director in the Moscow Jewish State Theater.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "art director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "In 1948 Mikhoels was murdered in Minsk.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Mikhoels",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "murdered in"
+    },
+    {
+      "sentence": "The Jewish theater operated until early 1950.",
+      "relationship_type": "operated_until",
+      "subject": {
+        "entity": "Jewish theater",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "1950",
+        "type": "DATE"
+      },
+      "verb_pattern": "operated until"
+    },
+    {
+      "sentence": "In the same year Isaac began to work in Maly Theater.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Maly Theater",
+        "type": "ORG"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "He worked there for over 30 years until he retired in 1989.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "My son Gleb was born in Moscow in 1958.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Gleb Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father died a sudden death of infarction in 1958.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1958",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother died of a stroke in 1967.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1967",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1976 we moved to another apartment.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "new apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My son got married in 1980.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Gleb Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1980",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "His wife Irina Charskaya is a Jew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Gleb Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Irina Charskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "wife"
+    },
+    {
+      "sentence": "Their son Vitali Verkhovski was born in 1981.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Vitali Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1981",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I retired in 1989 at the age of 71.",
+      "relationship_type": "retired_on",
+      "subject": {
+        "entity": "Rachil Meitina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired in"
+    },
+    {
+      "sentence": "My husband fell severely ill in 2000.",
+      "relationship_type": "illness_on",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "2000",
+        "type": "DATE"
+      },
+      "verb_pattern": "ill in"
+    },
+    {
+      "sentence": "He died in 2001.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Isaac Verkhovski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "2001",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    }
+  ]
+}

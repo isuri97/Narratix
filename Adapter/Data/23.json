@@ -1,0 +1,1298 @@
+{
+  "testimony_metadata": {
+    "witness": "Grigoriy Sirotta",
+    "birth_location": "Shcherbakovtsy, Ukraine",
+    "birth_year": 1916,
+    "interview_date": "July 2002",
+    "interviewer": "Ella Orlikova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My grandfather on my father's side, Moisey Sirotta, was a pretty poor craftsman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Moisey Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "craftsman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "My grandfather died in 1909 at the age of 63.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Moisey Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1909",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She died a long time ago, at the end of the 19th century.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandmother Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "end of 19th century",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Moishe Sirotta, who was born in 1872.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Moishe Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1872",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He became a wine-grower.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Moishe Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "wine-grower",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "We visited him in Dunayevtsy when I was 3 years old.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Moishe Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Dunayevtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I know that he died of some disease in the 1920s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Moishe Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1920s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father was born in Shcherbakovtsy village near Nova-Ushytsya in 1874.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "David Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shcherbakovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother's father, Yankel Frishman, was born in 1855.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yankel Frishman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1855",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was a small merchant in Nova-Ushytsya.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yankel Frishman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "merchant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He died in 1912.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yankel Frishman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1912",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother, Riva Frishman, born in 1857.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Riva Frishman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1857",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She died of spotted fever in the fall of 1914.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Riva Frishman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother, Sarrah Sirotta [nee Frishman], was born in 1879.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sarrah Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1879",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They got married the same year.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "David and Sarrah Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "After the wedding my parents moved to Shcherbakovtsy village.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "David and Sarrah Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shcherbakovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father worked as a miller for the landlord in the beginning.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "David Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "miller",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My sister, my two brothers and I were all born in Shcherbakovtsy.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sirotta children",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shcherbakovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Etl was born in 1902.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Etl Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1902",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She finished the Russian grammar school for girls in Nova-Ushytsya.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Etl Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russian grammar school in Nova-Ushytsya",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "My older brother, Misha, was born in 1909.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Misha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1909",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He went to cheder in the neighboring Jewish village.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Misha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cheder",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My second brother, Yasha, born in 1913.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1916.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1916",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "We left in 1920.",
+      "relationship_type": "moved_from",
+      "subject": {
+        "entity": "Sirotta family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shcherbakovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "Petliura soldiers broke into our house.",
+      "relationship_type": "attacked_by",
+      "subject": {
+        "entity": "Sirotta family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Petliura soldiers",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "broke into"
+    },
+    {
+      "sentence": "We moved to Zemikhovo, two kilometers from Shcherbakovtsy.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Sirotta family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zemikhovo",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My sister Etl's wedding. She got married in 1922.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Etl Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1922",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Her fiancé's name was Pynia.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Etl Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pynia",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "fiancé"
+    },
+    {
+      "sentence": "He worked as a tobacco cutter at the tobacco factory in the town of Kahles.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Pynia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tobacco cutter",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "After the wedding my sister moved to Pynia's parents' in Kahles.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Etl Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kahles",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "She gave birth to two boys: Yasha in 1924 and Misha in 1928.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yasha (nephew)",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Etl, her husband and their sons were killed in the ghetto in Nova-Ushytsya.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Etl and family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto in Nova-Ushytsya",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "Our house was sold at an auction.",
+      "relationship_type": "confiscated_from",
+      "subject": {
+        "entity": "Sirotta family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Soviet authorities",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "sold at auction"
+    },
+    {
+      "sentence": "The authorities expropriated my father's mill.",
+      "relationship_type": "confiscated_from",
+      "subject": {
+        "entity": "David Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Soviet authorities",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "expropriated"
+    },
+    {
+      "sentence": "He became a stableman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "David Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stableman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "I went to the Jewish 4-year school in Zemikhovo.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish school in Zemikhovo",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I had to move to Nova-Ushytsya to continue my studies.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nova-Ushytsya",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Misha was taken to court and sentenced to imprisonment in jail in Dnepropetrovsk.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Misha Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "jail in Dnepropetrovsk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sentenced to imprisonment"
+    },
+    {
+      "sentence": "He worked at the Petrovskiy plant.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Misha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Petrovskiy plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Later he went to work in Ulan-Ude, Kazakhstan.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Misha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ulan-Ude",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to work in"
+    },
+    {
+      "sentence": "Misha perished in 1943.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Misha Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "My younger brother, Yasha, finished a secondary school in Nova-Ushytsya in 1930.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "secondary school in Nova-Ushytsya",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "He entered the Pedagogical College in Kamenets-Podolsk.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pedagogical College in Kamenets-Podolsk",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "He married a Jewish woman. Her name was Fira.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Fira",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1933 he joined the Red Army and served in the Pacific Navy.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Red Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "Yasha remained in Liepaya, in Latvia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Liepaya",
+        "type": "GPE"
+      },
+      "verb_pattern": "remained in"
+    },
+    {
+      "sentence": "He was a history teacher at the Pedagogical Institute.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "history teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "My nieces died along with many other people.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Larissa and Mirrah",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "plane crash",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Yasha moved to Israel in 1990.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He died of a heart disease in 1994.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1994",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His son, Misha, who is a colonel and engineer, lives in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Misha (nephew)",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "I was arrested.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Nova-Ushytsya",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "I was sent to jail in Kamenets-Podolsk.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "jail in Kamenets-Podolsk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "I was sentenced to three years of imprisonment.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sentenced to imprisonment"
+    },
+    {
+      "sentence": "I was sent to Zaporozhe-Kamenskoye.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Zaporozhe-Kamenskoye prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "We worked at the construction site of the metallurgical plant named after Dzerzhynskiy.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "metallurgical plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "I was released before time.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "released"
+    },
+    {
+      "sentence": "I stayed to work as a clerk for coal loading-unloading operations in Dneprodzerzhinsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "clerk",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I became a member in 1937.",
+      "relationship_type": "joined_org",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Komsomol",
+        "type": "ORG"
+      },
+      "verb_pattern": "became member"
+    },
+    {
+      "sentence": "I returned from Dneprodzerzhinsk to Nova-Ushytsya in 1937.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nova-Ushytsya",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "I worked at the bank until I went to serve in the army in 1939.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "serve in army"
+    },
+    {
+      "sentence": "I joined the army in 1939.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined army"
+    },
+    {
+      "sentence": "I served in Tank Brigade #22, deployed in Grodno, Belarus.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tank Brigade #22",
+        "type": "ORG"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "Our army entered the town of Kaunas.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Kaunas",
+        "type": "GPE"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "The war began on 22nd June 1941.",
+      "relationship_type": "started_on",
+      "subject": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "22 June 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "began on"
+    },
+    {
+      "sentence": "On 29th July 1941, during the shooting in the town of Staraya Russa, I was wounded.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Staraya Russa",
+        "type": "GPE"
+      },
+      "verb_pattern": "wounded in"
+    },
+    {
+      "sentence": "I was taken to a ward on the stretcher.",
+      "relationship_type": "treated_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "hospital",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "I was taken to the railway station and put on the train.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "hospital train",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "We reached Valday where the evacuation hospital was located.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Valday",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "I was taken to the hospital in the rear in Gorky region.",
+      "relationship_type": "treated_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "hospital in Gorky region",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "I was sent to a reserve regiment in Gorky.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "reserve regiment in Gorky",
+        "type": "ORG"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "I was sent to Rybinsk instead to take some retraining.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rybinsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "Her name was Sophia Orlova. She was born in Rybinsk in 1921.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sophia Orlova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rybinsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "On 11th August we got married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Grigoriy and Sophia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "11 August",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My parents wouldn't have been happy about having a Russian daughter-in-law.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "David and Sarrah Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sophia Orlova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "daughter-in-law"
+    },
+    {
+      "sentence": "My wife was at the front with me.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Sophia Orlova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "at the front"
+    },
+    {
+      "sentence": "Our army crossed the border with Prussia.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Prussia",
+        "type": "GPE"
+      },
+      "verb_pattern": "crossed border"
+    },
+    {
+      "sentence": "I was ordered to go to Alma-Ata to study.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Alma-Ata",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "Ukraine had been liberated by that time.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Ukraine",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "German occupation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "My parents, my sister and her family had perished in Nova-Ushytsya.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Sirotta family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Nova-Ushytsya",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "My mother was 63 and my father 67 when they were shot.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "David and Sarrah Sirotta",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "The Germans had organized a ghetto in Nova-Ushytsya.",
+      "relationship_type": "established_in",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "ghetto in Nova-Ushytsya",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "organized"
+    },
+    {
+      "sentence": "There were common graves in the forest.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Jewish victims",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "forest near Nova-Ushytsya",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "graves in"
+    },
+    {
+      "sentence": "My brother Yasha and I went there in 1959 and then again in 1961.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Grigoriy and Yasha Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mass grave site",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I was sent to Alma-Ata to study at the Kharkov higher flying training school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kharkov higher flying training school",
+        "type": "ORG"
+      },
+      "verb_pattern": "study at"
+    },
+    {
+      "sentence": "Sophia worked as a typist at the Kazakhstan telegraph agency.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sophia Orlova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "typist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Later we were transferred to Lipetsk.",
+      "relationship_type": "transferred_to",
+      "subject": {
+        "entity": "Grigoriy and Sophia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lipetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "We heard the news about the victory on 9th May 1945.",
+      "relationship_type": "victory_on",
+      "subject": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "9 May 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "victory on"
+    },
+    {
+      "sentence": "In 1947 my daughter Tatiana was born in Lipetsk.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Tatiana Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lipetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My son, Misha, named after my older brother, followed in 1948.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Misha Sirotta (son)",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I served in Sakhalin, in the Far North, from 1949-1957.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sakhalin",
+        "type": "GPE"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "In 1958 I was transferred to Lvov in Western Ukraine.",
+      "relationship_type": "transferred_to",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "My daughter moved to Yalta in 1983.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Tatiana Sirotta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yalta",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My grandson, Sasha, born in 1970, lives there.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sasha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1970",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I retired in 1960.",
+      "relationship_type": "retired_on",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1960",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired in"
+    },
+    {
+      "sentence": "I worked as a drawer at a design institute called Ukrgiproavia Project for about ten years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Grigoriy Sirotta",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "drawer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Our son's daughter, Katia, often visits us.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Misha Sirotta (son)",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Katia",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "daughter"
+    },
+    {
+      "sentence": "She was born in 1987.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Katia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1987",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    }
+  ]
+}

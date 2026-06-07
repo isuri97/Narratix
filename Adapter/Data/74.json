@@ -1,0 +1,1142 @@
+{
+  "testimony_metadata": {
+    "witness": "Lea Beraha",
+    "birth_name": "Lea Delareya",
+    "birth_location": "Sofia, Bulgaria",
+    "interview_date": "August 2002",
+    "interviewer": "Maiya Nikolova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father, Yako Delareya, born in 1885, was orphaned very young.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1885",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father told us that he used to clean the ships in Ruse for which he got a salary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ship cleaner in Ruse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "clean ships"
+    },
+    {
+      "sentence": "One of his brothers was a peddler and the other one was a cutter-tailor in an underwear studio.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "father's brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "peddler and cutter-tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "They all left for Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "father's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My father's kin is from Lom and Vidin, whereas my mother's is from Sofia.",
+      "relationship_type": "from_location",
+      "subject": {
+        "entity": "father's kin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lom and Vidin",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "My mother, Rebecca Delareya, nee Mamon, was born in 1904.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rebecca Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1904",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "One of my mother's brothers owned a café and the other one was a clothes' seller.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "mother's brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "café owner and clothes seller",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "owned"
+    },
+    {
+      "sentence": "My mother's kin had a house on Slivnitsa Blvd.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "mother's kin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Slivnitsa Blvd",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "house on"
+    },
+    {
+      "sentence": "After the events of 1923, in which my father took part, he returned to Lom - I don't know where from - with my mother, whom he was already married to.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lom",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "They settled in the village of Vodniantsi.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vodniantsi",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "With his little savings my father bought a small shop - a grocery-haberdashery.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shop owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "bought shop"
+    },
+    {
+      "sentence": "Because of his active participation in the events of 1923, my father was arrested.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vodniantsi",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "When my father was arrested, my mother was eight months pregnant and my brother, Betzalel Delareya, born in 1921, was two years old.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Betzalel Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was sent from Vodniantsi to Lom, Belogradchik and Mihailovgrad.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Lom, Belogradchik, Mihailovgrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "The policemen swore at my father and sent him to Vidin to put him on trial there.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vidin",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "He was released after two years from Baba Vida Fortress.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Baba Vida Fortress",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "released from"
+    },
+    {
+      "sentence": "When my mother went to visit him there, she passed my brother over the fence.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Rebecca Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Baba Vida Fortress",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "At that time, while my father was in prison, my mother had a stillborn child.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "stillborn child",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison time",
+        "type": "DATE"
+      },
+      "verb_pattern": "had stillborn"
+    },
+    {
+      "sentence": "Then she began working as a servant cleaning other people's houses.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rebecca Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "servant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "When my father was freed, the family first tried to stay at my grandfather's, as he had some kind of property and could shelter them, but my father's stepmother chased them away.",
+      "relationship_type": "expelled_from",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "grandfather's property",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "chased away"
+    },
+    {
+      "sentence": "Then they came to Sofia and settled on the grounds of the Arat tobacco factory.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Arat tobacco factory grounds",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "settled on"
+    },
+    {
+      "sentence": "My father started working there as a courier, while my mother worked as a cleaner.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "courier at Arat factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "By destiny's whim I later worked as a doctor in the very same tobacco factory for 14-15 years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor at tobacco factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Before the internment we used to live in Odrin Street where we had two rooms with a small kitchen.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "All these living estates were in the third region - the Jewish quarter in Slivnitsa Blvd., Odrin Street, Tri ushi Street, Morava Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jewish quarter",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "third region Sofia",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "It was a tradition for the Mamons, my mother's family, to gather every Saturday evening at their eldest brother's place.",
+      "relationship_type": "gather_at",
+      "subject": {
+        "entity": "Mamon family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "eldest brother's place",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "gather at"
+    },
+    {
+      "sentence": "My uncle, as far as I remember that was Solomon, was the wealthiest of them.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Solomon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "uncle",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "After the internment, when we came back impoverished and hungry, my mother's brother Solomon sheltered us in a building, next to the house he had inherited from our grandfather.",
+      "relationship_type": "sheltered_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "building next to Solomon's house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "sheltered in"
+    },
+    {
+      "sentence": "There were five of us inhabiting one room.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "one room",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "inhabiting"
+    },
+    {
+      "sentence": "There was a soldier's stretcher, in which my father was bedridden, lying sick after the labor camp, and where he actually died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stretcher in room",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My brother was six years older than me, whereas my sister Eliza was four years younger.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "brother and sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "verb_pattern": "older/younger than"
+    },
+    {
+      "sentence": "After our father's death in 1947 I begged her to stay in Bulgaria and take a degree.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "death in"
+    },
+    {
+      "sentence": "She got married and went to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Eliza",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I studied in the Jewish junior high school till the 3rd grade.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish junior high school",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied in"
+    },
+    {
+      "sentence": "I became a member of Hashomer Hatzair.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hashomer Hatzair",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "We often visited the Aura community center on Opalchenska and Klementina Streets.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Lea and group",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Aura community center",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "I became a member of the UYW on 5th May 1942.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "UYW",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "My future husband, Leon Beraha, was redirected to our group as a more experienced UYW member.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "UYW",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "My future husband was also arrested.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "In fascist times he worked as an electrician.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "electrician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "All this resulted in his internment to the forced labor camp in Dupnitsa.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "forced labor camp in Dupnitsa",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "internment to"
+    },
+    {
+      "sentence": "By a 'happy' coincidence my family was also interned to Dupnitsa.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Dupnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "I took part in the protest on 24th May 1943 against the internment of Jews.",
+      "relationship_type": "participated_in",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "protest on 24th May 1943",
+        "type": "EVENT"
+      },
+      "verb_pattern": "took part in"
+    },
+    {
+      "sentence": "From the police station they took him straight to Somovit labor camp.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Somovit labor camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "They interned him without clothes, without food...",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "labor camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "interned"
+    },
+    {
+      "sentence": "He was set free at the time of the Bagrianov government.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "labor camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "set free"
+    },
+    {
+      "sentence": "When I was interned to Dupnitsa with my mother and sister, my brother was already in a labor camp.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "brother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "labor camp near Simitli",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in labor camp"
+    },
+    {
+      "sentence": "He was set free on 9th September 1944, like all the others.",
+      "relationship_type": "released_on",
+      "subject": {
+        "entity": "brother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "9th September 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "set free on"
+    },
+    {
+      "sentence": "In Dupnitsa they took us in a convoy from the railway station to the school gym.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "school gym in Dupnitsa",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "I found a job in the candy factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "worker in candy factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job in"
+    },
+    {
+      "sentence": "Then we moved to some rich Jews, who accepted us under the condition that I worked as a maid for them.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "maid",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "We returned from Dupnitsa to Sofia after the fall of fascism.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "From 9th September 1944 till 1945-46 we lived in the house my mother's brother had on Slivnitsa Blvd.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "house on Slivnitsa Blvd",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "The Jewish community established a tailor's cooperative named Liberation.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Liberation cooperative",
+        "type": "ORG"
+      },
+      "verb_pattern": "established"
+    },
+    {
+      "sentence": "I began to work there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tailor at cooperative",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work"
+    },
+    {
+      "sentence": "I also attended high school evening classes.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "high school evening classes",
+        "type": "ORG"
+      },
+      "verb_pattern": "attended"
+    },
+    {
+      "sentence": "By 1947 I was alone.",
+      "relationship_type": "separated_from",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "alone"
+    },
+    {
+      "sentence": "My future husband was a student in the USSR.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USSR",
+        "type": "GPE"
+      },
+      "verb_pattern": "student in"
+    },
+    {
+      "sentence": "My father died in my arms.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yako Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My sister Eliza got married and left for Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Eliza",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My brother Betzalel and his family followed my sister at my mother's request.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Betzalel and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "followed to"
+    },
+    {
+      "sentence": "He was a stevedore in Jaffa.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Betzalel Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stevedore in Jaffa",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He died in 1966.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Betzalel Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1966",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1949 my mother also left for Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Rebecca Delareya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "I reached the Workers' Academy in Varna, where I finished my high school education.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Workers' Academy in Varna",
+        "type": "ORG"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "My husband came back from the USSR in 1952, after graduating in mine engineering.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USSR",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back from"
+    },
+    {
+      "sentence": "We married on a Sunday.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Lea and Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sunday",
+        "type": "DATE"
+      },
+      "verb_pattern": "married on"
+    },
+    {
+      "sentence": "On Monday he 'disappeared' - he was appointed at the mine in Pernik.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mining engineer in Pernik",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "appointed at"
+    },
+    {
+      "sentence": "First he worked as a mining engineer in Pernik.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mining engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I graduated in medicine and worked for five years in the hospital in Pernik.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor in Pernik hospital",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "In 1964 I came to Sofia with my husband.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Lea and Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "First I worked in the hospital at the Ministry of the Interior.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor at Ministry hospital",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Then I applied for a job in the 4th city hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor at 4th city hospital",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job in"
+    },
+    {
+      "sentence": "In the tobacco factory until 2pm.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor at tobacco factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In Pernik and in Sofia we lived in lodgings.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Lea and Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pernik and Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "In Sofia we first lived in a small room in Lozenets quarter.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Lea and Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lozenets quarter",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Later we moved to our current apartment.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Lea and Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "current apartment",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In Italy he was the Bulgarian embassy's first secretary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "first secretary at Bulgarian embassy",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "In Angola he was a minister plenipotentiary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "minister plenipotentiary in Angola",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "In Cambodia ambassador.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ambassador in Cambodia",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Finally, when he got very ill, he was sent to Geneva to defend Bulgaria.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Geneva",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "My husband died of cancer shortly after the Geneva conference.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Leon Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "after Geneva conference",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "I have visited my relatives in Israel more than ten times.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "My mother hadn't seen me for seven years and she fainted at the airport.",
+      "relationship_type": "reunited_at",
+      "subject": {
+        "entity": "Lea and mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "airport",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "fainted at"
+    },
+    {
+      "sentence": "My daughter Lora graduated from the College for Dental Mechanics.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Lora Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "College for Dental Mechanics",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "She is married to an Armenian.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lora Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Armenian husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "I was the person in charge of the Health club at the Jewish community in the 1990s.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lea Beraha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Health club director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "in charge of"
+    }
+  ]
+}
