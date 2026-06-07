@@ -1,0 +1,908 @@
+{
+  "testimony_metadata": {
+    "witness": "Ruth Halova",
+    "birth_location": "Cesky Krumlov, Czech Republic",
+    "birth_year": 1926,
+    "interview_date": "July 2006 - March 2007",
+    "interviewer": "Lenka Koprivova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born to my parents, Leopold and Zdenka Adler, as their second child - my sister Eva was born five years earlier.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leopold and Zdenka Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "born to"
+    },
+    {
+      "sentence": "When I was ten months old, he died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Leopold Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ten months old",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Mom worked at Spiro's factory as a secretary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zdenka Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Spiro's factory",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Grandma Marie was from Kostelec, not far from Hluboka.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Grandma Marie Kohnova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kostelec",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "When she got married, she lived with her husband in Protivin.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Grandma Marie",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Protivin",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "His mother Josefa Adlerova was from Sobeslav.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Josefa Adlerova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sobeslav",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "The Adlers then lived in Ceske Budejovice.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Adler family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ceske Budejovice",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "The same year that I was born, so in 1926, Grandpa died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandpa Jakub Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1926",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Uncle Max, a professor of Latin and Greek, initially at a girls' high school, and then at the German university in Prague.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Uncle Max Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "German university in Prague",
+        "type": "ORG"
+      },
+      "verb_pattern": "professor at"
+    },
+    {
+      "sentence": "Aunt Ida got married and moved to Linz, Austria.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Aunt Ida",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Linz, Austria",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Aunt Ida immigrated with her family to the United States still before the war.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Aunt Ida",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "Dad's youngest brother Hugo was a phtysiologist, and for long years he was the director of a hospital in Usti nad Labem.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Uncle Hugo Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "hospital in Usti nad Labem",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "director of"
+    },
+    {
+      "sentence": "My mother's older sister, Olga Ledererova, died while giving birth to her second child.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Olga Ledererova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "childbirth",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died while"
+    },
+    {
+      "sentence": "Uncle Max, Dad's brother, who after our father's death became our guardian, put us into a German school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "German school",
+        "type": "ORG"
+      },
+      "verb_pattern": "put into"
+    },
+    {
+      "sentence": "I began attending German elementary school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "German elementary school",
+        "type": "ORG"
+      },
+      "verb_pattern": "attending"
+    },
+    {
+      "sentence": "After the war, Martha and her family were deported.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Martha Nehybova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "unknown location",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "deported"
+    },
+    {
+      "sentence": "Most of them were employees of the paper factory in Vetrni, whose owners, the Spiro family, were also Jews.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jewish community members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "paper factory in Vetrni",
+        "type": "ORG"
+      },
+      "verb_pattern": "employees of"
+    },
+    {
+      "sentence": "We lived in one apartment building that belonged to the factory.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Halova family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "apartment building",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She ordered a taxi, and sent us to Protivin, her hometown north of the Sudeten border.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Ruth Halova and sister",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Protivin",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "Mom of course took the job, found some accommodations in Prague for us, and we moved from Protivin to be with her in Prague.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Halova family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In Prague I began attending school again.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school in Prague",
+        "type": "ORG"
+      },
+      "verb_pattern": "attending"
+    },
+    {
+      "sentence": "She went to learn how to cook and bake pastries instead.",
+      "relationship_type": "studied_as",
+      "subject": {
+        "entity": "Eva Halova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cooking and baking",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "learn"
+    },
+    {
+      "sentence": "I attended a school located on Namesti Jiriho z Podebrad.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "school on Namesti Jiriho z Podebrad",
+        "type": "ORG"
+      },
+      "verb_pattern": "attended"
+    },
+    {
+      "sentence": "On 15th March 1939, a sign appeared on the school gates that there was to be no school until further notice.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Jewish students",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "March 1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "no school"
+    },
+    {
+      "sentence": "On the last day of June I was leaving Wilson Station towards an unknown fate.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Wilson Station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "leaving"
+    },
+    {
+      "sentence": "My sister also managed to get into England, and went in the following transport: in the last one to leave Czechoslovakia.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Eva Halova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "England",
+        "type": "GPE"
+      },
+      "verb_pattern": "get into"
+    },
+    {
+      "sentence": "On 1st July we arrived in London.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "London",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "So I knew that I was going to be living in Birmingham, with the Joneses.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Birmingham",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "The Joneses were a very kind, older pair who lived in the suburbs of Birmingham.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jones family",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Birmingham suburbs",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "A few days later a message arrived that I'm to move from Birmingham to Rugby.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rugby",
+        "type": "GPE"
+      },
+      "verb_pattern": "move to"
+    },
+    {
+      "sentence": "In Rugby I lived with the Cleaver family.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rugby",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I lived like this with the Cleavers and Boags.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cleaver and Boag homes",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "The town of Rugby lies not far from Coventry.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rugby",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "near Coventry",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lies near"
+    },
+    {
+      "sentence": "In England my sister Eva was attending a nursing school at the orthopedic hospital in Birmingham.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Eva Halova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "nursing school at orthopedic hospital",
+        "type": "ORG"
+      },
+      "verb_pattern": "attending"
+    },
+    {
+      "sentence": "At the time of the Coventry air raids, she was helping out at the Rugby hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Eva Halova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rugby hospital",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "helping at"
+    },
+    {
+      "sentence": "The school where I studied was the elite Rugby High School.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rugby High School",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "Anna was a year older than I was and from the German town of Chemnitz.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Anna Heidenheim",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Chemnitz, Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "Connie Everett taught biology at Rugby High School.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Connie Everett",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rugby High School",
+        "type": "ORG"
+      },
+      "verb_pattern": "taught at"
+    },
+    {
+      "sentence": "I started working at a local drugstore.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "local drugstore",
+        "type": "ORG"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "Jack was working at a hospital in Hammersmith.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Jack Boag",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "hospital in Hammersmith",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "I left for Llanwrtyd Wells in the fall of 1943, where at a Czechoslovak high school of the boarding school type I spent two years.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovak high school in Llanwrtyd Wells",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "I graduated from there in May 1945.",
+      "relationship_type": "studied_until",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "May 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "graduated"
+    },
+    {
+      "sentence": "I met my mother in the Jewish ghetto in Terezin.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Zdenka Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish ghetto in Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in ghetto"
+    },
+    {
+      "sentence": "We met up in Usti nad Labem, which was more or less halfway between Prague and Teplice, where Mom was living after the war.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zdenka Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Teplice",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "At that time my sister was already at home, as a nurse she'd returned right after the war ended.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Eva Halova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "nurse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "as a"
+    },
+    {
+      "sentence": "Mom and Grandma had to leave our Prague apartment and moved to some little closet on Kourimska Street.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Zdenka Adler and Grandma Marie",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kourimska Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Grandma died shortly after Mom's departure, probably from sorrow, in the Jewish hospital in Prague's Old Town.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandma Marie Kohnova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish hospital in Prague",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother survived, working as an X-ray technician in Terezin.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zdenka Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "X-ray technician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "Arnost was an engineer, and was responsible for the Terezin water plant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Arnost",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Terezin water plant",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "responsible for"
+    },
+    {
+      "sentence": "They got married in Terezin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zdenka Adler and Arnost",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "I registered as a student of the Faculty of Sciences at the old and famous Charles University in Prague.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Charles University in Prague",
+        "type": "ORG"
+      },
+      "verb_pattern": "student of"
+    },
+    {
+      "sentence": "I found a sublet with one Prague family in exchange for teaching both their daughters English.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "English teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "teaching"
+    },
+    {
+      "sentence": "I found work in a diagnostic lab at the hospital in Motol in Prague.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "hospital in Motol, Prague",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "I met my first husband, Ing. Hanus Eisler, in 1946, soon after his return from emigration to the United States.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hanus Eisler",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met husband"
+    },
+    {
+      "sentence": "We were married in November 1947 in the Clam-Gallas Palace on the Old Town Square in Prague.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ruth Halova and Hanus Eisler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "November 1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "At the end of December 1948 our son Petr was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Petr Eisler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "December 1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "Hanicka was born in 1952.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Hanicka Eisler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1952",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was transferred to the Soviet sanatorium in Karlovy Vary.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet sanatorium in Karlovy Vary",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "I began working at the virology department of the local Regional Hygiene Station in Usti nad Labem.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Regional Hygiene Station in Usti nad Labem",
+        "type": "ORG"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "This very hospital was co-founded during the time of the First Republic by my beloved Uncle Hugo.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Uncle Hugo Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "hospital on Bukov Hill",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "co-founded"
+    },
+    {
+      "sentence": "He headed it until 1939, when he immigrated to Norway.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Uncle Hugo Adler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Norway",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "I started there in 1959, and didn't leave until the day before my 55th birthday.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "55th birthday",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "Milan and I were married the day before my birthday in 1965.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ruth Halova and Milan Hala",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1965",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He died this last summer; we were together in the forest, picking mushrooms.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Milan Hala",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "last summer",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Petr went to Canada, and I went there to see him in 1975, when he was graduating.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Petr Eisler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Canada",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I traveled to the Holy Land in the spring before the revolution, in 1989.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "traveled to"
+    },
+    {
+      "sentence": "My cousins live in Israel, along with their large families.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "cousins Hanicka and Fricek",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "I retired the day before my 55th birthday.",
+      "relationship_type": "retired_on",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "55th birthday",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired"
+    },
+    {
+      "sentence": "When we lived in Budejovice, I among other things occupied myself with teaching English at the local Faculty of Education.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruth Halova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Faculty of Education in Budejovice",
+        "type": "ORG"
+      },
+      "verb_pattern": "teaching at"
+    }
+  ]
+}

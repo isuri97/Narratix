@@ -1,0 +1,674 @@
+{
+  "testimony_metadata": {
+    "witness": "Rachel Borissovna Rivkina",
+    "birth_name": "Rachel Rivkina",
+    "birth_location": "Khotimsk, Mogilev district, Belarus",
+    "birth_year": 1925,
+    "interview_location": "unknown"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in 1925 in Khotimsk shtetl of Mogilev district [160km north-east of Gomel, today Belarus].",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Khotimsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was born in 1887 in Khotimsk, his name was Boruch-Afroim Rivkin, and Russians called him Borukh Nakhmanovich.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Khotimsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1910, my father married my mother, Mira Yakovlevna Slutsker.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mira Yakovlevna Slutsker",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She was born in 1888.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1888",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She also lived in Khotimsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Khotimsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "After Aunt Mussya graduated from a chemical technical school, she started working as a foreman in a chemical co-operative in Gomel [450km south-east of Minsk]; they produced violet ink.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Aunt Mussya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "foreman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "In 1927 we moved to Gomel.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gomel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Before the war, Zussya worked as a manager at a soup-kitchen which belonged to the People's Commissariat of Internal Affairs, in Moscow.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zussya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "manager",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In the first days of the war Zussya left for the front.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Zussya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Later, we received a notification that my brother had disappeared without a trace.",
+      "relationship_type": "lost_at",
+      "subject": {
+        "entity": "my brother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "disappeared"
+    },
+    {
+      "sentence": "My father worked as a warehouse manager at a sewing manufacturing firm.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "warehouse manager",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My brother Isaac, born in 1913, also entered the Party when he was 18 years old.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Isaac",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "After he finished technical school, he studied at a flying school in Stalingrad [today Volgograd].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "flying school",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Stalingrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In Brest before the war Isaac worked at the Brest Communist Party Committee.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Isaac",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brest Communist Party Committee",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "When the bombing of Brest began, his wife ran to the Komsomol Committee to find her documents, and was killed on her way.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "his wife",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brest",
+        "type": "GPE"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "On 27th June we left.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gomel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "First we arrived in Voronezh region.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Voronezh region",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "They took us to the village of Sredniy Karachan near Borissoglebsk.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "us",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sredniy Karachan",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "From Gribanovka we moved to Tashkent [today Uzbekistan], because Iosif, my father's brother, already lived there.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "So we arrived in Tashkent.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "In Tashkent, Samuil entered a branch of the Voronezh Aviation College.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Samuil",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Then all the students of his course were taken to the army, to a Navigation School in Kokand [today Uzbekistan].",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "students",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Navigation School in Kokand",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "In 1942 we received a notification about Zussya's death.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zussya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "death"
+    },
+    {
+      "sentence": "In July 1944 another notification was received: it was about Mendel's death.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Mendel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "July 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "death"
+    },
+    {
+      "sentence": "Haim was captured by the fascists.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "Haim",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "fascists",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "captured by"
+    },
+    {
+      "sentence": "As a prisoner of war, he was taken to the concentration camp in Buchenwald.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Buchenwald",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "In April 1945 the prisoners were transported from Buchenwald to Dachau.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "prisoners",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Dachau",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "transported to"
+    },
+    {
+      "sentence": "On the way Haim and two of his friends broke off the floor in their car and escaped from the moving train.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Haim and two of his friends",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "train",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "escaped from"
+    },
+    {
+      "sentence": "At the beginning of May 1945 we received a telegram from Haim saying that he was alive.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Haim",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "concentration camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "alive"
+    },
+    {
+      "sentence": "In September 1945 he was demobilized.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "demobilized"
+    },
+    {
+      "sentence": "He returned to Gomel, and there security services started to call him for night interrogations, trying to find out how a Jew had survived in a concentration camp.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Jew",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "concentration camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "survived in"
+    },
+    {
+      "sentence": "During the Holocaust our family lost many relatives.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "lost"
+    },
+    {
+      "sentence": "In Khotimsk my father's brother, Moses, perished with his wife.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Moses",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Khotimsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "All the members of my future husband's family were lost: his father, mother and two siblings.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "my future husband's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "lost"
+    },
+    {
+      "sentence": "They lived in Klimovichi shtetl of Mogilev region [today Belarus].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Klimovichi",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Before the fathers' and brothers' eyes, the women and children were shot, and then the men were shot, too.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "women and children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "fascists",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot"
+    },
+    {
+      "sentence": "Gheisha, my mother's brother, was lost in Novozybkov.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Gheisha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Novozybkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "lost in"
+    },
+    {
+      "sentence": "After the end of the war our family returned to Gomel.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "our family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Gomel",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "The city was in ruins; our house was burned down in 1943.",
+      "relationship_type": "destroyed_in",
+      "subject": {
+        "entity": "our house",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "burned down in"
+    },
+    {
+      "sentence": "In 1945, after finishing school I entered the Gomel Pedagogical College.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gomel Pedagogical College",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Gomel",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In 1947 I got acquainted with my future husband, Isaac Samoilovich Ryvkin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Isaac Samoilovich Ryvkin",
+        "type": "PERSON"
+      },
+      "verb_pattern": "got acquainted with"
+    },
+    {
+      "sentence": "He was a professional soldier, technician-lieutenant, and Communist Party member.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "soldier",
+        "type": "ORG"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He fought at the Leningrad and Moscow fronts.",
+      "relationship_type": "fought_at",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad and Moscow fronts",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "fought at"
+    },
+    {
+      "sentence": "In 1948 we got married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Later in 1948, I arrived in Leningrad.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "In 1951 he was arrested by the KGB.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "KGB",
+        "type": "ORG"
+      },
+      "verb_pattern": "arrested by"
+    },
+    {
+      "sentence": "My husband was sentenced to ten years of labor in Vorkuta by the famous 'Court of Three'.",
+      "relationship_type": "sentenced_to",
+      "subject": {
+        "entity": "My husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vorkuta",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sentenced to"
+    },
+    {
+      "sentence": "My husband was rehabilitated in 1956 by one of the first circuit courts in Vorkuta.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "My husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vorkuta",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "rehabilitated"
+    },
+    {
+      "sentence": "My husband died in 1990.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1990",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My brother Isaac left for Miami, USA, after Perestroika in 1990.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "My brother Isaac",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Miami, USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "He died in 1998.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1998",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    }
+  ]
+}

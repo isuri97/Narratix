@@ -1,0 +1,714 @@
+{
+  "testimony_metadata": {
+    "witness": "Rifka Vostrel",
+    "birth_name": "Rifka Altarac",
+    "birth_location": "Sarajevo, Bosnia",
+    "birth_year": 1929,
+    "interview_date": "February 2003",
+    "interviewer": "Silvia Heim"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather's name was Avram Altarac.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Avram Altarac",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "plumber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "My grandfather was married to Belja Altarac, nee Atijas, born in the 1860s.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "My grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Belja Altarac",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "My grandparents were around eighty years old when in 1941 they were taken along with other family members to a death camp and killed.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "My grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "death camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "For neither of them, I know exactly where and when they were killed.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "them",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "My father's cousin, Erna Altarac, was the first one to marry a non-Jew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Erna Altarac",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "non-Jew",
+        "type": "PERSON"
+      },
+      "verb_pattern": "marry"
+    },
+    {
+      "sentence": "There was another cousin, who married an Orthodox Serb, and she wasn't very welcome in her family home afterwards either.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "cousin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Orthodox Serb",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Jozsi was the only one of them to survive the Holocaust; he later died in Israel.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Jozsi",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survive"
+    },
+    {
+      "sentence": "Blanka and her parents were killed in World War II.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Blanka and her parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "Moric was my uncle's child from his first marriage and was killed during World War II.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Moric",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed during"
+    },
+    {
+      "sentence": "Avram, mostly called Avramcic [little Avram] is still alive.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Avram",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "still alive"
+    },
+    {
+      "sentence": "Unfortunately, Belja didn't survive the war; she and her father were killed.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Belja",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "didn't survive"
+    },
+    {
+      "sentence": "All of them were taken away and killed somewhere during the war.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "them",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "killed during"
+    },
+    {
+      "sentence": "She was interned in Vela Luka on the Island of Korchula.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "She",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vela Luka",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "interned in"
+    },
+    {
+      "sentence": "I remember how nona Lea saved her life by running away: From Sarajevo to Mostar she traveled under the false name of Aisha Muslich, dressed in Muslim clothes.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "nona Lea",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mostar",
+        "type": "GPE"
+      },
+      "verb_pattern": "traveled to"
+    },
+    {
+      "sentence": "Under that name she joined us in Split.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "she",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Split",
+        "type": "GPE"
+      },
+      "verb_pattern": "joined in"
+    },
+    {
+      "sentence": "Soon after her came my uncle with his family, but Italians interned them to the Island of Brac and then to the Island of Rab 3.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "my uncle with his family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Island of Rab",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "During World War II he was in Mostar, Split and on the Island of Rab.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Island of Rab",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "was in"
+    },
+    {
+      "sentence": "Luckily, he survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "he",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "My mother Rosa, or Rahela in Yiddish, was born in 1908.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "My mother Rosa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Regina Atijas, my mother's sister, was married to Moric Moshe Albahari.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Regina Atijas",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moric Moshe Albahari",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "He was a prisoner-of-war.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prisoner-of-war",
+        "type": "STATUS"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "My father was called Leon Altarac; officially Juda.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Altarac",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "barber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I was born on 12th October 1929 in Sarajevo and my sister Lea, or Lilika, was born on 10th April 1939 in Split.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sarajevo",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My sister and me had no duties or obligations except school.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My sister and me",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "school",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "except"
+    },
+    {
+      "sentence": "The Jews of Split didn't have to wear a yellow star, but they were restricted in their personal lives.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Split",
+        "type": "GPE"
+      },
+      "verb_pattern": "of"
+    },
+    {
+      "sentence": "Unfortunately, I didn't go to school because it was forbidden for Jews [see anti-Jewish laws in Croatia] 5.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Croatia",
+        "type": "GPE"
+      },
+      "verb_pattern": "forbidden for"
+    },
+    {
+      "sentence": "It was in June 1942 when a group of young fascists came to Split.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "young fascists",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Split",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "In 1943 after the Italian capitulation 8, my whole family and I joined the partisans.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "my whole family and I",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "partisans",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "The Jews who stayed in Split and didn't want to leave were killed by the Ustashas and the Germans.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Ustashas and the Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "killed by"
+    },
+    {
+      "sentence": "We went from Split to the village of Zrnovnica on foot along with a large number of people.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zrnovnica",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "They took us to the Island of Brac [one of the Italian internment camps] 9 first and after three months we were transferred to the Island of Vis [another Italian internment camp].",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "us",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Island of Brac",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "On Brac I was a member of the Kotar Committee for United Youth and took care of the pioneers.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brac",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "on"
+    },
+    {
+      "sentence": "The Germans were following us so we had to leave Vis and were evacuated to Italy.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Italy",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "In Italy many people were waiting for us; actually it was a partisan refugee camp in Bari.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "us",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Italy",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "As soon as they received the letter my parents joined me in Bari.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bari",
+        "type": "GPE"
+      },
+      "verb_pattern": "joined in"
+    },
+    {
+      "sentence": "When my family was finally reunited, we continued on our way to El-Shatt in Egypt.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "we",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "El-Shatt",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "continued to"
+    },
+    {
+      "sentence": "Life in the camp in El-Shatt was very well organized.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "object": {
+        "entity": "El-Shatt",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "My father worked as a barber and was a member of a religious section; he was responsible for all the Jews who were there.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "barber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Unfortunately, many children died because they weren't used to the hot climate.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "many children",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "hot climate",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "In El-Shatt I finished my 3rd grade of high school.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "El-Shatt",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "We found out that the war was over in the night of 9th May 1945.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "was over"
+    },
+    {
+      "sentence": "We came back in July 1945.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "July 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "came back"
+    },
+    {
+      "sentence": "After the war, in 1948, we returned to Split, but I went to Zagreb to work in the Central Youth Committee.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Zagreb",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My father moved to Zagreb in 1949 whereas my mom, Lea and my grandmother only came in 1950.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "My father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zagreb",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "At first, my father worked in a Jewish old-age home, which was housed in today's Community Center.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "my father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "caretaker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Unfortunately, my parents died very young.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "young",
+        "type": "AGE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My mother died when she was only 60 years old and my father at the age of 69.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "60 years old",
+        "type": "AGE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "They were buried in the Jewish cemetery in Zagreb.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Zagreb",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "I got married to Eduard Vostrel in the late 1940s.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Eduard Vostrel",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "He isn't Jewish.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "non-Jew",
+        "type": "PERSON"
+      },
+      "verb_pattern": "isn't"
+    },
+    {
+      "sentence": "He worked in politics and in diplomatic services, and because of that we lived in many places in the world: in Chicago, USA, where he was a consul for four years, in Stockholm and in Goteborg, Sweden, for another four years each.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "consul",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Rajko was born in Zagreb in 1950.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rajko",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zagreb",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Emil was born in Belgrade in 1954.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Emil",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Belgrade",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My sister worked as chemical technician and is retired by now.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "My sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemical technician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    }
+  ]
+}

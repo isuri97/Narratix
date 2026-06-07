@@ -1,0 +1,584 @@
+{
+  "testimony_metadata": {
+    "witness": "Linka Isaeva",
+    "birth_name": "Linka Natan",
+    "birth_location": "Sofia, Bulgaria",
+    "birth_year": 1926,
+    "interview_date": "September 2002",
+    "interviewer": "Stephan Djambazov"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father, Jack Natan, was born in Nova Zagora in 1889.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Jack Natan",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nova Zagora",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "After World War I his family moved to Sofia, as the male family members had started some trade there.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My mother was born in Constanta, Romania.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Constanta, Romania",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They married in 1923 in Sofia.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1923",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "All of them have already died: Menaho and Ticko in Romania, Sharlota in Israel, and Ernestina in Bulgaria.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Menaho and Ticko",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romania",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "All of them have already died: Menaho and Ticko in Romania, Sharlota in Israel, and Ernestina in Bulgaria.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sharlota",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Bohor got married in the 1910s and died in 1936.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Bohor",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1936",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His daughter Malvina died in 1967 without having any children, which actually ended that branch of the family.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Malvina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1967",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The second brother, Shemtov Natan, was a lawyer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Shemtov Natan",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "lawyer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He lived in Varna, later he moved to Israel and then to Australia, where he died in the 1970s.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Varna",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He lived in Varna, later he moved to Israel and then to Australia, where he died in the 1970s.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He lived in Varna, later he moved to Israel and then to Australia, where he died in the 1970s.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Australia",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I was born in Sofia in 1926.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband, for example, who lived in Sliven, spent his first four school years in the Jewish school.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sliven",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I graduated from high school there after starting it in Sofia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I remember my childhood vacations in Gorna Bania and Chamkoria [the former name of the Borovets resort in the Rila Mountain].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gorna Bania",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I also remember some train trips to my aunt's in Ruse.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "aunt",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ruse",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "A trip to Ruse, which is 327 kilometers from Sofia lasted no less than 10-12 hours.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ruse",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "My father was forced to quit his job in the Carmel Bank.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Carmel Bank",
+        "type": "ORG"
+      },
+      "verb_pattern": "job in"
+    },
+    {
+      "sentence": "As my father had many friends in Sliven, where he had grown up, we settled there shortly before the big wave of internment, and were thus able to take things from our household with us.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sliven",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled there"
+    },
+    {
+      "sentence": "My father remained unemployed - he was forbidden to work in the banking system.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "banking system",
+        "type": "ORG"
+      },
+      "verb_pattern": "forbidden to work in"
+    },
+    {
+      "sentence": "During vacations I also started working in a factory in order to make both ends meet.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "We stayed in Sliven until December 1944.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sliven",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "We went through the hardest moments there in 1943, when my father received a notice that he should show up with some 50 kilos of luggage at the school.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "show up"
+    },
+    {
+      "sentence": "The letter was from 8th March 1943, and the date appointed for showing up was 3pm on 10th March.",
+      "relationship_type": "arrested_on",
+      "subject": {
+        "entity": "letter",
+        "type": "DOCUMENT"
+      },
+      "object": {
+        "entity": "10th March",
+        "type": "DATE"
+      },
+      "verb_pattern": "showing up on"
+    },
+    {
+      "sentence": "My father didn't go to labor camps, as he was already too old.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "labor camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "But at that time I had a relationship with my future husband, and he was detained in the labor camps for about three years.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "future husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "labor camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "detained in"
+    },
+    {
+      "sentence": "When we came back to Sofia in 1944, we settled on the same estate but in a different apartment.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    },
+    {
+      "sentence": "I began studying at the university, and my father started working in a Jewish bank.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish bank",
+        "type": "ORG"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "Then our family faced the question of settling in Israel, especially after my father's parents moved there.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved there"
+    },
+    {
+      "sentence": "I met my husband, Albert Behar, in Sliven during the war.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Albert Behar",
+        "type": "PERSON"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "We got married in 1948 in Sofia.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "He was born on 8th November 1923 in Sliven.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sliven",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His father was a bank clerk, and, after 9th September 1944, his family left for Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My husband has a degree from the Agricultural University.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Agricultural University",
+        "type": "ORG"
+      },
+      "verb_pattern": "degree from"
+    },
+    {
+      "sentence": "He worked as a soil expert in the Institute of Soils.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "soil expert",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "After finishing university I worked in the People's Army of Bulgaria as a doctor for five years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "I was discharged from the Military Institute I used to work at in 1956 because of my Jewish origin.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "discharged in"
+    },
+    {
+      "sentence": "Many other Jewish friends of mine who worked in the army were also discharged.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Jewish friends",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "discharged"
+    },
+    {
+      "sentence": "My husband even had a leading position at the Institute of Soils.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Institute of Soils",
+        "type": "ORG"
+      },
+      "verb_pattern": "position at"
+    },
+    {
+      "sentence": "He became director.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "director",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "I didn't visit Israel before the collapse of communism in 1989.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "visit"
+    },
+    {
+      "sentence": "I went there once afterwards.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "there",
+        "type": "GPE"
+      },
+      "verb_pattern": "went"
+    },
+    {
+      "sentence": "After 1989 we felt great relief.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "after"
+    }
+  ]
+}

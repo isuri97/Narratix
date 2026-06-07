@@ -1,0 +1,921 @@
+{
+  "testimony_metadata": {
+    "witness": "Iosif Bursuk",
+    "birth_location": "Chernovtsy, Ukraine",
+    "birth_year": 1931,
+    "interview_date": "July 2002",
+    "interviewer": "Ella Levitskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father's parents were born in the small town of Ataki in Bessarabia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ataki, Bessarabia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather Avrum-Rugel Bursuk was born in the 1860s.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Avrum-Rugel Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother Rachil Bursuk in the 1870s.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rachil Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1870s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her first husband Blaivis had died, leaving Rachil with their son Haim, born in 1890.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Haim",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1890",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father Abram, born in 1898, was the oldest.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Abram Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1898",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Their daughter Golda was born in 1903.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Golda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1903",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Dvoira in 1906.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1906",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Moishe, born in 1908, was the youngest.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Moishe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They had a store where they sold construction materials.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "store owners",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had store"
+    },
+    {
+      "sentence": "They lived in a small two-storied house on the bank of the Dnestr River.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "house on Dnestr River",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father moved to Chernovtsy in Bukovina in 1922.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Abram Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Upon his arrival in Chernovtsy my father rented an apartment and got a job as a shop assistant at a haberdashery store.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Abram Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shop assistant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job as"
+    },
+    {
+      "sentence": "Golda married Mendel Peisis, a local man in Ataki.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Golda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mendel Peisis",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Dvoira married a military, named Brunshtein.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Brunshtein",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father's youngest brother Moishe moved to Argentina in the 1920s.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Moishe",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Argentina",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My mother's father Zolman Derman, born in the 1860s, didn't come from Ataki.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Zolman Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was born in one of the small towns in Bessarabia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Zolman Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bessarabia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather Zolman came to Ataki after finishing a yeshivah in Kishinev.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Zolman Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "yeshivah in Kishinev",
+        "type": "ORG"
+      },
+      "verb_pattern": "finishing"
+    },
+    {
+      "sentence": "My grandfather was a rabbi in Ataki.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Zolman Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "rabbi",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was rabbi"
+    },
+    {
+      "sentence": "Clara and her husband moved to Brazil in the 1900s.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Clara",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Brazil",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They lived in Rio de Janeiro.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Clara and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rio de Janeiro",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Both brothers lived in the US.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Seril and her family lived in Beltsy, Bessarabia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Seril and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Beltsy, Bessarabia",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "In 1940, when Bessarabia became a part of the USSR, Seril, as the daughter of a rabbi, her husband and children were exiled to Novosibirsk region.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Seril and family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Novosibirsk region",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "exiled to"
+    },
+    {
+      "sentence": "Fenia lived with her husband in the Bessarabian town of Faleshty at the beginning of the war.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Fenia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Faleshty",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She perished in Transnistria during the Holocaust.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Fenia",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Polia and Gersh moved to Israel after she died.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Polia and Gersh",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My mother Frima was born in 1903.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Frima Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1903",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Grandfather Zolman died in the early 1920s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zolman Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "early 1920s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My parents got married in Ataki on 1st June 1928.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ataki",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "After the wedding the newly-weds settled down in Chernovtsy.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled down in"
+    },
+    {
+      "sentence": "My grandmother Khasia moved in with them.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Khasia Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved in with"
+    },
+    {
+      "sentence": "My grandmother died in 1934 when I was three years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Khasia Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1934",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried in the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Khasia Derman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My brother Ieguda was born in 1930.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ieguda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1930",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I followed in 1931.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Iosif Bursuk",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My younger brother Munia in 1934.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Munia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1934",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father worked as merchandise expert at a big wholesale depot.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Abram Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "merchandise expert",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My older brother went to the private Jewish elementary school when he turned eight.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ieguda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "private Jewish elementary school",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "In October 1941 a ghetto was established in Chernovtsy.",
+      "relationship_type": "established_in",
+      "subject": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "established in"
+    },
+    {
+      "sentence": "Later the Romanians began to send all people to Transnistria from the ghetto.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Jews from ghetto",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "send to"
+    },
+    {
+      "sentence": "My grandfather and grandmother Bursuk died on the way there.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandfather and grandmother Bursuk",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "on the way to Transnistria",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "My father's stepbrother Haim Blaivis had perished during the occupation.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Haim Blaivis",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "occupation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished during"
+    },
+    {
+      "sentence": "35,000 were deported.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "35,000 Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "deported"
+    },
+    {
+      "sentence": "After Chernovtsy was liberated we returned to our apartment.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Romanian occupation",
+        "type": "EVENT"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "My father's sisters and their children came to us from Transnistria.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "father's sisters and children",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Transnistria",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "Golda's husband Mendel Peisis returned from the front in 1945.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "Mendel Peisis",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "returned from"
+    },
+    {
+      "sentence": "Golda, her husband and children and Dvoira and her children moved to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Golda and Dvoira families",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Aron and Maya, the children of Haim Blaivis, also moved to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Aron and Maya",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I visited Israel in 1996.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Iosif Bursuk",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "Upon graduation from the institute I was sent to Baumanskaya region in Donetsk.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Iosif Bursuk",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Baumanskaya region, Donetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "I returned to Chernovtsy in 1960.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Iosif Bursuk",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My older brother Ieguda was a foreman for chemical coloring at the textile factory.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ieguda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "foreman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He married a Jewish girl in the 1950s.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ieguda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish girl",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My brother died in 1991.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ieguda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1991",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His wife and son moved to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Ieguda's wife and son",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My younger brother Munia finished the energy institute in Ivanovo.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Munia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "energy institute in Ivanovo",
+        "type": "ORG"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "His daughter moved to Israel four years ago.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Munia's daughter",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He followed her some time later.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Munia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "followed to"
+    },
+    {
+      "sentence": "My brother lives near Tel Aviv.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Munia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "near Tel Aviv",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives near"
+    },
+    {
+      "sentence": "We got married in Donetsk in 1958.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Iosif and Tamara",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Donetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Our older son Victor was born in Donetsk in 1958.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Victor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Donetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Our younger son Evgeniy was born in Chernovtsy in 1961.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Evgeniy",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Victor left home at 17 when he entered the Military Engineering College of the Underwater Fleet in Leningrad.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Victor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Military Engineering College in Leningrad",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "He, his wife and two sons live in Moscow.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Victor and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "My mother died in 1968.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Frima Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1968",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried in the Jewish cemetery in Chernovtsy.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Frima Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Chernovtsy",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My father died in 1970.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Abram Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1970",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father is buried beside my mother in the Jewish cemetery in Chernovtsy.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Abram Bursuk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Chernovtsy",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "Recently I went to the US and Israel.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Iosif Bursuk",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "United States and Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "testimony_metadata": {
+    "witness": "Bluma Lepiku",
+    "birth_location": "Tallinn, Estonia",
+    "birth_year": 1926,
+    "interview_date": "March 2006",
+    "interviewer": "Ella Levitskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My mother Luba, nee Gore, her sister Fanny and her brothers Samuel and Lev were born in the Russian town of Yekaterinoslav.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Luba Gore and siblings",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yekaterinoslav",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother was born in 1897.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Luba Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1897",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother's family lived in Yekaterinoslav before the 1900s.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gore family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yekaterinoslav",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "They settled down in Tartu, the second largest city in Estonia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gore family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tartu",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "My mother's older sister Fanny moved to America at 17.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Fanny Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My mother's bother Lev was regimented to the army at the beginning of World War I and disappeared at the front.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Lev Gore",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "World War I front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "disappeared at"
+    },
+    {
+      "sentence": "My grandmother moved to her older daughter Fanny in America.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Dora Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father was born in 1897.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yankl Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1897",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His younger brother Michail was born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Michail Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father played the violin at the movie theater.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yankl Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "violinist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "played at"
+    },
+    {
+      "sentence": "My father played in the largest restaurants in Tallinn: Astoria and Linden.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yankl Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Astoria and Linden restaurants",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "played in"
+    },
+    {
+      "sentence": "My older sister Mena, their first child, was born in January 1922.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Mena Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "January 1922",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in October 1926.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Bluma Shumiacher",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "October 1926",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother died in Tartu in early 1940.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Dora Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tartu",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried in the Jewish cemetery in Tartu according to Jewish traditions.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Dora Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Tartu",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "In 1939, when Estonian residents of German origin started moving to Germany at Hitler's call-up, Ilze and Otto left, too.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Ilze and Otto",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "moving to"
+    },
+    {
+      "sentence": "We arrived at the Kanash station, Chuvashia.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Shumiacher family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kanash station, Chuvashia",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived at"
+    },
+    {
+      "sentence": "In Shemursha we were the only family of an orchestra player.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Shumiacher family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shemursha",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "in location"
+    },
+    {
+      "sentence": "In 1943 my father was summoned to Yarsoslavl where an Estonian state orchestra was formed.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Yankl Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yaroslavl",
+        "type": "GPE"
+      },
+      "verb_pattern": "summoned to"
+    },
+    {
+      "sentence": "My father and Michail went to Yaroslavl.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Yankl and Michail Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yaroslavl",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I went to work as a medical nurse at the ophthalmologic department at the hospital in Yaroslavl.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Bluma Shumiacher",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "medical nurse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "In November 1944 the Estonian Corps liberated Tallinn.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Estonian Corps",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Tallinn",
+        "type": "GPE"
+      },
+      "verb_pattern": "liberated"
+    },
+    {
+      "sentence": "Hermann was captured by Germans.",
+      "relationship_type": "captured_by",
+      "subject": {
+        "entity": "Hermann Fridlander",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "captured by"
+    },
+    {
+      "sentence": "He died a tragic death at the very end of the war.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Hermann Fridlander",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "This happened on Saaremaa Island.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Hermann Fridlander",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Saaremaa Island",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "happened on"
+    },
+    {
+      "sentence": "He was regimented to a penal unit where he perished.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Hermann Fridlander",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "penal unit",
+        "type": "ORG"
+      },
+      "verb_pattern": "perished"
+    },
+    {
+      "sentence": "After the war my mother's sister Fanny found us.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Fanny Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "found us"
+    },
+    {
+      "sentence": "She lived in the USA with her family.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Fanny Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Ida and Solomon were evacuated to Uzbekistan.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Ida and Solomon Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzbekistan",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "Solomon died in prison.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Solomon Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Their son Michail was at the front and survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Michail Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war front",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "They lived in Tartu after the war.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ida and Michail Gore",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tartu",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "The synagogue in Tallinn burned down in 1944.",
+      "relationship_type": "destroyed_in",
+      "subject": {
+        "entity": "Tallinn Synagogue",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "burned down"
+    },
+    {
+      "sentence": "He was buried in the Jewish cemetery in Tallinn.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Yankl Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Tallinn",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My grandmother died in 1948.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Dora Reichmann",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1952 my father's younger brother Michail died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Michail Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1952",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1948 Israel was officially acknowledged.",
+      "relationship_type": "established_on",
+      "subject": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "1948",
+        "type": "DATE"
+      },
+      "verb_pattern": "acknowledged"
+    },
+    {
+      "sentence": "Golda Meir, the Prime Minister of Israel visited Moscow.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Golda Meir",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "My mother died in 1956.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Luba Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1962 we buried my father next to her.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yankl Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1962",
+        "type": "DATE"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My second husband, Ilmar Lepiku, was born in the village of Aniya, Kharoyusk district, in 1932.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ilmar Lepiku",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Aniya village",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Maria and her husband were exiled.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Maria Lepiku and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "exile",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "exiled"
+    },
+    {
+      "sentence": "Maria was exiled to the Krasnoyaskiy Krai.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Maria Lepiku",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Krasnoyaskiy Krai",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "exiled to"
+    },
+    {
+      "sentence": "Her husband was taken to the Gulag where he died.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Ilmar's father",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Gulag",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Maria returned from exile in 1956.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "Maria Lepiku",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "exile",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "returned from"
+    },
+    {
+      "sentence": "My sister died of cancer in 1982, when she was 59.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Mena Shumiacher",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My husband Ilmar died in 1992.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ilmar Lepiku",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1992",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1985 the Jewish community of Estonia was established.",
+      "relationship_type": "established_on",
+      "subject": {
+        "entity": "Jewish community of Estonia",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "1985",
+        "type": "DATE"
+      },
+      "verb_pattern": "established"
+    },
+    {
+      "sentence": "I got married in 1950.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bluma Shumiacher",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Victor Vatis",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Victor came from Odessa.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Victor Vatis",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "His family moved to Tallinn after the war.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Vatis family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tallinn",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "We divorced in 1953.",
+      "relationship_type": "divorced",
+      "subject": {
+        "entity": "Bluma and Victor",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1953",
+        "type": "DATE"
+      },
+      "verb_pattern": "divorced"
+    },
+    {
+      "sentence": "Tamara died in 1980.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Tamara Vatis",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1980",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We got married in 1962.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bluma and Ilmar",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1962",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "I remember the day, when Stalin died in March 1953.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Stalin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "March 1953",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    }
+  ]
+}

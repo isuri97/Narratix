@@ -1,0 +1,1051 @@
+{
+  "testimony_metadata": {
+    "witness": "Henrich Zinger",
+    "birth_location": "Velikiy Berezny, Subcarpathia",
+    "birth_year": 1914,
+    "interview_date": "April 2003",
+    "interviewer": "Ella Levitskaya"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "Henrich Zinger lives with his wife and daughter Elena in a private house not far from the center of Uzhgorod.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "In 1997 Henrich gave an interview to the Spielberg Foundation.",
+      "relationship_type": "worked_with",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Spielberg Foundation",
+        "type": "ORG"
+      },
+      "verb_pattern": "gave interview to"
+    },
+    {
+      "sentence": "My parents' families came from Subcarpathia.",
+      "relationship_type": "came_from",
+      "subject": {
+        "entity": "parents' families",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Subcarpathia",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "Subcarpathia belonged to Austro-Hungary before 1918.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Subcarpathia",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Austro-Hungary",
+        "type": "GPE"
+      },
+      "verb_pattern": "belonged to"
+    },
+    {
+      "sentence": "In 1918 Austro-Hungary gave the Subcarpathia region to the Czech Republic for the term of 20 years.",
+      "relationship_type": "transferred_to",
+      "subject": {
+        "entity": "Subcarpathia",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Czech Republic",
+        "type": "GPE"
+      },
+      "verb_pattern": "gave to"
+    },
+    {
+      "sentence": "The center of Subcarpathia was Uzhgorod.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "center of Subcarpathia",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "After Subcarpathia joined the USSR in 1945 the synagogue underwent reconstruction.",
+      "relationship_type": "joined_entity",
+      "subject": {
+        "entity": "Subcarpathia",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "USSR",
+        "type": "GPE"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "There was a big beautiful synagogue in Uzhgorod built by the French in the 19th century.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "synagogue",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "There was a cheder and a Jewish school in town.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "cheder and Jewish school",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "town",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "My father's parents were born and lived in the village of Turi Remety in Subcarpathia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Turi Remety",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My paternal grandfather and grandmother were born there in the 1860s.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "paternal grandfather and grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father, Kalman Zinger, was born in 1886.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Kalman Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1886",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I only knew my father's younger sister, born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "father's younger sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her daughter lives in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "her daughter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "They moved to the USA at the beginning of the 20th century.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "father's two older brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father became an apprentice of a stonemason when he turned 13.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Kalman Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "stonemason apprentice",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "apprentice of"
+    },
+    {
+      "sentence": "My mother's family lived in the village of Velikiy Berezny.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "mother's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Velikiy Berezny",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother's father, Yacob Galegrter, and her mother, Zali Galegrter, were born in Velikiy Berezny in the 1860s.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Yacob Galegrter and Zali Galegrter",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Velikiy Berezny",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother died in 1907 and my grandfather died in 1914.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandmother and grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1907 and 1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They were buried in the Jewish cemetery in Velikiy Berezny.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Velikiy Berezny",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My mother, Hana, was born in 1886.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Hana Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1886",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My parents met with the help of a shadkhan.",
+      "relationship_type": "met_through",
+      "subject": {
+        "entity": "Kalman and Hana Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shadkhan",
+        "type": "PERSON"
+      },
+      "verb_pattern": "met with help of"
+    },
+    {
+      "sentence": "They got married in 1910.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Kalman and Hana Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1910",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "They had a traditional Jewish wedding with a rabbi and a chuppah in Velikiy Berezny.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Velikiy Berezny",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "The newly-weds settled down in my mother's parents' house.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "newly-weds",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mother's parents' house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "settled down in"
+    },
+    {
+      "sentence": "My sister Helena was born in 1912.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Helena Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1912",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1914.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My younger brother Leopold was born in 1918.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Leopold Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1918",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father bought a plot of land near my mother's parents' house and built a house.",
+      "relationship_type": "built_in",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Velikiy Berezny",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "built house"
+    },
+    {
+      "sentence": "We lived there until 1944.",
+      "relationship_type": "lived_until",
+      "subject": {
+        "entity": "Zinger family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "lived until"
+    },
+    {
+      "sentence": "I finished school at the age of 14.",
+      "relationship_type": "studied_until",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "age 14",
+        "type": "DATE"
+      },
+      "verb_pattern": "finished school at"
+    },
+    {
+      "sentence": "My parents offered to send me to study at a garment factory in Czechoslovakia.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "garment factory in Czechoslovakia",
+        "type": "ORG"
+      },
+      "verb_pattern": "study at"
+    },
+    {
+      "sentence": "I returned from Czechoslovakia in 1930.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovakia",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned from"
+    },
+    {
+      "sentence": "My father sent me for training with a tailor.",
+      "relationship_type": "trained_with",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "training with"
+    },
+    {
+      "sentence": "After finishing my training I began to work at my master's shop.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "master's shop",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "I was a fabric-cutter.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "fabric-cutter",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "My sister Helena got married in 1934.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Helena Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1934",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My father bought a house in Uzhgorod for the newly-weds.",
+      "relationship_type": "bought_in",
+      "subject": {
+        "entity": "father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "bought in"
+    },
+    {
+      "sentence": "In 1936 I was recruited to the Czech army.",
+      "relationship_type": "conscripted_into",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czech army",
+        "type": "ORG"
+      },
+      "verb_pattern": "recruited to"
+    },
+    {
+      "sentence": "I served in an infantry unit in Czechoslovakia.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovakia",
+        "type": "GPE"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "I returned home in 1939.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "home",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "returned home"
+    },
+    {
+      "sentence": "Subcarpathia belonged to Hungary since 1938.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Subcarpathia",
+        "type": "LOCATION"
+      },
+      "object": {
+        "entity": "Hungary",
+        "type": "GPE"
+      },
+      "verb_pattern": "belonged to"
+    },
+    {
+      "sentence": "Hungary declared itself an ally of Hitler's Germany.",
+      "relationship_type": "allied_with",
+      "subject": {
+        "entity": "Hungary",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "Hitler's Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "ally of"
+    },
+    {
+      "sentence": "In 1939 Germany began World War II.",
+      "relationship_type": "started_war",
+      "subject": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "began"
+    },
+    {
+      "sentence": "In 1941 Germany attacked the USSR.",
+      "relationship_type": "attacked",
+      "subject": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "object": {
+        "entity": "USSR",
+        "type": "GPE"
+      },
+      "verb_pattern": "attacked"
+    },
+    {
+      "sentence": "I was mobilized to a forced labor battalion in the army.",
+      "relationship_type": "conscripted_into",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "forced labor battalion",
+        "type": "ORG"
+      },
+      "verb_pattern": "mobilized to"
+    },
+    {
+      "sentence": "We were sent to excavate trenches along the Don River in the USSR.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "labor battalion",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Don River, USSR",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "In February 1942 our battalion was attacked by the Soviet troops.",
+      "relationship_type": "attacked_by",
+      "subject": {
+        "entity": "battalion",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Soviet troops",
+        "type": "ORG"
+      },
+      "verb_pattern": "attacked by"
+    },
+    {
+      "sentence": "Then we were sent to Usman, to a camp for prisoners-of-war.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Usman camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sent to camp"
+    },
+    {
+      "sentence": "From Usman we moved to Voronezh, where we were taken to the sauna.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Voronezh",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I met my future wife when I was in this camp.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sophia Belinskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "She was born in 1924.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sophia Belinskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "On 9th May 1945 all inmates of the camp were lined up and announced that Germany had capitulated.",
+      "relationship_type": "liberated_on",
+      "subject": {
+        "entity": "camp inmates",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "9th May 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "war over"
+    },
+    {
+      "sentence": "They perished in Auschwitz where the Germans took them.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Zinger family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "I was in captivity from the beginning of 1942 till September 1946.",
+      "relationship_type": "imprisoned_from",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1942-1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "in captivity from"
+    },
+    {
+      "sentence": "In September I obtained the required permits to go home.",
+      "relationship_type": "returned_home",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "September 1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "go home"
+    },
+    {
+      "sentence": "I arrived in Velikiy Berezny where my neighbors confirmed that the Germans had taken my whole family to Auschwitz.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Velikiy Berezny",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "I went to Uzhgorod to obtain my documents.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My sister and her family also perished in concentration camp.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Helena and family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "concentration camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "I went to Voronezh to take Sophia to our home.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Voronezh",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "We returned to Uzhgorod where Sophia and I got married.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Henrich and Sophia Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Our first baby, our son Kalman, named after my father, was born in 1947.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Kalman Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1949 our daughter Elena, named after my sister Helena, was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Elena Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I began to work at a garment shop in the center of the town.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "garment shop",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "I worked there for 25 years.",
+      "relationship_type": "worked_for",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "25 years",
+        "type": "TIME"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "I retired when I was over 70.",
+      "relationship_type": "retired_at",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "over 70",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired when"
+    },
+    {
+      "sentence": "My wife went to work at the instrument manufacturing plant called Uzhgorodpribor.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Sophia Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorodpribor",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "She worked there for 30 years.",
+      "relationship_type": "worked_for",
+      "subject": {
+        "entity": "Sophia Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "30 years",
+        "type": "TIME"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "Our son studied to become a photographer.",
+      "relationship_type": "studied_as",
+      "subject": {
+        "entity": "Kalman Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "photographer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "studied to become"
+    },
+    {
+      "sentence": "He married a nice Jewish girl from Uzhgorod.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Kalman Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish girl from Uzhgorod",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Their son Dmitrii was born in 1982.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Dmitrii Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1996 our son and his family emigrated to Israel.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Kalman Zinger and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Our daughter Elena went to work at the Uzhgorodpribor Plant.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Elena Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Uzhgorodpribor Plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "Elena married a Jewish man from Uzhgorod.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Elena Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish man from Uzhgorod",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1976 their son Edward was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Edward Goldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1976",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Our grandson finished school and went to Israel under a program for young people.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Edward Goldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "In 1997 I went to Israel to visit my son and his family.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Since then she has worked with Hesed.",
+      "relationship_type": "worked_with",
+      "subject": {
+        "entity": "Elena Zinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Hesed",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked with"
+    },
+    {
+      "sentence": "In 1999 Hesed was established in Uzhgorod.",
+      "relationship_type": "established_in",
+      "subject": {
+        "entity": "Hesed",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Uzhgorod",
+        "type": "GPE"
+      },
+      "verb_pattern": "established in"
+    },
+    {
+      "sentence": "I go to the synagogue every Saturday.",
+      "relationship_type": "attends",
+      "subject": {
+        "entity": "Henrich Zinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "go to"
+    }
+  ]
+}

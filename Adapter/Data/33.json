@@ -1,0 +1,778 @@
+{
+  "testimony_metadata": {
+    "witness": "Moisey Goihberg",
+    "birth_location": "Ivanovka, Ukraine",
+    "birth_year": 1921,
+    "interviewer": "Zhanna Litinskaya",
+    "interview_date": "July 2002"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My paternal grandfather and grandmother, Moisey and Zlata Goihberg, who were born in the 1860s, lived in Ivanovka village, in Mohilev-Podolsk district in Vinnitsa province.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Moisey and Zlata Goihberg",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father Iosif, the oldest, was born in 1893.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Iosif",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1893",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Motia was born in 1895, Meyir in 1899, Zicia in 1903, and their sister Rachel was born in 1905.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rachel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1905",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They killed my grandfather and threw his body into the Dnestr River.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "They",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "my grandfather",
+        "type": "PERSON"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "Around 1921 she moved to America with 3 of their sons and their daughter.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They had crossed the Dnestr to Romania and from there left for America.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romania",
+        "type": "GPE"
+      },
+      "verb_pattern": "crossed to"
+    },
+    {
+      "sentence": "Motia and Meyir opened a small commission store in New York.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Motia and Meyir",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "store",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "opened"
+    },
+    {
+      "sentence": "Motia died in the mid-1970s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Motia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mid-1970s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Meyir died around 1978.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Meyir",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1978",
+        "type": "DATE"
+      },
+      "verb_pattern": "died around"
+    },
+    {
+      "sentence": "Rachel ran her own business, too.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rachel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "business",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "ran"
+    },
+    {
+      "sentence": "She lived in New York.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "New York",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Rachel was married but had no children.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Rachel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "married",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She died in the late 1960s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "late 1960s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother Zlata lived with Meyir's family.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "Zlata",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Meyir's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "She died in 1938.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1938",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He decided to cross the American-Canadian border illegally.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "American-Canadian border",
+        "type": "GPE"
+      },
+      "verb_pattern": "cross"
+    },
+    {
+      "sentence": "He was arrested and sent back to the Soviet Union.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Soviet Union",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "He lived with us until 1928.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "us",
+        "type": "PERSON"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "Later Zicia married a very distant relative who lived in Brazil and left with her.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zicia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "relative",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He first worked as a laborer and later he became a distributor of some goods.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "laborer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In the mid-1960s when the iron curtain was removed Zicia visited Kiev.",
+      "relationship_type": "visited",
+      "subject": {
+        "entity": "Zicia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited"
+    },
+    {
+      "sentence": "Zicia lives in Rio de Janeiro now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zicia",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rio de Janeiro",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "My father was married by the time of his mother's departure.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "My father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "married",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They took him to Yaruga, the neighboring town.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Yaruga",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "That same year my father met my mother, Lisa Voloshyna.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lisa Voloshyna",
+        "type": "PERSON"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "She lived in Yaruga, this typical town within the Jewish Pale of Settlement.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaruga",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother's parents, Gersh and Blima Voloshyn, were born in the 1860s and came from Yaruga.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Gersh and Blima Voloshyn",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Esphir married Naum Liber, a Jew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Esphir",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Naum Liber",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Hana's daughter Mura married her cousin, Itshak Liber, Esphir's son.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Mura",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Itshak Liber",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My grandfather Gersh Voloshyn was a vine grower.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gersh Voloshyn",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "vine grower",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My grandfather died around 1921.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My grandfather",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "died around"
+    },
+    {
+      "sentence": "Moisey and his wife Fania had 3 children: two sons, Srul and Misha, and a daughter named Tania.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Moisey",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Fania",
+        "type": "PERSON"
+      },
+      "verb_pattern": "wife"
+    },
+    {
+      "sentence": "Moisey was a shop assistant at a food store.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Moisey",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shop assistant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "Srul perished defending Leningrad and Misha returned from the war as an invalid and didn't live long.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Srul",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished defending"
+    },
+    {
+      "sentence": "Uncle Moisey, Fania and Tania stayed in Leningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Uncle Moisey, Fania and Tania",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "Moisey, Fania and Tania were evacuated to Middle Asia.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Moisey, Fania and Tania",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Middle Asia",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "Moisey and Fania died in the mid-1960s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Moisey and Fania",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mid-1960s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Tania died in 1990.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Tania",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1990",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Osher lived in Leningrad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Osher",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He lived in Leningrad with his wife Luba, and son Grisha.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Luba",
+        "type": "PERSON"
+      },
+      "verb_pattern": "wife"
+    },
+    {
+      "sentence": "He was a laborer at a plant, I don't know which one.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "laborer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "Osher died, too, during that winter, but Luba survived.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Osher",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "winter",
+        "type": "DATE"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "My mother's younger sister Rachel was born in 1898.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rachel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1898",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her husband, Moisey Serson, their two daughters, Dusia and Riva, and their son Naum lived in Yaruga and worked at my grandfather's vineyard.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Moisey Serson",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaruga",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "All the Jews of Yaruga were taken to the ghetto.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Jews of Yaruga",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "Rachel, her husband Moisey, their daughters and my grandmother Blima were in the ghetto.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Rachel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in the ghetto"
+    },
+    {
+      "sentence": "Rachel's family survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Rachel's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "survived",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "They were liberated in 1944.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "liberated in"
+    },
+    {
+      "sentence": "My poor grandmother Blima starved to death in the ghetto.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Blima",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "starved to death in"
+    },
+    {
+      "sentence": "After the war Rachel's family stayed in Yaruga.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Rachel's family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yaruga",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "Rachel and Moisey died in the mid-1970s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rachel and Moisey",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mid-1970s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My cousins Dusia, Riva and Naum live in New York.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Dusia, Riva and Naum",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "New York",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "They moved to America in the 1970s.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My mother was born in 1894.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "My mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1894",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My parents married in 1920.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "My parents",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "They had a traditional Jewish wedding with a chuppah in Yaruga.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaruga",
+        "type": "GPE"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "At first my parents lived in the house of my paternal grandparents in Ivanovka.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my parents",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ivanovka",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "I was born in Ivanovka on 23rd May 1921 and was named after my grandfather Moisey.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ivanovka",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was 6 months old when my parents sold their house and moved to my mother's parents home in Yaruga.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "my parents",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Yaruga",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    }
+  ]
+}

@@ -1,0 +1,2496 @@
+{
+  "testimony_metadata": {
+    "witness": "Larisa Borisovna Gorelova",
+    "birth_name": "Larisa Borisovna Oliker",
+    "birth_location": "Leningrad (St. Petersburg), Russia",
+    "birth_year": 1927,
+    "interviewer": "Alexandra Ulman",
+    "interview_date": "November 2002",
+    "interview_location": "St. Petersburg, Russia"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born in 1927 in Leningrad [today St. Petersburg].",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad (St. Petersburg)",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father's parents lived in Minsk, in Belarus.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My father's parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Minsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My paternal grandfather, Leib Oliker, was a tinsmith.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leib Oliker",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "tinsmith",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "He died when my father was six months old, in 1901.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1901",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Her second son, Peisakh-Elya, was arrested in April 1920 by the Belopolsk gendarmerie and exiled to a Gulag camp.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Peisakh-Elya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "April 1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested in"
+    },
+    {
+      "sentence": "He must have perished in a ghetto during the Great Patriotic War.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "My father, Ber Leibovich Oliker, was the youngest, the third son of Grandmother and Grandfather Oliker.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ber Leibovich Oliker",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "was born"
+    },
+    {
+      "sentence": "She died in a ghetto in Belarus during the Great Patriotic War, but our family doesn't know the exact date.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ghetto in Belarus",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's father, Alter-Girsh Bunin, was born in 1876 in the town of Slutsk, which is located 100 kilometers to the south of Minsk in Belarus, in the Jewish pale and studied in cheder.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Alter-Girsh Bunin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Slutsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandmother, Gita Bunina [nee Shapiro] was born in 1878 in Storobino in Belarus.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Gita Bunina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Storobino, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She died in 1931 in Minsk during an operation on her kidneys at a rather young age - she was 53.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried in Minsk at the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Minsk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "When the Fascists occupied Minsk, her grave was destroyed, so she has been commemorated at Grandfather's, her husband's, grave, who died in 1949 in Leningrad.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandfather",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The first child of my maternal grandparents was a boy, but he died in infancy.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "first child",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "infancy",
+        "type": "TIME"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "After that Grandmother gave birth to eight girls: Liber-Esther, Lyubov in her passport; Beilya, Berta in everyday life - my mother; Maria; Hanna, Anna in everyday life; Reizl, Rosa in everyday life; Matlya, Matilda in everyday life; Eshka, Esphir in everyday life; and Pasha, who was born 21 years after the first daughter was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "eight daughters",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "various dates",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "During the Soviet time, in 1929, Grandfather was dispossessed as a kulak.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Grandfather",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1929",
+        "type": "DATE"
+      },
+      "verb_pattern": "dispossessed in"
+    },
+    {
+      "sentence": "He died in 1949 and was buried at the Jewish Preobrazhensky cemetery in Leningrad, the memory of him is the most respectful and blessed.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandparents' elder daughter, Liber-Esther, Lyubov by passport, was born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Liber-Esther (Lyubov)",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "When she grew up, she left for Warsaw [today Poland], where she nursed one of her aunt's children, I don't know exactly which aunt's.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Warsaw, Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "She married Georgy Zaitsev, a Jew, born in 1902.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Georgy Zaitsev",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He studied at the Belarusian University and, as an undergraduate, was sent to the Institute of Red Professorate in Moscow to study at the Faculty of Economics and graduated from it in 1931.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "Lyubov went to Moscow together with him.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Lyubov",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "After graduation Georgy was assigned to party work in the Caucasus.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Georgy",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Caucasus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "In 1937 he was arrested and in 1938 executed by shooting.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1938",
+        "type": "DATE"
+      },
+      "verb_pattern": "executed in"
+    },
+    {
+      "sentence": "In 1937 Lyubov was also arrested; she worked as a teacher of Russian at that time.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Lyubov",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1937",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested in"
+    },
+    {
+      "sentence": "She was in prison until 1939, but the court wasn't able to accuse her of anything, so she was released as there had been no crime committed.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in prison"
+    },
+    {
+      "sentence": "He brought her to the train and sent her to evacuation to Kyrgyzstan, where all our family lived already.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "her",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "She died in 1965.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1965",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried at the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "The elder son of Lyubov and Georgy Zaitsev, Vitaly, lived with his mother in the Caucasus.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Vitaly",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Caucasus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He entered the Ulyanov-Lenin Electrical Engineering Institute in Leningrad, graduated from it and worked as an engineer for many years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "They have two children: son Sergey, who lives at present in the USA and daughter Galina, who lives in Petersburg.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Sergey",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "The name of Lyubov and Georgy Zaitsev younger son is Sigrid.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sigrid",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Caucasus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "When his parents were repressed in the Caucasus, Lyubov's sister, Rosa, took him in and brought him to Kyrgyzstan, where she was assigned to work after graduation from the First Medical Institute.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "him",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "He lived there with Rosa and her husband until his mother Lyubov was released from prison.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived there"
+    },
+    {
+      "sentence": "Later he returned to the Caucasus with his mother and stayed with her during evacuation.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Caucasus",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "He graduated from the Leningrad Electrical Engineering Institute.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Leningrad Electrical Engineering Institute",
+        "type": "OCCUPATION"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "At present he lives in Moscow with his second wife.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "He still works at the All-Union Scientific Research Institute of Mechanics and Electrical Engineering as an engineer.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "works as"
+    },
+    {
+      "sentence": "The second daughter was my mother, Beilya Bunina.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Beilya Bunina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Slutsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "The third daughter of my grandparents, Maria, born in 1905, entered the Law Faculty of the Belarusian University after the gymnasium and worked as a lawyer in Minsk before the Great Patriotic War.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Maria",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "lawyer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Later she was in evacuation in Kyrgyzstan.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "in evacuation in"
+    },
+    {
+      "sentence": "After the war she worked as a legal consultant in Glavleningradstroy, General Municipal Construction Administration, until her retirement.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "legal consultant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Maya [Maria] died in 1980 and was buried at the Jewish cemetery [in Leningrad].",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Maya (Maria)",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1980",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Her husband, Meyer Bogin, a Jew, worked as an engineer and was repressed in 1937: he was accused of 'anti-Soviet activity,' as was the custom in those days, and executed by shooting in 1938.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Meyer Bogin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1938",
+        "type": "DATE"
+      },
+      "verb_pattern": "executed in"
+    },
+    {
+      "sentence": "Their son, Artyom, born in 1932, an engineer, worked in Giprocement, the Scientific Research Institute of Cement Industry.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Artyom",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He died in 1993 and was buried near his mother at the Jewish cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1993",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The fourth daughter of my grandparents, Hanna, was born in 1907.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Hanna",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1907",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She finished school and later the Faculty of Biology of the Minsk University in 1930.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Minsk University",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In the same year she married Solomon Kaplan, who graduated from the Leningrad Polytechnic Institute.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Solomon Kaplan",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He worked as an engineer all his life at various civil plants.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He stayed in Leningrad during the blockade and survived.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "blockade of Leningrad",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "He died in 1984 and was buried in Leningrad at the Jewish cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1984",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Their son Ilya was born in 1945 after the war.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ilya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Hanna worked as a librarian; she died in 2000 in St. Petersburg.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Hanna",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "2000",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried at the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "The fifth daughter of my grandparents, Reizl, born in 1909, was the most beautiful in the family.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Reizl",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1909",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "After finishing school she graduated from the Medical Institute.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "Her husband, David, perished during the siege of Leningrad.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "David",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "siege of Leningrad",
+        "type": "EVENT"
+      },
+      "verb_pattern": "perished during"
+    },
+    {
+      "sentence": "After graduation from the institute she was assigned to Kyrgyzstan, got married for the second time, to Nikolai Amurov.",
+      "relationship_type": "assigned_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "All family got together at their place during the Great Patriotic War.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "All family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "at their place"
+    },
+    {
+      "sentence": "After the war Reizl worked as a doctor at the Railroad hospital, divorced Amurov and got married for the third time, to Boris Bely, also a doctor, but a veterinarian, with whom she lived for 25 years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Reizl",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He also survived the war; it caught him in Tallinn, in Estonia.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "He left for Russia on a ship and finished the war in Germany.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "finished in"
+    },
+    {
+      "sentence": "Bely died in 1971.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Bely",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1971",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She died in 1989 in Leningrad and was buried at the Jewish cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The sixth daughter of my grandparents, Matlya, was born in 1912.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Matlya",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1912",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "After school she studied at the Librarian Institute, completed three years and quit the institute because of an illness.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "librarian",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "She worked as an elementary school teacher and a librarian.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher and librarian",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She married Boris Epstein, a Jew, a communication engineer.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Boris Epstein",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Boris was a Soviet Army officer, a communication engineer, during the Great Patriotic War and stayed in Leningrad during the siege, but left for business: he laid the line along Ladoga Lake, where the Life Road lay; he also laid the communication line under Volga during the Stalingrad battle, and he finished the war in Germany.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Boris",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "finished in"
+    },
+    {
+      "sentence": "After the war he worked for a long time at the Scientific Research Institute of Communication.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "He died in 2002 at the age of 90.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "2002",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Matilda died in 1987 and was buried at the Jewish cemetery in Leningrad.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Matilda",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1987",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The seventh daughter of my grandparents, Eshka, was born in 1915.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Eshka",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1915",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She went to school after the Revolution of 1917, studied at a Jewish school and lived in Slutsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Slutsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "After finishing school, she left for Leningrad, entered the Leningrad Institute of Fine Mechanics and Optics and graduated from it in 1938.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "She didn't manage to defend her diploma, as she was assigned to work in Kazan, when the Great Patriotic War broke out.",
+      "relationship_type": "assigned_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kazan",
+        "type": "GPE"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "After the war she returned to Leningrad and defended her diploma in 1945.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "She worked as a teacher in navy schools at the places of her husband's work; she taught engineering sciences.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She worked at the Anti-aircraft school, the Navy school in Kronstadt [Kronstadt is a town on Kotlin island in the Finnish gulf, 10 km from the western coastal line of Leningrad] until her retirement age.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kronstadt",
+        "type": "GPE"
+      },
+      "verb_pattern": "worked at"
+    },
+    {
+      "sentence": "Her husband, Naum Fruman, born in 1915, was her fellow-student, but as an undergraduate, he was taken to the Navy Academy, from where he graduated as a navy officer in the field of shooting directing equipment.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Naum Fruman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "navy officer",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated as"
+    },
+    {
+      "sentence": "Right after graduation from the academy he was assigned to work in Tallinn.",
+      "relationship_type": "assigned_to",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tallinn",
+        "type": "GPE"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "When the Great Patriotic War broke out, they managed to leave Estonia for Kronstadt with the last ship.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kronstadt",
+        "type": "GPE"
+      },
+      "verb_pattern": "leave for"
+    },
+    {
+      "sentence": "Their ship was bombed en route and they were picked up by a Soviet ship which headed for the island.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ship bombing",
+        "type": "EVENT"
+      },
+      "verb_pattern": "picked up"
+    },
+    {
+      "sentence": "Thus they reached Kronstadt.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kronstadt",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "After that Naum worked at the Artillery Administration during the war and was transferred after the war to Kronstadt as a chief engineer for the Repair plant, where he worked until the Doctors' Plot started in 1953.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Naum",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "chief engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In 1953 he was slandered in connection with the Doctors' Plot, demobilized and fired from the Kronstadt plant.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1953",
+        "type": "DATE"
+      },
+      "verb_pattern": "slandered in"
+    },
+    {
+      "sentence": "He came to Leningrad and couldn't find a job for a rather long time.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "He died in 1999.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1999",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Eshka and Naum's elder daughter, Galina, was born in 1939.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Galina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She graduated from university and worked all her life as an engineer in the 'Azimuth' company.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Her husband Roman Karpelson stayed in Leningrad with his parents during the war.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Roman Karpelson",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "His parents died during the siege and he was raised in a children's home.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "His parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "siege of Leningrad",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "Roman graduated from the Mining Institute and worked as a geologist for a long time.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Roman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "geologist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Their elder son Vadim is an engineer, he lives in Israel now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Vadim",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Their younger son Alexander graduated from university and is now the 'Kodak' company manager in St. Petersburg; he deals with photo and other type of printing.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Alexander",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Eshka's son Leonid, born in 1948, graduated from the Bonch-Bruevich Electrical Engineering Institute and worked as an engineer in Petersburg.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leonid",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "Now he lives in Boston in the USA.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Boston, USA",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Eshka lives in St. Petersburg, she is 87 years old.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Eshka",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "St. Petersburg",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "The youngest, eighth daughter of my grandparents, Pasha, was born in 1921.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Pasha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her mother died, when Pasha was ten years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Her mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "At first she lived with Berta, my mother, in Minsk and went to school there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Later, when she was a 7th grade pupil, she left for Leningrad, to her sisters' place, where she finished school and entered the Medical Institute.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "She managed to finish three years before the Great Patriotic War.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leningrad",
+        "type": "GPE"
+      },
+      "verb_pattern": "before"
+    },
+    {
+      "sentence": "In evacuation in Kyrgyzstan she finished the Kyrgyz Medical Institute at the end of the war and managed to serve in the army in Ukraine.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kyrgyzstan",
+        "type": "GPE"
+      },
+      "verb_pattern": "in evacuation in"
+    },
+    {
+      "sentence": "During the war she married Yakov Umansky, who was killed at the frontline in 1944.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Yakov Umansky",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "After the war she lived with her sister Berta in Brest where she married Ikheil Manevich, born in 1917.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ikheil Manevich",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He graduated from the Medical Institute before the war and found himself at the frontline right after.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "He was a medical officer during the war and finished the war in Berlin.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Berlin",
+        "type": "GPE"
+      },
+      "verb_pattern": "finished in"
+    },
+    {
+      "sentence": "After the war, in 1947 he came to Brest, met Pasha, married her and they both left for Germany.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "In 1948 their elder son Gennady was born, who graduated from the Pulp and Paper Industry Institute in Leningrad and worked as an engineer in the field of pulp and paper combine construction.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Gennady",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "engineer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "At present he lives in Germany.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "Their daughter, Faina, was born in 1952.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Faina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1952",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She married Ilya Vikstein, who passed away in 1978.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ilya Vikstein",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Faina and Gennady left for Germany at the beginning of the 1990s with their children, where Faina died in 1993.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Faina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1993",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Pasha worked as a pediatrician for many years and died in 1997.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Pasha",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1997",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother, Beilya [Berta] Bunina, was born in 1902 in the town of Slutsk in Belarus.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Beilya (Berta) Bunina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Slutsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was the second daughter in the family and helped her parents with the household and in the vegetable garden.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Slutsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "She was Grandmother's right hand and helped to look after the younger children.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Grandmother",
+        "type": "PERSON"
+      },
+      "verb_pattern": "right hand"
+    },
+    {
+      "sentence": "She read a lot and was well-educated.",
+      "relationship_type": "education",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "gymnasium",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "educated"
+    },
+    {
+      "sentence": "She was the first to pave the way to education before the Revolution, as she decided to study in a gymnasium, not in cheder.",
+      "relationship_type": "education",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "gymnasium",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "study in"
+    },
+    {
+      "sentence": "Grandmother, unlike Grandfather, understood the necessity of her daughters' education, supported my mother and Mother finished a gymnasium in Slutsk.",
+      "relationship_type": "education",
+      "subject": {
+        "entity": "Mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "gymnasium in Slutsk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "finished"
+    },
+    {
+      "sentence": "After that she moved to Minsk and entered the Minsk Public University, the Faculty of Economics, and graduated in 1925.",
+      "relationship_type": "education",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk Public University",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "She married my father, Ber Oliker, who had graduated from the Medical Institute in Minsk and worked as a surgeon.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ber Oliker",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "I don't know exactly how my parents met, but I know that they didn't celebrate their wedding, they just registered their marriage; it was a custom to do so in big cities.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "each other",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Mother found a job as an economist-planner at Gosplan [state economic planning institution] of Belarus.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "economist-planner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In 1927 I was born and in 1935 my brother Ernst was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1927",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father, Ber Oliker, was born in 1901 in the town of Rogachev in Belarus.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ber Oliker",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rogachev, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was the youngest in his family and at the age of 13 became an apprentice at a private tailor shop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "apprentice",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "Difficult working conditions very soon destroyed his health and he had to leave the shop and become an apprentice at a private textiles store.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "apprentice",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "become"
+    },
+    {
+      "sentence": "In 1917, as a 16-year-old young man, he began to participate in the Revolutionary movement in Minsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "In 1918 during the Civil War, when Minsk was occupied by the Germans, he got acquainted with the members of an underground Bolshevik committee.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Thus he got to know the Party Charter of the Bolshevik Party and he was explained the objectives and tasks of the Bolshevik Party.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bolshevik Party",
+        "type": "ORG"
+      },
+      "verb_pattern": "got to know"
+    },
+    {
+      "sentence": "Soon he began to receive minor assignments from the underground committee; in particular, he was assigned to conduct the work among the working youth regarding international education in accordance with the Bolshevik Party Charter.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "underground committee member",
+        "type": "ORG"
+      },
+      "verb_pattern": "assigned to"
+    },
+    {
+      "sentence": "After Minsk was liberated from the German occupation, in December 1918 he was selected to the organizational three according to the convocation of the First Meeting of Working Youth for the purpose of organization and registration of the Komsomol organization in Minsk.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Komsomol organization",
+        "type": "ORG"
+      },
+      "verb_pattern": "selected to"
+    },
+    {
+      "sentence": "He was elected member of the First Committee of the Minsk Komsomol Organization, among others, at the first organizational meeting of the working youth in December 1918.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "member of Komsomol Committee",
+        "type": "ORG"
+      },
+      "verb_pattern": "elected member"
+    },
+    {
+      "sentence": "He joined the Red Army forces among one of the first Komsomol members, was enlisted to the Fourth Komsomol Company of the Minsk Guard regiment and fought against the White Guard members to defend our native Minsk.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Red Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "During the White-Polish occupation of Belarus and Minsk, Father, among other Komsomol members, was left in Minsk to conduct underground work.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "left in"
+    },
+    {
+      "sentence": "They assisted the underground Party Committee in setting up the underground Komsomol organization and very often, risking their lives, performed important tasks of the underground Party Committee.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "underground Komsomol organization",
+        "type": "ORG"
+      },
+      "verb_pattern": "assisted"
+    },
+    {
+      "sentence": "The underground Party Committee and the underground Komsomol leaders were arrested by the White-Polish gendarmerie.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "underground Komsomol leaders",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "White-Polish gendarmerie",
+        "type": "ORG"
+      },
+      "verb_pattern": "arrested by"
+    },
+    {
+      "sentence": "After the arrest of the first underground Komsomol Committee, Father was elected Chairman of the Minsk underground Komsomol Committee.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Chairman of Komsomol Committee",
+        "type": "ORG"
+      },
+      "verb_pattern": "elected"
+    },
+    {
+      "sentence": "At the beginning of April 1920 the White-Polish gendarmerie arrested him and other members of the underground Komsomol Committee.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "him",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "April 1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested in"
+    },
+    {
+      "sentence": "He was interrogated, tortured and tormented in the torture cell.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "torture cell",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Five of his front teeth were knocked out.",
+      "relationship_type": "tortured",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "White-Polish gendarmerie",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "knocked out"
+    },
+    {
+      "sentence": "As a result of torture he had to undergo two operations later, lost his hearing in his right ear and remained disabled for the rest of his life.",
+      "relationship_type": "injured",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "torture",
+        "type": "EVENT"
+      },
+      "verb_pattern": "result of"
+    },
+    {
+      "sentence": "He was court-martialed as the leader of the underground Komsomol Committee, and the court was supposed to pass a death sentence, but owing to the violent attack of the Red Army the court didn't manage to complete the trial.",
+      "relationship_type": "sentenced",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "court-martial",
+        "type": "EVENT"
+      },
+      "verb_pattern": "court-martialed"
+    },
+    {
+      "sentence": "He was the delegate of the III Congress of the Workers' and Peasants' Young League, where Vladimir Ilyich Lenin gave his famous historical speech about the tasks of the Young Communist League.",
+      "relationship_type": "attended",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "III Congress of Workers' and Peasants' Young League",
+        "type": "EVENT"
+      },
+      "verb_pattern": "delegate of"
+    },
+    {
+      "sentence": "After the Civil War Father finished the workers' faculty, after that he graduated from the Medical Institute and he became a surgeon and later the Deputy People's Commissar of Public Health of Belarus.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "surgeon and Deputy People's Commissar",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "We had an intellectual Soviet family: my parents had university education and worked in their professional field; Father was a public party activist - unfortunately I was too small at that time to take interest in it, and later my father didn't tell me about it, so I can't give you more details - religion was out of the question.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "public party activist",
+        "type": "ORG"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "We lived in a small apartment in downtown Minsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Minsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Father had a big library: mostly they were medical books, the Communist Party history, Russian classics, but it was all lost in the Great Patriotic War, because we left the city without any of our belongings.",
+      "relationship_type": "lost_at",
+      "subject": {
+        "entity": "library",
+        "type": "OBJECT"
+      },
+      "object": {
+        "entity": "Great Patriotic War",
+        "type": "EVENT"
+      },
+      "verb_pattern": "lost in"
+    },
+    {
+      "sentence": "In fall 1935 an exchange of documents was commenced in the Communist Party, connected with the beginning purge.",
+      "relationship_type": "purge",
+      "subject": {
+        "entity": "Communist Party",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "1935",
+        "type": "DATE"
+      },
+      "verb_pattern": "commenced in"
+    },
+    {
+      "sentence": "Mass arrests and expulsions from the Party began.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Party members",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1935",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrests began"
+    },
+    {
+      "sentence": "The incidence of these arrests couldn't but put Father on his guard, as he recalled that in 1932 Stalin's letter was published in the 'Proletarian Revolution' magazine about the Party's history falsification.",
+      "relationship_type": "published",
+      "subject": {
+        "entity": "Stalin's letter",
+        "type": "DOCUMENT"
+      },
+      "object": {
+        "entity": "1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "published in"
+    },
+    {
+      "sentence": "In connection with Stalin's letter all historical books about the Party's history, which had been published before, were called into question.",
+      "relationship_type": "censored",
+      "subject": {
+        "entity": "historical books",
+        "type": "OBJECT"
+      },
+      "object": {
+        "entity": "Stalin's letter",
+        "type": "DOCUMENT"
+      },
+      "verb_pattern": "called into question"
+    },
+    {
+      "sentence": "There was no literature in Belarus at that time about the history of the Party and Komsomol, there was only one book about the history of the Komsomol, and my father was one of its authors.",
+      "relationship_type": "authored",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "book about Komsomol history",
+        "type": "DOCUMENT"
+      },
+      "verb_pattern": "author of"
+    },
+    {
+      "sentence": "Father knew that in case of absence of any other literature the book about the history of the Belarusian Komsomol would be the only target and he wasn't mistaken.",
+      "relationship_type": "targeted",
+      "subject": {
+        "entity": "book about Belarusian Komsomol",
+        "type": "DOCUMENT"
+      },
+      "object": {
+        "entity": "authorities",
+        "type": "ORG"
+      },
+      "verb_pattern": "target"
+    },
+    {
+      "sentence": "On 29th April 1936 Father was arrested and forwarded to the Minsk prison.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "29th April 1936",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested on"
+    },
+    {
+      "sentence": "After that, within 15 months the investigation was carried out.",
+      "relationship_type": "investigated",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "authorities",
+        "type": "ORG"
+      },
+      "verb_pattern": "investigation carried out"
+    },
+    {
+      "sentence": "As a result, he was dispatched to the Moscow court in Lefortovo [a district of Moscow], where within twelve minutes his sentence was announced to him - ten years of prison plus five years of deprivation of rights.",
+      "relationship_type": "sentenced",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "ten years prison",
+        "type": "PRISONER"
+      },
+      "verb_pattern": "sentence announced"
+    },
+    {
+      "sentence": "Father expected that he would be sentenced to death and was even glad that he got a different verdict.",
+      "relationship_type": "sentenced",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "different verdict",
+        "type": "PRISONER"
+      },
+      "verb_pattern": "sentenced"
+    },
+    {
+      "sentence": "From that moment years of wandering in prisons and exiles began.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prisons",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "wandering in"
+    },
+    {
+      "sentence": "Father's first prison was the Vologda prison.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vologda prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "first prison"
+    },
+    {
+      "sentence": "His second halting point was the Solovetsky monastery.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "His",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Solovetsky monastery",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "halting point"
+    },
+    {
+      "sentence": "Father stayed for two years in Solovetsky monastery without any work, without communication, without walks.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Solovetsky monastery",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "He was allowed only to use the prison library.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "allowed in"
+    },
+    {
+      "sentence": "He read mainly medical literature.",
+      "relationship_type": "activity",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "medical literature",
+        "type": "OBJECT"
+      },
+      "verb_pattern": "read"
+    },
+    {
+      "sentence": "Once he was very much carried away with the 'History of Surgery' and he crossed his legs and leaned his elbow on his knee.",
+      "relationship_type": "activity",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "History of Surgery",
+        "type": "DOCUMENT"
+      },
+      "verb_pattern": "carried away with"
+    },
+    {
+      "sentence": "The guard, who watched him through the crack in the door, entered the cell, hit him and sent him to the punishment cell.",
+      "relationship_type": "punished",
+      "subject": {
+        "entity": "guard",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "him",
+        "type": "PERSON"
+      },
+      "verb_pattern": "sent to punishment cell"
+    },
+    {
+      "sentence": "This continued until 1939.",
+      "relationship_type": "imprisoned_until",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "continued until"
+    },
+    {
+      "sentence": "In June 1939 some doctors, who worked in the sanitary department of the prison, were mobilized and it was decided to replace them with the imprisoned doctors.",
+      "relationship_type": "replaced",
+      "subject": {
+        "entity": "imprisoned doctors",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mobilized doctors",
+        "type": "PERSON"
+      },
+      "verb_pattern": "replace them with"
+    },
+    {
+      "sentence": "Thus Father was engaged in medical practice.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "engaged in"
+    },
+    {
+      "sentence": "In fall 1939 all prisoners were removed from the Solovetsky prison.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "prisoners",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Solovetsky prison",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "removed from"
+    },
+    {
+      "sentence": "After the Solovetsky islands he spent his camp life in Karelia, in Archangelsk region and Vorkuta region [north of Russia].",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Karelia, Archangelsk region, Vorkuta region",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "spent in"
+    },
+    {
+      "sentence": "During the Great Patriotic War he worked as a doctor in the town of Medvezhegorsk, constantly asking to be let to the frontline, but, of course, his request wasn't satisfied.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He lived like that until 1947.",
+      "relationship_type": "imprisoned_until",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "until"
+    },
+    {
+      "sentence": "While in prison, he got acquainted with and started to live with a different woman, so he never returned to my mother.",
+      "relationship_type": "separated_from",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "my mother",
+        "type": "PERSON"
+      },
+      "verb_pattern": "never returned to"
+    },
+    {
+      "sentence": "In 1947, after ten years of imprisonment, he was released on probation.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "released in"
+    },
+    {
+      "sentence": "He understood perfectly that it wasn't for long, that he would be arrested again.",
+      "relationship_type": "arrested_again",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "authorities",
+        "type": "ORG"
+      },
+      "verb_pattern": "arrested again"
+    },
+    {
+      "sentence": "He worked in Kyrgyzstan as a doctor until 1950.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In 1950, 14 years after his first arrest and three years after his release, he was arrested for the second time by the bodies of the State Security Committee in Kyrgyzstan and dispatched to the Krasnoyarsk territory, where after long waiting he was appointed as doctor to a village in Yenisey.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1950",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrested in"
+    },
+    {
+      "sentence": "After two years of exile, in 1952, Father was fired in connection with the beginning of the Doctors' Plot in Moscow and for three months he was waiting for his third arrest.",
+      "relationship_type": "fired",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1952",
+        "type": "DATE"
+      },
+      "verb_pattern": "fired in"
+    },
+    {
+      "sentence": "Later the State Security Committee in Kyrgyzstan dispatched him to the Far North to Taymyr National District, where he worked until Stalin's death in 1953.",
+      "relationship_type": "exiled_to",
+      "subject": {
+        "entity": "him",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Taymyr National District",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "dispatched to"
+    },
+    {
+      "sentence": "In December 1954 Father obtained a passport and felt himself to be a free man.",
+      "relationship_type": "released",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "December 1954",
+        "type": "DATE"
+      },
+      "verb_pattern": "obtained passport"
+    },
+    {
+      "sentence": "He made up his mind to take the most extreme measures and began to write letters to the Communist Party Central Committee and to the Administration of the State Security Committee about his unfair imprisonment.",
+      "relationship_type": "appealed",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Communist Party Central Committee",
+        "type": "ORG"
+      },
+      "verb_pattern": "write letters to"
+    },
+    {
+      "sentence": "In April 1956, two months after the Twentieth Party Congress, Father was rehabilitated by the resolution of the Supreme Court of the USSR.",
+      "relationship_type": "rehabilitated",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "April 1956",
+        "type": "DATE"
+      },
+      "verb_pattern": "rehabilitated in"
+    },
+    {
+      "sentence": "He was allowed to move to Kyrgyzstan from the Far North, where he was rehabilitated in the Party and assigned to work in Minsk, Belarus, upon his own request.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Minsk, Belarus",
+        "type": "GPE"
+      },
+      "verb_pattern": "move to"
+    },
+    {
+      "sentence": "He worked in Minsk until 1967, at the Scientific Research Institute of Sanitary Hygiene as a doctor-research officer and wrote and published several scientific works.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "doctor-research officer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He died in Minsk in 1978.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1978",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "When perestroika started, in 1989 during the period of complete rehabilitation of the Gulag prisoners, the Military Board of the Supreme Court of the USSR informed me with a letter that my father had been groundlessly accused of having been a member of the counterrevolutionary trotskist terrorist group in Minsk since 1935.",
+      "relationship_type": "rehabilitated",
+      "subject": {
+        "entity": "my father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1989",
+        "type": "DATE"
+      },
+      "verb_pattern": "rehabilitation in"
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "testimony_metadata": {
+    "witness": "Roza Anzhel",
+    "birth_name": "Roza Varsano",
+    "birth_location": "Sofia, Bulgaria",
+    "birth_year": 1924,
+    "interview_date": "January 2006",
+    "interviewer": "Svetlana Avdala"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I was born on 13th November 1924 in Sofia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I have one brother, Isak, and two sisters, Ester [Stela], born in 1926, and Rebeka [Beka], born in 1932.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ester and Rebeka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1926 and 1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My husband's name is Leon Anzhel.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Leon Anzhel",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "husband"
+    },
+    {
+      "sentence": "We call him Larry and he was born in the town of Yambol in 1921.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Leon Anzhel",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yambol",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Grandpa Yonto Almozino, a saddler by profession, my mother Olga's father, who loved us very much, told me that his kin had come from Spain and settled down directly in Sofia 500 years ago.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Yonto Almozino's kin",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled down in"
+    },
+    {
+      "sentence": "Granny Ester I do remember - she was a woman of soft personality and was always wearing a kerchief on her head, she lived in the town of Samokov.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Granny Ester",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Samokov",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother, Olga, is the second oldest daughter.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Olga",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yonto Almozino",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "daughter"
+    },
+    {
+      "sentence": "As a saddler in the Tsar's court he started earning a lot of money.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Yonto Almozino",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "saddler in Tsar's court",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "saddler in"
+    },
+    {
+      "sentence": "He took her to Vienna, and to Bucharest, and to Istanbul, for treatment because he had money, but at the age of 45 she departed from this life.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Granny Roza",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "age 45",
+        "type": "DATE"
+      },
+      "verb_pattern": "departed from life"
+    },
+    {
+      "sentence": "Afterwards Grandpa decided to marry for the second time, Buka, a Jew, too, who was 25 and had a child, Isak.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Yonto Almozino",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buka",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "marry"
+    },
+    {
+      "sentence": "My paternal grandfather's name was Isak Varsano.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Isak Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Roza's grandfather",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "grandfather"
+    },
+    {
+      "sentence": "He married my granny Ester and they had two children, Bitush and Asher.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Isak Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ester",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "But my grandfather's sister Matilda, who didn't have her own children, adopted my father and his brother - Bitush and Asher - and brought them up in her own home in Sofia, on Positano Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Matilda",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "home in"
+    },
+    {
+      "sentence": "Then my father went to war and he used to send letters then, too.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "went to war"
+    },
+    {
+      "sentence": "My parents got married in the synagogue in Iuchbunar, on the corner of Osogovo and Bregalnitsa Street, in 1919.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "synagogue in Iuchbunar",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "After the wedding the newly-weds settled down in Chernovtsy.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chernovtsy",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled down in"
+    },
+    {
+      "sentence": "My grandmother Khasia moved in with them.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Khasia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "with parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "moved in with"
+    },
+    {
+      "sentence": "My grandmother died in 1934 when I was three years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Khasia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1934",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father, Bitush Isak Varsano, had elementary education, but as a young man he started acquiring the tinsmith and the plumbing craft with some craftsman, a Jew, too, whose name I don't know.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tinsmith and plumber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "acquiring craft"
+    },
+    {
+      "sentence": "My mother, Olga Almozino, had taken the responsibility for our bringing up at home.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Olga Almozino",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "children",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "bringing up"
+    },
+    {
+      "sentence": "My brother Isak was born in 1921 in Sofia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Isak Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He helped my father to make our living by working after school and during the holidays as an apprentice at a barber's.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Isak Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "apprentice at barber's",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "working as"
+    },
+    {
+      "sentence": "He got married at an early age, in 1942 or 1943, to Tsivi Nusan.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Isak Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tsivi Nusan",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "My brother died in Sofia in 1981.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Isak Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My sister Ester or Stela Galvy, nee Varsano, was born in 1926 in Sofia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ester Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She got married in 1948 to my husband Leon Anzhel's friend, Aron Galvy.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Ester Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Aron Galvy",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "At present Stela lives in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Stela",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "She left twelve years ago, in 1994.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Stela",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left"
+    },
+    {
+      "sentence": "Rebeka or Beka Varsano was the youngest and she had the most independent way of development irrespectively of the fact that we have always been united.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Rebeka Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "youngest sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "After that we were interned to Vratsa.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "She married the Bulgarian Vladimir Naydenov despite the resistance from our parents.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Rebeka Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vladimir Naydenov",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In 1994 Rebeka left for Israel and lived there for ten years but then came back to Bulgaria.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Rebeka Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "My father was a very nice person, so good, with such a soft personality, he wouldn't harm a fly.",
+      "relationship_type": "personal_attribute",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "nice person",
+        "type": "ATTRIBUTE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "We usually lived in rented lodgings.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "rented lodgings",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "When we were on Morava Street, in Iuchbunar - we lived there for nine years.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Morava Street, Iuchbunar",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "After that we moved to Odrin Street.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odrin Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My father, for example, before the internment had found a job in the Platno factory, in Hadzhi Dimitar quarter.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "worker at Platno factory",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job in"
+    },
+    {
+      "sentence": "When the men left for the camps I became the sub-group person in charge in UYW.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "UYW leader",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "They arrested me right there and took me to the Police Directorate.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "atelier",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "arrested"
+    },
+    {
+      "sentence": "Afterwards I was interned to Vratsa with my sisters.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Roza and sisters",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "During the arrest and after that I received full moral support from both my father and my mother.",
+      "relationship_type": "supported_by",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "father and mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "support from"
+    },
+    {
+      "sentence": "At first we had an invitation from the town of Kazanlak as there used to be an aviation factory, but there wasn't a single Jew to remain in the town.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "aviation factory",
+        "type": "OCCUPATION"
+      },
+      "object": {
+        "entity": "Kazanlak",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "The Jews from Kazanlak were also interned to Vratsa.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Jews from Kazanlak",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "We traveled all night long.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "traveled"
+    },
+    {
+      "sentence": "That was the first time I had been on a train.",
+      "relationship_type": "transported_by",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "train",
+        "type": "TRANSPORT"
+      },
+      "verb_pattern": "on train"
+    },
+    {
+      "sentence": "At the very station we were awaited by policemen and military officers and we were accommodated in the building of the school which was on the way to Vratsata.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "school building",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "accommodated in"
+    },
+    {
+      "sentence": "After a while we started looking for lodgings because we were given permission to do so.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "private lodgings",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "looking for lodgings"
+    },
+    {
+      "sentence": "So we went to live on Tsar Krum Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Tsar Krum Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "live on"
+    },
+    {
+      "sentence": "We were living in a cellar there - in a basement.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "cellar",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "My father was in Somovit.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Somovit",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Before the internment they had arrested him and sent him to Somovit.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Somovit",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "Opposite our place there was a Turkish bath house, which wasn't working, and there were rooms for rent.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Turkish bath house",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "There we rented a room for my future mother-in-law who had been interned to Lom alone.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "mother-in-law",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Lom",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "interned to"
+    },
+    {
+      "sentence": "And we took her from Lom to Vratsa.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "mother-in-law",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "While we were in Vratsa, Larry was working in the labor camps.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Leon Anzhel",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "labor camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "They demobilized them from time to time, to spend the winter at home, and then mobilized them again.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "men from labor camps",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "labor camps",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "demobilized"
+    },
+    {
+      "sentence": "In the winter of 1943 he had come back to Vratsa.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Leon Anzhel",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "come back to"
+    },
+    {
+      "sentence": "He came back and started living opposite us.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Leon Anzhel",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "We had decided to get married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Roza and Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "married",
+        "type": "EVENT"
+      },
+      "verb_pattern": "get married"
+    },
+    {
+      "sentence": "We had made an arrangement with the rabbi in Vratsa, decided on the day.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Roza and Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vratsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "with rabbi in"
+    },
+    {
+      "sentence": "The date was 16th March 1944.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Roza and Leon",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "16th March 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "date was"
+    },
+    {
+      "sentence": "They had freed Grandpa Bitush from the camp.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "freed from"
+    },
+    {
+      "sentence": "He had returned.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "Bitush Varsano",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "returned"
+    },
+    {
+      "sentence": "Larry was mobilized in Vratsa to clear off the debris.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Anzhel",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "debris clearer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "mobilized to"
+    },
+    {
+      "sentence": "We all survived after 9th September.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "family",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "We came back to Sofia in November 1945.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "family",
+        "type": "SURVIVOR"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    },
+    {
+      "sentence": "They are in the town of Tolbuhin.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "relatives",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tolbuhin",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "The apartment was on Rakovski Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "apartment",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Rakovski Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "on"
+    },
+    {
+      "sentence": "We managed to clean the place and in 1945 I gave birth to our first child, Zhani [Yafa].",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yafa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "gave birth"
+    },
+    {
+      "sentence": "At that time I started work as a telephone operator in the Ministry of Interior.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "telephone operator",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "Larry was a policeman.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Leon Anzhel",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "policeman",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "I worked in the Ministry of the Interior until 1951.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "I started work in 'Voroshilov' works as a chief controller.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Roza Anzhel",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "chief controller",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "My first child Yafa, who was named after my mother-in-law, was born on 2nd June 1945 in Sofia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Yafa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She got married to Yozhi Beraha in 1968.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Yafa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yozhi Beraha",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "My son Zhak was born on 23rd April 1949 in Sofia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Zhak",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sofia",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He is married to Emilia Dimtirova, a Bulgarian.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zhak",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Emilia Dimitrova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "My two sisters, Stela and Beka, went there much later.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Stela and Beka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Stela is still there, but Beka came back and now she is living with her daughter in Bulgaria.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Beka",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bulgaria",
+        "type": "GPE"
+      },
+      "verb_pattern": "came back to"
+    }
+  ]
+}

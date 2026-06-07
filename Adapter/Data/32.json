@@ -1,0 +1,765 @@
+{
+  "testimony_metadata": {
+    "witness": "Simon Gutman",
+    "birth_year": 1907,
+    "birth_location": "Dvinsk, Latvia",
+    "interview_date": "February 2002",
+    "interviewer": "Svetlana Kovalchuk"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father's full name was Israel Solomonovich Gutnomen-Gutman, and he was born in 1873.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1873",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He died in Kharkov in 1919, at the age of 46, of a heart attack.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kharkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They traded in wood and lumber, mainly in Latgalia.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "grandfathers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "wood traders",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "traded in"
+    },
+    {
+      "sentence": "He was a lumber trader, but then he bought a cinema in Dvinsk.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "lumber trader",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was trader"
+    },
+    {
+      "sentence": "He bought the equipment for his cinema in Germany.",
+      "relationship_type": "purchased_from",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "bought in"
+    },
+    {
+      "sentence": "About 1915, my father sent our family - mum, me and my two brothers, to Zilupe, formerly Razumovskoye.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zilupe",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "And later we lived in the vicinity of Moscow, in Pavlovski Posad.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gutman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Pavlovski Posad",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Yakov was two years older than we, born in 1905.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Yakov Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1905",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Mum took her to Berlin for medical treatment.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "mother and Nyuta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Berlin",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "On the eve of the war mum took her to Switzerland, and my sister stayed there.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "mother and Nyuta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Switzerland",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "She returned to Riga, to our uncle's place, via Finland in 1921.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Nyuta Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "Before we left for evacuation, we lived on 20 Rizhskaya Street in Dvinsk.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gutman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Dvinsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She lived with her last husband in Copenhagen, Denmark.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "grandmother Sheina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Copenhagen, Denmark",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "There she lived and there she died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandmother Sheina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vilnius",
+        "type": "GPE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Grandmother died in the summer of 1931.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandmother Sheina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "summer 1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Aunt Tirtsa died in Vilnius in 1936, before the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Aunt Tirtsa",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vilnius",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They lived on Antonievskaya Street in Riga.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Israeltan family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He was the manager of a large textiles shop, owned by Kazatsky, a Jew.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Solomon Israeltan",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "shop manager",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was manager"
+    },
+    {
+      "sentence": "I was told that Yulik and Vovik were shot by Nazis at the very beginning of the war.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Yulik and Vovik Israeltan",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Nazis",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot by"
+    },
+    {
+      "sentence": "Aunt Bella and Uncle Sam perished in the ghetto in Riga.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Aunt Bella and Uncle Sam",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto in Riga",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "In 1917 daddy took us from Pavlovski Posad to a resort on the coast of the Azov sea, in Berdyansk.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Gutman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Berdyansk",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "There we ended up staying for four years.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Gutman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Berdyansk",
+        "type": "GPE"
+      },
+      "verb_pattern": "staying in"
+    },
+    {
+      "sentence": "He was put into a hospital and he died there of what they now call an infarct.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "hospital in Kharkov",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Mum buried him in Kharkov.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Israel Solomonovich Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kharkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "In 1921 my mother managed to obtain a free ticket for a group tour and our entire family went to Moscow.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Gutman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "He was put into a hospital in Moscow, and there he died in 1922.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Yakov Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We returned to Riga in September 1923.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Gutman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "I was in Riga's Central prison, in the solitary cell, but only for one month.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Riga Central prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in prison"
+    },
+    {
+      "sentence": "In Daugavpils I served a short term, too.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Daugavpils prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "served term"
+    },
+    {
+      "sentence": "Later, when I arrived in Riga in 1928, my sister helped me to get a job with the Jewish theatre.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "theater worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job with"
+    },
+    {
+      "sentence": "In 1931 I got acquainted with my future wife, Ida Ruvimovna Kvasnik, born in 1917.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ida Kvasnik",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1917",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was enlisted for the army that year.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Latvian army",
+        "type": "ORG"
+      },
+      "verb_pattern": "enlisted for army"
+    },
+    {
+      "sentence": "We married in 1936.",
+      "relationship_type": "married_on",
+      "subject": {
+        "entity": "Simon and Ida Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1936",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "Her mum died two or three years before our wedding, of breast cancer.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ida's mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "breast cancer",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "died of"
+    },
+    {
+      "sentence": "On 17th June the Soviet troops entered Riga.",
+      "relationship_type": "occupied",
+      "subject": {
+        "entity": "Soviet troops",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "I remember that morning, Sunday, 22nd June, I was in our office.",
+      "relationship_type": "war_began",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "22nd June 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "remember morning"
+    },
+    {
+      "sentence": "So we headed for Pskov along the highway.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Simon Gutman and evacuees",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Pskov",
+        "type": "GPE"
+      },
+      "verb_pattern": "headed for"
+    },
+    {
+      "sentence": "Finally, we found ourselves in Sharya, Gorky region.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Simon Gutman and evacuees",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sharya, Gorky region",
+        "type": "GPE"
+      },
+      "verb_pattern": "found in"
+    },
+    {
+      "sentence": "In August a message was received, saying that men from Latvia were ordered to join the Latvian Battalion.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Latvian Battalion",
+        "type": "ORG"
+      },
+      "verb_pattern": "join"
+    },
+    {
+      "sentence": "From August till December I was in Gorokhovets camps.",
+      "relationship_type": "stationed_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gorokhovets camps",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "in camps"
+    },
+    {
+      "sentence": "On 3rd December 1941 we approached the city of Naro-Fominsk, where the Latvian Division was fighting.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Naro-Fominsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "approached"
+    },
+    {
+      "sentence": "On 12th September 1943 I thrust myself out from the trench, and was hit on my left arm.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "battle",
+        "type": "EVENT"
+      },
+      "verb_pattern": "was hit"
+    },
+    {
+      "sentence": "Then I went to my wife in Stalinabad.",
+      "relationship_type": "reunited_with",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Stalinabad",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My mum, my sister and Salya's family set off from Riga on foot.",
+      "relationship_type": "evacuated_from",
+      "subject": {
+        "entity": "Gutman family members",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "set off from"
+    },
+    {
+      "sentence": "From Stalinabad I returned with my wife to Riga in March 1945.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Simon and Ida Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Riga",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "Mum and Nyuta joined us in the fall of 1945.",
+      "relationship_type": "reunited_with",
+      "subject": {
+        "entity": "mother and Nyuta",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "verb_pattern": "joined"
+    },
+    {
+      "sentence": "In November 1946, on the eve of the November holidays, my mother died in a hospital.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Berta Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "November 1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My sister died five years ago.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Nyuta Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "five years ago",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My son was born in May 1945, just before Victory Day.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Lyova Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "May 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In the army he served in Kaliningrad region.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Lyova Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kaliningrad region",
+        "type": "GPE"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "He now works as an interpreter in the Hague, Holland.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Lyova Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "interpreter",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "works as"
+    },
+    {
+      "sentence": "My second son, Naum, was born in 1951.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Naum Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He worked as an artist in the Aurora cinema.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Naum Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "artist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My brother died a few years ago, of pancreas disease.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Solomon Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "pancreas disease",
+        "type": "CAUSE"
+      },
+      "verb_pattern": "died of"
+    },
+    {
+      "sentence": "He was only eighteen.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sergei Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "age 18",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Gudkin invited me to work in the cinema company in 1945.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "cinema company worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "I became a member of the Union of Artists of Latvia.",
+      "relationship_type": "member_of",
+      "subject": {
+        "entity": "Simon Gutman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Union of Artists of Latvia",
+        "type": "ORG"
+      },
+      "verb_pattern": "member of"
+    },
+    {
+      "sentence": "My wife worked in the ticket office at the Pioneris cinema for a long time.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ida Gutman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ticket office worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    }
+  ]
+}

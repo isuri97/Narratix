@@ -1,0 +1,714 @@
+{
+  "testimony_metadata": {
+    "witness": "Asaf Auerbach",
+    "birth_location": "Ain Harod, Palestine",
+    "birth_year": 1928,
+    "interview_date": "October 2005 - February 2006",
+    "interviewer": "Lenka Koprivová",
+    "current_location": "Prague, Czech Republic"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "His parents were Zionists and Mr. Auerbach was born in a Palestinian kibbutz.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Mr. Auerbach",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Palestinian kibbutz",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "They lived in England during the war, and upon their return home to Czechoslovakia, were confronted with the horrible reality of the fate of European Jews.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "England",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "The Auerbach parents also died in Auschwitz.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Auerbach parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The last time I saw my parents was in the summer of 1939, when my brother and I, as Winton's 'children,' immigrated to England.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "my brother and I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "England",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "My father had been born in Becov.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Becov",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I easily found the record of the birth of my father Rudolf, on 23rd March 1899, to Simon Auerbach and Luisa, born Fischerova.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rudolf",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "23rd March 1899",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "Grandpa Simon is recorded in the birth register as Samuel Auerbach, born on 8th June 1849, as the illegitimate son of Abraham Auerbach and a certain Löblova.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Samuel Auerbach",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "8th June 1849",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "According to the register, great-grandfather Abraham died of marasmus in 1896 at the age of 86.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Abraham",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1896",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In the death register I found a record of the death of Fanny Auerbachova in 1902 at the age of 86.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Fanny Auerbachova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1902",
+        "type": "DATE"
+      },
+      "verb_pattern": "death in"
+    },
+    {
+      "sentence": "He was single and in 1940 he managed to escape to Palestine.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "escape to"
+    },
+    {
+      "sentence": "He didn't do very well there, he died in the mid-1950s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mid-1950s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Grandpa died in Becov on 13th March 1914 at the age of 64 years and 9 months.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandpa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "13th March 1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "In 1942 my grandmother was deported to Terezin and there she died a so- called natural death due to unnatural conditions.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "My aunt and cousin survived the war in Terezin.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "aunt and cousin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "survived in"
+    },
+    {
+      "sentence": "My aunt once told me that my father twice managed to reclaim her from the transport to Auschwitz, for which she had already been scheduled.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "her",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "transport to"
+    },
+    {
+      "sentence": "When Dita immigrated to Australia in 1949, I visited my aunt quite often.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Dita",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Australia",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "My aunt left to be with her daughter in the spring of 1951.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "aunt",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "spring of 1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "left to"
+    },
+    {
+      "sentence": "We wrote each other often, up until she died in 1986.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1986",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandfather, Jindrich Fantl, born in 1867, was from the village of Chlebnik.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Jindrich Fantl",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1867",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was named Roza Epsteinova, was born in 1848, so the year when my one generation younger Grandpa Auerbach was born, and died in the year 1936.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Roza Epsteinova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1936",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "The oldest, Marketa, my mother, was born in 1900.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Marketa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1900",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was single, and had a steady girlfriend, a Christian girl, who was pressing him to marry her, but he didn't want to endanger her, and didn't want to get married until after the war.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Christian girl",
+        "type": "PERSON"
+      },
+      "verb_pattern": "marry"
+    },
+    {
+      "sentence": "On the other hand, Aunt Olga survived precisely because in 1937 she married a Christian, who was also a civil engineer, a German from Tesin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Aunt Olga",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Christian",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She experienced Terezin, then a half year with her husband in the so-called family camp in Auschwitz.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Uncle Oskar died of exhaustion during a death march, several tens of kilometers from Terezin.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Uncle Oskar",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "death march",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "After that my aunt was in Hamburg, where they were mainly clearing debris after the bombing, she lived to see the end of the war in Bergen-Belsen.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "aunt",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bergen-Belsen",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "After the war Aunt Mirjam married Frantisek Klemens, who had returned to Prague after immigrating to England.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Aunt Mirjam",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Frantisek Klemens",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Grandpa was lucky - you can't call it anything else - he died in his bed of pneumonia in May of 1940.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandpa",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "May of 1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother died in 1954.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1954",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "In 1922 they emigrated to what was at that time the British Protectorate of Palestine.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "They became members of the Bet Alfa kibbutz, they were among the founding members, they arrived in a wasteland that had been purchased from Arab sheiks.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bet Alfa kibbutz",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "First my brother Ruben on New Year's Eve in 1924, and then I in May of 1928.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "brother Ruben",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "It wasn't until right before our return to Czechoslovakia at the end of 1930, that my father, like it or not, had to go to the registrar's office in Ain Harod.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "our",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovakia",
+        "type": "GPE"
+      },
+      "verb_pattern": "return to"
+    },
+    {
+      "sentence": "In 1936 we came back from pioneer camp, our parents were waiting for us at the train station, but instead of Podbaba we drove to Vrsovice.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Vrsovice",
+        "type": "GPE"
+      },
+      "verb_pattern": "drove to"
+    },
+    {
+      "sentence": "At the end of July my brother and I left for England.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "brother and I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "England",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "The train was leaving at midnight from Wilson Station.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "train",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Wilson Station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "leaving from"
+    },
+    {
+      "sentence": "Late in the afternoon of the next day we left Germany and were in Holland.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Holland",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Late in the evening we arrived in the port, there they loaded us onto a ship.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "port",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "And in the morning when we woke up, we were already in the English port of Harwich.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Harwich",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Mrs. Hanna Strasserova came to get my brother, me plus six other children, and took us to Stoke-on-Trent.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "brother, me plus six other children",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Stoke-on-Trent",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "After Munich they lived in Prague not far from us, also in Bulharska Street, and immigrated to England already at the beginning of 1939.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "England",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "At the age of 18, in the summer of 1943, he volunteered for the Czechoslovak Army.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Czechoslovak Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "volunteered for"
+    },
+    {
+      "sentence": "He had in the meantime arrived in Prague with the army.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "The only thing that was known about our parents was that they had been transported someplace from Terezin.",
+      "relationship_type": "transported_from",
+      "subject": {
+        "entity": "parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "transported from"
+    },
+    {
+      "sentence": "Our return was organized by our government, and so one day at the end of August 1945 they loaded us onto an army airplane.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "August 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "end of"
+    },
+    {
+      "sentence": "At Ruzyne they put us on a bus and took us to the YMCA building on Zitna Street.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "YMCA building",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "In the spring of 1950 I married a girl that I had been going out with since my last year of high school.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "girl",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He moved to Brno, where he had an army buddy who had gotten an apartment there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He started working in Teplice.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Teplice",
+        "type": "GPE"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "He left for Ostrava, worked as a miner underground for two or three years.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "miner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He married, had two children and in 1969 immigrated to the United States.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "My brother died two years ago.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "brother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "two years ago",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "In the beginning they lived in New York, then they moved to Denver.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "New York",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Their daughter finished university and is now a university professor in Miami.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "daughter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Miami",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    }
+  ]
+}

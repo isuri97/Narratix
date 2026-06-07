@@ -1,0 +1,895 @@
+{
+  "testimony_metadata": {
+    "witness": "Sarah Zauer",
+    "birth_location": "Harbin, China",
+    "birth_year": 1923,
+    "current_location": "Kohtla-Jarve, Estonia",
+    "interviewer": "Alexandr Dusman"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "He was a legendary person, because he kept both his faith and his language although he served in the czarist army for 25 years.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Meir Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "czarist army",
+        "type": "ORG"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "When he returned home after the army, he married and lived with his family in Balta, near Odessa.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Meir Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Balta, near Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "His son Haim Yasinover, my grandfather, was born in 1855 and, after finishing cheder, he lived with his family in Ananyev, near Odessa.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Haim Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1855",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His son Haim Yasinover, my grandfather, was born in 1855 and, after finishing cheder, he lived with his family in Ananyev, near Odessa.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Haim Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ananyev, near Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother remembered that in Ananyev they had a small cob workhouse covered with straw.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Yasinover family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ananyev",
+        "type": "GPE"
+      },
+      "verb_pattern": "in Ananyev"
+    },
+    {
+      "sentence": "My grandfather had some horses. He was a carter and took goods to the merchants.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Haim Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "carter",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was carter"
+    },
+    {
+      "sentence": "During one pogrom, Mother, who was 13 then, didn't have time to escape and she hid under a bed.",
+      "relationship_type": "attacked_in",
+      "subject": {
+        "entity": "Anna Yasinover",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "pogrom",
+        "type": "EVENT"
+      },
+      "verb_pattern": "during pogrom"
+    },
+    {
+      "sentence": "The drunken Cossacks saw the Jewish girl under a bed.",
+      "relationship_type": "attacked_by",
+      "subject": {
+        "entity": "Anna Yasinover",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Cossacks",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "attacked by"
+    },
+    {
+      "sentence": "The local authorities, to cover their responsibility, sent her for medical treatment to Odessa, at their own expense.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Anna Yasinover",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "In 1910, he went by rail to Harbin, China.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Haim Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Harbin, China",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "One year later, the rest of his family followed him.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Yasinover family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Harbin, China",
+        "type": "GPE"
+      },
+      "verb_pattern": "followed to"
+    },
+    {
+      "sentence": "After trying different jobs, Haim became a real estate broker.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Haim Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "real estate broker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "Zina was the youngest daughter and the favorite of our family. She was born in Ananyev and she finished the Russian gymnasium in Harbin.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Zina Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ananyev",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She married Joseph Robinson, who worked in a bank.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zina Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Joseph Robinson",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Their family was one of the first to feel the negative changes in Harbin, and they left for Shanghai.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Zina and Joseph Robinson",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shanghai",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Tanya married a young man from a well-to-do Jewish family, and they moved to Canada.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Tanya Robinson",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Canada",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "At the beginning of the 1950s, Aunt Zina and her husband left for the United States.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Zina and Joseph Robinson",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Uncle Grisha had a printing house, which the communists nationalized.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Grisha Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "printing house owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "had printing house"
+    },
+    {
+      "sentence": "He was sent to a nursing home in Denmark, where he died at the beginning of the 1960s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grisha Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Denmark",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Ester Yasinover, my grandmother, died in Harbin at the beginning of the 1940s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ester Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Harbin",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "After World War II, Haim left for Israel to settle with his son, and he died there at the age of 95.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Haim Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother, Anna Yasinover, was born in 1893 in Ananyev.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Anna Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ananyev",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She married Israel Liberman in Harbin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Anna Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Before getting married, she worked in a milliner and in a sewing workshop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Anna Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "milliner and sewing workshop",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "My father, Israel Liberman, was born in 1898 in Bialystok, Poland, in an Orthodox Jewish family.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bialystok, Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1920, Father decided to go from Poland to America - not in the most common way, but via Russia and China.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "But he had to stop in Harbin because he lacked the money to go on.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Harbin",
+        "type": "GPE"
+      },
+      "verb_pattern": "stop in"
+    },
+    {
+      "sentence": "He met my mother there, and they got married in 1920.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Anna Yasinover",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Father worked as a printer in a printing house.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "printer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "In 1937, Father received an order from the Polish Embassy in China to print an advertising catalogue.",
+      "relationship_type": "worked_with",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Polish Embassy in China",
+        "type": "ORG"
+      },
+      "verb_pattern": "received order from"
+    },
+    {
+      "sentence": "Father went to Poland, Japan and all over China to collect advertising.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Poland, Japan, China",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "In 1938, the family left for Shanghai because fascist organizations appeared in Harbin in 1936-1937.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Liberman family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Shanghai",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "Preparing the 1939 edition of the catalogue, Father went to Poland again.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "He was in Warsaw on September 1, 1939.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Warsaw",
+        "type": "GPE"
+      },
+      "verb_pattern": "was in"
+    },
+    {
+      "sentence": "In 1940, he sent a strange letter, without his signature, from Brest.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Brest",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "He wrote that he was working in a printing house.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "printing house",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "working in"
+    },
+    {
+      "sentence": "He wrote that his parents' family from Bialystok and my father had been lost in a German concentration camp during the Holocaust.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Israel Liberman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "German concentration camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "lost in"
+    },
+    {
+      "sentence": "During the war, on demand of the Germans, the Japanese authorities created a Jewish ghetto in the area where Jews - refugees - lived.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Jewish refugees",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Jewish ghetto in Shanghai",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "created ghetto"
+    },
+    {
+      "sentence": "Mother remained in the ghetto too, since her apartment was there.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Anna Liberman",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Shanghai ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "remained in"
+    },
+    {
+      "sentence": "My name is Sarah Sussana Liberman. I was born in Harbin in 1923, and I was an only child.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sarah Sussana Liberman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Harbin",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I lived there until 1938 and went to the English school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Sarah Liberman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "English school",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I met my future husband, Paul Zauer, in 1942 in an outdoor café where I went with my girlfriend.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Sarah Liberman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "He was Russian; he came with his mother from Russia in 1922.",
+      "relationship_type": "from_location",
+      "subject": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "He worked as a foreman at a Swiss steel mill and took correspondence courses at the London Architectural College.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Swiss steel mill",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My husband and I were married for 44 years.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Sarah Zauer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "We decided to go to this remarkable country, which defeated fascism, where all people had equal rights and all people were heroes.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Sarah and Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "USSR",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "We gave back our passports and at the end of 1948 we moved from Shanghai to Vladivostok.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Zauer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Vladivostok",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "At that time there were camps with watchtowers, which were enclosed with barbed wire.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "immigrants",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camps with watchtowers",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "camps"
+    },
+    {
+      "sentence": "We lived there in a barrack for one month.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Zauer family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "barrack in Nakhodka",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "We were put into vans used for heated goods, and were given food.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Zauer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Urals",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "put into"
+    },
+    {
+      "sentence": "At last we arrived in the North Urals, at a town called Krasnoturinsk.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Zauer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Krasnoturinsk, North Urals",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "We were given one room in a barrack.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zauer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "barrack in Krasnoturinsk",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "given room in"
+    },
+    {
+      "sentence": "I worked as a timekeeper in the political prisoners' camp.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sarah Zauer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "political prisoners' camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Paul worked as a building master in the criminal prisoners' camp.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "criminal prisoners' camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Our neighbors were Estonians. They had been deported from Estonia - rich people whose property was confiscated.",
+      "relationship_type": "deported_from",
+      "subject": {
+        "entity": "Estonian neighbors",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Estonia",
+        "type": "GPE"
+      },
+      "verb_pattern": "deported from"
+    },
+    {
+      "sentence": "After the amnesty in 1953, our Estonian friends went back to Estonia.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Estonian friends",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Estonia",
+        "type": "GPE"
+      },
+      "verb_pattern": "went back to"
+    },
+    {
+      "sentence": "So we found ourselves in Estonia, in the town Kohtla-Jarve, where I have been living since 1953.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Zauer family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kohtla-Jarve, Estonia",
+        "type": "GPE"
+      },
+      "verb_pattern": "found ourselves in"
+    },
+    {
+      "sentence": "My husband worked as an operator in a chemical plant until he retired.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "chemical plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "He died in 1988.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Paul Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1988",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "I finished a bookkeepers' training course, and worked as a bookkeeper in the phone company and local trade union committee until retirement.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Sarah Zauer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "bookkeeper",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "She lived with us until her death in 1962.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Anna Liberman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1962",
+        "type": "DATE"
+      },
+      "verb_pattern": "death in"
+    },
+    {
+      "sentence": "Our grandson Boris studied at Tartu University, at the Faculty of Medicine.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Boris Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tartu University",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "During the Chernobyl accident, Boris served in the Soviet Army not far from Chernobyl.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Boris Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "Some years later, his health started to deteriorate and we lost him in 1992.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Boris Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1992",
+        "type": "DATE"
+      },
+      "verb_pattern": "lost in"
+    },
+    {
+      "sentence": "Soon after that, Anatoly had a heart attack.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Anatoly Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "heart attack",
+        "type": "EVENT"
+      },
+      "verb_pattern": "had heart attack"
+    },
+    {
+      "sentence": "She left for Israel in 1997.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Anna Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "She lives and works in Jerusalem.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Anna Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jerusalem",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "She married a French Jew, and the native language for them became Hebrew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Anna Zauer",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "French Jew",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    }
+  ]
+}

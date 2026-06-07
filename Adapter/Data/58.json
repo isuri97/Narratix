@@ -1,0 +1,999 @@
+{
+  "testimony_metadata": {
+    "witness": "Rosa Gershenovich",
+    "birth_location": "Rybnitsa",
+    "birth_year": 1914,
+    "interview_date": "July 2002",
+    "interviewer": "Ella Orlikova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father, Moisey Veltman, was born in 1887 in Bershad, in Vinnitsa region.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Moisey Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bershad",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "His father, Aron-Shloime Veltman, born in the 1860s was a melamed in the cheder.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Aron-Shloime Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My grandfather's family lived in a small house near the synagogue.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Aron-Shloime Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bershad",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My grandfather dearly loved his wife Tuba-Leya Veltman [nee Shnaiderman].",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Aron-Shloime Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tuba-Leya Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "wife"
+    },
+    {
+      "sentence": "She was also born in Bershad in 1865.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Tuba-Leya Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bershad",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "The Germans killed my grandmother and grandfather in 1942.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Aron-Shloime and Tuba-Leya Veltman",
+        "type": "VICTIM"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "Their daughter Nesia, born in 1892, was married.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Nesia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1892",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was a teacher of Yiddish in the Jewish school.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Nesia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "teacher",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a teacher"
+    },
+    {
+      "sentence": "She was evacuated to the town of Kuznetsk in the Urals.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Nesia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kuznetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "Nesia died in Lvov in 1980.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Nesia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's other sister Dvoira, born in 1895, was also a teacher of Yiddish in a Jewish school.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1895",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She lived in Odessa.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She was in evacuation in Omsk region in Siberia.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Omsk region",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuation in"
+    },
+    {
+      "sentence": "She died in Lvov in 1958.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Dvoira",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's brother Ershl, born in 1899, was a mathematics teacher in a secondary school.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Ershl Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1899",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In the 1930s he moved to Donbass [Donetsk].",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Ershl Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Donbass",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He died there in 1990.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ershl Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Donetsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother, Elizaveta Veltman [nee Green], was born in 1879 in the town of Okny near Bershad.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Okny",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Her father, Avrum-Yankel Green, born in the 1860s, had a beautiful voice and was a cantor.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Avrum-Yankel Green",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1860s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He sang at the synagogue in Odessa in the last years of his life and died in Odessa in 1918.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Avrum-Yankel Green",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My grandmother died in 1921 as quietly as she had lived.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ruhl Green",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother buried her near my grandfather's grave in the Jewish cemetery in Odessa.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Ruhl Green",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Odessa",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "Surah lived in Rybnitsa, a small town in Moldavia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Surah",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rybnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Surah was married to Ershl Shnaiderman, my paternal grandmother's brother.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Surah",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ershl Shnaiderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married to"
+    },
+    {
+      "sentence": "They had a traditional Jewish wedding in Bershad in 1912.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Moisey and Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bershad",
+        "type": "GPE"
+      },
+      "verb_pattern": "wedding in"
+    },
+    {
+      "sentence": "After their wedding my parents moved to Odessa.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Moisey and Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "My name is Rosa Gershenovich [nee Veltman]. I was born in Rybnitsa in 1914.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rybnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father was hiding from the police at that time and was away from Odessa.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Moisey Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "hiding from police"
+    },
+    {
+      "sentence": "My mother's sister Surah, who was living in Rybnitsa, invited my mother and me to come live with her there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Surah",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Rybnitsa",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "In Rybnitsa my mother got a job as a nurse.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "nurse",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job as"
+    },
+    {
+      "sentence": "Gidal was born in 1912 and perished during the war in 1943.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Gidal",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Volodia, born in 1924, also went to the front, but survived.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Volodia",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1924",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My aunt's daughter named Dora was born in 1916.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Dora",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1916",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She finished her studies at the Medical College in Odessa.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Dora",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Medical College in Odessa",
+        "type": "ORG"
+      },
+      "verb_pattern": "studies at"
+    },
+    {
+      "sentence": "They now live in Israel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Dora and Naum Fridman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "In 1922 I started going to the Russian lower secondary school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Russian lower secondary school",
+        "type": "ORG"
+      },
+      "verb_pattern": "going to school"
+    },
+    {
+      "sentence": "After finishing school, my friend Polia Finegersh became an accountant.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Polia Finegersh",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "became"
+    },
+    {
+      "sentence": "She and her mother perished in Tiraspol in 1941.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Polia Finegersh and mother",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Tiraspol",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "My other friend, Polia Glozman, moved to Tiraspol with her husband.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Polia Glozman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tiraspol",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Her husband perished at the front in 1942.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Polia Glozman's husband",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "perished at"
+    },
+    {
+      "sentence": "I was admitted to the Financial College in Odessa.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Financial College in Odessa",
+        "type": "ORG"
+      },
+      "verb_pattern": "admitted to"
+    },
+    {
+      "sentence": "In 1936 I returned to Rybnitsa where I worked as an accountant for the District Party Executive Committee.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "My mother moved to Moscow with pleasure.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I stayed behind in Rybnitsa and moved to Tiraspol, the capital of the Moldavian Republic, in 1939.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tiraspol",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "I met my future husband, Ruvim Gershenovich in 1940.",
+      "relationship_type": "met_in",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "He came from Kiev to visit his relatives.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "Ruvim was born in Nezhin in the Chernigov region in Ukraine in 1905.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Nezhin",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He graduated from the Financial College in Kiev.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Financial College in Kiev",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "He worked as an accountant in Kiev.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "accountant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "We registered our marriage in Tiraspol.",
+      "relationship_type": "married_in",
+      "subject": {
+        "entity": "Rosa and Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Tiraspol",
+        "type": "GPE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "We took a train to Kiev on that same day.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "took train to"
+    },
+    {
+      "sentence": "His father, Oshel Gershenovich, was a tailor.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Oshel Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "tailor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "We finally reached Tashkent.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Tashkent",
+        "type": "GPE"
+      },
+      "verb_pattern": "reached"
+    },
+    {
+      "sentence": "There was no room for us in Tashkent and we moved on to Namangan in Uzbekistan.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Namangan",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "He died in hospital at the end of November 1941.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Oshel Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "November 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We buried him at the cemetery in Namangan.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Oshel Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cemetery in Namangan",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "Ruvim's mother died a little later, in January 1942.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Perl Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "January 1942",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She was buried in the same cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Perl Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "cemetery in Namangan",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "He was at the front for four long years.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Soviet Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "at the front"
+    },
+    {
+      "sentence": "My husband went across Russia, Ukraine, Poland and Czechoslovakia during the war.",
+      "relationship_type": "traveled_through",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia, Ukraine, Poland, Czechoslovakia",
+        "type": "GPE"
+      },
+      "verb_pattern": "went across"
+    },
+    {
+      "sentence": "At the beginning of 1945 he was wounded and stayed in hospital.",
+      "relationship_type": "wounded_in",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "wounded"
+    },
+    {
+      "sentence": "His commanding officer got an assignment in Lvov in the summer of 1945.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "commanding officer",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "assignment in"
+    },
+    {
+      "sentence": "On my way from Namangan to Lvov I spent two weeks in Piatigorsk visiting my cousin Dora.",
+      "relationship_type": "visited_in",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Piatigorsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "visited in"
+    },
+    {
+      "sentence": "Our daughter Maya was born in 1949.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In autumn of 1949 I went to Moscow and brought my mother to Lvov.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lvov",
+        "type": "GPE"
+      },
+      "verb_pattern": "brought to"
+    },
+    {
+      "sentence": "Her husband, Moshe Shnaiderman, had died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Moshe Shnaiderman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown location",
+        "type": "GPE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "In 1951 my mother died from a myocardial infarction.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1951",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We buried her at the Jewish cemetery in Lvov.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Elizaveta Veltman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Lvov",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "He died in 1957 when he was 52 years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1957",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Maya lost her father when she was 9 years old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Ruvim Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lost"
+    },
+    {
+      "sentence": "She studied at the Russian school.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russian school",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "After graduating she tried to gain admission to the Polytechnic Institute in Lvov.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Polytechnic Institute in Lvov",
+        "type": "ORG"
+      },
+      "verb_pattern": "admission to"
+    },
+    {
+      "sentence": "In 1966 Maya got a job as a computer operator.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "computer operator",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "job as"
+    },
+    {
+      "sentence": "She always wanted to emigrate to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrate to"
+    },
+    {
+      "sentence": "Her husband was a Jew.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Maya Gershenovich",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "husband was"
+    },
+    {
+      "sentence": "I retired in 1986 when I was 72 years old.",
+      "relationship_type": "retired_on",
+      "subject": {
+        "entity": "Rosa Gershenovich",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1986",
+        "type": "DATE"
+      },
+      "verb_pattern": "retired in"
+    }
+  ]
+}

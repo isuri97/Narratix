@@ -1,0 +1,689 @@
+{
+  "testimony_metadata": {
+    "witness": "Bedriska Felixova",
+    "birth_name": "Bedriska Burgmannova",
+    "birth_location": "Brno, Czech Republic",
+    "birth_year": 1935,
+    "interviewer": "Zuzana Pastorkova",
+    "interview_date": "November 2004",
+    "interview_location": "Brno, Czech Republic"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "He was born in Uhersky Brod in the time of the Austro-Hungarian Empire.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Uhersky Brod",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "After her husband's death my grandmother moved with her two children to Brno, where living conditions were better.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "my grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "She bought a three-bedroom apartment at 3 Orlova Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "3 Orlova Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "at"
+    },
+    {
+      "sentence": "Both were born in Uhersky Brod but moved to Brno where they had better living conditions.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Both",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Uhersky Brod",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1942 Aunt Hermina and Uncle Moritz along with me, my parents and my paternal grandmother were transported to Terezin.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Aunt Hermina and Uncle Moritz",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "transported to"
+    },
+    {
+      "sentence": "Aunt Hermina died from pneumonia three weeks after our arrival and Uncle Moritz died shortly thereafter.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Aunt Hermina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "He was born in Damborice, most likely still in the days of the Austro-Hungarian Monarchy.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Damborice",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She came from Podivin in Southern Moravia.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Podivin",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "My Grandfather died in 1941 in an old age home on Starobrnenska Street.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My Grandfather",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "She lived in the town of Podivin in Southern Moravia.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Podivin",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My great-grandmother died in Podivin and was buried in the Jewish cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My great-grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Podivin",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father was named Gustav Burgmann and his Jewish name was Gedalie.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Gustav Burgmann",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was born in Brno on 8th October 1897.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "8th October 1897",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "My mother's maiden name was Regina Baru and her Jewish name was Rivke.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Regina Baru",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She was born in Brno on 16th August 1901.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "16th August 1901",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "They were married in Brno in the Big Synagogue behind today's main train station on 19th February 1927.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "19th February 1927",
+        "type": "DATE"
+      },
+      "verb_pattern": "married on"
+    },
+    {
+      "sentence": "Right after they married my parents moved out and bought a three-bedroom apartment at 32 Akademicka Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "my parents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "32 Akademicka Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "at"
+    },
+    {
+      "sentence": "From there, on 31st March 1942 we went directly onto a transport, which was on its way to Terezin.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "on its way to"
+    },
+    {
+      "sentence": "He died in Brno of a heart attack in 1931 and was buried in the Jewish cemetery in Brno.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1931",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He likely died in 1941 in Mauthausen.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mauthausen",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He died as a result of his injuries after being taken to the hospital.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "hospital",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My cousin Helena, whom our whole family calls Lenka, was deported to Lodz ghetto in Poland.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "My cousin Helena",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lodz ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "In 1948 they emigrated to Israel, where they lived about a year.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "My name is Bedriska Felixova, nee Burgmannova.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Bedriska Felixova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in Brno on 17th January 1935.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "17th January 1935",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "My brother was named Otto Burgmann after my uncle who died in a car accident.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Otto Burgmann",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was born in Brno on 17th November 1928.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "17th November 1928",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "He died in Brno on 9th February 1939.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "9th February 1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "They buried him in the Brno Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "him",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "In 1942 I, along with my parents, my grandmother and her siblings were put on a transport to Terezin.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "transport to"
+    },
+    {
+      "sentence": "Grandmother died in 1943.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Grandmother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Father likely died in Auschwitz in 1944.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "On 7th May 1945 at around 9:30 in the evening the Russians arrived in Terezin.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Russians",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "In June of 1945 my Mom and I got a ride on a truck to Prague.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "my Mom and I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "to"
+    },
+    {
+      "sentence": "Then we took a train and returned to Brno.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My mother died in Brno on 20th June 1973.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "20th June 1973",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "We buried her in the Jewish cemetery in Brno according to Jewish customs.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "her",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery in Brno",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My husband was named Milan Felix and his Jewish name was Mordecai.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Milan Felix",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hodonin",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was born in Hodonin in 1923.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1923",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1942 Milan was deported to Terezin, where he stayed only three days.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Milan",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "deported to"
+    },
+    {
+      "sentence": "From there he went to Auschwitz-Birkenau and other concentration camps.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Auschwitz-Birkenau",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "After World War II he didn't return to Hodonin, because his entire family died in the Holocaust.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "his entire family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "He settled in Brno and continued his studies.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brno",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "Both were from Hodonin.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Both",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Hodonin",
+        "type": "GPE"
+      },
+      "verb_pattern": "from"
+    },
+    {
+      "sentence": "Both died during the Holocaust.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Both",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Holocaust",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "Jan was born in Brno on 18th July 1960.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Jan",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "18th July 1960",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "Michal was also born in Brno, on 14th May 1966.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Michal",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "14th May 1966",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "My husband died in Brno on 15th October 1994.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "My husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "15th October 1994",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "We buried him in the Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "him",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My father's cousin, Tomas Burgmann, escaped before Hitler's rise to England and settled in the city of Leeds.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Tomas Burgmann",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "England",
+        "type": "GPE"
+      },
+      "verb_pattern": "escaped to"
+    },
+    {
+      "sentence": "He opened a store with women's wear.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "store owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "opened"
+    },
+    {
+      "sentence": "To this day I still correspond with my husband's sister, Ruth Felixova, who emigrated to Mexico in 1948.",
+      "relationship_type": "emigrated_to",
+      "subject": {
+        "entity": "Ruth Felixova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mexico",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    }
+  ]
+}

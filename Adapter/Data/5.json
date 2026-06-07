@@ -1,0 +1,1116 @@
+{
+  "testimony_metadata": {
+    "witness": "Apolonia Starzec",
+    "birth_location": "Sosnowiec, Poland",
+    "birth_year": 1914,
+    "interview_date": "June 2006",
+    "interviewer": "Marta Cobel-Tokarska"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "We lived in Radomsko [town in central Poland, some 150 km south-west of Warsaw].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Starzec family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Radomsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father's name was Mordchaj Dawid Bugajski.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Mordchaj Dawid Bugajski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "They lived in Lodz, and then [during WWII] they moved in with us [in Radomsko].",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "father's brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Lodz",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father's brother, Juda, committed suicide.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Juda Bugajski",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "suicide",
+        "type": "ACTION"
+      },
+      "verb_pattern": "committed suicide"
+    },
+    {
+      "sentence": "I think they [my father's family] were all murdered in Radomsko.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "father's family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Radomsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "murdered in"
+    },
+    {
+      "sentence": "Her maiden name was Zelinger, Zofia Zelinger.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Zofia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "She was 16 when they married her: to a man from Radomsko.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Zofia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Mordchaj Dawid Bugajski",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She was less than 17 years old when she gave birth to me.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "gave birth"
+    },
+    {
+      "sentence": "And she died young, also [in 1940].",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zofia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "I was the first child, born 1st October 1914.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1st October 1914",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "My mother comes from Sosnowiec [city in Silesia region in southern Poland, some 300 km south of Warsaw].",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Zofia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sosnowiec",
+        "type": "GPE"
+      },
+      "verb_pattern": "comes from"
+    },
+    {
+      "sentence": "Grandmother died when I was little.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "Zygmunt, my mother's youngest brother, lived in France.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zygmunt Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "He died of a heart attack, in 1971.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zygmunt Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1971",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "His ashes rest at the Père-Lachaise cemetery.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zygmunt Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Père-Lachaise cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "rest at"
+    },
+    {
+      "sentence": "My mother had a sister named Sala.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sala Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "had sister"
+    },
+    {
+      "sentence": "She married a certain Sandomierski, also from Radomsko.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Sala Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sandomierski",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Her other sister, Cesia, lived in Bedzin.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Cesia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bedzin",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "She married some Hasid, named Zeligier.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Cesia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zeligier",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "There, in Bedzin, I saw the Jewish ghetto for the first time.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jewish ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "object": {
+        "entity": "Bedzin",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "There was also Uncle Bernard.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Bernard Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "He married Zosia from Lodz, a beautiful girl.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Bernard Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zosia",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "They eventually took over the [grandparents'] house in Sosnowiec.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Bernard and Zosia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Sosnowiec",
+        "type": "GPE"
+      },
+      "verb_pattern": "house in"
+    },
+    {
+      "sentence": "And reportedly they were taken from that house [by the Germans during the war].",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Bernard and Zosia Zelinger",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sosnowiec",
+        "type": "GPE"
+      },
+      "verb_pattern": "taken from"
+    },
+    {
+      "sentence": "I was born and raised in Sosnowiec under my grandmother's supervision.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sosnowiec",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was also a factory owner's child.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Wunsche's son",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "factory owner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "During the war, he did a lot for Jews.",
+      "relationship_type": "helped",
+      "subject": {
+        "entity": "Wunsche's son",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "verb_pattern": "did for"
+    },
+    {
+      "sentence": "He married a Jewish girl.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Wunsche's son",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish girl",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She was in Russia when the war broke out.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Lola Szlamkiewicz",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "There [in Russia] she met her husband, Grebler, who came from Stanislawow.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Lola Szlamkiewicz",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Grebler",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met husband"
+    },
+    {
+      "sentence": "They immigrated to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Lola and Grebler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "immigrated to"
+    },
+    {
+      "sentence": "She lives in the United States.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ania",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "I studied in the years 1930-1934.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1930-1934",
+        "type": "DATE"
+      },
+      "verb_pattern": "studied in"
+    },
+    {
+      "sentence": "I studied in Cracow.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "studied in"
+    },
+    {
+      "sentence": "And we landed in jail.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "jail",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "landed in"
+    },
+    {
+      "sentence": "Two years in prison.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in prison"
+    },
+    {
+      "sentence": "I was released in 1936 and started living on my own.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1936",
+        "type": "DATE"
+      },
+      "verb_pattern": "released in"
+    },
+    {
+      "sentence": "Then I went to Warsaw.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Warsaw",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I lived at 56 Nowolipie Street, in a very beautiful, large house.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "56 Nowolipie Street",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived at"
+    },
+    {
+      "sentence": "I worked in the Alfa confectionery plant, on Mlynarska Street.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Alfa confectionery plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "The factory was owned by Jews named Wajdenfeld.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Wajdenfeld family",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "factory owners",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "owned by"
+    },
+    {
+      "sentence": "In September 1939 [3rd September], the Germans entered Radomsko.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Radomsko",
+        "type": "GPE"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "And on 13th April 1940, my mother died.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Zofia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "13th April 1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My mother is buried at the Jewish cemetery.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Zofia Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "We worked in the so-called shop, a furrier's shop on Nowolipie.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Apolonia and sister",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "furrier's shop",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "We made fur coats for the military, for the German army in Russia.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Apolonia and sister",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "fur coat makers",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "made for"
+    },
+    {
+      "sentence": "My sister met her [future] husband when in the hiding place.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Irena Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Chil Kirszenbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met husband"
+    },
+    {
+      "sentence": "Chil Kirszenbaum... From Minsk Mazowiecki, young like her, born in 1920.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Chil Kirszenbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1920",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In Minsk, he experienced the anti-Jewish riots in the 1930s.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Chil Kirszenbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Minsk Mazowiecki",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "His name was Ignacy Samsonowicz, he was a Bund member and was in the ghetto at the same time as us.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Ignacy Samsonowicz",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in the ghetto"
+    },
+    {
+      "sentence": "Had a teacher wife and a son, fled from the Piotrków ghetto to Warsaw.",
+      "relationship_type": "escape_from",
+      "subject": {
+        "entity": "Ignacy Samsonowicz",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Piotrków ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "fled from"
+    },
+    {
+      "sentence": "His wife, a beautiful woman, and a wonderful 12-year-old boy, were killed in a roundup [in Piotrkow].",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Samsonowicz's wife and son",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Piotrkow",
+        "type": "GPE"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "She hid him there until the end of the war and eventually married him.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Eugenia Wasowska-Leszczynska",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ignacy Samsonowicz",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She died on 28th May 1987.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Eugenia Wasowska-Leszczynska",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "28th May 1987",
+        "type": "DATE"
+      },
+      "verb_pattern": "died on"
+    },
+    {
+      "sentence": "I worked for her right until the [Warsaw] uprising.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Irena Solska",
+        "type": "PERSON"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "When the uprising broke out, I was living in Mariensztat.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Mariensztat",
+        "type": "GPE"
+      },
+      "verb_pattern": "living in"
+    },
+    {
+      "sentence": "It was 1st of August.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1st August 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "And eventually I was able to welcome the military: the First Army.",
+      "relationship_type": "liberated_by",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "First Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "welcomed"
+    },
+    {
+      "sentence": "And so I was liberated and I hitchhiked to Lublin.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lublin",
+        "type": "GPE"
+      },
+      "verb_pattern": "hitchhiked to"
+    },
+    {
+      "sentence": "They [my sister and her husband] stayed in Minsk Mazowiecki.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Irena and Chil Kirszenbaum",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Minsk Mazowiecki",
+        "type": "GPE"
+      },
+      "verb_pattern": "stayed in"
+    },
+    {
+      "sentence": "Soon afterwards she emigrated with her husband to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Marysia Litoczewska",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "I found one more of my mother's cousins after the war - Mietek Zelinger.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Mietek Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "found after war"
+    },
+    {
+      "sentence": "Mietek told me then how it all looked: they [the Germans] came, took everyone, the parents [Bernard and Zosia] and them [Mietek and Henio].",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Zelinger family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Sosnowiec",
+        "type": "GPE"
+      },
+      "verb_pattern": "took"
+    },
+    {
+      "sentence": "The parents were sent to one camp, and the two of them to another.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Bernard and Zosia Zelinger",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "In the camp, Henio died of hunger right before liberation.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Henio Zelinger",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camp",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "From the very beginning, he was determined to go to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Mietek Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "go to"
+    },
+    {
+      "sentence": "He met a Yemenite girl, and that was his first great love.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Mietek Zelinger",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yemenite girl",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "My sister and her husband emigrated with their younger son who lives in Los Angeles now.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "younger son",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Los Angeles",
+        "type": "GPE"
+      },
+      "verb_pattern": "lives in"
+    },
+    {
+      "sentence": "My husband, Adolf Starzec, isn't Jewish.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "husband"
+    },
+    {
+      "sentence": "He came from the Cracow region, from a village near Tarnow, called Zukowice Stare.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Zukowice Stare",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "He completed a high school in Tarnow, where he lived in lodgings, and then went to university in Cracow.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to university in"
+    },
+    {
+      "sentence": "He was also active on peasant organizations.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "activist",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "active on"
+    },
+    {
+      "sentence": "He did manage to complete his studies.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "university",
+        "type": "ORG"
+      },
+      "verb_pattern": "complete studies"
+    },
+    {
+      "sentence": "He defended himself beautifully [during the trial], got six years.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "got six years"
+    },
+    {
+      "sentence": "Released eventually, he worked as a simple construction worker.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "construction worker",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "worked as"
+    },
+    {
+      "sentence": "And when the war broke out, all the [court] files, of course, fell into the Gestapo's hands.",
+      "relationship_type": "arrested_by",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Gestapo",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "fell into hands"
+    },
+    {
+      "sentence": "He fled to Russia.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "fled to"
+    },
+    {
+      "sentence": "He was there all the time.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "was there"
+    },
+    {
+      "sentence": "And only after his return we did get to know each other again.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned"
+    },
+    {
+      "sentence": "And we got married.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Apolonia Starzec",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "got married"
+    },
+    {
+      "sentence": "He lived in Cracow for some time after the war.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Adolf Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Cracow",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Our little son had already been born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Wlodek Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "been born"
+    },
+    {
+      "sentence": "Our younger son, Krzysio, was born in 1950.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Krzysio Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1950",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My elder son, Wlodek, was born in 1947.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Wlodek Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1947",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He's dead.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Wlodek Starzec",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "unknown date",
+        "type": "DATE"
+      },
+      "verb_pattern": "dead"
+    }
+  ]
+}

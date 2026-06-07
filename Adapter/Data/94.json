@@ -1,0 +1,1013 @@
+{
+  "testimony_metadata": {
+    "witness": "Michal Friedman",
+    "birth_name": "Mojsze Pinchos Bokser",
+    "birth_location": "Kovel",
+    "birth_year": 1913,
+    "interview_date": "January - April 2004",
+    "interviewer": "Anka Grupinska"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "I come from the town of Kovel, while my father was a native of Brest.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Brest",
+        "type": "GPE"
+      },
+      "verb_pattern": "native of"
+    },
+    {
+      "sentence": "My mother's given names were Sosze Henia, in her identity documents she was called Gienia, maiden name Bokser.",
+      "relationship_type": "born_as",
+      "subject": {
+        "entity": "mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bokser",
+        "type": "PERSON"
+      },
+      "verb_pattern": "maiden name"
+    },
+    {
+      "sentence": "My father's name was Aron Samuel Friedman.",
+      "relationship_type": "named",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Aron Samuel Friedman",
+        "type": "PERSON"
+      },
+      "verb_pattern": "name was"
+    },
+    {
+      "sentence": "Mother was a milliner.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "milliner",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "Mother had four sisters, but I don't remember their names, and one brother, Jidl, in America.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Jidl",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "Father came back from World War I with a medal for valor.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "World War I",
+        "type": "EVENT"
+      },
+      "verb_pattern": "came back from"
+    },
+    {
+      "sentence": "He had fought against the Germans, on the Russian side.",
+      "relationship_type": "fought_against",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "fought against"
+    },
+    {
+      "sentence": "I was born in 1913.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Regina and Rywka were killed in August 1942 in the Kovel ghetto.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Regina and Rywka",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "Mom too.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Mom",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "Father was lucky, as he died several years before the war.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "died before"
+    },
+    {
+      "sentence": "Grandma Chana Bokser emigrated along with my mother's brother, Jidl, to the United States, in 1923, I think.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Grandma Chana Bokser",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "United States",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Grandma was also a native of Kovel.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Grandma",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel",
+        "type": "GPE"
+      },
+      "verb_pattern": "native of"
+    },
+    {
+      "sentence": "She lived a long life and died when she was quite old.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "old age",
+        "type": "TIME"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "I had a cousin who left for Palestine before the war.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "cousin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "In Kovel he was a Betar supporter and later played an important role in the revolt against the English.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "He belonged to the group led by Begin and Sztern, spent time in jail.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "jail",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "in jail"
+    },
+    {
+      "sentence": "She got caught in a roundup, put in jail and then someone denounced her as a Jewess.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "jail",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "put in jail"
+    },
+    {
+      "sentence": "After the war she went to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "she",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Irena died in Israel.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Irena",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "We lived in the center of Kovel in a rented apartment, in three rooms on Warszawska Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My three brothers moved to Buenos Aires in 1932.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "three brothers",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Buenos Aires",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "They married Jewish girls and had children.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jewish girls",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "He went to university in France in 1930.",
+      "relationship_type": "studied_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "He graduated in commerce and didn't go back to Kovel but went directly to Palestine.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Palestine",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Germany attacked Poland in 1939, but the war was still far away from us.",
+      "relationship_type": "attacked",
+      "subject": {
+        "entity": "Germany",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "attacked"
+    },
+    {
+      "sentence": "In 1940 the Soviet army came to Poland and the country was divided.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Soviet army",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "The Soviet power came to Kabaki and took land away from the richer families.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Soviet power",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Kabaki",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "I was in the Red Army from 1941.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Red Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "On the Monday I was to be given the rank of sergeant and go home, but the war started on the Sunday, 22nd June.",
+      "relationship_type": "began_on",
+      "subject": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "22nd June",
+        "type": "DATE"
+      },
+      "verb_pattern": "started on"
+    },
+    {
+      "sentence": "They destroyed the planes of the air-force division in which we were serving, fired on our wooden barracks, and killed dozens of men in the process.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "dozens of men",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "barracks",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "About 100 of us managed to reach Kiev.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "100 of us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "reach"
+    },
+    {
+      "sentence": "Stalin issued an order that all 'kresowiacy' were to be transferred to labor battalions.",
+      "relationship_type": "transferred_to",
+      "subject": {
+        "entity": "kresowiacy",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "labor battalions",
+        "type": "ORG"
+      },
+      "verb_pattern": "transferred to"
+    },
+    {
+      "sentence": "From Kiev we began to retreat in order to carry out projects in the hinterland.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kiev",
+        "type": "GPE"
+      },
+      "verb_pattern": "retreat from"
+    },
+    {
+      "sentence": "The Germans had already come as far as Kharkov and we could have fallen into their hands any day.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "Kharkov",
+        "type": "GPE"
+      },
+      "verb_pattern": "come to"
+    },
+    {
+      "sentence": "With the Germans already hot on our heels, we started off northwards, toward Voronezh, where the Don begins.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Voronezh",
+        "type": "GPE"
+      },
+      "verb_pattern": "toward"
+    },
+    {
+      "sentence": "Moving downstream along the Don, we would march to Cossack 'stanitzas'; that's what Cossack villages are called.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Cossack villages",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "march to"
+    },
+    {
+      "sentence": "Through snow, across the frozen river, we arrived in one 'stanitza', Nizhnichirskaya.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nizhnichirskaya",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived in"
+    },
+    {
+      "sentence": "Later on, we were stationed in Kamishin, not far from Peza in Martwota Bezsenna county.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kamishin",
+        "type": "GPE"
+      },
+      "verb_pattern": "stationed in"
+    },
+    {
+      "sentence": "It must have been in 1943 that our battalion was moved southwards, to the coast of the Caspian Sea.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "battalion",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Caspian Sea",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "In 1943 we encountered a transport of Poles who were going to join the First Division of the Polish Army.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "Poles",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "First Division of the Polish Army",
+        "type": "ORG"
+      },
+      "verb_pattern": "join"
+    },
+    {
+      "sentence": "Later on, when we were stationed in Goriev [a Kazakh town situated at the point where the Ural river enters the Caspian Sea], I became a sort of business sergeant.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "we",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Goriev",
+        "type": "GPE"
+      },
+      "verb_pattern": "stationed in"
+    },
+    {
+      "sentence": "I told them in Goriev that I wanted to be sent to the Polish army.",
+      "relationship_type": "sent_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Polish army",
+        "type": "ORG"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "It was early in 1944; I got the referral order and set off for the liberated part of Ukraine, to the town of Sumy.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sumy",
+        "type": "GPE"
+      },
+      "verb_pattern": "set off for"
+    },
+    {
+      "sentence": "At Sumy station, a Polish officer met us; I hadn't seen a Polish military uniform for many years then.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "us",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Sumy station",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "met at"
+    },
+    {
+      "sentence": "It was February 1944.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "It",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "February 1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "People were arriving from various directions, also from Poland; among them officers from the headquarters of the army that was being organized.",
+      "relationship_type": "arrived_from",
+      "subject": {
+        "entity": "People",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Poland",
+        "type": "GPE"
+      },
+      "verb_pattern": "arriving from"
+    },
+    {
+      "sentence": "At the time people were being brought from all over to join the Polish army, including Jews who had volunteered for Anders' army and had been rejected.",
+      "relationship_type": "joined",
+      "subject": {
+        "entity": "Jews",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Anders' army",
+        "type": "ORG"
+      },
+      "verb_pattern": "volunteered for"
+    },
+    {
+      "sentence": "When I was returning from Russia on a troop train that passed through Kovel, I asked my commanding officer for leave of absence and went down to the town to look for the remains of our home.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel",
+        "type": "GPE"
+      },
+      "verb_pattern": "passed through"
+    },
+    {
+      "sentence": "It was 1944.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "It",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "1944",
+        "type": "DATE"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "I hadn't had any contact with home during that entire time.",
+      "relationship_type": "lost_contact",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "home",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "no contact with"
+    },
+    {
+      "sentence": "And now I was on my way to Lublin.",
+      "relationship_type": "traveling_to",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Lublin",
+        "type": "GPE"
+      },
+      "verb_pattern": "on my way to"
+    },
+    {
+      "sentence": "I walked through a ruined town; the house in which I used to live no longer existed.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "house",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "town",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I found one acquaintance, a Jewish woman who had gone out of her mind.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Jewish woman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "war",
+        "type": "EVENT"
+      },
+      "verb_pattern": "found"
+    },
+    {
+      "sentence": "She had had a little child who had started crying terribly when they were hiding in some bunker; several dozen other people were hiding there as well, and they suffocated the child.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "child",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "people",
+        "type": "PERSON"
+      },
+      "verb_pattern": "suffocated"
+    },
+    {
+      "sentence": "Nine people survived from the entire town; out of 18,000 Jews.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "Nine people",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "town",
+        "type": "GPE"
+      },
+      "verb_pattern": "survived from"
+    },
+    {
+      "sentence": "My elder sister, Regina, married a 'byezhenets', a laryngologist from Warsaw, his name was Fryde.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Regina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Fryde",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She was pregnant, about to give birth.",
+      "relationship_type": "pregnant",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "child",
+        "type": "PERSON"
+      },
+      "verb_pattern": "pregnant"
+    },
+    {
+      "sentence": "My younger sister was in hiding outside the ghetto; she was at a very good place, somewhere with a Polish family in Kovel.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "younger sister",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kovel",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "But when she heard that the Germans had surrounded the ghetto and taken away everyone to be shot, she left her hiding place and went to join her mother and sister.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "everyone",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "taken away to be shot"
+    },
+    {
+      "sentence": "Mom and both my sisters were killed.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Mom and both my sisters",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "killed"
+    },
+    {
+      "sentence": "Some seven kilometers outside the town there is a huge grave, a very long ditch - I didn't want to go there.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "victims",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "grave",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "grave"
+    },
+    {
+      "sentence": "The place is called Koszary.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Koszary",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "place"
+    },
+    {
+      "sentence": "As they had been surrounded prior to the execution, my history teacher, Josef Abruch, made a speech.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "they",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "execution",
+        "type": "EVENT"
+      },
+      "verb_pattern": "execution"
+    },
+    {
+      "sentence": "They were forced to undress from the waist up, and then shot dead.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "shot",
+        "type": "ACTION"
+      },
+      "verb_pattern": "shot dead"
+    },
+    {
+      "sentence": "It was the Eppelbaum synagogue.",
+      "relationship_type": "named",
+      "subject": {
+        "entity": "It",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Eppelbaum synagogue",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Someone had written this: It is a beautiful summer day - it was August, I think - and I am to die tomorrow, yet I want so much to live.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Someone",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "August",
+        "type": "DATE"
+      },
+      "verb_pattern": "die"
+    },
+    {
+      "sentence": "And the name: Wydra.",
+      "relationship_type": "named",
+      "subject": {
+        "entity": "person",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Wydra",
+        "type": "PERSON"
+      },
+      "verb_pattern": "name"
+    },
+    {
+      "sentence": "Wydra was a girl I used to know and we had been very close friends.",
+      "relationship_type": "knew",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Wydra",
+        "type": "PERSON"
+      },
+      "verb_pattern": "knew"
+    },
+    {
+      "sentence": "She was one of the few [Jewish] graduates of the Slowacki gymnasium.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Slowacki gymnasium",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "graduates of"
+    },
+    {
+      "sentence": "Her father was a physician and I had been a frequent visitor at their place.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "physician",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "How did they come to be there? The Germans took all the Jews out of the town, to Koszary, made them dig a grave, and then shot them all, one after another.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Koszary",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "shot in"
+    },
+    {
+      "sentence": "That took several days.",
+      "relationship_type": "killed_on",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "several days",
+        "type": "TIME"
+      },
+      "verb_pattern": "took"
+    },
+    {
+      "sentence": "Some managed to escape from the Germans, who couldn't catch them.",
+      "relationship_type": "escaped_from",
+      "subject": {
+        "entity": "Some",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "escape from"
+    },
+    {
+      "sentence": "And then all of them, those caught who hadn't been killed in Koszary were assembled in one place so that they could be executed en masse.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "those caught",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Koszary",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "killed in"
+    },
+    {
+      "sentence": "Before their death, they wrote on that wall in the synagogue.",
+      "relationship_type": "written_by",
+      "subject": {
+        "entity": "they",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "wall",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "wrote on"
+    },
+    {
+      "sentence": "One woman, Gips was her name, a stunning, beautiful girl, had two children, and her husband was in Russia; she wrote him a letter on that wall: May you avenge the innocent death of your wife and your children.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "husband",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Russia",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    }
+  ]
+}

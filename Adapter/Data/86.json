@@ -1,0 +1,571 @@
+{
+  "testimony_metadata": {
+    "witness": "Aristide Streja",
+    "birth_name": "Aristide Wechsler",
+    "birth_location": "Bucharest, Romania",
+    "birth_date": "19th December 1922",
+    "interview_date": "April 2004",
+    "interviewer": "Anca Ciuciu"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My father, Haim Maier Wechsler, was born in Namoloasa, in 1883.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Haim Maier Wechsler",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Namoloasa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He got married in Ploiesti, in 1912.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1912",
+        "type": "DATE"
+      },
+      "verb_pattern": "married in"
+    },
+    {
+      "sentence": "My father came to Bucharest around 1900.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "father",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "came to"
+    },
+    {
+      "sentence": "Estera Wechsler [nee Letzler], my mother, was born in 1888, in Ploiesti.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Estera Wechsler",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ploiesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Simon Letzler, my mother's brother, was born around 1885 in Ploiesti.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Simon Letzler",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ploiesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He left to America in 1915, just one year before the war [World War I] broke in Romania.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "America",
+        "type": "GPE"
+      },
+      "verb_pattern": "left to"
+    },
+    {
+      "sentence": "Pene Letzler, my mother's brother, was born around 1890, in Ploiesti.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Pene Letzler",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Ploiesti",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He served as a lieutenant in World War I.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "lieutenant",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "served as"
+    },
+    {
+      "sentence": "Stefania Rubinger [nee Wechsler], my sister, was born in 1914, in Bucharest.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Stefania Rubinger",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Sebastian Sebastien, my brother, was born in 1915, in Bucharest.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Sebastian Sebastien",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I, Aristide Streja, was born in Bucharest on 19th December 1922.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Aristide Streja",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Chely Streja [nee Weisbuch], my wife, was born in 1927, in Braila, in a Jewish family.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Chely Streja",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Braila",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "While he was serving as an army doctor, he was shot to death by a Legionary officer [during World War II].",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Legionary officer",
+        "type": "PERPETRATOR"
+      },
+      "verb_pattern": "shot to death by"
+    },
+    {
+      "sentence": "My brother and my sister-in-law emigrated to France around 1960 and settled in Paris.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "brother and sister-in-law",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "France",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "They lived in Bucharest until the 1970's, when they emigrated to Germany.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Germany",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "They settled in the town of Dusseldorf and stayed there.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Dusseldorf",
+        "type": "GPE"
+      },
+      "verb_pattern": "settled in"
+    },
+    {
+      "sentence": "They currently live in Paris.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "live in"
+    },
+    {
+      "sentence": "He went to Israel.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "The couple went to Paris, where Ester graduated in psychology.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "couple",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Blimette Benjamin [nee Wechsler], one of my father's sisters, married Aron Benjamin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Blimette Benjamin",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Aron Benjamin",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "She emigrated to Israel early, around 1955.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "She lived with Carol in the Nir Yitzhak kibbutz, on Doar HaNeghev St.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "She",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Nir Yitzhak kibbutz",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Blimette died in the 1970's.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Blimette",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1970's",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "They lived in Bucharest - I don't know on what street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "Franchette Recu [nee Lupu] married Misu Recu and had two daughters.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Franchette Recu",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Misu Recu",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Evelina was married, but had no children; she emigrated to Israel.",
+      "relationship_type": "escaped_to",
+      "subject": {
+        "entity": "Evelina",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Israel",
+        "type": "GPE"
+      },
+      "verb_pattern": "emigrated to"
+    },
+    {
+      "sentence": "Little of this family survived World War II.",
+      "relationship_type": "survived",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "verb_pattern": "survived"
+    },
+    {
+      "sentence": "My grandfather was very religious.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "grandfather",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "rabbi",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was"
+    },
+    {
+      "sentence": "Grandfather Maier Letzler died before World War II, approximately in the 1930's.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Maier Letzler",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1930's",
+        "type": "DATE"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "He died from skin cancer in the 1970's.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "He",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1970's",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "His daughter died in the 1980's.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "daughter",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1980's",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother died in 1982.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "mother",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My parents are buried at the Giurgiului [Jewish] cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "parents",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Giurgiului cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried at"
+    },
+    {
+      "sentence": "I did forced labor in three or four locations: the Cotroceni shooting range, the Central Statistics Institute, the North Railway Station, and Grivitei Ave.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "forced labor",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "forced labor in"
+    },
+    {
+      "sentence": "When the 'Romanianization' came, he was kicked out and an administrator was appointed.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "he",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Romanianization",
+        "type": "EVENT"
+      },
+      "verb_pattern": "kicked out"
+    },
+    {
+      "sentence": "We were evicted [by the military] from the house on Legislator St.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "We",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "military",
+        "type": "ORG"
+      },
+      "verb_pattern": "evicted by"
+    },
+    {
+      "sentence": "Jews were being persecuted.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Jews",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "persecuted",
+        "type": "EVENT"
+      },
+      "verb_pattern": "being persecuted"
+    },
+    {
+      "sentence": "After 23rd August, the Soviet troops entered Bucharest.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Soviet troops",
+        "type": "ORG"
+      },
+      "object": {
+        "entity": "Bucharest",
+        "type": "GPE"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "In 1980, I went with my wife to Jerusalem, Tel Aviv and Haifa, where we had friends and relatives.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Jerusalem",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Around 1980, I went to Moscow and Leningrad [Sankt Petersburg].",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I went to Paris, to Dusseldorf (Germany), and to Italy.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Paris",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I went to the US, but not too often.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "US",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I went to Canada a couple of times.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "I",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Canada",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    }
+  ]
+}

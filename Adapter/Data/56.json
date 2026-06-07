@@ -1,0 +1,661 @@
+{
+  "testimony_metadata": {
+    "witness": "Helena Kovanicova",
+    "birth_year": 1924,
+    "birth_location": "Prague",
+    "interview_date": "February 2006",
+    "interviewer": "Terezie Holmerova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "Our father died in 1944 in the gas chamber in Auschwitz.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Our father",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's father was named Eduard Munk and he lived with his wife, Paulina Munkova, nee Gläsnerova, in Privory, near Vsetaty.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Eduard Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Privory",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My father's siblings lived with their families in Doubravice, not far from Teplice.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "My father's siblings",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Doubravice",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother's father, Rudolf Nachod, born in 1858, was a lawyer.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rudolf Nachod",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1858",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother, Olga, had two siblings, Elsa and Quido.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Olga Nachodova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Elsa and Quido Nachod",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had siblings"
+    },
+    {
+      "sentence": "They lived in the Smichov quarter of Prague, on Fibichova Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "They",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother's brother Quido was born in 1894.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Quido Nachod",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1894",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He married Bedriska Adamkova, who wasn't of Jewish origin.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Quido Nachod",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Bedriska Adamkova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Aunt Elsa Nachodova was born in 1899.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Elsa Nachodova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1899",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In adulthood she lived in Prague at 4 Anglicka Street.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Elsa Nachodova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother, Olga Nachodova, was born in 1897 in Brandys nad Labem.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Olga Nachodova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Brandys nad Labem",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "In 1923 she married my father.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Olga Nachodova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Adolf Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "My father, Adolf Munk, was born in 1887 in Privory, near Vsetaty.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Adolf Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Privory",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I was born in 1924 in Prague.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Prague",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My brother Viktor had already been born at that time, he was born in 1928.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Viktor Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1928",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My youngest brother, Jirka [Jiri] was born in 1932.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Jiri Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Sometime around 1929 we moved to Brandys nad Labem.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Munk family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Brandys nad Labem",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Our house stood and still stands close to the town square in Brandys nad Labem.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Our house",
+        "type": "FACILITY"
+      },
+      "object": {
+        "entity": "Brandys nad Labem",
+        "type": "GPE"
+      },
+      "verb_pattern": "stood in"
+    },
+    {
+      "sentence": "On 15th March 1939 the Germans arrived.",
+      "relationship_type": "arrived_on",
+      "subject": {
+        "entity": "Germans",
+        "type": "PERPETRATOR"
+      },
+      "object": {
+        "entity": "15th March 1939",
+        "type": "DATE"
+      },
+      "verb_pattern": "arrived on"
+    },
+    {
+      "sentence": "The next day we got a notice in the mail that my father has to close his office.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Adolf Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "lawyer",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "close office"
+    },
+    {
+      "sentence": "During the war my father was the head of the Jewish religious community in Brandys nad Labem.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Adolf Munk",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Jewish religious community",
+        "type": "ORG"
+      },
+      "verb_pattern": "head of"
+    },
+    {
+      "sentence": "Then they sent me to work in the forest.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "forest work",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "We left Brandys on the transport on 5th January 1943.",
+      "relationship_type": "deported_on",
+      "subject": {
+        "entity": "Munk family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "5th January 1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "left on transport"
+    },
+    {
+      "sentence": "From there we went to Terezin on foot.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Munk family",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "First I lived together with my mother and many other people in the so-called Hamburg barracks.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Hamburg barracks",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "In Terezin I had to go to the Terezin employment office and began working.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Terezin employment office",
+        "type": "ORG"
+      },
+      "verb_pattern": "began working"
+    },
+    {
+      "sentence": "I was able to pick either work in the mechanized woodshop.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "mechanized woodshop",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "My mother's sister, Elsa, and her husband were also in Terezin.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Elsa Nachodova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "in Terezin"
+    },
+    {
+      "sentence": "They left on a transport, the same as the Vohryzeks, my father's sister and her husband and daughter, to Auschwitz.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Elsa Nachodova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "left to"
+    },
+    {
+      "sentence": "Our relatives, the Munks, went on a transport from Prague directly to Lodz and then to Riga.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Munk relatives",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Lodz",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My husband, Rudolf Kovanic, was born on 16th December 1908 into a Jewish family.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Rudolf Kovanic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "16th December 1908",
+        "type": "DATE"
+      },
+      "verb_pattern": "born on"
+    },
+    {
+      "sentence": "Before the war he graduated from business academy and worked for the Justitz company in the grain wholesale business.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rudolf Kovanic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Justitz company",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "My husband was one of four children, he had two brothers and one sister.",
+      "relationship_type": "family_relationship",
+      "subject": {
+        "entity": "Rudolf Kovanic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "two brothers and one sister",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "had siblings"
+    },
+    {
+      "sentence": "The middle brother was named Franta [Frantisek]. He was the only one of the brothers to serve in the army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Frantisek Kovanic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "army",
+        "type": "ORG"
+      },
+      "verb_pattern": "serve in"
+    },
+    {
+      "sentence": "At first he was in Auschwitz, and then they sent him to work in Glivice in Poland.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Frantisek Kovanic",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Glivice",
+        "type": "GPE"
+      },
+      "verb_pattern": "sent to"
+    },
+    {
+      "sentence": "His wife Truda along with little Janicka [Jana] died in Auschwitz.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Truda Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Our father went to Auschwitz on the very last transport.",
+      "relationship_type": "deported_to",
+      "subject": {
+        "entity": "Adolf Munk",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Auschwitz",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "For sure our father went directly into the gas.",
+      "relationship_type": "killed_by",
+      "subject": {
+        "entity": "Adolf Munk",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "gas chamber",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "went into gas"
+    },
+    {
+      "sentence": "From Auschwitz he got into Kaufering, which was a branch of Dachau.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Viktor Munk",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Kaufering",
+        "type": "CAMP_LOCATION"
+      },
+      "verb_pattern": "got into"
+    },
+    {
+      "sentence": "Sometime in January 1945 my husband and I left Terezin on a transport to Switzerland.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "left Terezin"
+    },
+    {
+      "sentence": "First they took us to the town of St. Gallen.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "St. Gallen",
+        "type": "GPE"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "Then we passed through three camps in various places.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "camps in Switzerland",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "passed through"
+    },
+    {
+      "sentence": "We returned home from Switzerland in trucks.",
+      "relationship_type": "returned_from",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Switzerland",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned from"
+    },
+    {
+      "sentence": "My mother returned from Terezin with my younger brother before I did.",
+      "relationship_type": "liberated_from",
+      "subject": {
+        "entity": "Olga Nachodova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Terezin",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "returned from"
+    },
+    {
+      "sentence": "My husband and I didn't return until about 6th July 1945.",
+      "relationship_type": "returned_on",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "6th July 1945",
+        "type": "DATE"
+      },
+      "verb_pattern": "returned on"
+    },
+    {
+      "sentence": "After the war, from November 1945, my husband and I were both working at the same place at Hastalska Street No.1.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "National Administration of Assets",
+        "type": "ORG"
+      },
+      "verb_pattern": "working at"
+    },
+    {
+      "sentence": "In 1952 our only son Jiri was born.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Jiri Kovanic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1952",
+        "type": "DATE"
+      },
+      "verb_pattern": "born"
+    },
+    {
+      "sentence": "My husband died in 1972.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rudolf Kovanic",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1972",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother died ten years after my husband, in 1982.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Olga Nachodova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1982",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My granddaughter Helenka [Helena] was born in 1983.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Helena Kovanicova",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1983",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    }
+  ]
+}

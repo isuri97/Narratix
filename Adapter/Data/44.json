@@ -1,0 +1,1194 @@
+{
+  "testimony_metadata": {
+    "witness": "Victor Feldman",
+    "birth_location": "Odessa, Ukraine",
+    "birth_year": 1915,
+    "interview_date": "April 2003",
+    "interviewer": "Nathalie Rezanova"
+  },
+  "extracted_relationships": [
+    {
+      "sentence": "My great-grandfather, Shymon Feldman, a citizen of Olev, was a blacksmith.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Shymon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "blacksmith",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "The Feldmans came from the town of Olev, Volyn province.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Feldmans",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Olev, Volyn province",
+        "type": "GPE"
+      },
+      "verb_pattern": "came from"
+    },
+    {
+      "sentence": "He was born in Odessa in the 1860s and was a blacksmith.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Pavel Shymonovich Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My paternal grandmother was born in Odessa in the 1870s.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "paternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "She went to the synagogue in Treugolny Lane in the center of the town.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "paternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "synagogue in Treugolny Lane",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My grandparents died in the late 1920s and were buried in the Jewish cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "grandparents",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "late 1920s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Polina married an icon painter and converted to Christianity.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Polina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "icon painter",
+        "type": "PERSON"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "In the late 1920s they left for Berdiansk.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Lidia and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Berdiansk",
+        "type": "GPE"
+      },
+      "verb_pattern": "left for"
+    },
+    {
+      "sentence": "They both died in 1946.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Lidia and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1946",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's brother Miron was born in 1890.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Miron Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1890",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was in the army during World War I and was awarded a St. George Cross for bravery in a bayonet battle in the Brusilov breakthrough.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Miron Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "army during World War I",
+        "type": "ORG"
+      },
+      "verb_pattern": "in the army"
+    },
+    {
+      "sentence": "After the war Miron returned to Odessa.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Miron Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "In 1923 my uncle and his brother Michael moved to Moscow.",
+      "relationship_type": "moved_to",
+      "subject": {
+        "entity": "Miron and Michael Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "moved to"
+    },
+    {
+      "sentence": "Uncle Miron died in a hospital in Moscow in the 1960s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Miron Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1960s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father's brother Michael was born in 1902.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Michael Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1902",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "When he moved to Moscow in 1923 he began to work in the Moscow department of the state bank.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Michael Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow department of the state bank",
+        "type": "ORG"
+      },
+      "verb_pattern": "work in"
+    },
+    {
+      "sentence": "He got married in 1949 and moved to Leningrad where his wife lived.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Michael Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Michael died in Leningrad in the 1950s.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Michael Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1950s",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My father Semyon, the oldest of the three brothers, was born in Odessa in 1886.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My maternal grandfather, Paltiy Ghendler, was born in Odessa in the 1850s.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Paltiy Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "Grandfather Paltiy was a bindyuzhnik.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Paltiy Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "bindyuzhnik",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My grandfather died before World War I.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Paltiy Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "before World War I",
+        "type": "DATE"
+      },
+      "verb_pattern": "died before"
+    },
+    {
+      "sentence": "He was buried in accordance with the Jewish tradition in the Second Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Paltiy Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Second Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My maternal grandmother was born in Odessa in the 1870s.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My maternal grandmother died in 1932.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "maternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1932",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "Abram Ghendler, my maternal uncle, was born in the 1880s.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Abram Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1880s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He worked in the Odessa affiliate of the Russian-Asian Bank.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Abram Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa affiliate of the Russian-Asian Bank",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked in"
+    },
+    {
+      "sentence": "Uncle Abram got married in the 1910s.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Abram Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1910s",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "Pavel was a professional military and served somewhere in the Far East.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Pavel Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "professional military",
+        "type": "ORG"
+      },
+      "verb_pattern": "served in"
+    },
+    {
+      "sentence": "He perished near Smolensk in 1943.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Pavel Ghendler",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "near Smolensk",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished near"
+    },
+    {
+      "sentence": "Uncle Abram, his daughter-in-law and his granddaughter returned to Odessa in 1946.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Abram Ghendler and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "He died in Odessa in 1949.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Abram Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1949",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My mother's sister Sarra was born in 1883.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Sarra Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1883",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "During the Great Patriotic War she and her husband evacuated to Novosibirsk where her husband died.",
+      "relationship_type": "evacuated_to",
+      "subject": {
+        "entity": "Sarra Ghendler and husband",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Novosibirsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "evacuated to"
+    },
+    {
+      "sentence": "She returned to Odessa and lived with us.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Sarra Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "She died in 1964.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Sarra Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1964",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "All I know about my mother's sister Bertha is that she perished in the ghetto in 1942.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Bertha Ghendler",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "Our neighbors told us that Romanians took her to the ghetto.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Bertha Ghendler",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "took to"
+    },
+    {
+      "sentence": "She died there.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Bertha Ghendler",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "ghetto",
+        "type": "GHETTO_LOCATION"
+      },
+      "verb_pattern": "died"
+    },
+    {
+      "sentence": "My mother's brother Isaac was born in the late 1880s.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Isaac Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "late 1880s",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "During the Civil War Isaac was in the Red army.",
+      "relationship_type": "served_in",
+      "subject": {
+        "entity": "Isaac Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Red army",
+        "type": "ORG"
+      },
+      "verb_pattern": "in the"
+    },
+    {
+      "sentence": "Uncle Isaac perished on a train during an air raid in 1943.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Isaac Ghendler",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "1943",
+        "type": "DATE"
+      },
+      "verb_pattern": "perished on"
+    },
+    {
+      "sentence": "Bencion, the youngest of the brothers, was born in 1891.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Bencion Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1891",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "He was a carpenter.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Bencion Ghendler",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "carpenter",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "His wife perished in Odessa during the Great Patriotic War.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Bencion's wife",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished in"
+    },
+    {
+      "sentence": "He volunteered to the army and perished near Sevastopol in early 1942.",
+      "relationship_type": "killed_in",
+      "subject": {
+        "entity": "Bencion Ghendler",
+        "type": "VICTIM"
+      },
+      "object": {
+        "entity": "near Sevastopol",
+        "type": "GPE"
+      },
+      "verb_pattern": "perished near"
+    },
+    {
+      "sentence": "My mother, Rachil Ghendler-Feldman, was born in Odessa in 1887.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My mother went to Zurich, Switzerland, in 1905 where she studied at the Medical Faculty.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Medical Faculty in Zurich",
+        "type": "ORG"
+      },
+      "verb_pattern": "studied at"
+    },
+    {
+      "sentence": "In 1907 my father was arrested for participation in an underground meeting of the Socialist Democratic Party and for armed resistance to the police in Odessa.",
+      "relationship_type": "arrested_in",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrested in"
+    },
+    {
+      "sentence": "He was put in a prison in Odessa and was exiled afterwards.",
+      "relationship_type": "imprisoned_in",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "prison in Odessa",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "put in"
+    },
+    {
+      "sentence": "My father was exiled to the town of Yarensk, Griazovetski district in Vologda province.",
+      "relationship_type": "exiled_to",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yarensk, Vologda province",
+        "type": "GPE"
+      },
+      "verb_pattern": "exiled to"
+    },
+    {
+      "sentence": "My mother followed him.",
+      "relationship_type": "followed_to",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Yarensk",
+        "type": "GPE"
+      },
+      "verb_pattern": "followed"
+    },
+    {
+      "sentence": "She went to work as a doctor in the local hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "work as"
+    },
+    {
+      "sentence": "In 1913 Russia celebrated the 300th anniversary of the Romanov dynasty and my father was released.",
+      "relationship_type": "released_from",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1913",
+        "type": "DATE"
+      },
+      "verb_pattern": "released"
+    },
+    {
+      "sentence": "My mother and he returned to Odessa.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Semyon and Rachil Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "On 4th October 1915 she graduated from the Emperor's University in Novorossiysk.",
+      "relationship_type": "graduated_from",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Emperor's University in Novorossiysk",
+        "type": "ORG"
+      },
+      "verb_pattern": "graduated from"
+    },
+    {
+      "sentence": "My mother went to work at a military hospital that the Jewish community opened during World War I.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "military hospital",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "I was born in Odessa on 29th October 1915.",
+      "relationship_type": "born_in",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "My father took part in the Revolution of 1917; he was in Moscow with my mother then.",
+      "relationship_type": "located_in",
+      "subject": {
+        "entity": "Semyon and Rachil Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Moscow",
+        "type": "GPE"
+      },
+      "verb_pattern": "in"
+    },
+    {
+      "sentence": "I lived with my paternal grandmother in Novoselskaya Street during that time.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "paternal grandmother",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "After they returned to Odessa in the 1920s, my father worked for Eurotat, a South Russian joint-stock company that supplied pharmaceuticals.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Eurotat",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked for"
+    },
+    {
+      "sentence": "He died during a typhoid epidemic in Odessa in 1922.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1922",
+        "type": "DATE"
+      },
+      "verb_pattern": "died during"
+    },
+    {
+      "sentence": "He was buried in the Second Jewish cemetery.",
+      "relationship_type": "buried_in",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Second Jewish cemetery",
+        "type": "FACILITY"
+      },
+      "verb_pattern": "buried in"
+    },
+    {
+      "sentence": "My mother was a doctor in Moldavanka at the time.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "doctor",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "was a"
+    },
+    {
+      "sentence": "My mother died in Odessa in 1963.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1963",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "I started school in 1921.",
+      "relationship_type": "started_at",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1921",
+        "type": "DATE"
+      },
+      "verb_pattern": "started"
+    },
+    {
+      "sentence": "In 1930, after finishing the 7th grade, I went to study at a Rabfak.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Rabfak",
+        "type": "ORG"
+      },
+      "verb_pattern": "study at"
+    },
+    {
+      "sentence": "After finishing the Rabfak school I entered a pedagogical college.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "pedagogical college",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "I met my first wife, Valentina Umanskaya, when I was a 1st-year student.",
+      "relationship_type": "met",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Valentina Umanskaya",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "met"
+    },
+    {
+      "sentence": "We got married in April 1938.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "April 1938",
+        "type": "DATE"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "After the wedding we lived with my mother.",
+      "relationship_type": "lived_with",
+      "subject": {
+        "entity": "Victor and Valentina Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "mother",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "lived with"
+    },
+    {
+      "sentence": "Our son Semyon, named after my father, was born in 1940.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1940",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "On 22nd June 1941 I heard an announcement about the beginning of the war on the radio.",
+      "relationship_type": "war_began_on",
+      "subject": {
+        "entity": "World War II",
+        "type": "EVENT"
+      },
+      "object": {
+        "entity": "22nd June 1941",
+        "type": "DATE"
+      },
+      "verb_pattern": "beginning of"
+    },
+    {
+      "sentence": "I went to the military mobilization office immediately.",
+      "relationship_type": "reported_to",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "military mobilization office",
+        "type": "ORG"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "Men like me with all kinds of restrictions were taken to Kherson.",
+      "relationship_type": "taken_to",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Kherson",
+        "type": "GPE"
+      },
+      "verb_pattern": "taken to"
+    },
+    {
+      "sentence": "From there we went to Dnepropetrovsk by boat.",
+      "relationship_type": "transported_to",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Dnepropetrovsk",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "My mother evacuated with the plant since she worked at the clinic and at the medical office of the plant.",
+      "relationship_type": "evacuated_with",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "plant",
+        "type": "ORG"
+      },
+      "verb_pattern": "evacuated with"
+    },
+    {
+      "sentence": "They arrived at Makhachkala from where my mother was directed to move to Agdam.",
+      "relationship_type": "arrived_in",
+      "subject": {
+        "entity": "family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Makhachkala",
+        "type": "GPE"
+      },
+      "verb_pattern": "arrived at"
+    },
+    {
+      "sentence": "I went to where they were by trains.",
+      "relationship_type": "traveled_to",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "Agdam",
+        "type": "GPE"
+      },
+      "verb_pattern": "went to"
+    },
+    {
+      "sentence": "I was registered at the local military registry office and employed as an attendant at the local hospital.",
+      "relationship_type": "worked_as",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "attendant at local hospital",
+        "type": "OCCUPATION"
+      },
+      "verb_pattern": "employed as"
+    },
+    {
+      "sentence": "We returned to Odessa in early 1945.",
+      "relationship_type": "returned_to",
+      "subject": {
+        "entity": "Victor Feldman and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Odessa",
+        "type": "GPE"
+      },
+      "verb_pattern": "returned to"
+    },
+    {
+      "sentence": "My mother got a small eight square meter room in Ekaterininskaya Street in the center of the town where we lived together.",
+      "relationship_type": "lived_in",
+      "subject": {
+        "entity": "Victor Feldman and family",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Ekaterininskaya Street",
+        "type": "LOCATION"
+      },
+      "verb_pattern": "lived in"
+    },
+    {
+      "sentence": "My mother worked until almost the last day of her life.",
+      "relationship_type": "worked_until",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "last day of her life",
+        "type": "DATE"
+      },
+      "verb_pattern": "worked until"
+    },
+    {
+      "sentence": "She died in Odessa in 1963.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Rachil Ghendler-Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1963",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "After the war I began to work at the scientific library of Odessa University.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "scientific library of Odessa University",
+        "type": "ORG"
+      },
+      "verb_pattern": "work at"
+    },
+    {
+      "sentence": "My first wife died in 1957; she was buried in the international cemetery.",
+      "relationship_type": "death_of",
+      "subject": {
+        "entity": "Valentina Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1957",
+        "type": "DATE"
+      },
+      "verb_pattern": "died in"
+    },
+    {
+      "sentence": "My son Semyon entered the Faculty of Chemistry of Odessa University in 1959.",
+      "relationship_type": "studied_at",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Faculty of Chemistry of Odessa University",
+        "type": "ORG"
+      },
+      "verb_pattern": "entered"
+    },
+    {
+      "sentence": "He married Irina Konstantinova in 1962, when he was a 4th-year student.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Semyon Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "Irina Konstantinova",
+        "type": "FAMILY_MEMBER"
+      },
+      "verb_pattern": "married"
+    },
+    {
+      "sentence": "His daughter Valentina was born in 1963.",
+      "relationship_type": "born_on",
+      "subject": {
+        "entity": "Valentina Feldman",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "1963",
+        "type": "DATE"
+      },
+      "verb_pattern": "born in"
+    },
+    {
+      "sentence": "I remarried in 1978.",
+      "relationship_type": "married_to",
+      "subject": {
+        "entity": "Victor Feldman",
+        "type": "PERSON"
+      },
+      "object": {
+        "entity": "1978",
+        "type": "DATE"
+      },
+      "verb_pattern": "remarried"
+    },
+    {
+      "sentence": "My second wife, Olga Notkina, also worked at the university library.",
+      "relationship_type": "worked_at",
+      "subject": {
+        "entity": "Olga Notkina",
+        "type": "FAMILY_MEMBER"
+      },
+      "object": {
+        "entity": "university library",
+        "type": "ORG"
+      },
+      "verb_pattern": "worked at"
+    }
+  ]
+}
