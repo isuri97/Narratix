@@ -43,7 +43,6 @@ from sentence_transformers import SentenceTransformer
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
-
 # ===========================================================================
 # SECTION 1 — ADAPTER ARCHITECTURE
 # ===========================================================================
