@@ -1,8 +1,6 @@
-# LiLADH: An Open Retrieval Resource for Digital Humanities Archiva# Adapter — DsQoLA (Domain-specific Query-Only Linear Adapter)
+# LiLADH: An Open Retrieval Resource for Digital Humanities Archival Corpora
 
-This module contains the retrieval adapter component of **LiLADH: An Open Retrieval Resource for Digital Humanities Archival Corpora**. It implements
-a lightweight bottleneck adapter that transforms *query* embeddings to better align with a domain-specific archival corpus (Holocaust survivor testimonies), while document embeddings from the frozen base model remain untouched.
-
+This module contains the retrieval adapter component of **LiLADH: An Open Retrieval Resource for Digital Humanities Archival Corpora**. It implements a lightweight bottleneck adapter that transforms *query* embeddings to better align with a domain-specific archival corpus (Holocaust survivor testimonies), while document embeddings from the frozen base model remain untouched.
 
 ## Contents
 
