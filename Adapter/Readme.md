@@ -54,6 +54,15 @@ The training/validation files are JSONL, one record per passage chunk:
   }
 }
 ```
+## Usage
+
+```bash
+python "code/DQola adapter.py" \
+    --train_path  data/filtered_chunks_train.json \
+    --val_path    data/filtered_chunks_test.json \
+    --neg_path    data/financial_news.txt \
+    --output_dir  outputs/
+```
 
 Queries were synthetically generated per chunk using the prompt in `prompt/query_generation_prompt.txt`, targeting named entities (dates, people, places, organisations, camps, ghettos, etc.) mentioned in the passage. A subset was subsequently checked by human annotators for grammaticality, factual grounding, and usefulness as a retrieval query.
 
