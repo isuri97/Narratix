@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------------
+Prompt Template
+---------------------------------------------------------------------------------------
+You are an AI assistant tasked with generating realistic, semantically rich questions
+that reflect user queries for information about named entities found in oral testimony
+documents.
+
+Given: {chunk}
+
+Instructions:
+1. Read the document and identify named entities such as:DATE, PERSON, ORGANISATION,
+COUNTRY, CITY, STREET, RIVER,FOREST, MOUNTAIN, CONCENTRATION CAMP, GHETTO,
+MILITARY RANK, SHIP, HAPPENING, DISEASE,ETHNICITY, NATIONALITY, LANGUAGE
+
+2. Generate exactly 20 diverse user-style questions that could retrieve any of the
+entities found. Use natural phrasing including slang, typos, contractions, and both
+formal/informal styles.
+
+3. Do NOT group questions by entity type. Just generate the full list.
+
+4. Include the original input document (“chunk”) in the output.
+
+5. Ensure the question is semantically related to the named entities in the document
+content WITHOUT directly copying phrases.
+
+6. Output must be valid JSON only, with no extra text or markdown. Ensure proper brackets,
+quotes, and commas.
+
+Return a JSON object with the following structure:
+
+{"question_1": "Generated question text",
+"question_2": "Generated question text", ... }
