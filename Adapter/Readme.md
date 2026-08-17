@@ -12,7 +12,7 @@ Adapter/
 │   └── query_generation_prompt.txt   # Prompt used to synthetically generate benchmark queries
 ├── data/
 │   └── cleaned_transformed_data.json # Cleaned query/passage benchmark used for adapter training & eval
-└── Readme.md                   # This file
+└── Readme.md                  
 
 ```
 ## What this adapter does
