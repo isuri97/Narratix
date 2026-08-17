@@ -60,7 +60,7 @@ The training/validation files are JSONL, one record per passage chunk:
 python "code/DQola adapter.py" \
     --train_path  data/filtered_chunks_train.json \
     --val_path    data/filtered_chunks_test.json \
-    --neg_path    data/financial_news.txt \
+    --neg_path    data/nivdia.txt \
     --output_dir  outputs/
 ```
 
